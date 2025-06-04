@@ -1,26 +1,23 @@
-# Michael-on-the-Microphone
+# Hi, I'm Praveen Saravanan
 
-Welcome to **Michael-on-the-Microphone**, a small experimental project for exploring simple audio applications. The repository contains only this README for now, but it will serve as a starting point for future scripts, recordings, or other audio-related experiments.
+Welcome to my GitHub profile! This repository acts as my landing page and a place to share small audio experiments.
 
-## Repository Goals
+## About Me
 
-- Provide a place to share microphone tests and short audio clips.
-- Experiment with basic sound processing scripts and note the results.
-- Keep track of lessons learned while recording and editing audio.
+I'm a software enthusiast exploring audio processing and other fun side projects. You can connect with me on [LinkedIn](https://www.linkedin.com/in/praveen-saravanan-7a1aa01bb/).
 
-## Getting Started
+## About This Repository
 
-At the moment there are no dependencies or setup steps needed. Clone the repository and watch this space for upcoming audio samples or scripts.
+Originally called **Michael-on-the-Microphone**, this repo began as a scratch space for microphone tests and simple sound-processing scripts. It's where I post short audio clips, experiment notes, and other lightweight projects.
 
-```
-$ git clone <repository-url>
-$ cd Michael-on-the-Microphone
-```
+## Get in Touch
 
-## Contributing
-
-Ideas and improvements are welcome! Feel free to fork the project and open a pull request with suggestions or new audio experiments.
+If you have ideas to share or want to collaborate, feel free to reach out! You can open an issue or contact me through LinkedIn.
 
 ## License
 
 This project is released under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+_This README was generated with OpenAI Codex._

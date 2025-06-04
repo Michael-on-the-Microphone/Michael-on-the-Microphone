@@ -4,11 +4,8 @@ Welcome to my GitHub profile! This repository acts as my landing page and a plac
 
 ## About Me
 
-I'm a software enthusiast exploring audio processing and other fun side projects. You can connect with me on [LinkedIn](https://www.linkedin.com/in/praveen-saravanan-7a1aa01bb/).
+I'm a computer science graduate who loves experimenting with audio technology and creative coding. On LinkedIn I talk about exploring new ways to process sound and build engaging applications. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/praveen-saravanan-7a1aa01bb/).
 
-## About This Repository
-
-Originally called **Michael-on-the-Microphone**, this repo began as a scratch space for microphone tests and simple sound-processing scripts. It's where I post short audio clips, experiment notes, and other lightweight projects.
 
 ## Get in Touch
 

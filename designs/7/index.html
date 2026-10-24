@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" data-nav="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Posters</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Archivo:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#6e6c67 radial-gradient(ellipse at 30% 10%,#8a8882,#5c5a55 70%);font-family:Archivo,sans-serif;color:#fff}
+.wrap{max-width:1240px;margin:0 auto;padding:56px 24px 160px}
+h1{font-family:Anton,Impact,sans-serif;font-size:clamp(48px,9vw,120px);line-height:.9;margin:0;letter-spacing:.01em;text-transform:uppercase}
+.lede{font-size:15px;max-width:52ch;margin:16px 0 44px;line-height:1.5;color:#e6e4df}
+.wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:36px 26px}
+.p{position:relative;aspect-ratio:3/4;background:var(--bg);color:var(--fg);transform:rotate(var(--rot));box-shadow:0 14px 28px -12px rgba(0,0,0,.6);overflow:hidden;padding:14px;display:flex;flex-direction:column;justify-content:space-between;font-family:Anton,Impact,sans-serif;text-transform:uppercase;line-height:.9}
+.p::before,.p::after{content:'';position:absolute;top:-8px;width:54px;height:18px;background:rgba(255,255,255,.45);transform:rotate(-4deg);box-shadow:0 1px 2px rgba(0,0,0,.2)}
+.p::before{left:18px}.p::after{right:18px;transform:rotate(5deg)}
+.big{font-size:clamp(40px,5.2vw,64px);letter-spacing:-.01em;overflow-wrap:anywhere}
+.big.long{font-size:clamp(30px,3.6vw,44px)}
+.vd .big.long{font-size:clamp(22px,2.6vw,30px)}
+.meta{font-family:Archivo,sans-serif;font-weight:600;font-size:11px;letter-spacing:.06em;line-height:1.35;text-transform:uppercase}
+.meta b{display:block;font-size:14px}
+.meta .w{display:block;font-weight:400;opacity:.85;margin-top:3px}
+/* variant b: outlined echo */
+.vb .big{-webkit-text-stroke:1.5px var(--fg);color:transparent}
+.vb .big span{color:var(--fg);-webkit-text-stroke:0}
+/* variant c: sideways name, giant date */
+.vc{flex-direction:row;align-items:stretch}
+.vc .big{writing-mode:vertical-rl;transform:rotate(180deg);font-size:clamp(34px,4vw,52px);flex:none}
+.vc .date{font-size:clamp(90px,13vw,140px);align-self:flex-end;text-align:right;letter-spacing:-.04em;flex:1;line-height:.8}
+.vc .meta{position:absolute;right:14px;top:14px;text-align:right}
+/* variant d: circle badge */
+.vd{align-items:center;justify-content:center;text-align:center}
+.vd .ring{width:76%;aspect-ratio:1;border-radius:50%;border:5px solid var(--fg);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px}
+.vd .big{font-size:clamp(26px,3.4vw,38px)}
+.vd .meta{position:absolute;bottom:14px;left:14px;right:14px;text-align:center}
+.soon{position:absolute;right:-34px;top:22px;background:#111;color:#fff;font-family:Archivo,sans-serif;font-weight:600;font-size:11px;letter-spacing:.2em;padding:4px 44px;transform:rotate(35deg)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Pasted up<br>on a wall.</h1>
+  <p class="lede" id="lede"></p>
+  <div class="wall" id="wall"></div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,hash,isPast,isToday,venueShort,past,future} = LE;
+document.getElementById('lede').textContent=`One poster per show, like a construction fence on Sunset. ${past.length} weathered, ${future.length} fresh from the printer.`;
+const pal=[['#ffd400','#111'],['#ff3d00','#fff3ea'],['#0032ff','#fff'],['#111','#fff'],['#ff5fa8','#1d0a16'],['#00c389','#052a1f'],['#f1ede4','#111'],['#7b2cff','#fff']];
+const wall=document.getElementById('wall');
+SHOWS.forEach((s,i)=>{
+  const {name,sub}=split(s); const h=hash(s.event+s.date);
+  const [bg,fg]=pal[h%pal.length]; const rot=((h>>>4)%7-3)*.6; const v=['va','vb','vc','vd'][(h>>>8)%4];
+  const long=Math.max(...name.split(' ').map(w=>w.length))>=9?' long':'';
+  const sup=LE.support(s,0), dr=LE.doors(s);
+  const meta=el('div',{class:'meta'},el('b',{},venueShort(s)),fmt(s.date,'long').replace(', 20',' 20')+(sub?'. '+sub:''),
+    sup.length?el('span',{class:'w'},'with '+sup.slice(0,2).join(' & ')+(sup.length>2?' + '+(sup.length-2)+' more':'')):null,
+    dr?el('span',{class:'w'},'doors '+dr+(LE.ageLimit(s)?' · '+LE.ageLimit(s):'')):null);
+  let body;
+  if(v==='vc') body=[el('div',{class:'big'+long},name),el('div',{class:'date'},String(LE.day(s.date)).padStart(2,'0')),meta];
+  else if(v==='vd') body=[el('div',{class:'ring'},el('div',{class:'big'+long},name)),meta];
+  else body=[el('div',{class:'big'+long},name.split(' ').map((w,j)=>j===0?el('span',{},w+' '):w+' ')),meta];
+  wall.append(el('article',{class:'p '+v,style:`--bg:${bg};--fg:${fg};--rot:${rot}deg`},...body,isPast(s)?null:el('div',{class:'soon'},isToday(s)?'TONIGHT':'SOON')));
+});
+LE.nav();
+</script>
+</body></html>

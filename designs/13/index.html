@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" data-nav="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wristbands</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#e9ecef;color:#1a1d21;font-family:Barlow,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:64px 24px 170px}
+h1{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(56px,10vw,120px);line-height:.88;margin:0;text-transform:uppercase;letter-spacing:-.01em}
+.lede{font-size:16px;line-height:1.5;max-width:50ch;margin:18px 0 56px;color:#4a4f55}
+.arm{display:flex;flex-direction:column;align-items:center}
+.band{position:relative;width:min(100%,640px);height:38px;margin-top:-9px;transform:rotate(var(--rot));display:flex;align-items:center;justify-content:center;
+  font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;letter-spacing:.08em;text-transform:uppercase;color:#fff;
+  background:var(--pat);box-shadow:0 2px 4px rgba(0,0,0,.25),inset 0 -2px 0 rgba(0,0,0,.2),inset 0 2px 0 rgba(255,255,255,.2);border-radius:3px;transition:transform .2s}
+.band:hover{transform:rotate(0) scale(1.03);z-index:4}
+.band::after{content:'';position:absolute;right:-16px;top:50%;width:22px;height:22px;border-radius:5px;transform:translateY(-50%);background:linear-gradient(#9aa1a8,#5d646b);box-shadow:0 1px 2px rgba(0,0,0,.4)}
+.band::before{content:'';position:absolute;right:-46px;top:50%;width:34px;height:3px;background:var(--str);transform:translateY(-50%) rotate(-6deg);box-shadow:0 5px 0 var(--str)}
+.band span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:3px 16px;background:rgba(10,12,16,.72);border-radius:2px;max-width:88%}
+.band small{font-weight:500;font-size:12px;letter-spacing:.1em;margin-left:14px;opacity:.9}
+.band.ty{background:#fff;background-image:repeating-linear-gradient(90deg,rgba(0,0,0,.05) 0 1px,transparent 1px 7px);color:#1a1d21;text-shadow:none;height:30px;border:1px solid #cfd4d9;justify-content:flex-start}
+.band.ty::after,.band.ty::before{display:none}
+.band.ty span{padding-left:18px;background:none}
+.band.ty i{position:absolute;right:0;top:0;bottom:0;width:60px;border-left:2px dashed #b9bfc5;font-style:normal;font-size:10px;letter-spacing:.14em;display:flex;align-items:center;justify-content:center;color:#6b7076}
+.band.ty.t{border-color:#e63946;color:#e63946}
+.gap{height:40px;display:flex;align-items:center;font-family:'Barlow Condensed',sans-serif;font-size:18px;color:#6b7076;text-transform:uppercase;letter-spacing:.1em;margin:28px 0 16px}
+@media (prefers-reduced-motion:reduce){.band{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Never cut<br>them off.</h1>
+  <p class="lede" id="lede"></p>
+  <div class="arm" id="arm"></div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,hash,isPast,isToday,venueShort,past,future} = LE;
+document.getElementById('lede').textContent=`${past.length} wristbands stacked up the arm, newest at the top. The paper ones at the bottom are for ${future.length} doors I haven't walked through yet.`;
+const cols=[['#e63946','#f1faee'],['#1d3557','#a8dadc'],['#2a9d8f','#e9c46a'],['#6a4c93','#ffca3a'],['#ff6b35','#004e89'],['#06d6a0','#118ab2'],['#8338ec','#ffbe0b'],['#ef476f','#073b4c'],['#f4a261','#264653'],['#3a86ff','#ff006e']];
+const pats=[(a,b)=>`repeating-linear-gradient(90deg,${a} 0 18px,${b} 18px 24px)`,
+  (a,b)=>`repeating-linear-gradient(45deg,${a} 0 14px,${b} 14px 20px)`,
+  (a,b)=>`linear-gradient(${a},${a})`,
+  (a,b)=>`linear-gradient(${b} 0 0) 0 50%/100% 6px no-repeat,${a}`,
+  (a,b)=>`radial-gradient(circle at 10px 50%,${b} 4px,${a} 4.5px) 0 0/24px 100%`];
+const arm=document.getElementById('arm');
+[...past].reverse().forEach((s,i)=>{
+  const {name}=split(s); const h=hash(s.event+s.date); const [a,b]=cols[h%cols.length];
+  arm.append(el('div',{class:'band',style:`--pat:${pats[(h>>>5)%pats.length](a,b)};--str:${a};--rot:${(i%2?1:-1)*(.4+(h%3)*.3)}deg`},
+    el('span',{},name,el('small',{},`${venueShort(s)} ${fmt(s.date,'num')}`+(LE.support(s,0).length===1?' · w/ '+LE.support(s,1)[0]:LE.support(s,0).length>1?' · +'+LE.support(s,0).length+' acts':'')))));
+});
+arm.append(el('div',{class:'gap'},'Still in the envelope'));
+future.forEach((s,i)=>{
+  const {name}=split(s); const h=hash(s.event+s.date);
+  arm.append(el('div',{class:'band ty'+(isToday(s)?' t':''),style:`--rot:${(i%2?-1:1)*(.6+(h%3)*.4)}deg`},
+    el('span',{},name,el('small',{},`${venueShort(s)} ${fmt(s.date,'num')}`)),el('i',{},isToday(s)?'TONIGHT':(LE.ageLimit(s)||'ADMIT').toUpperCase())));
+});
+LE.nav();
+</script>
+</body></html>

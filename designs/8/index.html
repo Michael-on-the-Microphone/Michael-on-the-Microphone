@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" data-nav="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#000;font-family:'Inter Tight',sans-serif}
+.wrap{max-width:1200px;margin:0 auto;padding:48px 28px 160px}
+header{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:3px solid #000;padding-bottom:14px;margin-bottom:6px}
+h1{font-size:clamp(56px,12vw,160px);font-weight:800;letter-spacing:-.05em;line-height:.85;margin:0}
+.ct{font-size:14px;font-weight:500;line-height:1.4;text-align:right;max-width:24ch}
+.row{display:grid;grid-template-columns:48px 1fr auto;align-items:baseline;gap:18px;padding:12px 0;border-bottom:1px solid #d9d9d9;text-decoration:none;color:inherit}
+.no{font-size:13px;font-weight:500;font-variant-numeric:tabular-nums;color:#888}
+.nm{font-size:clamp(28px,4.4vw,56px);font-weight:800;letter-spacing:-.035em;line-height:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:padding-left .15s}
+.row:hover .nm{padding-left:14px}
+.mt{font-size:13px;font-weight:500;text-align:right;line-height:1.35;white-space:nowrap}
+.mt span{display:block;color:#777;font-weight:400}
+.row.f .nm{color:#b5b5b5}
+.row.t .nm{color:#e10600}
+.row.t .no{color:#e10600}
+.row{cursor:pointer}
+.x{grid-column:1/-1;display:none;font-size:14px;line-height:1.5;padding:2px 0 12px 66px;max-width:84ch;color:#222}
+.row.open .x{display:block}
+.x b{font-weight:500}
+.x .sl{color:#555}
+.x .src{color:#999;font-size:12px;display:block;margin-top:2px}
+.x .src a{color:inherit}
+@media (max-width:560px){.x{padding-left:0}.row{grid-template-columns:30px 1fr}.mt{grid-column:2;text-align:left;white-space:normal}.mt span{display:inline}.mt span::before{content:' / '}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><h1>Shows.</h1><div class="ct" id="ct"></div></header>
+  <div id="list"></div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,isPast,isToday,venue,past,future} = LE;
+document.getElementById('ct').textContent=`${past.length} attended, ${future.length} to come. Los Angeles, May 2025 onward. Click a name for the setlist.`;
+const list=document.getElementById('list');
+SHOWS.forEach((s,i)=>{
+  const {name}=split(s);
+  const sl=LE.setlist(s), sup=LE.supportText(s,3), tn=LE.tourName(s);
+  const run=sl?[...sl.songs,...sl.encore.map(t=>t+' (encore)')]:[];
+  const x=el('div',{class:'x'},
+    tn||sup?el('div',{},tn?el('b',{},tn):null,tn&&sup?' — ':'',sup):null,
+    sl?el('div',{class:'sl'},(sl.exact?'':(isPast(s)?'From another night on the tour: ':'Last time out: '))+run.slice(0,40).join(' · ')+(run.length>40?` · and ${run.length-40} more`:''),
+      el('span',{class:'src'},`${sl.total} songs. `,sl.url?el('a',{href:sl.url,target:'_blank',rel:'noopener'},'Source'):null)):el('div',{class:'sl'},isPast(s)?'No setlist on record.':'No setlist yet.'));
+  const row=el('div',{class:'row'+(isPast(s)?'':' f')+(isToday(s)?' t':''),onclick:e=>{if(e.target.closest('a'))return;row.classList.toggle('open');}},
+    el('div',{class:'no'},String(i+1).padStart(2,'0')),
+    el('div',{class:'nm',title:s.event},name),
+    el('div',{class:'mt'},fmt(s.date,'med')+(isToday(s)?', tonight':''),el('span',{},venue(s)+(s.city!=='Los Angeles'?', '+s.city:''))),x);
+  list.append(row);
+});
+LE.nav();
+</script>
+</body></html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" data-nav="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Receipt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#33383d;font-family:'Courier Prime',monospace;color:#222;min-height:100vh;display:flex;justify-content:center;align-items:flex-start;padding:48px 16px 140px}
+.receipt{background:#fdfdfb;width:100%;max-width:400px;padding:34px 26px 48px;font-size:13px;line-height:1.5;box-shadow:0 20px 50px -20px rgba(0,0,0,.7);
+  clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),98% 100%,96% calc(100% - 10px),94% 100%,92% calc(100% - 10px),90% 100%,88% calc(100% - 10px),86% 100%,84% calc(100% - 10px),82% 100%,80% calc(100% - 10px),78% 100%,76% calc(100% - 10px),74% 100%,72% calc(100% - 10px),70% 100%,68% calc(100% - 10px),66% 100%,64% calc(100% - 10px),62% 100%,60% calc(100% - 10px),58% 100%,56% calc(100% - 10px),54% 100%,52% calc(100% - 10px),50% 100%,48% calc(100% - 10px),46% 100%,44% calc(100% - 10px),42% 100%,40% calc(100% - 10px),38% 100%,36% calc(100% - 10px),34% 100%,32% calc(100% - 10px),30% 100%,28% calc(100% - 10px),26% 100%,24% calc(100% - 10px),22% 100%,20% calc(100% - 10px),18% 100%,16% calc(100% - 10px),14% 100%,12% calc(100% - 10px),10% 100%,8% calc(100% - 10px),6% 100%,4% calc(100% - 10px),2% 100%,0 calc(100% - 10px))}
+.c{text-align:center}
+.big{font-size:22px;font-weight:700;letter-spacing:.06em}
+hr{border:0;border-top:1px dashed #999;margin:12px 0}
+.ln{display:flex;justify-content:space-between;gap:8px}
+.ln span:first-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.v{padding-left:10ch;color:#666;font-size:12px}
+.sec{font-weight:700;margin-top:10px}
+.tot{font-weight:700;font-size:15px}
+.bar{height:48px;margin:18px auto 6px;width:82%;background:repeating-linear-gradient(90deg,#111 0 2px,transparent 2px 4px,#111 4px 5px,transparent 5px 8px,#111 8px 11px,transparent 11px 13px)}
+.small{font-size:11px;color:#555}
+</style>
+</head>
+<body>
+<div class="receipt" id="r"></div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,isPast,isToday,venueShort,past,future,byVenue,artists} = LE;
+const r=document.getElementById('r');
+const ln=(a,b,cls='')=>el('div',{class:'ln '+cls},el('span',{},a),el('span',{},b));
+const nights=SHOWS.filter(isPast).reduce((n,s)=>n+(s.end?2:1),0);
+r.append(
+  el('div',{class:'c big'},'LIFE ENJOYED'),
+  el('div',{class:'c'},'LOS ANGELES, CA 90007'),
+  el('div',{class:'c small'},'OPEN LATE  ·  NO COVER'),
+  el('hr'),
+  ln('DATE','QTY'),
+  el('hr'));
+let section='';
+SHOWS.forEach(s=>{
+  const {name}=split(s);
+  const sec=isToday(s)?'TONIGHT':isPast(s)?'':'ON ORDER';
+  if(sec!==section){section=sec; if(sec){r.append(el('hr'),el('div',{class:'sec'},sec));}}
+  r.append(ln(`${fmt(s.date,'num')}  ${name.toUpperCase()}`, s.end?'2':'1'));
+  r.append(el('div',{class:'v'},venueShort(s).toUpperCase()+(s.city!=='Los Angeles'?' ('+s.city.toUpperCase()+')':'')+(LE.doors(s)?'  DOORS '+LE.doors(s).toUpperCase():'')));
+  const all=LE.support(s,0); if(all.length) r.append(el('div',{class:'v'},('w/ '+all.slice(0,2).join(', ')+(all.length>2?' +'+(all.length-2):'')).toUpperCase()));
+  const sl=LE.setlist(s); if(sl&&sl.exact) r.append(el('div',{class:'v'},`${sl.total} SONGS PLAYED`));
+});
+r.append(el('hr'),
+  ln('SHOWS ATTENDED',String(past.length)),
+  ln('NIGHTS OUT',String(nights)),
+  ln('SHOWS ON ORDER',String(future.length)),
+  ln('ROOMS',String(byVenue().length)),
+  ln('ARTISTS SEEN',String(artists().length)),
+  ln('SONGS, COUNTED',String(past.reduce((n,s)=>{const sl=LE.setlist(s);return n+(sl&&sl.exact?sl.total:0);},0))),
+  el('hr'),
+  ln('SUBTOTAL','A LOT'),
+  ln('SLEEP SAVED','0.00'),
+  ln('TOTAL','PRICELESS','tot'),
+  el('hr'),
+  el('div',{class:'c small'},'TENDERED: ONE TWENTIES'),
+  el('div',{class:'c small'},`PRINTED ${fmt(LE.TODAY,'num')}  23:58`),
+  el('div',{class:'bar'}),
+  el('div',{class:'c small'},'THANK YOU FOR DANCING'),
+  el('div',{class:'c small'},'NO REFUNDS. NO REGRETS.'));
+LE.nav();
+</script>
+</body></html>

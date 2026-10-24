@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" data-nav="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Crate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#1f1915;color:#f3e9d8;font-family:'DM Sans',sans-serif;min-height:100vh}
+.wrap{padding:64px 0 150px}
+header{max-width:1100px;margin:0 auto;padding:0 24px 20px}
+h1{font-family:'DM Serif Display',serif;font-size:clamp(44px,7vw,84px);font-weight:400;line-height:.95;margin:0;letter-spacing:-.01em}
+h1 i{color:#e9b04a}
+.lede{max-width:46ch;line-height:1.5;color:#c9b99f;margin:14px 0 0;font-size:16px}
+.crate{margin-top:60px;background:linear-gradient(#5a3b22,#4a2f1b);border-top:14px solid #70492a;border-bottom:20px solid #3a2414;padding:0 0 26px;position:relative}
+.crate::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(0,0,0,.08) 0 2px,transparent 2px 70px);pointer-events:none}
+.row{display:flex;gap:10px;overflow-x:auto;padding:90px 40px 20px;scroll-snap-type:x proximity;scrollbar-width:thin;scrollbar-color:#e9b04a #2a1b10}
+.rec{position:relative;flex:none;width:190px;scroll-snap-align:start;cursor:default}
+.disc{position:absolute;left:50%;top:-58px;width:176px;height:176px;border-radius:50%;transform:translateX(-50%);
+  background:repeating-radial-gradient(circle,#161616 0 1px,#232323 1px 3px);box-shadow:0 2px 2px rgba(0,0,0,.6);transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.disc::after{content:attr(data-l);position:absolute;left:50%;top:50%;width:64px;height:64px;border-radius:50%;transform:translate(-50%,-50%);background:var(--lab);color:#fff;font-family:'DM Serif Display',serif;font-size:10px;line-height:1.05;display:flex;align-items:center;justify-content:center;text-align:center;padding:6px;box-shadow:inset 0 0 0 2px rgba(255,255,255,.25)}
+.disc::before{content:'';position:absolute;left:50%;top:50%;width:6px;height:6px;border-radius:50%;background:#1f1915;transform:translate(-50%,-50%);z-index:2}
+.rec:hover .disc{transform:translate(-50%,-70px) rotate(25deg)}
+.slv{position:relative;height:190px;background:var(--lab);display:flex;flex-direction:column;justify-content:flex-end;padding:14px;box-shadow:0 0 0 1px rgba(0,0,0,.3),inset 0 0 40px rgba(0,0,0,.25);font-family:'DM Serif Display',serif}
+.slv .n{font-size:24px;line-height:1;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.3)}
+.slv .v{font-family:'DM Sans',sans-serif;font-size:11.5px;color:rgba(255,255,255,.85);margin-top:6px;line-height:1.3}
+.rec.f .slv{background:#e7dcc8;color:#2b2218}.rec.f .slv .n{color:#2b2218;text-shadow:none}.rec.f .slv .v{color:#6b5a45}
+.rec.f .disc{display:none}
+.rec.f .slv::before{content:'still sealed';position:absolute;top:12px;left:12px;font-family:'DM Sans',sans-serif;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#6b5a45;border:1px solid #6b5a45;padding:2px 6px}
+.rec.t .slv::before{content:'tonight';border-color:#c0392b;color:#c0392b}
+.tab{flex:none;width:34px;height:230px;margin-top:-40px;background:#d9c7a3;color:#2b2218;font-family:'DM Serif Display',serif;font-size:26px;writing-mode:vertical-rl;transform:rotate(180deg);display:flex;align-items:center;justify-content:center;border-radius:0 6px 6px 0;box-shadow:0 0 0 1px rgba(0,0,0,.3)}
+.hint{text-align:center;color:#8b7a63;font-size:13px;margin-top:22px}
+.rec{cursor:pointer}
+.bk{position:absolute;inset:0;background:#f1e8d6;color:#2b2218;padding:10px 12px;font-family:'DM Sans',sans-serif;font-size:10.5px;line-height:1.3;overflow:auto;display:none;scrollbar-width:thin}
+.rec.open .bk{display:block}
+.rec.open .disc{transform:translate(-50%,-70px) rotate(25deg)}
+.bk h4{margin:0 0 3px;font:400 13px 'DM Serif Display',serif}
+.bk h4 span{float:right;font-size:10px;color:#8b7a63;font-family:'DM Sans',sans-serif;padding-top:3px}
+.bk ol{margin:0 0 7px;padding-left:16px}
+.bk li{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bk .no{color:#8b7a63;font-style:italic;margin-top:4px}
+.bk a{color:inherit}
+@media (prefers-reduced-motion:reduce){.disc{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><h1>Dig through<br>the <i>crate.</i></h1><p class="lede" id="lede"></p></header>
+  <div class="crate"><div class="row" id="row"></div></div>
+  <div class="hint">scroll sideways, pull a record out, click for the tracklist</div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,hash,isPast,isToday,venueShort,past,future} = LE;
+document.getElementById('lede').textContent=`One record per night, filed by year. ${past.length} well played, ${future.length} still in the shrink wrap.`;
+const labs=['#c0392b','#2e86de','#27ae60','#8e44ad','#e67e22','#16a085','#d35400','#2c3e50','#f39c12','#7f8c8d'];
+const row=document.getElementById('row');
+const back=s=>{const sl=LE.setlist(s), sup=LE.supportText(s,3);
+  if(!sl) return el('div',{class:'bk'},el('h4',{},'Tracklist'),el('div',{class:'no'},(isPast(s)?'No setlist on record for this one. ':'Nothing pressed yet. ')+(sup||'')));
+  const half=Math.ceil(sl.songs.length/2);
+  const side=(t,items,start)=>items.length?[el('h4',{},t,el('span',{},items.length+' tracks')),el('ol',{start},items.map(x=>el('li',{title:x},x)))]:[];
+  return el('div',{class:'bk'},...side('Side A',sl.songs.slice(0,half),1),...side('Side B',sl.songs.slice(half),half+1),...side('Encore',sl.encore,sl.songs.length+1),
+    el('div',{class:'no'},(sl.exact?'':(isPast(s)?'Pressed from another night on the tour. ':'Pressed from the last stop on the tour. ')),sl.url?el('a',{href:sl.url,target:'_blank',rel:'noopener'},'Source'):null));};
+row.addEventListener('click',e=>{if(e.target.closest('a'))return;const r=e.target.closest('.rec');if(!r)return;const was=r.classList.contains('open');row.querySelectorAll('.rec.open').forEach(x=>x.classList.remove('open'));if(!was)r.classList.add('open');});
+let yr='';
+SHOWS.forEach(s=>{
+  const y=s.date.slice(0,4); if(y!==yr){yr=y;row.append(el('div',{class:'tab'},y));}
+  const {name,sub}=split(s); const h=hash(s.event+s.date);
+  row.append(el('div',{class:'rec'+(isPast(s)?'':' f')+(isToday(s)?' t':''),style:`--lab:${labs[h%labs.length]}`},
+    el('div',{class:'disc','data-l':name}),
+    el('div',{class:'slv'},el('div',{class:'n'},name),el('div',{class:'v'},`${venueShort(s)}, ${fmt(s.date,'short')}${s.end?'–'+LE.day(s.end):''}`),back(s))));
+});
+LE.nav();
+</script>
+</body></html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" data-nav="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Scrapbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#c9a874;background-image:repeating-linear-gradient(0deg,rgba(0,0,0,.025) 0 1px,transparent 1px 3px),repeating-linear-gradient(90deg,rgba(255,255,255,.04) 0 2px,transparent 2px 5px);font-family:Caveat,cursive;color:#2b1f12}
+.wrap{max-width:1180px;margin:0 auto;padding:56px 24px 170px}
+h1{font-size:clamp(52px,8vw,96px);font-weight:700;line-height:.95;margin:0;transform:rotate(-2deg);display:inline-block}
+.lede{font-size:26px;max-width:36ch;margin:16px 0 44px;line-height:1.2}
+.board{display:flex;flex-wrap:wrap;gap:42px 30px;justify-content:center}
+.pol{position:relative;width:224px;background:#fff;padding:12px 12px 14px;box-shadow:0 10px 24px -10px rgba(0,0,0,.5);transform:rotate(var(--rot));transition:transform .2s}
+.pol:hover{transform:rotate(0) scale(1.04);z-index:3}
+.ph{aspect-ratio:1;background:var(--a);background-image:linear-gradient(160deg,var(--a),var(--b));display:flex;align-items:flex-end;padding:12px;color:#fff;font-size:30px;font-weight:700;line-height:.95;text-shadow:0 1px 6px rgba(0,0,0,.35);overflow:hidden}
+.ph.blank{background:#ededed;color:#999;font-size:22px;align-items:center;justify-content:center;text-align:center;font-weight:500}
+.cap{font-size:21px;line-height:1.15;margin-top:12px;height:48px;overflow:hidden}
+.cap small{display:block;font-size:17px;color:#6c5a45}
+.nt{font-size:16.5px;line-height:1.1;color:#3f3020;margin-top:6px;height:52px;overflow:hidden;transform:rotate(-.6deg)}
+.nt::before{content:'↳ '}
+.tape{position:absolute;top:-12px;left:50%;width:92px;height:26px;transform:translateX(-50%) rotate(var(--trot));background:rgba(255,230,140,.75);background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.35) 0 6px,transparent 6px 12px);box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.pol.soon .tape{background:rgba(190,220,255,.8)}
+.heart{position:absolute;right:10px;bottom:10px;font-size:24px;color:#e8402f}
+@media (prefers-reduced-motion:reduce){.pol{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Stuff I'd rather<br>remember.</h1>
+  <p class="lede" id="lede"></p>
+  <div class="board" id="board"></div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,hash,isPast,isToday,venueShort,past,future} = LE;
+document.getElementById('lede').textContent=`polaroids from ${past.length} nights so far. the blank ones are for ${future.length} nights that haven't happened yet.`;
+const pairs=[['#ff7a59','#ffb347'],['#5b7cfa','#9fd3ff'],['#e84393','#ff9ac8'],['#20c997','#8be3c9'],['#8e44ad','#e0aaff'],['#f39c12','#ffe08a'],['#2d3436','#636e72'],['#00a8cc','#7ee8fa']];
+const b=document.getElementById('board');
+SHOWS.forEach(s=>{
+  const {name}=split(s); const h=hash(s.event+s.date);
+  const [a,c]=pairs[h%pairs.length]; const rot=((h>>>3)%9-4)*1.1; const trot=((h>>>7)%7-3)*2;
+  const went=isPast(s);
+  b.append(el('figure',{class:'pol'+(went?'':' soon'),style:`--rot:${rot}deg;--trot:${trot}deg;--a:${a};--b:${c};margin:0`},
+    el('div',{class:'tape'}),
+    went?el('div',{class:'ph'},name):el('div',{class:'ph blank'},isToday(s)?'tonight!!':'not taken yet'),
+    el('figcaption',{class:'cap'},`${name} @ ${venueShort(s)}`,el('small',{},fmt(s.date,'dayfirst').toLowerCase()+(s.end?' (two days!)':''))),
+    (()=>{const t=went?LE.blurb(s,100):[LE.supportText(s,1),LE.doors(s)?'doors '+LE.doors(s):''].filter(Boolean).join(', ');return t?el('div',{class:'nt'},t.toLowerCase()):null;})(),
+    went&&(h%4===0)?el('span',{class:'heart'},'♥'):null));
+});
+LE.nav();
+</script>
+</body></html>

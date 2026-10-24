@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" data-nav="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stubs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#d8d2c6;font-family:'IBM Plex Mono',monospace;color:#1c1a17}
+.wrap{max-width:1120px;margin:0 auto;padding:64px 24px 140px}
+h1{font-family:Oswald,sans-serif;font-weight:700;text-transform:uppercase;font-size:clamp(44px,8vw,96px);line-height:.92;margin:0;letter-spacing:-.01em}
+.lede{font-size:13px;line-height:1.65;max-width:52ch;margin:20px 0 52px}
+.pile{display:flex;flex-wrap:wrap;gap:34px 26px;justify-content:center}
+.stub{position:relative;width:312px;height:124px;background:var(--stock);transform:rotate(var(--rot));
+  display:grid;grid-template-columns:1fr 82px;box-shadow:0 1px 1px rgba(0,0,0,.15),0 10px 20px -10px rgba(0,0,0,.35);transition:transform .18s ease}
+.stub:hover{transform:rotate(0deg) translateY(-5px);z-index:3}
+.stub.torn{clip-path:polygon(2% 0,100% 0,100% 100%,1% 100%,3% 92%,0 84%,2.5% 75%,.5% 66%,3% 57%,1% 48%,2.5% 40%,0 31%,3% 22%,1% 13%,2.5% 6%)}
+.stub::before,.stub::after{content:'';position:absolute;right:82px;width:14px;height:14px;border-radius:50%;background:#d8d2c6;transform:translateX(50%);z-index:1}
+.stub::before{top:-7px}.stub::after{bottom:-7px}
+.main{padding:11px 14px 10px;display:flex;flex-direction:column;justify-content:space-between;min-width:0;border-right:2px dashed rgba(0,0,0,.32)}
+.row{display:flex;justify-content:space-between;gap:10px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.row span:first-child{overflow:hidden;text-overflow:ellipsis}
+.name{font-family:Oswald,sans-serif;font-weight:700;font-size:27px;line-height:1;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:6px 0 2px}
+.sub{font-size:10.5px;opacity:.72;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.side{display:flex;align-items:center;justify-content:space-evenly;padding:8px 4px}
+.side span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.side .no{font-size:9px;opacity:.6}
+.tonight{position:absolute;top:-10px;left:-10px;background:#e8322b;color:#fff;font-size:10px;letter-spacing:.1em;padding:4px 8px;transform:rotate(-8deg);font-weight:500}
+@media (prefers-reduced-motion:reduce){.stub{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Ticket<br>stubs</h1>
+  <p class="lede" id="lede"></p>
+  <div class="pile" id="pile"></div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,hash,isPast,isToday,venueShort,past,future} = LE;
+document.getElementById('lede').textContent = `Every show since moving to Los Angeles, kept like the stubs in a shoebox. ${past.length} torn means I went. ${future.length} are still whole, waiting on the fridge.`;
+const stocks=['#f3e39a','#f6c8bf','#c6dcf4','#d7ebc0','#ead3f2','#ffdcae','#cfe9e4'];
+const pile=document.getElementById('pile');
+SHOWS.forEach(s=>{
+  const {name,sub}=split(s);
+  const h=hash(s.venue||s.event), r=hash(s.date+s.event);
+  const rot=((r%9)-4)*0.8;
+  const serial=String(100000+(r%900000));
+  pile.append(el('article',{class:'stub'+(isPast(s)?' torn':''),style:`--stock:${stocks[h%stocks.length]};--rot:${rot}deg`},
+    isToday(s)?el('span',{class:'tonight'},'Tonight'):null,
+    el('div',{class:'main'},
+      el('div',{class:'row'},el('span',{},venueShort(s)),el('span',{},isPast(s)?'Admit one':'Valid')),
+      el('div',{class:'name',title:LE.tourName(s)||s.event},name),
+      el('div',{class:'row'},el('span',{},LE.supportText(s,2)||sub||s.city),el('span',{},fmt(s.date,'short')+(s.end?'–'+LE.day(s.end):'')))),
+    el('div',{class:'side'},el('span',{},fmt(s.date,'num')),el('span',{class:'no'},LE.doors(s)?'Doors '+LE.doors(s):'No. '+serial))));
+});
+LE.nav();
+</script>
+</body></html>

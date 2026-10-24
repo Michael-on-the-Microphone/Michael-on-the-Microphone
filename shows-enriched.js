@@ -1,0 +1,7195 @@
+// Enriched show data — merged from web research. See shows-enriched.md for a readable version.
+window.SHOWS_ENRICHED = [
+  {
+    "date": "2025-05-06",
+    "end": null,
+    "event": "Jade LeMac",
+    "artists": [
+      "Jade LeMac"
+    ],
+    "venue": {
+      "name": "The Echo",
+      "address": "1822 W. Sunset Blvd., Los Angeles, CA 90026",
+      "neighborhood": "Echo Park",
+      "city": "Los Angeles",
+      "capacity": "350",
+      "type": "club",
+      "opened": "2001",
+      "facts": [
+        "The building was previously a Latin restaurant/nightclub and its facade still carries the original 'Nayarit' name.",
+        "Owned by Spaceland Productions until the company was sold to Live Nation Entertainment in 2019; its larger sister room, the Echoplex (cap. ~780), sits beneath it at 1154 Glendale Blvd.",
+        "Hosted the all-vinyl funk/soul party Funky Sole for 14 years; early-career shows by Billie Eilish, Beck, Elliott Smith, LCD Soundsystem and others."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "The Echo",
+    "headliner": "Jade LeMac",
+    "tour": {
+      "name": null,
+      "description": "Final night of a four-show spring 2025 headline run (Montreal Apr 30, Toronto May 2, Brooklyn May 4, Los Angeles May 6) announced on April 25, 2025 alongside her Warner Music signing, a Lollapalooza debut and a fall support slot on Maren Morris's North American tour. It was her first Los Angeles headline performance and, per LA Weekly, the close of her first solo tour.",
+      "album_or_release": "Single 'Pink Balloon' (2025); the then-unreleased 'Sleeping with the Lights On' was previewed live"
+    },
+    "lineup": [
+      {
+        "name": "Jade LeMac",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "Vancouver-raised singer-songwriter (b. 2004), known for the viral single 'Constellations'."
+      },
+      {
+        "name": "Kate Peytavin",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Billed on the Live Nation listing as 'Jade LeMac with Kate Peytavin & Ella Isaacson'. No setlist.fm entry found for her set."
+      },
+      {
+        "name": "Ella Isaacson",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Per her Ticketmaster artist bio, her own first headline tour (which began Apr 23, 2025 at Mercury Lounge, NYC) wrapped with this Echo date opening for Jade LeMac."
+      }
+    ],
+    "schedule": {
+      "doors": null,
+      "show_start": "7:00 PM per Live Nation/Spotify listing (The Scenestar listed 8:00 PM)",
+      "end_or_curfew": null,
+      "age_restriction": null
+    },
+    "setlist": {
+      "source_url": "https://www.laweekly.com/jade-lemac-wraps-her-tour-with-a-fan-packed-la-debut-at-the-echo/",
+      "is_exact_date": true,
+      "note": "No setlist.fm entry exists for this show. Song order is reconstructed from LA Weekly's review of the Echo date (her LA debut and the final show of the run); the reviewer may have omitted songs. For comparison, the setlist.fm entry for the Toronto show four nights earlier (May 2, 2025, Velvet Underground: https://www.setlist.fm/setlist/jade-lemac/2025/velvet-underground-toronto-on-canada-33463071.html) has the same opening eight songs plus 'Grapevines' and 'Aimed to Kill', with 'Sleeping with the Lights On' and a 'Constellations' reprise as the encore.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "There's People Watching",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "Pick A Fight",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Love Bites",
+          "notes": "She crouched at the front row during this song."
+        },
+        {
+          "n": 4,
+          "title": "Same Place",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "You're Not a God",
+          "notes": null
+        },
+        {
+          "n": 6,
+          "title": "Meet You in Hell",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "Got Me Obsessed",
+          "notes": "Introduced with a nod to her girlfriend in the crowd."
+        },
+        {
+          "n": 8,
+          "title": "Let Me",
+          "notes": null
+        },
+        {
+          "n": 9,
+          "title": "Pink Balloon",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "Constellations",
+          "notes": "Stripped-down piano version."
+        },
+        {
+          "n": 11,
+          "title": "Last Day on Earth",
+          "notes": null
+        },
+        {
+          "n": 12,
+          "title": "Steal My Skin",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "Sleeping with the Lights On",
+          "notes": "Unreleased at the time; played acoustic."
+        }
+      ],
+      "encore": [
+        {
+          "n": 1,
+          "title": "Constellations",
+          "notes": "Reprise with the full band."
+        }
+      ],
+      "duration_min": null
+    },
+    "production": [
+      "Small-club production: her name shown on a projector as the set began, smoke across the stage (LA Weekly).",
+      "Previewed the then-unreleased song 'Sleeping with the Lights On'."
+    ],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": null,
+      "seller": "Live Nation / Ticketmaster",
+      "sold_out": null,
+      "notes": "Live Nation listed the show as 'Jade LeMac with Kate Peytavin & Ella Isaacson', Tue May 6, 2025, 7:00 PM."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "LA Weekly",
+        "title": "Jade LeMac Wraps Her Tour with a Fan-Packed LA Debut at The Echo",
+        "url": "https://www.laweekly.com/jade-lemac-wraps-her-tour-with-a-fan-packed-la-debut-at-the-echo/",
+        "date": "2025-06-04",
+        "summary": "Review plus next-day interview describing a packed, sing-along crowd at her first LA show, with 'Same Place' as a highlight and a new song previewed before a full-band 'Constellations' closer."
+      }
+    ],
+    "facts": [
+      "Announced April 25, 2025 as part of a package of news: signing to Warner Music Canada / East West, a Lollapalooza debut (July 31) and opening for Maren Morris that fall.",
+      "Jade LeMac (Jade MacPhail) signed to Arista in 2023; 'Constellations' was later certified Gold in France (Jan 2026) and she earned a 2026 Juno nomination for Breakthrough Artist.",
+      "setlist.fm shows 14 Jade LeMac shows in 2025 but none at The Echo; the nearest logged date is Toronto, May 2."
+    ],
+    "sources": [
+      "https://www.livenation.com/event/vv1k0ZbPAdG7ROtc/jade-lemac-with-kate-peytavin-ella-isaacson",
+      "https://open.spotify.com/concert/0mtlxL0PAYiAD4ZIcvRyAc",
+      "https://dola.com/events/2025/5/6/jade-lemac-tickets",
+      "https://www.laweekly.com/jade-lemac-wraps-her-tour-with-a-fan-packed-la-debut-at-the-echo/",
+      "https://www.thatericalper.com/2025/04/25/jade-lemac-signs-with-warner-music-canada-joins-maren-morris-fall-tour-and-announces-headline-shows-and-lollapalooza-debut/",
+      "https://www.setlist.fm/setlist/jade-lemac/2025/velvet-underground-toronto-on-canada-33463071.html",
+      "https://www.setlist.fm/search?artist=7bc8f648&year=2025",
+      "https://www.ticketmaster.com/ella-isaacson-tickets/artist/2825432",
+      "https://thescenestar.typepad.com/ss/2025/05/shows-of-the-night-concerts-in-los-angeles-tuesday-may-6th-el-martes-6-de-mayo-conciertos-boletos.html",
+      "https://en.wikipedia.org/wiki/Jade_LeMac",
+      "https://en.wikipedia.org/wiki/The_Echo_(venue)",
+      "https://blog.ticketmaster.com/step-inside-the-echo-los-angeles-ca/"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No setlist.fm entry; the setlist comes from a press review and may be incomplete (Toronto four nights earlier also had 'Grapevines' and 'Aimed to Kill').",
+      "LA Weekly's review does not print the show date (published June 4, 2025); it is matched to May 6 because it was her only Echo show and the run's final date.",
+      "Doors time, age policy and face-value ticket price not found (Live Nation and DoLA pages no longer render event details).",
+      "No details on Kate Peytavin's or Ella Isaacson's sets."
+    ]
+  },
+  {
+    "date": "2025-06-27",
+    "end": null,
+    "event": "James Blunt: Back to Bedlam 20th Anniversary Tour",
+    "artists": [
+      "James Blunt",
+      "Forest Blakk"
+    ],
+    "venue": {
+      "name": "Greek Theatre",
+      "address": "2700 N. Vermont Ave., Los Angeles, CA 90027",
+      "neighborhood": "Griffith Park (Los Feliz)",
+      "city": "Los Angeles",
+      "capacity": "~5,900",
+      "type": "amphitheatre",
+      "opened": "1930 (dedicated Sept 25, 1930; first performance June 26, 1931)",
+      "facts": [
+        "Built with funds left in Griffith J. Griffith's will on parkland he donated in 1896; the canyon site was chosen for its acoustics. Owned by the City of Los Angeles and operated by ASM Global; the Nederlander Organization managed it from 1975 to 2015.",
+        "Neil Diamond recorded Hot August Night here in 1972; films shot here include Get Him to the Greek (2010) and a concert scene in A Star Is Born (2018)."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "Greek Theatre",
+    "headliner": "James Blunt",
+    "tour": {
+      "name": "Back to Bedlam 20th Anniversary Tour",
+      "description": "A 45-show world tour (Feb 11 to Oct 30, 2025) marking 20 years of Blunt's debut album Back to Bedlam, which he played in full each night ahead of a hits set. The 14-date North America/Mexico leg, announced Oct 9, 2024, ran June 12 (Toronto, Massey Hall) to July 3 (Guadalajara); the Greek was the leg's last US stop, the night after San Francisco's Masonic.",
+      "album_or_release": "Back to Bedlam (2004) - 20th anniversary edition with 2024 remasters, demos and five bonus tracks, released Oct 11, 2024"
+    },
+    "lineup": [
+      {
+        "name": "Forest Blakk",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Billed by Nederlander as 'special guest'. setlist.fm logs a four-song set this night: Love Somebody Again, Nobody Knows, You Were Mine, If You Love Her. He also opened the Philadelphia, Mashantucket, Chicago and San Francisco dates."
+      },
+      {
+        "name": "James Blunt",
+        "role": "headliner",
+        "set_time": "8:00 PM advertised show time",
+        "stage": null,
+        "notes": "Performed Back to Bedlam in album order (songs 1-10), then a 6-song hits/covers block and a 3-song encore."
+      }
+    ],
+    "schedule": {
+      "doors": "6:30 PM (Bucket Listers listing)",
+      "show_start": "8:00 PM (Nederlander / AXS listing)",
+      "end_or_curfew": null,
+      "age_restriction": null
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/james-blunt/2025/greek-theatre-los-angeles-ca-6b5086ae.html",
+      "is_exact_date": true,
+      "note": "Songs 1-10 are the Back to Bedlam track list in album order.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "High",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "You're Beautiful",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Wisemen",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "Goodbye My Lover",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "Tears and Rain",
+          "notes": null
+        },
+        {
+          "n": 6,
+          "title": "Out of My Mind",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "So Long, Jimmy",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "Billy",
+          "notes": null
+        },
+        {
+          "n": 9,
+          "title": "Cry",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "No Bravery",
+          "notes": "End of the full-album portion."
+        },
+        {
+          "n": 11,
+          "title": "Carry You Home",
+          "notes": null
+        },
+        {
+          "n": 12,
+          "title": "Postcards",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "Coz I Luv You",
+          "notes": "Slade cover"
+        },
+        {
+          "n": 14,
+          "title": "Stay the Night",
+          "notes": null
+        },
+        {
+          "n": 15,
+          "title": "OK",
+          "notes": "Robin Schulz cover (Blunt sings on the original)"
+        },
+        {
+          "n": 16,
+          "title": "Same Mistake",
+          "notes": null
+        }
+      ],
+      "encore": [
+        {
+          "n": 1,
+          "title": "Monsters",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "Bonfire Heart",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "1973",
+          "notes": null
+        }
+      ],
+      "duration_min": null
+    },
+    "production": [
+      "Fan reviews on Ticketmaster (labelled as fan reports) praised the lighting, projection and video screens and Blunt's between-song humour; several called the full-album run-through emotional and nostalgic."
+    ],
+    "tickets": {
+      "price_range": "From about $40.60 incl. fees, up to about $89 for the best sections (Bucket Listers listing)",
+      "on_sale_date": "Live Nation presale Oct 10, 2024, 10 AM local; general on-sale Oct 11, 2024",
+      "seller": "Ticketmaster / Nederlander Concerts",
+      "sold_out": null,
+      "notes": "North American leg announced Oct 9, 2024."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Ticketmaster (fan reviews)",
+        "title": "James Blunt - fan reviews of the Greek Theatre show",
+        "url": "https://www.ticketmaster.com/artist/980710?brand=none",
+        "date": null,
+        "summary": "Audience reviews describe Blunt playing all of Back to Bedlam followed by hits and newer songs, engaging the crowd and being unexpectedly funny. No professional review of this date was found."
+      }
+    ],
+    "facts": [
+      "Forest Blakk's setlist.fm entry for the same night is logged separately: https://www.setlist.fm/setlist/forest-blakk/2025/greek-theatre-los-angeles-ca-5b45f79c.html",
+      "The night before, Blunt played the Masonic Auditorium in San Francisco (June 26); the leg then moved to Mexico (Monterrey June 30, Mexico City July 1, Guadalajara July 3).",
+      "Six setlist.fm users logged attendance at this show."
+    ],
+    "sources": [
+      "https://www.setlist.fm/setlist/james-blunt/2025/greek-theatre-los-angeles-ca-6b5086ae.html",
+      "https://www.setlist.fm/setlist/forest-blakk/2025/greek-theatre-los-angeles-ca-5b45f79c.html",
+      "https://www.setlist.fm/setlists/forest-blakk-2bc858ca.html",
+      "https://en.wikipedia.org/wiki/Back_to_Bedlam_20th_Anniversary_Tour",
+      "https://www.melodicmag.com/2024/10/09/james-blunt-announces-the-back-to-bedlam-20th-anniversary-north-american-tour",
+      "https://www.audacy.com/national/music/james-blunt-goes-back-to-bedlam-with-20th-anniversary-tour",
+      "https://www.nederlanderconcerts.com/event/james-blunt",
+      "https://www.axs.com/uk/events/720969/james-blunt-tickets/staticDetails",
+      "https://bucketlisters.com/experience/james-blunt-back-to-bedlam-20th-anniversary-tour-at-greek-theatre",
+      "https://www.bandsintown.com/e/106028629",
+      "https://www.ticketmaster.com/artist/980710?brand=none",
+      "https://en.wikipedia.org/wiki/Greek_Theatre_(Los_Angeles)"
+    ],
+    "confidence": "high",
+    "gaps": [
+      "No professional press review of the Greek date found (only Ticketmaster fan reviews).",
+      "No Billboard Boxscore attendance/gross for this show; Wikipedia's tour article lists no per-show figures.",
+      "Face-value price tiers from the primary seller not confirmed; the price range comes from a third-party listing.",
+      "Set times for Forest Blakk and Blunt's actual start/end times not logged."
+    ]
+  },
+  {
+    "date": "2025-06-28",
+    "end": null,
+    "event": "The Weeknd: After Hours Til Dawn Tour",
+    "artists": [
+      "The Weeknd",
+      "Playboi Carti",
+      "Mike Dean"
+    ],
+    "venue": {
+      "name": "SoFi Stadium",
+      "address": "1001 S. Stadium Dr., Inglewood, CA 90301",
+      "neighborhood": "Hollywood Park",
+      "city": "Inglewood",
+      "capacity": "70,240 (expandable to 100,000+)",
+      "type": "stadium",
+      "opened": "September 2020",
+      "facts": [
+        "Built by HKS on the former Hollywood Park racetrack for roughly $5.5 billion, the most expensive stadium ever built; an open-sided bowl under a translucent ETFE canopy with a dual-sided 4K 'Infinity Screen' (80 million pixels) hanging over the field.",
+        "Home of the Rams and Chargers; hosted Super Bowl LVI (2022) and will host the 2028 Olympic opening/closing ceremonies and swimming.",
+        "The Weeknd filmed an episode of The Idol during his Sept 2, 2022 SoFi show and recorded the live album Live at SoFi Stadium at his November 2022 shows there."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "SoFi Stadium",
+    "headliner": "The Weeknd",
+    "tour": {
+      "name": "After Hours Til Dawn Tour",
+      "description": "The 2025 North American stadium leg was announced Jan 31, 2025, the day Hurry Up Tomorrow was released, with Playboi Carti and Mike Dean as support. June 28 was the third of four sold-out SoFi Stadium nights (June 25, 26, 28, 29); it was the date added on Feb 5, 2025 as the 'third show' after the first two sold through presale. The tour passed $1 billion gross by November 2025.",
+      "album_or_release": "Hurry Up Tomorrow (released Jan 31, 2025)"
+    },
+    "lineup": [
+      {
+        "name": "Mike Dean",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Longtime Weeknd producer; opened with an instrumental set on analog synthesizers (Variety)."
+      },
+      {
+        "name": "Playboi Carti",
+        "role": "support",
+        "set_time": "~8:00 PM (venue listing quoted on setlist.fm)",
+        "stage": null,
+        "notes": "Shortened, bass-heavy set (reported as four songs on night two); later joined The Weeknd for 'Timeless' and 'RATHER LIE'."
+      },
+      {
+        "name": "The Weeknd",
+        "role": "headliner",
+        "set_time": "~9:00 PM to ~11:00 PM (setlist.fm)",
+        "stage": null,
+        "notes": "44-song set, no encore."
+      }
+    ],
+    "schedule": {
+      "doors": "5:00 PM",
+      "show_start": "Mike Dean, then Playboi Carti ~8:00 PM; The Weeknd ~9:00 PM (setlist.fm)",
+      "end_or_curfew": "~11:00 PM (setlist.fm)",
+      "age_restriction": null
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/the-weeknd/2025/sofi-stadium-inglewood-ca-435acf63.html",
+      "is_exact_date": true,
+      "note": "Entries 16 and 21 are tracks played from tape between live songs. The June 26 and June 29 SoFi setlists are essentially identical; compared with the May 9 Glendale opener, the LA shows dropped 'Opening Night', 'Hurry Up Tomorrow' and 'In Heaven' and added a late run of 'Without a Warning', 'Reflections Laughing', 'High for This' and 'House of Balloons'.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "The Abyss",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "Wake Me Up",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "After Hours",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "Starboy",
+          "notes": "Mask removed after this song (per night-two review)."
+        },
+        {
+          "n": 5,
+          "title": "Heartless",
+          "notes": null
+        },
+        {
+          "n": 6,
+          "title": "Faith",
+          "notes": "Over the outro of 'Heartless'"
+        },
+        {
+          "n": 7,
+          "title": "Take My Breath",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "Sacrifice",
+          "notes": "Swedish House Mafia remix"
+        },
+        {
+          "n": 9,
+          "title": "How Do I Make You Love Me?",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "Can't Feel My Face",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "Lost in the Fire",
+          "notes": "Gesaffelstein cover"
+        },
+        {
+          "n": 12,
+          "title": "Kiss Land",
+          "notes": "Shortened"
+        },
+        {
+          "n": 13,
+          "title": "Often",
+          "notes": null
+        },
+        {
+          "n": 14,
+          "title": "Given Up on Me",
+          "notes": null
+        },
+        {
+          "n": 15,
+          "title": "I Was Never There",
+          "notes": null
+        },
+        {
+          "n": 16,
+          "title": "Given Up on Me",
+          "notes": "Played from tape"
+        },
+        {
+          "n": 17,
+          "title": "The Hills",
+          "notes": "Fire effects"
+        },
+        {
+          "n": 18,
+          "title": "Baptized in Fear",
+          "notes": null
+        },
+        {
+          "n": 19,
+          "title": "Open Hearts",
+          "notes": null
+        },
+        {
+          "n": 20,
+          "title": "Cry for Me",
+          "notes": "A cappella intro"
+        },
+        {
+          "n": 21,
+          "title": "I Can't Fucking Sing",
+          "notes": "Played from tape"
+        },
+        {
+          "n": 22,
+          "title": "São Paulo",
+          "notes": null
+        },
+        {
+          "n": 23,
+          "title": "Until We're Skin & Bones",
+          "notes": null
+        },
+        {
+          "n": 24,
+          "title": "Timeless",
+          "notes": "With Playboi Carti"
+        },
+        {
+          "n": 25,
+          "title": "RATHER LIE",
+          "notes": "Playboi Carti song, with Playboi Carti"
+        },
+        {
+          "n": 26,
+          "title": "Creepin'",
+          "notes": "Metro Boomin cover"
+        },
+        {
+          "n": 27,
+          "title": "Niagara Falls",
+          "notes": null
+        },
+        {
+          "n": 28,
+          "title": "One of the Girls",
+          "notes": null
+        },
+        {
+          "n": 29,
+          "title": "Stargirl Interlude",
+          "notes": null
+        },
+        {
+          "n": 30,
+          "title": "Out of Time",
+          "notes": null
+        },
+        {
+          "n": 31,
+          "title": "I Feel It Coming",
+          "notes": null
+        },
+        {
+          "n": 32,
+          "title": "Die for You",
+          "notes": null
+        },
+        {
+          "n": 33,
+          "title": "Is There Someone Else?",
+          "notes": null
+        },
+        {
+          "n": 34,
+          "title": "Wicked Games",
+          "notes": null
+        },
+        {
+          "n": 35,
+          "title": "Call Out My Name",
+          "notes": null
+        },
+        {
+          "n": 36,
+          "title": "The Morning",
+          "notes": null
+        },
+        {
+          "n": 37,
+          "title": "Save Your Tears",
+          "notes": null
+        },
+        {
+          "n": 38,
+          "title": "Less Than Zero",
+          "notes": null
+        },
+        {
+          "n": 39,
+          "title": "Blinding Lights",
+          "notes": null
+        },
+        {
+          "n": 40,
+          "title": "Without a Warning",
+          "notes": null
+        },
+        {
+          "n": 41,
+          "title": "Reflections Laughing",
+          "notes": null
+        },
+        {
+          "n": 42,
+          "title": "High for This",
+          "notes": null
+        },
+        {
+          "n": 43,
+          "title": "House of Balloons",
+          "notes": null
+        },
+        {
+          "n": 44,
+          "title": "Moth to a Flame",
+          "notes": "Swedish House Mafia cover; closer"
+        }
+      ],
+      "encore": [],
+      "duration_min": 120
+    },
+    "production": [
+      "Gold-themed stage with a grand staircase down to a catwalk nearly the length of the field, side loops forming a cross shape from above; the far tip reached the loge seats (The Music Universe, Variety).",
+      "A large rotating, light-up female robot statue (a Hajime Sorayama design) stood at the end of the runway as the show's focal point.",
+      "Roughly 75-ft-tall (38 x 19 m) LED screen behind the stage, with ring/hoop structures showing the broken-cityscape imagery carried over from the 2022-23 run; lighting by Jason Baeri.",
+      "The Weeknd opened in a bejeweled black robe and an eye-glowing silver metallic mask, removed after 'Starboy'; about two dozen masked dancers stayed masked all night.",
+      "Heavy pyrotechnics with flame towers along each ramp; fire effects during 'The Hills'.",
+      "Playboi Carti joined for 'Timeless' and 'RATHER LIE'. (Travis Scott's guest spot with Carti happened on night one, June 25, not this night.)"
+    ],
+    "tickets": {
+      "price_range": "Standard tickets $118 to $1,437.50 incl. fees; VIP $499.20 to $1,677 (Grimy Goods, pulled from the LA on-sale, Feb 2025)",
+      "on_sale_date": "Artist presale Feb 5, 2025; promoter (code DUET) and Cash App presales Feb 6; general on-sale Feb 7, 2025 at 10 AM local",
+      "seller": "Ticketmaster (Live Nation)",
+      "sold_out": true,
+      "notes": "June 28 was added on Feb 5, 2025 as the third LA show; a fourth (June 29) followed. $1 per ticket went to Global Citizen."
+    },
+    "attendance": "Not published per night. The four June 25-29 SoFi shows were reported at 200,000+ fans combined (promoter figure); Wikipedia's tour table lists the Inglewood block at 199,288 attendance and $34,039,630 gross.",
+    "press": [
+      {
+        "outlet": "Variety",
+        "title": "The Weeknd Concert Review: The Superstar Paces Himself, From Doom-Rock Prelude Through Giddy Synth-Pop Climax, at Impressive SoFi Stadium Show",
+        "url": "https://www.yahoo.com/entertainment/articles/weeknd-paces-himself-doom-rock-001424643.html",
+        "date": "2025-06-26",
+        "summary": "Chris Willman's review of the SoFi opener: a ~135-minute, 41-song show that moves from a gloomy ritualistic opening to romantic R&B to synth-pop, carried almost solely by The Weeknd on a cross-shaped thrust stage with a giant robot statue and flame towers."
+      },
+      {
+        "outlet": "The Music Universe",
+        "title": "The Weeknd brings expansive new production to SoFi Stadium on After Hours Til Dawn Tour",
+        "url": "https://themusicuniverse.com/the-weeknd-brings-expansive-new-production-to-sofi-stadium-on-after-hours-til-dawn-tour/",
+        "date": "2025-06-26",
+        "summary": "Night-two report detailing the gold-themed stage, rotating statue, ~75-ft screen, the silver mask removed after 'Starboy', Carti's short loud set, and the SoFi record for most sold-out shows by a male artist."
+      },
+      {
+        "outlet": "The Hollywood Reporter",
+        "title": "The Weeknd Kicks Off Sold-Out Run of LA Shows at SoFi Stadium",
+        "url": "https://www.hollywoodreporter.com/music/music-news/the-weeknd-sofi-stadium-2025-night-one-1236299785/",
+        "date": "2025-06-26",
+        "summary": "Night-one recap: more than three dozen songs over two-plus hours, with Travis Scott joining Playboi Carti's set."
+      },
+      {
+        "outlet": "Digital Music News",
+        "title": "The Weeknd Breaks Record at LA's SoFi Stadium",
+        "url": "https://www.digitalmusicnews.com/2025/06/26/the-weeknd-sofi-stadium-record/",
+        "date": "2025-06-26",
+        "summary": "Reports the four sold-out SoFi shows set the record for most shows by a male artist at the venue, with ~200,000 fans over the weekend."
+      },
+      {
+        "outlet": "KTLA",
+        "title": "Travis Scott surprises fans as The Weeknd returns to SoFi Stadium",
+        "url": "https://ktla.com/entertainment/travis-scott-surprises-fans-as-the-weeknd-returns-to-sofi-stadium/",
+        "date": "2025-06-26",
+        "summary": "Night-one coverage of Travis Scott's surprise appearance during Playboi Carti's set ('FE!N', 'Goosebumps')."
+      }
+    ],
+    "facts": [
+      "The City of Inglewood declared June 25-29, 2025 'The Weeknd Week'.",
+      "With these four nights The Weeknd reached seven sold-out SoFi shows across 2022 and 2025, a record for a male artist and for a single tour at the venue (Wikipedia; The Music Universe).",
+      "setlist.fm logs 8,828 attendances by 7,205 users for this date, one of the most-logged shows of the tour.",
+      "The Las Vegas date four days earlier (June 24) was cancelled over production issues, making SoFi the first shows after that cancellation.",
+      "Reviews framed this leg as the last run under the 'Weeknd' moniker ahead of his stated plan to retire the name."
+    ],
+    "sources": [
+      "https://www.setlist.fm/setlist/the-weeknd/2025/sofi-stadium-inglewood-ca-435acf63.html",
+      "https://www.setlist.fm/setlist/the-weeknd/2025/sofi-stadium-inglewood-ca-7b5a8658.html",
+      "https://www.setlist.fm/setlist/the-weeknd/2025/sofi-stadium-inglewood-ca-1b5ac1e4.html",
+      "https://www.sofistadium.com/events/detail/weeknd-2025-june-28",
+      "https://en.wikipedia.org/wiki/After_Hours_til_Dawn_Tour",
+      "https://en.wikipedia.org/wiki/SoFi_Stadium",
+      "https://www.yahoo.com/entertainment/articles/weeknd-paces-himself-doom-rock-001424643.html",
+      "https://themusicuniverse.com/the-weeknd-brings-expansive-new-production-to-sofi-stadium-on-after-hours-til-dawn-tour/",
+      "https://www.hollywoodreporter.com/music/music-news/the-weeknd-sofi-stadium-2025-night-one-1236299785/",
+      "https://www.digitalmusicnews.com/2025/06/26/the-weeknd-sofi-stadium-record/",
+      "https://ktla.com/entertainment/travis-scott-surprises-fans-as-the-weeknd-returns-to-sofi-stadium/",
+      "https://www.grimygoods.com/2025/02/05/the-weeknd-announces-third-sofi-stadium-concert-in-los-angeles-tickets-from-118/",
+      "https://news.pollstar.com/2025/01/31/the-weeknd-brings-returns-to-stadiums-with-after-hours-til-dawn/",
+      "https://www.goodreads.com/author_blog_posts/25880906-inglewood-declares-the-weeknd-week-as-he-breaks-stadium-record-200k",
+      "https://www.elationlighting.com/blogs/news/proteus-and-jason-baeri-light-the-weeknd-s-2025-summer-stadium-tour",
+      "https://www.dailygazette.com/tribune/review-the-weeknd-conquers-sofi-stadium-with-an-immaculate-performance-before-retiring-his-all-consuming/article_1ea218a3-ada2-553d-b0e3-35452eeaebdd.html"
+    ],
+    "confidence": "high",
+    "gaps": [
+      "No per-night attendance or Billboard Boxscore for June 28 specifically; only the four-show total.",
+      "No press review written about the June 28 night itself (coverage is of nights one and two); production details are from those nights and the identical setlists.",
+      "Playboi Carti's June 28 set list and whether any surprise guest appeared during his set that night were not found.",
+      "SoFi Stadium's own event page would not load (503), so doors/clear-bag details come from setlist.fm's venue listing."
+    ]
+  },
+  {
+    "date": "2025-08-09",
+    "end": null,
+    "event": "Lyrah with Fi Sullivan",
+    "artists": [
+      "Lyrah",
+      "Fi Sullivan"
+    ],
+    "venue": {
+      "name": "The Echo",
+      "address": "1822 W. Sunset Blvd., Los Angeles, CA 90026",
+      "neighborhood": "Echo Park",
+      "city": "Los Angeles",
+      "capacity": "350",
+      "type": "club",
+      "opened": "2001",
+      "facts": [
+        "The building was previously a Latin restaurant/nightclub and its facade still carries the original 'Nayarit' name.",
+        "Owned by Spaceland Productions until the company was sold to Live Nation Entertainment in 2019; its larger sister room, the Echoplex (cap. ~780), sits beneath it.",
+        "Hosted the all-vinyl funk/soul party Funky Sole for 14 years; early-career shows by Billie Eilish, Beck, Elliott Smith and LCD Soundsystem."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "The Echo",
+    "headliner": "Lyrah",
+    "tour": {
+      "name": null,
+      "description": "Final stop of Lyrah's first headline run in summer 2025: Zone One at Elsewhere, Brooklyn (July 26), Lost Lake Lounge, Denver (July 31, reported sold out by a fan review) and The Echo (Aug 9). One resale listing billed the dates as her 'Real' Tour, but no primary source confirmed that name.",
+      "album_or_release": null
+    },
+    "lineup": [
+      {
+        "name": "Fi Sullivan",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "LA (Venice)-based vocalist, producer and DJ; Denver-born, Middlebury computer science and music graduate and 2019/20 Watson Fellow who studied technology and the singing voice; has opened for King Princess and played Bonnaroo and the Fonda."
+      },
+      {
+        "name": "Lyrah",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "Alternative/dark-pop singer-songwriter, previously Bay Area-based; LA date closed a three-city summer run."
+      }
+    ],
+    "schedule": {
+      "doors": "7:00 PM (Bandsintown)",
+      "show_start": "7:00 PM listed (Live Nation / Oh My Rockness)",
+      "end_or_curfew": null,
+      "age_restriction": "All ages (Oh My Rockness)"
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/lyrah/2025/lost-lake-lounge-denver-co-6b4386ae.html",
+      "is_exact_date": false,
+      "note": "No setlist.fm entry exists for The Echo. This is the 17-song set from Denver (Lost Lake Lounge, July 31, 2025), the previous stop on the same run; the Brooklyn show on July 26 opened the same way (Only All About You / Silhouette / Omen / Everywhere) with a few swaps ('Meet Me at the Bottom', 'Down Low', a 'Naked/Love Comes Down/Joy' medley, 'Do You Think I').",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Only All About You",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "Silhouette",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Omen",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "Everywhere",
+          "notes": "Fleetwood Mac cover"
+        },
+        {
+          "n": 5,
+          "title": "Dream You Better",
+          "notes": "Dark edit / TechnoKat mix"
+        },
+        {
+          "n": 6,
+          "title": "Everyone Else",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "Staring In The Dark",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "In the Leaves",
+          "notes": null
+        },
+        {
+          "n": 9,
+          "title": "Last Call",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "Under Your Spell",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "When's It Gonna Hit",
+          "notes": "Marked as new"
+        },
+        {
+          "n": 12,
+          "title": "NO ONE ELSE",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "Seven AM",
+          "notes": null
+        },
+        {
+          "n": 14,
+          "title": "Can It Be Easy",
+          "notes": null
+        },
+        {
+          "n": 15,
+          "title": "Nowhere Left to Run",
+          "notes": null
+        },
+        {
+          "n": 16,
+          "title": "Vertigo",
+          "notes": null
+        },
+        {
+          "n": 17,
+          "title": "I Just Need",
+          "notes": "Closer"
+        }
+      ],
+      "encore": [],
+      "duration_min": null
+    },
+    "production": [],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": null,
+      "seller": "Live Nation / Ticketmaster",
+      "sold_out": null,
+      "notes": "Live Nation listed 'Lyrah with Fi Sullivan', Sat Aug 9, 2025, 7:00 PM, all ages."
+    },
+    "attendance": null,
+    "press": [],
+    "facts": [
+      "Lyrah was covered as a San Francisco/Bay Area dark-pop artist as early as 2019-2020 (FAULT Magazine premiered 'The View' in March 2020); her sets mix originals with dance edits and a Fleetwood Mac cover.",
+      "After this run she played Corona Capital in Mexico City (Nov 15, 2025) and a Los Angeles show at the El Rey Theatre (Dec 19, 2025), then Electric Forest 2026.",
+      "Fi Sullivan composes and codes experience design for the Venice arts/research lab Chromasonic; her vocals featured in a Chromasonic x Google installation at Milan Design Week."
+    ],
+    "sources": [
+      "https://www.livenation.com/event/vvG10ZbnVofgyZ/lyrah-with-fi-sullivan",
+      "https://losangeles.ohmyrockness.com/shows/453783-lyrah-fi-sullivan-the-echo",
+      "https://www.bandsintown.com/e/1035295139-lyrah-at-the-echo",
+      "https://dolosangeles.com/events/2025/8/9/lyrah-tickets",
+      "https://open.spotify.com/concert/78nLUGYdlRPWCc7QSNr4wM",
+      "https://www.setlist.fm/setlists/lyrah-33f790f5.html",
+      "https://www.setlist.fm/setlist/lyrah/2025/lost-lake-lounge-denver-co-6b4386ae.html",
+      "https://www.setlist.fm/setlist/lyrah/2025/zone-one-at-elsewhere-brooklyn-ny-7b427abc.html",
+      "https://www.etickets.com/concerts/pop-rock/lyrah/los-angeles-ca/257796-1922/d",
+      "https://www.songkick.com/artists/10379063-lyrah/calendar",
+      "https://fault-magazine.com/2020/03/premiere-san-francisco-dark-pop-singer-lyrah-wants-you-to-enjoy-the-view/",
+      "https://www.fisounds.com/about",
+      "https://www.westword.com/music/fi-sullivans-science-coding-pop-music-14340509/",
+      "https://en.wikipedia.org/wiki/The_Echo_(venue)"
+    ],
+    "confidence": "low",
+    "gaps": [
+      "No setlist, review, photos or fan report for the Echo night itself; the setlist is from Denver nine days earlier.",
+      "Ticket price, on-sale date and whether it sold out were not found.",
+      "No confirmed tour name or associated release (the 'Real' Tour name appears only on a resale site).",
+      "No information on Fi Sullivan's set or set times."
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "end": null,
+    "event": "Ye: Live in Los Angeles",
+    "artists": [
+      "Kanye West (Ye)",
+      "Travis Scott",
+      "Lauryn Hill",
+      "CeeLo Green",
+      "North West",
+      "YG Marley",
+      "Zion Marley",
+      "Andre Troutman"
+    ],
+    "venue": {
+      "name": "SoFi Stadium",
+      "address": "1001 S Stadium Dr, Inglewood, CA 90301",
+      "neighborhood": "Hollywood Park, Inglewood",
+      "city": "Inglewood",
+      "capacity": "70,240 (expandable to 100,000+ for major events)",
+      "type": "stadium",
+      "opened": "September 8, 2020",
+      "facts": [
+        "Estimated cost of about $5.5 billion, the most expensive stadium ever built; home to both the Rams and Chargers.",
+        "Open-air despite its translucent ETFE canopy roof, which has 27,000 embedded LED pucks visible from planes approaching LAX.",
+        "The Infinity Screen, a double-sided 4K video board suspended over the field, weighs about 2.2 million pounds and carries 80 million pixels.",
+        "Will host the 2028 Olympic opening and closing ceremonies and swimming."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "SoFi Stadium",
+    "headliner": "Ye (Kanye West)",
+    "tour": {
+      "name": "Ye Live Concert Tour (billed on setlist.fm as LIVE CONCERT TOUR 2O26)",
+      "description": "Ye's seventh headlining tour and his first in a decade, supporting the album Bully. The two SoFi Stadium shows (April 1 and April 3, 2026) opened the tour and were his first headlined US concerts in nearly five years; the tour then went to Istanbul, Arnhem, Tbilisi, Tampa, San Antonio, Tirana, Madrid, Algarve, Almaty, New Orleans, Chicago, Jakarta and more, with several European dates cancelled or blocked.",
+      "album_or_release": "Bully (released March 28, 2026)"
+    },
+    "lineup": [
+      {
+        "name": "Ye (Kanye West)",
+        "role": "headliner",
+        "set_time": "8:20 PM - 11:10 PM (setlist.fm; scheduled 7:00 PM)",
+        "stage": "Main stage (half-orb / sphere)",
+        "notes": "44-song set, livestreamed on Ye's YouTube account."
+      },
+      {
+        "name": "Travis Scott",
+        "role": "guest",
+        "set_time": null,
+        "stage": null,
+        "notes": "Performed FATHER (played twice) and a shortened FE!N."
+      },
+      {
+        "name": "Ms. Lauryn Hill",
+        "role": "guest",
+        "set_time": null,
+        "stage": null,
+        "notes": "First time ever onstage with Ye. Mystery of Iniquity / All Falls Down, Lost Ones, Heartbeat/Crisis/Praise Jah in the Moonlight (with her sons), Doo Wop (That Thing) / Believe What I Say."
+      },
+      {
+        "name": "Zion Marley",
+        "role": "guest",
+        "set_time": null,
+        "stage": null,
+        "notes": "Joined Lauryn Hill for Heartbeat / Crisis / Praise Jah in the Moonlight."
+      },
+      {
+        "name": "YG Marley",
+        "role": "guest",
+        "set_time": null,
+        "stage": null,
+        "notes": "Joined Lauryn Hill for Heartbeat / Crisis / Praise Jah in the Moonlight."
+      },
+      {
+        "name": "CeeLo Green",
+        "role": "guest",
+        "set_time": null,
+        "stage": null,
+        "notes": "Performed the Bully title track (live debut), on which he is featured."
+      },
+      {
+        "name": "North West",
+        "role": "guest",
+        "set_time": null,
+        "stage": null,
+        "notes": "Performed TALKING and PIERCING ON MY HAND per setlist.fm (Billboard describes her rapping 'Bless Me' and 'Piercing on My Hand' at both shows). Appeared at both SoFi nights."
+      },
+      {
+        "name": "Andre Troutman",
+        "role": "guest",
+        "set_time": null,
+        "stage": null,
+        "notes": "Talk-box vocals on Wolves, Say You Will, WHITE LINES, ALL THE LOVE, Flashing Lights, Stronger and Runaway."
+      }
+    ],
+    "schedule": {
+      "doors": "5:00 PM",
+      "show_start": "Scheduled 7:00 PM; Ye on stage 8:20 PM (setlist.fm)",
+      "end_or_curfew": "11:10 PM (setlist.fm)",
+      "age_restriction": "All ages"
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/ye/2026/sofi-stadium-inglewood-ca-73484685.html",
+      "is_exact_date": true,
+      "note": "Copied from setlist.fm (last edited May 17, 2026). No formal encore; show closed with an extended Runaway. Cross-checked against InMusic Blog's night-2 list, which matches apart from omitting repeats.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "KING",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "THIS A MUST",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Father Stretch My Hands, Pt. 1",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "Can't Tell Me Nothing",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "Can't Tell Me Nothing",
+          "notes": "Repeated"
+        },
+        {
+          "n": 6,
+          "title": "Niggas in Paris",
+          "notes": "JAY-Z & Kanye West song"
+        },
+        {
+          "n": 7,
+          "title": "Mercy",
+          "notes": "Shortened"
+        },
+        {
+          "n": 8,
+          "title": "Praise God",
+          "notes": "Shortened"
+        },
+        {
+          "n": 9,
+          "title": "Black Skinhead",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "On Sight",
+          "notes": "Restarted so Ye could get the crowd to open mosh pits"
+        },
+        {
+          "n": 11,
+          "title": "Blood on the Leaves",
+          "notes": "Shortened, stopped after interlude"
+        },
+        {
+          "n": 12,
+          "title": "CARNIVAL",
+          "notes": "¥$ song"
+        },
+        {
+          "n": 13,
+          "title": "Power",
+          "notes": "Restarted; extended outro; alternative production"
+        },
+        {
+          "n": 14,
+          "title": "Bound 2",
+          "notes": "Restarted"
+        },
+        {
+          "n": 15,
+          "title": "Wolves",
+          "notes": "With Andre Troutman; first North American performance since 2019; shortened"
+        },
+        {
+          "n": 16,
+          "title": "Say You Will",
+          "notes": "With Andre Troutman on talk box; extended outro"
+        },
+        {
+          "n": 17,
+          "title": "Heartless",
+          "notes": "Restarted; extended a cappella intro and outro; big singalong"
+        },
+        {
+          "n": 18,
+          "title": "FATHER",
+          "notes": "With Travis Scott"
+        },
+        {
+          "n": 19,
+          "title": "FATHER",
+          "notes": "With Travis Scott; repeated"
+        },
+        {
+          "n": 20,
+          "title": "FE!N",
+          "notes": "Travis Scott cover; with Travis Scott; shortened"
+        },
+        {
+          "n": 21,
+          "title": "PUNCH DRUNK",
+          "notes": "Live debut"
+        },
+        {
+          "n": 22,
+          "title": "BEAUTY AND THE BEAST",
+          "notes": "Alternative production"
+        },
+        {
+          "n": 23,
+          "title": "HIGHS AND LOWS",
+          "notes": "Live debut"
+        },
+        {
+          "n": 24,
+          "title": "WHITE LINES",
+          "notes": "With Andre Troutman; live debut"
+        },
+        {
+          "n": 25,
+          "title": "BULLY",
+          "notes": "With CeeLo Green; live debut"
+        },
+        {
+          "n": 26,
+          "title": "ALL THE LOVE",
+          "notes": "With Andre Troutman; alternate outro"
+        },
+        {
+          "n": 27,
+          "title": "LAST BREATH",
+          "notes": null
+        },
+        {
+          "n": 28,
+          "title": "TALKING",
+          "notes": "¥$ song; with North West; shortened"
+        },
+        {
+          "n": 29,
+          "title": "PIERCING ON MY HAND",
+          "notes": "North West cover; with North West"
+        },
+        {
+          "n": 30,
+          "title": "EVERYBODY",
+          "notes": "¥$ song"
+        },
+        {
+          "n": 31,
+          "title": "KING",
+          "notes": "Reprise"
+        },
+        {
+          "n": 32,
+          "title": "Mystery of Iniquity / All Falls Down",
+          "notes": "With Ms. Lauryn Hill; first Mystery of Iniquity since 2017; shortened"
+        },
+        {
+          "n": 33,
+          "title": "Lost Ones",
+          "notes": "Ms. Lauryn Hill cover; with Ms. Lauryn Hill"
+        },
+        {
+          "n": 34,
+          "title": "Heartbeat / Crisis / Praise Jah in the Moonlight",
+          "notes": "With Zion Marley, YG Marley and Lauryn Hill; shortened"
+        },
+        {
+          "n": 35,
+          "title": "Doo Wop (That Thing) / Believe What I Say",
+          "notes": "With Ms. Lauryn Hill; first Believe What I Say since 2021"
+        },
+        {
+          "n": 36,
+          "title": "Jesus Walks",
+          "notes": "Shortened"
+        },
+        {
+          "n": 37,
+          "title": "Through the Wire",
+          "notes": "Shortened"
+        },
+        {
+          "n": 38,
+          "title": "Good Life",
+          "notes": "Shortened"
+        },
+        {
+          "n": 39,
+          "title": "Homecoming",
+          "notes": "Shortened"
+        },
+        {
+          "n": 40,
+          "title": "All of the Lights",
+          "notes": "Restarted; shortened"
+        },
+        {
+          "n": 41,
+          "title": "Flashing Lights",
+          "notes": "With Andre Troutman; alternate production; extended talk-box outro"
+        },
+        {
+          "n": 42,
+          "title": "Stronger",
+          "notes": "With Andre Troutman; extended talk-box intro/outro; nod to We Major"
+        },
+        {
+          "n": 43,
+          "title": "Ghost Town",
+          "notes": "Extended outro"
+        },
+        {
+          "n": 44,
+          "title": "Runaway",
+          "notes": "With Andre Troutman; extended outro (fans reported roughly 12 minutes)"
+        }
+      ],
+      "encore": [],
+      "duration_min": 170
+    },
+    "production": [
+      "Stage was a large half-orb / sphere that projected a rotating Earth, the Moon and a smoking sphere during the show; projections were mapped across a dome-like installation around the stage in sync with the music.",
+      "Stage designed by Ye with Aus Taylor; lighting by John McGuire. Ye described the theme as 'standing on top of the world after everything we've been through' (Wikipedia).",
+      "Guests Travis Scott, CeeLo Green and North West performed high above the stadium floor wearing safety harnesses (AP/ABC7).",
+      "Lauryn Hill entered through a cloud of smoke mid-show; her segment had minor technical hiccups (Hola).",
+      "Show was livestreamed globally on Ye's YouTube account (night one had been streamed on Instagram).",
+      "Night two ran noticeably smoother than the April 1 show, which had lighting and audio problems (ABC7, TMZ)."
+    ],
+    "tickets": {
+      "price_range": "$149.75 - $562.85 face value (The Scenestar, March 9, 2026)",
+      "on_sale_date": "Artist presale Tue March 10, 2026 (code ALBUM12 via yelosangeles.com); general on-sale for the April 3 show Fri March 12, 2026 at 10 AM PT (sources differ by a day on the April 1 on-sale)",
+      "seller": "Ticketmaster",
+      "sold_out": true,
+      "notes": "Complex reported about a million people in the Ticketmaster queue when presale opened; KTLA reported the show sold out within the morning."
+    },
+    "attendance": "~70,000 sold out (AP/ABC7); Ye told the crowd '80,000'. Both SoFi nights combined: 149,000 tickets and $32.6M gross (Billboard Boxscore, via Wikipedia); Bloomberg reported the April 3 night alone grossed over $18M.",
+    "press": [
+      {
+        "outlet": "Billboard",
+        "title": "Kanye West Brings Out Lauryn Hill, Travis Scott & More at Sold-Out L.A. Show",
+        "url": "https://www.billboard.com/music/music-news/kanye-west-lauryn-hill-travis-scott-second-la-show-sofi-1236215429/",
+        "date": "2026-04-04",
+        "summary": "Guest-by-guest recap: Lauryn Hill on All Falls Down, Doo Wop and Believe What I Say with sons Zion and YG Marley; Travis Scott on Father and Fein; CeeLo Green on Bully; Andre Troutman on All the Love; North West at both shows."
+      },
+      {
+        "outlet": "ABC7 Los Angeles / AP",
+        "title": "Ye attempts a comeback with sold-out SoFi Stadium concert, support from Lauryn Hill",
+        "url": "https://abc7.com/post/ye-attempts-comeback-sold-sofi-stadium-concert-support-lauryn-hill/18839675/",
+        "date": "2026-04-04",
+        "summary": "AP report framing the Good Friday show as a comeback after Ye's January apology; notes ~70,000 fans, 40+ songs over two-plus hours, the half-orb Earth stage, guests in harnesses, and quotes Ye thanking fans."
+      },
+      {
+        "outlet": "Rolling Stone",
+        "title": "Kanye West Brings Out Lauryn Hill and Travis Scott for Wild Second Night in L.A.",
+        "url": "https://www.rollingstone.com/music/music-news/kanye-west-lauryn-hill-travis-scott-los-angeles-concert-two-1235541886/",
+        "date": "2026-04-04",
+        "summary": "Recap placing Lauryn Hill's smoke-shrouded All Falls Down at the midpoint of the 70,000-capacity show (paywalled; summary from search snippet)."
+      },
+      {
+        "outlet": "TMZ",
+        "title": "Kanye West Brings Out Lauryn Hill, Travis Scott & More at Sold-Out L.A. Show",
+        "url": "https://www.tmz.com/2026/04/04/kanye-west-sofi-concert-lauryn-hill-travis-scott-perform/",
+        "date": "2026-04-04",
+        "summary": "Says the second show 'went off without a hitch' compared with Wednesday's, lists the guests and notes Bianca Censori watching from a VIP section."
+      },
+      {
+        "outlet": "HotNewHipHop",
+        "title": "Kanye West Fans Are Calling His Second SoFi Show The Greatest Concert Ever",
+        "url": "https://www.hotnewhiphop.com/987431-kanye-west-fans-second-sofi-show-greatest-concert-ever",
+        "date": "2026-04-04",
+        "summary": "Fan-reaction piece: ~45-song set with live debuts and rarities (Wolves, Believe What I Say), ending in '12 minutes of Runaway'; notes ongoing debate about Ye's standing."
+      },
+      {
+        "outlet": "InMusic Blog",
+        "title": "Kanye West SoFi Stadium Night 2 Full Setlist",
+        "url": "https://inmusicblog.com/rap/kanye-west-sofi-stadium-night-2-setlist/",
+        "date": "2026-04",
+        "summary": "Full night-two setlist with guests per song plus production notes on the rotating Earth and dome projections."
+      }
+    ],
+    "facts": [
+      "This was the originally announced date: the April 3 show was billed as Ye's 'only performance in Los Angeles' when announced around March 9, 2026; the April 1 show was added days later after presale demand (Deadline, KTLA, Complex).",
+      "The show fell on Good Friday and was the second of two sold-out SoFi nights that opened the Ye Live Concert Tour.",
+      "Ye's first Los Angeles shows since the December 2021 Free Larry Hoover benefit at the Coliseum and his first headlined US concert in nearly five years.",
+      "Live debuts that night: PUNCH DRUNK, HIGHS AND LOWS, WHITE LINES and BULLY; Wolves returned for the first time in North America since 2019.",
+      "Lauryn Hill had never performed with Ye before; Ye had publicly compared Bully to The Miseducation of Lauryn Hill.",
+      "Don Toliver guested on April 1 (Moon, E85) but not on April 3; THIS A MUST and the long Bully run were additions to night two.",
+      "Ye from stage: 'They said I'd never be back in the States. Two sold-out concerts, baby!' (AP)."
+    ],
+    "sources": [
+      "https://www.setlist.fm/setlist/ye/2026/sofi-stadium-inglewood-ca-73484685.html",
+      "https://www.setlist.fm/setlist/ye/2026/sofi-stadium-inglewood-ca-5349a3bd.html",
+      "https://en.wikipedia.org/wiki/Ye_Live_Concert_Tour",
+      "https://www.billboard.com/music/music-news/kanye-west-lauryn-hill-travis-scott-second-la-show-sofi-1236215429/",
+      "https://abc7.com/post/ye-attempts-comeback-sold-sofi-stadium-concert-support-lauryn-hill/18839675/",
+      "https://www.tmz.com/2026/04/04/kanye-west-sofi-concert-lauryn-hill-travis-scott-perform/",
+      "https://www.hotnewhiphop.com/987431-kanye-west-fans-second-sofi-show-greatest-concert-ever",
+      "https://inmusicblog.com/rap/kanye-west-sofi-stadium-night-2-setlist/",
+      "https://thescenestar.com/2026/03/09/kanye-west-ye-show-in-los-angeles-at-sofi-stadium-buy-tickets/",
+      "https://deadline.com/2026/03/ye-los-angeles-concert-1236748231/",
+      "https://ktla.com/entertainment/kanye-west-adds-2nd-sofi-stadium-show/",
+      "https://www.complex.com/music/a/treyalston/kanye-west-second-show-la-overwhelming-demand",
+      "https://www.yahoo.com/entertainment/music/articles/kanye-west-sofi-stadium-historic-132450043.html",
+      "https://www.rollingstone.com/music/music-news/kanye-west-lauryn-hill-travis-scott-los-angeles-concert-two-1235541886/",
+      "https://www.hola.com/us/celebrities/20260404893643/kanye-west-lauryn-hill-sofi-stadium/",
+      "https://en.wikipedia.org/wiki/SoFi_Stadium"
+    ],
+    "confidence": "high",
+    "gaps": [
+      "Billboard Boxscore per-night split for April 3 (only the two-night total and a Bloomberg-sourced $18M figure were found).",
+      "Rolling Stone, Variety and Deadline articles were paywalled; details from them come from search snippets.",
+      "No critical review from LA Times, Pitchfork or Consequence was found.",
+      "Exact set-by-set stage visuals beyond the Earth/Moon sphere were not documented."
+    ]
+  },
+  {
+    "date": "2026-05-02",
+    "end": "2026-05-03",
+    "event": "CORE Los Angeles",
+    "artists": [
+      "Annika Wolfe",
+      "Barbosa",
+      "Dino Lenny",
+      "Dixon",
+      "Emilija",
+      "Four Tet",
+      "Honey Dijon",
+      "John Bryars",
+      "Lake Hills",
+      "Leisan",
+      "Malugi",
+      "Mall Grab",
+      "Ønyx",
+      "Samm",
+      "Selective Response",
+      "Shmitty",
+      "sim0ne",
+      "TSHA",
+      "X CLUB.",
+      "ARTBAT",
+      "Benwal",
+      "Capoon",
+      "Corey Sizemore",
+      "Dena",
+      "Eric Prydz",
+      "Hannah Laing",
+      "Hanz",
+      "Ignez",
+      "Kevin de Vries",
+      "Kneiz",
+      "Krystal Klear",
+      "Londen Summers",
+      "Masha Mar",
+      "Mija",
+      "Nina Kraviz",
+      "Oscar and the Wolf",
+      "Reza",
+      "Things You Say",
+      "Trax Unit"
+    ],
+    "venue": {
+      "name": "Los Angeles State Historic Park",
+      "address": "1245 N Spring St, Los Angeles, CA 90012",
+      "neighborhood": "Chinatown / Downtown",
+      "city": "Los Angeles",
+      "capacity": "Open park; ~30,000 attended over the two days",
+      "type": "park",
+      "opened": "Interim park 2006; permanent park opened April 22, 2017 after a ~$20M redesign",
+      "facts": [
+        "Nicknamed 'the Cornfield' because corn spilled from rail cars once sprouted along the tracks; in 2005 artist Lauren Bon planted the whole site as 'Not a Cornfield' for one season.",
+        "The site was Southern Pacific's River Station (1876-1901), called the 'Ellis Island of Los Angeles' for arrivals from the East.",
+        "32-34 acres of mostly open grass with downtown skyline views; the Chinatown Metro A Line station is about a six-minute walk from the gates."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "Los Angeles State Historic Park",
+    "headliner": "Four Tet (Saturday) and Eric Prydz (Sunday)",
+    "tour": {
+      "name": "CORE Los Angeles 2026 (Tomorrowland's CORE, first US edition)",
+      "description": "CORE began as a stage in the forest at Tomorrowland Belgium and grew into a standalone alternative house and techno festival brand with editions in Belgium, France, Mexico, Brazil and Colombia. The Los Angeles edition, presented by Tomorrowland and Insomniac, was its US debut and followed 2026 editions in Medellin and at Tomorrowland Winter (Alpe d'Huez); a Melbourne debut followed in November 2026 and LA is confirmed to return in 2027.",
+      "album_or_release": null
+    },
+    "lineup": [
+      {
+        "name": "Four Tet",
+        "role": "headliner",
+        "set_time": "Sat 9:30 PM - 11:00 PM",
+        "stage": "CORE",
+        "notes": "Saturday closer; first CORE stage appearance. Widely cited as the weekend's standout set."
+      },
+      {
+        "name": "Dixon",
+        "role": "dj",
+        "set_time": "Sat 8:00 PM - 9:30 PM",
+        "stage": "CORE",
+        "notes": null
+      },
+      {
+        "name": "Honey Dijon",
+        "role": "dj",
+        "set_time": "Sat 6:30 PM - 8:00 PM",
+        "stage": "CORE",
+        "notes": "Also played the official Saturday afterparty at Aurora Warehouse, 10 PM - 3 AM."
+      },
+      {
+        "name": "TSHA",
+        "role": "dj",
+        "set_time": "Sat 5:30 PM - 6:30 PM",
+        "stage": "CORE",
+        "notes": null
+      },
+      {
+        "name": "Samm",
+        "role": "dj",
+        "set_time": "Sat 4:00 PM - 5:30 PM",
+        "stage": "CORE",
+        "notes": "Belgian artist"
+      },
+      {
+        "name": "Dino Lenny",
+        "role": "dj",
+        "set_time": "Sat 2:30 PM - 4:00 PM",
+        "stage": "CORE",
+        "notes": null
+      },
+      {
+        "name": "Leisan",
+        "role": "dj",
+        "set_time": "Sat 1:00 PM - 2:30 PM",
+        "stage": "CORE",
+        "notes": null
+      },
+      {
+        "name": "Mall Grab",
+        "role": "dj",
+        "set_time": "Sat 9:30 PM - 11:00 PM",
+        "stage": "Mano",
+        "notes": "Saturday Mano closer; first CORE stage appearance."
+      },
+      {
+        "name": "Malugi",
+        "role": "dj",
+        "set_time": "Sat 8:00 PM - 9:30 PM",
+        "stage": "Mano",
+        "notes": null
+      },
+      {
+        "name": "X CLUB.",
+        "role": "dj",
+        "set_time": "Sat 6:30 PM - 8:00 PM",
+        "stage": "Mano",
+        "notes": null
+      },
+      {
+        "name": "sim0ne",
+        "role": "dj",
+        "set_time": "Sat 5:00 PM - 6:30 PM",
+        "stage": "Mano",
+        "notes": null
+      },
+      {
+        "name": "Emilija",
+        "role": "dj",
+        "set_time": "Sat 2:30 PM - 5:00 PM",
+        "stage": "Mano",
+        "notes": "Belgian artist; extended 2.5-hour slot"
+      },
+      {
+        "name": "Lake Hills",
+        "role": "dj",
+        "set_time": "Sat 1:00 PM - 2:30 PM",
+        "stage": "Mano",
+        "notes": null
+      },
+      {
+        "name": "Barbosa",
+        "role": "dj",
+        "set_time": "Sat 9:30 PM - 11:00 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Selective Response",
+        "role": "dj",
+        "set_time": "Sat 8:00 PM - 9:30 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Annika Wolfe",
+        "role": "dj",
+        "set_time": "Sat 6:30 PM - 8:00 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "John Bryars",
+        "role": "dj",
+        "set_time": "Sat 5:00 PM - 6:30 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Ønyx",
+        "role": "dj",
+        "set_time": "Sat 3:30 PM - 5:00 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Tomorrowland Academy Artist",
+        "role": "dj",
+        "set_time": "Sat 2:00 PM - 3:30 PM",
+        "stage": "Origo",
+        "notes": "Unnamed slot in the published timetable"
+      },
+      {
+        "name": "Shmitty",
+        "role": "dj",
+        "set_time": "Sat 1:00 PM - 2:00 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Eric Prydz",
+        "role": "headliner",
+        "set_time": "Sun 9:00 PM - 11:00 PM",
+        "stage": "CORE",
+        "notes": "Festival closer; two-hour set; first CORE stage appearance."
+      },
+      {
+        "name": "ARTBAT",
+        "role": "dj",
+        "set_time": "Sun 7:00 PM - 9:00 PM",
+        "stage": "CORE",
+        "notes": null
+      },
+      {
+        "name": "Kevin de Vries",
+        "role": "dj",
+        "set_time": "Sun 5:00 PM - 7:00 PM",
+        "stage": "CORE",
+        "notes": null
+      },
+      {
+        "name": "Oscar and the Wolf",
+        "role": "support",
+        "set_time": "Sun 4:00 PM - 5:00 PM",
+        "stage": "CORE",
+        "notes": "Belgian live act"
+      },
+      {
+        "name": "Masha Mar",
+        "role": "dj",
+        "set_time": "Sun 2:30 PM - 4:00 PM",
+        "stage": "CORE",
+        "notes": null
+      },
+      {
+        "name": "Capoon",
+        "role": "dj",
+        "set_time": "Sun 1:00 PM - 2:30 PM",
+        "stage": "CORE",
+        "notes": "Belgian artist"
+      },
+      {
+        "name": "Nina Kraviz",
+        "role": "dj",
+        "set_time": "Sun 9:30 PM - 11:00 PM",
+        "stage": "Mano",
+        "notes": "Sunday Mano closer"
+      },
+      {
+        "name": "Hannah Laing",
+        "role": "dj",
+        "set_time": "Sun 8:00 PM - 9:30 PM",
+        "stage": "Mano",
+        "notes": "First CORE stage appearance"
+      },
+      {
+        "name": "Mija",
+        "role": "dj",
+        "set_time": "Sun 6:30 PM - 8:00 PM",
+        "stage": "Mano",
+        "notes": "First CORE stage appearance"
+      },
+      {
+        "name": "Benwal",
+        "role": "dj",
+        "set_time": "Sun 5:00 PM - 6:30 PM",
+        "stage": "Mano",
+        "notes": "Returning CORE artist"
+      },
+      {
+        "name": "Ignez",
+        "role": "dj",
+        "set_time": "Sun 3:00 PM - 5:00 PM",
+        "stage": "Mano",
+        "notes": null
+      },
+      {
+        "name": "Corey Sizemore",
+        "role": "dj",
+        "set_time": "Sun 1:00 PM - 3:00 PM",
+        "stage": "Mano",
+        "notes": null
+      },
+      {
+        "name": "Trax Unit",
+        "role": "dj",
+        "set_time": "Sun 9:30 PM - 11:00 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Hanz",
+        "role": "dj",
+        "set_time": "Sun 8:00 PM - 9:30 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Things You Say",
+        "role": "dj",
+        "set_time": "Sun 6:30 PM - 8:00 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Reza",
+        "role": "dj",
+        "set_time": "Sun 5:00 PM - 6:30 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Dena",
+        "role": "dj",
+        "set_time": "Sun 3:30 PM - 5:00 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Londen Summers",
+        "role": "dj",
+        "set_time": "Sun 2:00 PM - 3:30 PM",
+        "stage": "Origo",
+        "notes": null
+      },
+      {
+        "name": "Kneiz",
+        "role": "dj",
+        "set_time": "Sun 1:00 PM - 2:00 PM",
+        "stage": "Origo",
+        "notes": "Belgian artist"
+      },
+      {
+        "name": "Krystal Klear",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": "On the announced Sunday lineup but absent from the Festival Dust timetable; slot not confirmed."
+      }
+    ],
+    "schedule": {
+      "doors": "1:00 PM both days",
+      "show_start": "1:00 PM (first sets)",
+      "end_or_curfew": "11:00 PM both days",
+      "age_restriction": "21+ with valid government ID"
+    },
+    "setlist": null,
+    "production": [
+      "Three stages: CORE (mainstage), Mano and Origo (Beatportal).",
+      "The CORE mainstage was nearly 56 ft high and 100 ft wide in CORE's signature sculpted-face design, here a newer 'split-face' version meant to suggest openness and connection; it carried 14 water fountains, 14 water geysers, 22 bubble smoke machines and 45 fog machines (Beatportal).",
+      "Visual language was 'nature-inspired maximalism': earthy, sculptural, organic textures set against the downtown industrial skyline (Beatportal); reviewers said lighting, sound and stage transitions kept an underground aesthetic (Exron).",
+      "VIP areas offered elevated views without heavily separating the crowd; lockers, charging stations and shaded rest areas were on site (Exron, ConcertVacay).",
+      "Official Saturday afterparty: Honey Dijon at Aurora Warehouse, 10 PM - 3 AM, ticketed separately (ConcertVacay)."
+    ],
+    "tickets": {
+      "price_range": "$120 single-day GA, $210 two-day GA (Time Out); VIP single-day and two-day tiers priced higher (not found)",
+      "on_sale_date": "Presale January 29 and general on-sale January 30, 2026 (Hoodline)",
+      "seller": "Front Gate Tickets (Insomniac) / core.world; resale via AXS",
+      "sold_out": null,
+      "notes": "Tiers: GA single-day, VIP single-day, two-day GA and two-day VIP; early price tiers sold out, and by April 30 only GA single-day, VIP single-day and two-day VIP remained. VIP perks: expedited entry, dedicated viewing areas, bars, restrooms and locker access."
+    },
+    "attendance": "~30,000 over two days (Beatportal; Rave Jungle)",
+    "press": [
+      {
+        "outlet": "Beatportal",
+        "title": "CORE Los Angeles Enriches LA's Dance/Electronic Events Circuit [Review]",
+        "url": "https://www.beatportal.com/articles/1409086-core-los-angeles-enriches-la-dance-electronic-events-circuit-review",
+        "date": "2026-05-12",
+        "summary": "Positive review by Rachel Narozniak: ~30,000 attendees, 26 artists across CORE/Mano/Origo, stage specs, a 'striking sense of intimacy' and unusually fluid logistics for a first-year event."
+      },
+      {
+        "outlet": "Exron Music",
+        "title": "CORE Los Angeles delivered a weekend of pure electronic euphoria",
+        "url": "https://exronmusic.com/2026/05/11/core-los-angeles-debut-electronic-euphoria/",
+        "date": "2026-05-11",
+        "summary": "Set-by-set praise: Four Tet the weekend's most memorable set, Eric Prydz a precise atmospheric closer, with Honey Dijon, Nina Kraviz, Dixon, Mall Grab and TSHA singled out."
+      },
+      {
+        "outlet": "Rave Jungle",
+        "title": "CORE LA Recap: A Landmark Debut for Tomorrowland's Visionary Concept",
+        "url": "https://www.ravejungle.com/2026/05/06/tomorrowland-core-los-angeles-2026-recap/",
+        "date": "2026-05-06",
+        "summary": "Recap confirming ~30,000 attendance, three stages, the new split CORE logo and the 2027 return."
+      },
+      {
+        "outlet": "ConcertVacay",
+        "title": "CORE Los Angeles Lands at LA State Historic Park This Weekend. Here's Everything You Need to Know.",
+        "url": "https://concertvacay.com/news/music-news/core-la-2026-festival-guide/",
+        "date": "2026-04-30",
+        "summary": "Pre-event guide covering hours, 21+ entry rules, bag policy, ticket tiers, transit advice and the Honey Dijon afterparty."
+      },
+      {
+        "outlet": "Frank151",
+        "title": "Do Not Sleep on These Artists at CORE's US debut in Los Angeles",
+        "url": "https://frank151.com/do-not-sleep-on-these-artists-at-cores-us-debut-in-los-angeles/",
+        "date": "2026-04-26",
+        "summary": "Preview with partial set times; note that its times for Four Tet and Prydz differ by 30 minutes from the fuller Festival Dust timetable."
+      },
+      {
+        "outlet": "Hoodline",
+        "title": "Tomorrowland's Core Lands in L.A. Park With Global Techno Stars",
+        "url": "https://hoodline.com/2026/03/tomorrowland-s-core-drops-into-l-a-park-with-techno-heavyweights/",
+        "date": "2026-03-03",
+        "summary": "Announcement coverage: face-shaped stage, Insomniac partnership, Jan 29/30 on-sale, 21+."
+      },
+      {
+        "outlet": "CORE / Tomorrowland press",
+        "title": "Tomorrowland's CORE makes U.S. debut in Los Angeles with star-studded lineup and immersive stage experience",
+        "url": "https://press.core.world/tomorrowlands-core-makes-us-debut-in-los-angeles-with-star-studded-lineup-and-immersive-stage-experience",
+        "date": "2026-04-17",
+        "summary": "Official release naming first-time CORE stage artists (Four Tet, Hannah Laing, Mija, Eric Prydz, Mall Grab) and the Belgian contingent."
+      }
+    ],
+    "facts": [
+      "Presented by Tomorrowland (WEAREONE.world) with Insomniac; their second US collaboration after the UNITY residency at Sphere in Las Vegas.",
+      "First time Tomorrowland had staged CORE in the United States; the organizers' own page lists Four Tet, Eric Prydz, Mall Grab, Malugi, Nina Kraviz and Oscar and the Wolf as the standout sets and confirms a 2027 return.",
+      "Belgian artists Oscar and the Wolf, Samm, Capoon, Emilija and Kneiz were flown in as part of the Tomorrowland connection.",
+      "Set times are from the Festival Dust timetable, which matches the announced day splits; Frank151's preview placed Hannah Laing on Saturday, which conflicts with the official Sunday billing.",
+      "Entry rules: clear bags up to 12x6x12 in, empty hydration packs allowed; no professional cameras, umbrellas, chairs or blankets.",
+      "Rideshare surge pricing was expected 1-3 PM and 10:30 PM-midnight; Metro via Chinatown station was the recommended route."
+    ],
+    "sources": [
+      "https://press.core.world/tomorrowlands-core-makes-us-debut-in-los-angeles-with-star-studded-lineup-and-immersive-stage-experience",
+      "https://www.core.world/events/core-los-angeles",
+      "https://www.festivaldust.com/festivals/core-los-angeles-2026-losangelesca",
+      "https://www.beatportal.com/articles/1409086-core-los-angeles-enriches-la-dance-electronic-events-circuit-review",
+      "https://exronmusic.com/2026/05/11/core-los-angeles-debut-electronic-euphoria/",
+      "https://www.ravejungle.com/2026/05/06/tomorrowland-core-los-angeles-2026-recap/",
+      "https://www.ravejungle.com/2026/04/20/tomorrowland-core-los-angeles-2026/",
+      "https://concertvacay.com/news/music-news/core-la-2026-festival-guide/",
+      "https://frank151.com/do-not-sleep-on-these-artists-at-cores-us-debut-in-los-angeles/",
+      "https://hoodline.com/2026/03/tomorrowland-s-core-drops-into-l-a-park-with-techno-heavyweights/",
+      "https://www.timeout.com/los-angeles/music/core-los-angeles",
+      "https://corela.frontgatetickets.com/event/a38odu92pj8ud0kt",
+      "https://ra.co/events/2344165",
+      "https://en.wikipedia.org/wiki/Los_Angeles_State_Historic_Park",
+      "https://www.parks.ca.gov/pages/712/files/NEWS RELEASE -- California State Parks Opens LA State Historic Park -- April 22 2017.pdf"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "The official core.world/Insomniac set-times graphic could not be fetched; times come from the Festival Dust aggregator and partially from Frank151, which conflict by 30 minutes for the Saturday/Sunday closers.",
+      "Krystal Klear's stage and slot were not found.",
+      "VIP ticket prices and the official on-sale pricing tiers were not found (only Time Out's $120/$210 GA figures).",
+      "Design details of the Mano and Origo stages were not described in any source.",
+      "Resident Advisor event page returned 403 and could not be read."
+    ]
+  },
+  {
+    "date": "2026-05-30",
+    "end": null,
+    "event": "INJI at The Fonda",
+    "artists": [
+      "INJI"
+    ],
+    "venue": {
+      "name": "The Fonda Theatre",
+      "address": "6126 Hollywood Blvd, Los Angeles, CA 90028",
+      "neighborhood": "Hollywood",
+      "city": "Los Angeles",
+      "capacity": "1,200",
+      "type": "theatre",
+      "opened": "October 20, 1926 (as Carter DeHaven's Music Box)",
+      "facts": [
+        "Spanish Colonial Revival theatre by Morgan, Walls & Clements, later known as the Music Box, Guild, Fox and Pix; operated by Goldenvoice.",
+        "Hosted the 1927 West Coast premiere of the play Chicago with Clark Gable and Nancy Carroll; early investors included John Barrymore and King Vidor.",
+        "In 1945 Fox West Coast covered the facade in sheet metal for a Streamline Moderne remodel; the theatre has since been restored and has a rooftop deck and an upstairs Jayne Bar."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "The Fonda Theatre",
+    "headliner": "INJI",
+    "tour": {
+      "name": "SUPERLAME Tour (billed as 'this tour is superlame.')",
+      "description": "INJI's 2026 headline tour behind her debut mixtape SUPERLAME, announced November 20, 2025, with a European leg in April 2026 and a North American leg from Vancouver (May 25) to Washington DC (June 14). The Fonda show was the fifth North American date, between San Francisco's Castro Theatre (May 29) and San Diego's Music Box (May 31).",
+      "album_or_release": "SUPERLAME (debut mixtape, AWAL, October 24, 2025)"
+    },
+    "lineup": [
+      {
+        "name": "INJI",
+        "role": "headliner",
+        "set_time": "9:00 PM (advertised)",
+        "stage": null,
+        "notes": "Turkish-born, NYC-based dance-pop artist (Inci Gurun, b. 2001); Wharton graduate; viral singles GASLIGHT and BELLYDANCING."
+      }
+    ],
+    "schedule": {
+      "doors": "8:00 PM",
+      "show_start": "9:00 PM",
+      "end_or_curfew": null,
+      "age_restriction": "All ages (AXS)"
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/inji/2026/webster-hall-new-york-ny-1b4929ac.html",
+      "is_exact_date": false,
+      "note": "No setlist.fm entry exists for the May 30 Fonda show (none of the May 2026 North American dates are logged). This is the Webster Hall, New York set from June 12, 2026 on the same North American leg, two weeks later.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "intro",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "TEEN ANGST",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "ALL I WANNA DO",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "MADELINE",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "UNTZ UNTZ",
+          "notes": null
+        },
+        {
+          "n": 6,
+          "title": "BIG UP",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "ISTANBUL",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "BODEGA",
+          "notes": null
+        },
+        {
+          "n": 9,
+          "title": "EVERYTHING IS NEVER ENOUGH",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "tell you straight",
+          "notes": "jigitz cover"
+        },
+        {
+          "n": 11,
+          "title": "IN A MOOD",
+          "notes": null
+        },
+        {
+          "n": 12,
+          "title": "I WANNA FEEL IT ALL",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "Kissin My Friends",
+          "notes": "Marshmello & INJI song"
+        },
+        {
+          "n": 14,
+          "title": "Pretty People",
+          "notes": "Dillon Francis cover"
+        },
+        {
+          "n": 15,
+          "title": "Unknown title",
+          "notes": "Listed as a new song"
+        },
+        {
+          "n": 16,
+          "title": "JEFFREY",
+          "notes": null
+        },
+        {
+          "n": 17,
+          "title": "BELLYDANCING",
+          "notes": null
+        },
+        {
+          "n": 18,
+          "title": "U WON'T!",
+          "notes": null
+        },
+        {
+          "n": 19,
+          "title": "GOOD TIME GIRL",
+          "notes": null
+        },
+        {
+          "n": 20,
+          "title": "American Boy",
+          "notes": "Estelle cover"
+        },
+        {
+          "n": 21,
+          "title": "GASLIGHT",
+          "notes": "Closer"
+        }
+      ],
+      "encore": [],
+      "duration_min": null
+    },
+    "production": [],
+    "tickets": {
+      "price_range": "Face value not found; resale listings from about $24 (StubHub) to $55+ (Vivid Seats)",
+      "on_sale_date": "Artist presale Wed November 19, 2025 10 AM ET (code UNTZUNTZ); general on-sale Fri November 21, 2025 10 AM local",
+      "seller": "AXS (Goldenvoice) via thefonda.com / injiverse.net",
+      "sold_out": null,
+      "notes": "AXS listed an artist VIP package. The Fonda sells Jayne Bar and Premium Balcony Couch upgrades."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "BroadwayWorld",
+        "title": "INJI to Embark on the SUPERLAME Tour in 2026",
+        "url": "https://www.broadwayworld.com/bwwmusic/article/INJI-to-Embark-on-the-SUPERLAME-Tour-in-2026-20251120",
+        "date": "2025-11-20",
+        "summary": "Tour announcement with the full European and North American routing, describing SUPERLAME as a 'sonic confetti bomb' of cathartic anthems; INJI: 'We're turning it up a notch for 2026.'"
+      },
+      {
+        "outlet": "Soap Central",
+        "title": "INJI 2026 North American tour: Presale code, dates, venues, and more explored",
+        "url": "https://www.soapcentral.com/entertainment/news-inji-2026-north-american-tour-presale-code-dates-venues-and-more-explored",
+        "date": "2025-11-20",
+        "summary": "Presale (UNTZUNTZ, Nov 19) and general on-sale (Nov 21) details plus the 12-date North American routing."
+      },
+      {
+        "outlet": "Exclaim!",
+        "title": "INJI Plots 2026 North American Tour",
+        "url": "https://exclaim.ca/music/article/inji-plots-2026-north-american-tour",
+        "date": "2025-11",
+        "summary": "Canadian coverage of the North American leg announcement."
+      }
+    ],
+    "facts": [
+      "Promoted by Goldenvoice; AXS listed the show as a 9:00 PM, all-ages date with an 8:00 PM door.",
+      "INJI trained in music theory and classical piano at the Istanbul University State Conservatory from age 7 before studying at Wharton; GASLIGHT (2022) broke on TikTok and BELLYDANCING passed 56.5M streams.",
+      "Later in 2026 she played Electric Forest, Lollapalooza (Aug 2), Red Rocks (Sep 10) and opened for Zara Larsson in Istanbul, and released the single Bright Ideas (July 31, 2026).",
+      "Setlist.fm logs for the same leg show BELLYDANCING being replayed by audience request at some shows and a then-unreleased new song in the set.",
+      "The only named support on this leg was Mayv at the 9:30 Club (DC); no opener was found for the Fonda date."
+    ],
+    "sources": [
+      "https://www.axs.com/events/1225627/inji-tickets?skin=thefonda",
+      "https://www.bandsintown.com/e/1037173572-inji-at-the-fonda-theatre",
+      "https://www.broadwayworld.com/bwwmusic/article/INJI-to-Embark-on-the-SUPERLAME-Tour-in-2026-20251120",
+      "https://www.soapcentral.com/entertainment/news-inji-2026-north-american-tour-presale-code-dates-venues-and-more-explored",
+      "https://exclaim.ca/music/article/inji-plots-2026-north-american-tour",
+      "https://www.setlist.fm/setlist/inji/2026/webster-hall-new-york-ny-1b4929ac.html",
+      "https://www.setlist.fm/search?query=inji",
+      "https://en.wikipedia.org/wiki/Inji_(singer)",
+      "https://en.wikipedia.org/wiki/The_Fonda_Theatre",
+      "https://www.ticketmaster.com/inji-tickets/artist/3019441",
+      "https://www.vividseats.com/inji-tickets-los-angeles-fonda-theatre-5-30-2026--concerts-rock/production/6311079"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No setlist for the Fonda night itself on setlist.fm (no May 2026 North American dates are logged).",
+      "Support act for the Los Angeles date not found.",
+      "Face-value ticket price and sellout status not found (AXS page blocked).",
+      "No review or photos of the show found; no production notes."
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "end": null,
+    "event": "Subculture Pride 2026",
+    "artists": [
+      "2Charm",
+      "Blood Sisters",
+      "CallMeSpice",
+      "DEV",
+      "Elijah Daniel",
+      "Hannah Diamond",
+      "Hoso",
+      "Izzy Camina",
+      "Loris",
+      "Mel 4Ever",
+      "Miles Jai",
+      "Miss Luxury",
+      "Niohuru X",
+      "Petal Supply",
+      "Uffie",
+      "Ve’ondre"
+    ],
+    "venue": {
+      "name": "Catch One",
+      "address": "4067 W Pico Blvd, Los Angeles, CA 90019",
+      "neighborhood": "Arlington Heights / Mid-City",
+      "city": "Los Angeles",
+      "capacity": "Multi-room; listings range from ~2,000 to 2,500 total (Disco room 800-1,200; Underground 350-450; Noise + Tavern 350; Jewel's Room 275; Apartment 155)",
+      "type": "club",
+      "opened": "1973 (as Jewel's Catch One)",
+      "facts": [
+        "Opened by Jewel Thais-Williams as one of the first Black-owned gay discos in the US and for decades LA's main Black gay dance bar; regulars and performers included Sylvester, Donna Summer, Whitney Houston and Madonna.",
+        "Sold in November 2015 to Steve and Mitch Edelson, briefly renamed Union, then restored to the Catch One name.",
+        "Five event spaces over two levels plus a patio, which is why Subculture can run '4 stages' in one venue; the party has used room names like The Netherworld, The Sanctum and The Void."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "Catch One",
+    "headliner": "Hannah Diamond (top-billed on a 16-plus-artist bill)",
+    "tour": {
+      "name": "Subculture (monthly queer rave series) - Pride 2026 edition",
+      "description": "Subculture is a queer-centric hyperpop/electro/pop rave series founded by Gannon Baxter and Tyler Shepherd around 2018-19 at El Rincon in Santa Ana, which survived the pandemic as weekly Zoom raves and now runs monthly parties in Los Angeles (usually Catch One) and New York. Pride 2026 was billed as its biggest Pride yet: '40+ global artists, 4 stages, 2-story full venue takeover.' Elijah Daniel is a regular performer on Subculture bills (he played b2b Venessa Michaels at Pride 2025) but the published sources credit Baxter and Shepherd, not Daniel, as the founders.",
+      "album_or_release": null
+    },
+    "lineup": [
+      {
+        "name": "Hannah Diamond",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "PC Music-associated artist; also played Subculture Pride 2025."
+      },
+      {
+        "name": "Izzy Camina",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "DEV",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Previously closed Subculture's 2024 anniversary at Catch One."
+      },
+      {
+        "name": "Uffie",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Ve'ondre",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Returned from Pride 2025 (with The Pom-Poms)."
+      },
+      {
+        "name": "2Charm",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Petal Supply",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "A staple since Subculture's Zoom era."
+      },
+      {
+        "name": "Mel 4Ever",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Miss Luxury",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "CallMeSpice",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Niohuru X",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Hoso",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Loris",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Miles Jai",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Also on the Pride 2025 bill."
+      },
+      {
+        "name": "Elijah Daniel",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": "Comedian/producer and Subculture regular; billed alongside the DJs."
+      },
+      {
+        "name": "Blood Sisters",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Secret guests",
+        "role": "guest",
+        "set_time": null,
+        "stage": null,
+        "notes": "DICE listing promised unannounced guests; names not found."
+      }
+    ],
+    "schedule": {
+      "doors": "8:45 PM (Partiful listing header; description says 9 PM)",
+      "show_start": "9:00 PM",
+      "end_or_curfew": "2:00 AM",
+      "age_restriction": null
+    },
+    "setlist": null,
+    "production": [
+      "Billed as '40+ global artists, 4 stages, 2 story full venue takeover' with live performances and DJ sets (DICE/Partiful).",
+      "For comparison, Pride 2025 at the same venue used 5 stages across 7 rooms with 40+ artists (Subculture's own recap)."
+    ],
+    "tickets": {
+      "price_range": "From $27.06 on DICE (an $11.33 tier also shown, likely early presale)",
+      "on_sale_date": null,
+      "seller": "DICE (link.dice.fm/pride26) via subculture.party",
+      "sold_out": null,
+      "notes": "Ticket required for entry; Partiful page used as the RSVP/announce page (80 'went')."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Rolling Stone",
+        "title": "The Future of Club Life is a Hyperpop Rave Called Subculture",
+        "url": "https://www.rollingstone.com/music/music-features/subculture-hyperpop-rave-club-party-1234683416/",
+        "date": "2022",
+        "summary": "Background feature on the Subculture party series and its hyperpop rave at Catch One (paywalled; not about the 2026 edition)."
+      },
+      {
+        "outlet": "Paper",
+        "title": "Subculture Party Is Taking Over",
+        "url": "https://www.papermag.com/subculture-party-rave-2657815402.html",
+        "date": "2022-08-05",
+        "summary": "Interview with founders Gannon Baxter and Tyler Shepherd on starting the party at El Rincon in Santa Ana, moving to weekly Zoom raves in the pandemic, and expanding to LA, NYC and Chicago."
+      },
+      {
+        "outlet": "Midbrow",
+        "title": "A Question For The (Sub)Culture",
+        "url": "https://midbrow.org/a-question-for-the-sub-culture/",
+        "date": "2024-10-22",
+        "summary": "Report from Subculture's six-year anniversary at Catch One describing the multi-room format (Netherworld, Sanctum, Void) and sets by Kreayshawn, Petal Supply and DEV."
+      },
+      {
+        "outlet": "Subculture (own site)",
+        "title": "Subculture Pride 2025 LA Hannah Diamond, Cortisa Star, Kelly, Ve'ondre & The Pom-Poms & More.",
+        "url": "https://www.subcultureparty.com/post/subculture-pride-2025-recap",
+        "date": "2025-06-24",
+        "summary": "Organizer recap of the previous year's Pride at Catch One (5 stages, 7 rooms, 40+ artists) including an Elijah Daniel b2b Venessa Michaels set."
+      }
+    ],
+    "facts": [
+      "Lineup as published on DICE: Hannah Diamond, Izzy Camina, DEV, Uffie, Ve'ondre, 2Charm, Petal Supply, Mel 4ever, Miss Luxury, Callmespice, Niohuru X, Hoso, Loris, Miles Jai, Elijah Daniel, Blood Sisters plus secret guests, matching the list supplied.",
+      "Partiful tagline: 'slutty, sleazy, loud'; the event was described as Subculture's biggest Pride yet.",
+      "Subculture's 2026 Catch One calendar also included 1-800-Heart-Destroyers (Feb 21), spring26 (Mar 22), Spring Breaker$ (Apr 18) and a Community Guidelines rave (Aug 16).",
+      "Subculture describes itself as 'the pulse of the underground', playing electro, techno, dance, pop and drag."
+    ],
+    "sources": [
+      "https://partiful.com/e/F1er3B8WBAtpbYC2oSmz",
+      "https://dice.fm/promoters/subculture-party-52al?lng=en",
+      "https://dice.fm/artist/hannah-diamond-6d938?lng=en-US",
+      "https://www.subcultureparty.com/",
+      "https://www.subcultureparty.com/post/subculture-pride-2025-recap",
+      "https://www.papermag.com/subculture-party-rave-2657815402.html",
+      "https://midbrow.org/a-question-for-the-sub-culture/",
+      "https://www.rollingstone.com/music/music-features/subculture-hyperpop-rave-club-party-1234683416/",
+      "https://en.wikipedia.org/wiki/Jewel%27s_Catch_One",
+      "https://www.eventective.com/los-angeles-ca/catch-one-entertainment-event-space-670173.html",
+      "https://secretlosangeles.com/catch-one-arlington-heights-los-angeles-club/"
+    ],
+    "confidence": "low",
+    "gaps": [
+      "No set times or room/stage assignments were published anywhere reachable; the DICE event page itself returned 403.",
+      "No recap, review, photos or attendance figure for the 2026 edition was found (Subculture's site had no 2026 post indexed).",
+      "Age restriction not stated on the listings found.",
+      "Which acts played live vs. DJ sets, and the identity of the 'secret guests', were not found.",
+      "The brief's description of Subculture as Elijah Daniel's party is not supported by sources; Paper and Midbrow name Gannon Baxter and Tyler Shepherd as founders."
+    ]
+  },
+  {
+    "date": "2026-08-15",
+    "end": null,
+    "event": "Electric Feels",
+    "artists": [],
+    "venue": {
+      "name": "Neumos",
+      "address": "925 E Pike St, Seattle, WA 98122",
+      "neighborhood": "Capitol Hill (Pike/Pine)",
+      "city": "Seattle",
+      "capacity": "~650-750 (sources vary)",
+      "type": "club",
+      "opened": "1992/1994 as Moe's Mo'Roc'N Cafe; relaunched as Neumos ('New Moe's') in 2003",
+      "facts": [
+        "The room began as Moe's Mo'Roc'N Cafe, which hosted early Seattle shows by Oasis, Radiohead, No Doubt and Garbage; the free Radiohead show nearly caused a crowd rush.",
+        "It reopened as Neumos in 2003 and got a major lighting and sound overhaul in 2017; the smaller Barboza room sits downstairs in the same complex.",
+        "Architectural features from the old Moe's were bought by the Experience Music Project (now MoPOP)."
+      ]
+    },
+    "city": "Seattle",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "Neumos",
+    "headliner": "Electric Feels (DJ party, DJs not named)",
+    "tour": {
+      "name": "Electric Feels: Indie Rock + Electronic Dance Party",
+      "description": "Electric Feels is a touring indie rock + indie dance DJ party that started in Los Angeles (produced by Loud Village; early editions ran at the Short Stop in Echo Park in 2018). DJs play tracks by acts like Tame Impala, MGMT, The Killers, Phoenix, Daft Punk, Justice, LCD Soundsystem and Odesza, with stage production and a 'party with a festival feel'. The Seattle stop at Neumos on Sat Aug 15, 2026 followed the party's Aug 1, 2025 Seattle edition at The Showbox and sat in a 2026 run that also hit Chicago (Mar 7), LA (Aug 29) and more.",
+      "album_or_release": null
+    },
+    "lineup": [
+      {
+        "name": "Electric Feels DJs",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": "No individual DJ names were published on any listing found (Neumos, AXS, Discotech, ma.to, electricfeelsparty.com)."
+      }
+    ],
+    "schedule": {
+      "doors": "9:00 PM (Neumos page lists 9:30 PM as event time)",
+      "show_start": "~9:30-10:00 PM",
+      "end_or_curfew": "~2:00 AM (per ma.to listing)",
+      "age_restriction": "21+"
+    },
+    "setlist": null,
+    "production": [
+      "Electric Feels bills itself as an 'experience-driven' dance party with stage production, DJs and special guests rather than a plain club night (electricfeelsparty.com)."
+    ],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": null,
+      "seller": "AXS (via neumos.com)",
+      "sold_out": null,
+      "notes": "Tickets nonrefundable; listed as a Neumos || Barboza presentation."
+    },
+    "attendance": null,
+    "press": [],
+    "facts": [
+      "Event title on the Neumos/AXS listing: 'Electric Feels : Indie Rock + Electronic Dance Party', Saturday Aug 15, 2026.",
+      "The party's stated mantra is 'good music and good vibes'; its 2025 Seattle edition (Aug 1, 2025) was at The Showbox, so 2026 moved it to the smaller Neumos.",
+      "Electric Feels is produced by LA company Loud Village (booking via Sequel Music Group); it also runs a 'Riot Fest presents' Chicago edition."
+    ],
+    "sources": [
+      "https://www.neumos.com/events/detail/electric-feels-indie-rock-electronic-dance-party-tickets-1511352",
+      "https://www.axs.com/events/1511352/electric-feels-indie-rock-electronic-dance-party-tickets?skin=neumos",
+      "https://app.discotech.me/events/38237668-electric-feels-indie-rock-electronic-dance-party-at-neumos",
+      "https://ma.to/event/electric-feels-16-aug-2026",
+      "https://do206.com/events/2026/8/15/electric-feels-indie-rock-electronic-dance-party-tickets",
+      "https://electricfeelsparty.com/about/",
+      "https://electricfeelsparty.com/events/8-1-25-seattle/",
+      "https://riotfest.org/event/electric-feels-indie-rock-electronic-dance-party/",
+      "https://twitter.com/loudvillage/status/953464449435774976",
+      "https://www.neumos.com/history",
+      "https://capitolhillseattle.com/2014/01/neumos-and-old-moes-celebrates-20-years-of-pikepine-nightlife-history",
+      "https://seattlemag.com/music/best-live-music-venues-seattle/",
+      "https://www.lonelyplanet.com/articles/guide-to-seattle-music-venues"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "Names of the DJs who played the Seattle date (no listing names them).",
+      "Ticket price (AXS/do206 pages blocked fetching; Neumos page does not show it).",
+      "Any review, photos or attendance figure for this specific night.",
+      "Exact founding year of Electric Feels (earliest trace found is a Jan 2018 Loud Village tweet)."
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "end": null,
+    "event": "Passion Pit: The Pretty Penny Tour",
+    "artists": [
+      "Passion Pit",
+      "Arden Jones"
+    ],
+    "venue": {
+      "name": "The Bellwether",
+      "address": "333 S Boylston St, Los Angeles, CA 90017",
+      "neighborhood": "Westlake / edge of Downtown LA",
+      "city": "Los Angeles",
+      "capacity": "1,500 main room (venue site); 1,600 widely reported",
+      "type": "theatre / ballroom club",
+      "opened": "July 11, 2023 (Phantogram opened it)",
+      "facts": [
+        "Run by Teragram Presents' Michael Swier with Another Planet Entertainment; it is the only independently promoted venue of its size in LA.",
+        "The 45,000 sq ft building was previously Prince's nightclub Glam Slam in the 1990s; a multi-year renovation removed sightline-blocking pillars and added a geometric ceiling structure.",
+        "Main room has a custom wood dance floor, 270-degree balcony and d&b sound system; the upstairs Looking Glass Lounge is a paid-upgrade VIP area with its own entrance and bar. Venue is cashless."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "The Bellwether",
+    "headliner": "Passion Pit",
+    "tour": {
+      "name": "The Pretty Penny Tour",
+      "description": "Passion Pit's 2026 North American summer tour, announced March 17, 2026, ran June 6 (Middle Waves Festival, Fort Wayne) to Los Angeles, with festival stops at Bonnaroo, Summerfest and Electric Forest. It accompanied the announced seven-song 'Pretty Penny' EP, billed as a companion piece to the band's 2008 debut EP 'Chunk of Change'. Aug 18 at The Bellwether was the announced closing date; Aug 19 was a second LA night added afterward and became the actual tour finale; both nights sold out.",
+      "album_or_release": "Pretty Penny (EP, announced March 2026; release date not announced as of July 2026)"
+    },
+    "lineup": [
+      {
+        "name": "Passion Pit",
+        "role": "headliner",
+        "set_time": "~9:00 PM (Aug 18 started 9:05 PM and ran to 10:45 PM; no exact time logged for Aug 19)",
+        "stage": null,
+        "notes": "Live band: Michael Angelakos (vocals/synths, Roland JUNO-60), Giuliano Pizzulo (guitar/samples/synths), Eric Scullin (bass/synths), Denzel Cox (organs/synths), Ben Barter (drums/drum machine). All-analog synth setup, no backing tracks (Paste)."
+      },
+      {
+        "name": "Arden Jones",
+        "role": "support",
+        "set_time": "~8:00 PM (per Aug 18 setlist.fm log)",
+        "stage": null,
+        "notes": "Bay Area-raised, LA-based pop/hip-hop artist performing with mic and soundboard over tracks; set included a cover of Phoenix's '1901' and 'mr. sunshine'/'Someone New'."
+      }
+    ],
+    "schedule": {
+      "doors": "7:00 PM (listings say 8:00 PM event time; setlist.fm Aug 18 log gives doors 7:00 PM)",
+      "show_start": "Arden Jones ~8:00 PM; Passion Pit ~9:00 PM",
+      "end_or_curfew": "~11:00 PM (JamBase calendar end time)",
+      "age_restriction": null
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/passion-pit/2026/the-bellwether-los-angeles-ca-53738b45.html",
+      "is_exact_date": true,
+      "note": "setlist.fm entry for Aug 19, 2026 (6 users marked attended; last edited Aug 20, 2026). Identical to Aug 18 except the finale added a 'Sleepyhead' reprise. 'Everything's Stephanie', 'Remembering You' and 'To Mend Two Broken Vessels' are new Pretty Penny EP songs.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "The Reeling",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "Make Light",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Where the Sky Hangs",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "Moth's Wings",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "Everything's Stephanie",
+          "notes": "new song, opener of the Pretty Penny EP"
+        },
+        {
+          "n": 6,
+          "title": "Take a Walk",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "Balcony",
+          "notes": "listed as 'Once Upon Your Balcony' on Aug 18"
+        },
+        {
+          "n": 8,
+          "title": "Constant Conversations",
+          "notes": null
+        },
+        {
+          "n": 9,
+          "title": "Remembering You",
+          "notes": "new song"
+        },
+        {
+          "n": 10,
+          "title": "I'll Be Alright",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "Brothers to the End",
+          "notes": null
+        },
+        {
+          "n": 12,
+          "title": "Carried Away",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "Little Secrets",
+          "notes": null
+        },
+        {
+          "n": 14,
+          "title": "Sleepyhead",
+          "notes": null
+        }
+      ],
+      "encore": [
+        {
+          "n": 1,
+          "title": "To Mend Two Broken Vessels",
+          "notes": "Michael Angelakos solo acoustic; new EP closer (full title 'To Mend Two Broken Vessels with a Single Cherry Tree')"
+        },
+        {
+          "n": 2,
+          "title": "Smile Upon Me",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Alone (On Ice!) / Sleepyhead",
+          "notes": "Sleepyhead reprise tacked onto the closer"
+        }
+      ],
+      "duration_min": 100
+    },
+    "production": [
+      "Stage crowded with roughly a dozen synthesizers and soundboards and about six guitars; Angelakos sang mostly from a stool behind a tower of synths wearing headphones, with colorful swirling lights (Get Some Magazine).",
+      "Review described a more music-focused, less dance-heavy performance than past Passion Pit shows, while the crowd formed its own dance pits across the floor.",
+      "Encore opened with Angelakos alone on acoustic guitar for the new ballad 'To Mend Two Broken Vessels'."
+    ],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": "2026-03-18 (general on sale for the tour)",
+      "seller": "Ticketmaster / Live Nation (AXS also listed)",
+      "sold_out": true,
+      "notes": "Both Bellwether nights reported sold out (Get Some Magazine). Looking Glass Lounge upgrade sold separately."
+    },
+    "attendance": "Sold out (~1,500 capacity room); no official figure published",
+    "press": [
+      {
+        "outlet": "Get Some Magazine",
+        "title": "Passion Pit Bring Nostalgic Pop Joy to 2 Sold-Out Nights at Bellwether",
+        "url": "https://getsomemagazine.com/blog/passion-pit-bring-nostalgic-pop-joy-to-2-sold-out-nights-at-bellwether",
+        "date": "2026-08-25",
+        "summary": "Kat Manos reviews the two-night LA stand as a euphoric synth-pop nostalgia celebration, praising Arden Jones's opening set and noting Angelakos's synth-tower setup and tongue-out singing even if he danced less than before."
+      },
+      {
+        "outlet": "Consequence",
+        "title": "Passion Pit Announce 2026 Summer Tour, Tease New EP",
+        "url": "https://consequence.net/2026/03/passion-pit-summer-2026-tour-new-ep/",
+        "date": "2026-03-18",
+        "summary": "Tour announcement naming the Pretty Penny EP as a companion to Chunk of Change and listing Aug 18 at The Bellwether as the closing date."
+      },
+      {
+        "outlet": "Pollstar",
+        "title": "Passion Pit Announce North American Summer Tour",
+        "url": "https://news.pollstar.com/2026/03/17/passion-pit-announce-north-american-summer-tour/",
+        "date": "2026-03-17",
+        "summary": "Full date list and March 18 on-sale; notes the EP marks two decades since Chunk of Change and will be the first material recorded with the full band."
+      },
+      {
+        "outlet": "Paste",
+        "title": "Passion Pit's next chapter: 'I didn't think I'd ever feel excited about this'",
+        "url": "https://www.pastemagazine.com/music/passion-pit/passion-pit-interview-july-2026",
+        "date": "2026-07-13",
+        "summary": "Grant Sharples interview mid-tour: seven-song EP with no release date yet, all-analog live rig with no backing tracks, and most new songs already being played live."
+      }
+    ],
+    "facts": [
+      "Aug 19 was the second LA night; the original announcement listed only Aug 18 as the tour closer, making Aug 19 the final show of the Pretty Penny Tour.",
+      "The tour marked roughly a decade since the band's last album Tremendous Sea of Love (2017) and two decades since Chunk of Change (2008).",
+      "Arden Jones's set included a cover of Phoenix's '1901' (setlist.fm/JamBase) and closed with 'Someone New'."
+    ],
+    "sources": [
+      "https://www.setlist.fm/setlist/passion-pit/2026/the-bellwether-los-angeles-ca-53738b45.html",
+      "https://www.setlist.fm/setlist/passion-pit/2026/the-bellwether-los-angeles-ca-37389bb.html",
+      "https://www.setlist.fm/setlists/passion-pit-2bd7c892.html",
+      "https://www.jambase.com/show/passion-pit-the-bellwether-20260819",
+      "https://www.ticketmaster.com/passion-pit-the-pretty-penny-tour-los-angeles-california-08-19-2026/event/0900648AA4ED926B",
+      "https://www.livenation.com/event/vv170Z_FGkn0D_al/passion-pit-the-pretty-penny-tour",
+      "https://getsomemagazine.com/blog/passion-pit-bring-nostalgic-pop-joy-to-2-sold-out-nights-at-bellwether",
+      "https://consequence.net/2026/03/passion-pit-summer-2026-tour-new-ep/",
+      "https://news.pollstar.com/2026/03/17/passion-pit-announce-north-american-summer-tour/",
+      "https://www.pastemagazine.com/music/passion-pit/passion-pit-interview-july-2026",
+      "https://www.jambase.com/article/passion-pit-tour-dates-2026-pretty-penny",
+      "https://thebellwetherla.com/",
+      "https://lamag.com/music/music-venue-los-angeles-bellwether-location-capacity-schedule/",
+      "https://mixmag.net/read/new-1600-capacity-music-venue-opens-los-angeles-the-bellwether-news",
+      "https://news.pollstar.com/2023/07/11/the-bellwether-l-a-s-new-music-venue-is-ready-for-its-close-up/",
+      "https://tickets.songkick.com/concerts/43115579-passion-pit-at-bellwether",
+      "https://en.wikipedia.org/wiki/Arden_Jones"
+    ],
+    "confidence": "high",
+    "gaps": [
+      "Face-value ticket price range (Ticketmaster/Live Nation pages could not be fetched).",
+      "Age restriction for the Bellwether show.",
+      "Exact set start/end times for Aug 19 (only Aug 18 was timed on setlist.fm).",
+      "Date the second night (Aug 19) was added and whether the Pretty Penny EP has been released since July 2026."
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "end": null,
+    "event": "TWE: Welcome Back 2026",
+    "artists": [
+      "Aminé",
+      "Luna Day",
+      "Selma Eriksen",
+      "Sophia Jane Condon"
+    ],
+    "venue": {
+      "name": "McCarthy Quad, USC University Park Campus",
+      "address": "McCarthy Quad, University of Southern California, Los Angeles, CA 90089",
+      "neighborhood": "University Park / Exposition Park area",
+      "city": "Los Angeles",
+      "capacity": null,
+      "type": "park / outdoor campus lawn",
+      "opened": "c. 2002 (completed as a park-like space between Leavey and Doheny libraries)",
+      "facts": [
+        "The lawn between Doheny Memorial Library and Leavey Library was funded by USC trustee Kathleen Leavey McCarthy and the Thomas and Dorothy Leavey Foundation, which also gave the lead gift for Leavey Library (opened 1994).",
+        "It is USC's main outdoor event lawn, hosting Welcome Back, the SPARK! arts festival (held there the night before, Aug 20, 2026), Springfest and the Involvement Fair."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "McCarthy Quad, USC",
+    "headliner": "Aminé",
+    "tour": {
+      "name": "Trojan Welcome Experience (TWE) - Welcome Back Concert 2026",
+      "description": "Welcome Back is the USC Concerts Committee's annual free kickoff concert that closes the Trojan Welcome Experience (USC's welcome-week programming for new and returning students). The 2026 edition on Friday Aug 21 put Grammy-nominated Portland rapper Aminé on McCarthy Quad with three USC student openers; past editions have featured Pi'erre Bourne (2023).",
+      "album_or_release": "Aminé's most recent album was 13 Months of Sunshine (2025); the date was a one-off campus booking, not part of a tour."
+    },
+    "lineup": [
+      {
+        "name": "Aminé",
+        "role": "headliner",
+        "set_time": null,
+        "stage": "McCarthy Quad main stage",
+        "notes": "Chosen by the committee for his crowd interaction and energy; visuals described as 'very colorful, very inviting' (Daily Trojan)."
+      },
+      {
+        "name": "Luna Day",
+        "role": "support",
+        "set_time": null,
+        "stage": "McCarthy Quad main stage",
+        "notes": "USC Thornton alum (pop performance, Class of 2026), alternative pop; crowd sang along to 'Psychosweet'."
+      },
+      {
+        "name": "Selma Eriksen",
+        "role": "support",
+        "set_time": null,
+        "stage": "McCarthy Quad main stage",
+        "notes": "Freshman from Trondheim, Norway (popular music performance); her USC debut, closed with her new single 'Love Me'."
+      },
+      {
+        "name": "Sophia Jane Condon",
+        "role": "support",
+        "set_time": null,
+        "stage": "McCarthy Quad main stage",
+        "notes": "Senior, popular music performance; played a 35-minute set with her band in front of a visual backdrop."
+      }
+    ],
+    "schedule": {
+      "doors": "6:00 PM (EngageSC lists 6-10 PM; Daily Trojan preview said 5-10 PM)",
+      "show_start": null,
+      "end_or_curfew": "10:00 PM",
+      "age_restriction": "Current USC students only; free with EngageSC RSVP and individual QR code"
+    },
+    "setlist": null,
+    "production": [
+      "Aminé's set ran with colorful projected visuals; student openers also had visuals behind them, which Condon said made it 'feel kind of like a festival'.",
+      "Organizers told the Daily Trojan production was the hardest part: coordinating production partners, USC safety policy and internal logistics."
+    ],
+    "tickets": {
+      "price_range": "Free",
+      "on_sale_date": "2026-08-07 (RSVP opened 1 PM on EngageSC)",
+      "seller": "EngageSC (USC)",
+      "sold_out": null,
+      "notes": "Open only to current USC students; each attendee needed their own QR code."
+    },
+    "attendance": "'Hundreds' with the quad described as packed (Daily Trojan)",
+    "press": [
+      {
+        "outlet": "Daily Trojan",
+        "title": "Hundreds flock to McCarthy Quad for Welcome Back",
+        "url": "https://dailytrojan.com/2026/08/26/hundreds-flock-to-mccarthy-quad-for-welcome-back/",
+        "date": "2026-08-26",
+        "summary": "Photo-led recap by Felix Hwangbo (photos Luis Ochea): doors at 6 PM, three all-female student openers, Aminé's colorful set, and organizer quotes from co-executive director Avani Khorana and co-director Kaylie Wu on booking within budget."
+      },
+      {
+        "outlet": "Daily Trojan",
+        "title": "Five things to do between moving in and starting classes at USC",
+        "url": "https://dailytrojan.com/2026/08/19/five-things-to-do-before-starting-classes/",
+        "date": "2026-08-19",
+        "summary": "Preview listing the free Aug 21 Welcome Back concert on McCarthy Quad with student bands and Grammy-nominated rapper Aminé."
+      },
+      {
+        "outlet": "Daily Trojan",
+        "title": "Freshman artist Selma Eriksen charms USC",
+        "url": "https://dailytrojan.com/2026/09/23/freshman-artist-selma-eriksen-charms-usc/",
+        "date": "2026-09-23",
+        "summary": "Profile of the Norwegian freshman whose USC debut was opening for Aminé at Welcome Back; she recalled screaming and tears in the crowd."
+      }
+    ],
+    "facts": [
+      "The three openers were all women, which co-director Kaylie Wu said was not deliberate but welcome given that past headliners were mostly men.",
+      "Khorana said students' requested headliners usually exceed the committee's budget, so it books artists in a similar lane at a smaller scale; Aminé was picked for his high-energy stage presence.",
+      "Aminé (Portland, OR) broke out with the 6x platinum single 'Caroline' (2016); his 2025 album 13 Months of Sunshine is named for the 13-month Ethiopian calendar.",
+      "Welcome Back fell on the Friday before fall classes began, one night after SPARK! (Visions and Voices' arts kickoff) on the same quad."
+    ],
+    "sources": [
+      "https://engage.usc.edu/web/rsvp_boot?id=412060",
+      "https://dailytrojan.com/2026/08/26/hundreds-flock-to-mccarthy-quad-for-welcome-back/",
+      "https://dailytrojan.com/2026/08/19/five-things-to-do-before-starting-classes/",
+      "https://dailytrojan.com/2026/09/23/freshman-artist-selma-eriksen-charms-usc/",
+      "https://www.concertarchives.org/venues/mccarthy-quad-usc",
+      "https://calendar.usc.edu/event/spark2026",
+      "https://www.trojans360.com/trojans360posts/trojan-welcome-experience-brings-new-students-into-the-trojan-community",
+      "https://dailytrojan.com/2025/01/24/luna-day-illuminates-the-music-world/",
+      "https://visionsandvoices.usc.edu/spark-2024/",
+      "https://today.usc.edu/kathleen-leavey-mccarthy-usc-alumni-award/",
+      "https://libraries.usc.edu/locations/leavey-library/leavey-library-history",
+      "https://news.livenationentertainment.com/news/amine-announces-north-american-united-kingdom-european-tour"
+    ],
+    "confidence": "high",
+    "gaps": [
+      "Set times and running order of the four acts (Daily Trojan did not give them).",
+      "Aminé's setlist (no setlist.fm entry found for this date).",
+      "Exact attendance figure and McCarthy Quad event capacity.",
+      "Date Aminé was announced as headliner (RSVP opened Aug 7, 2026).",
+      "Confirmed McCarthy Quad dedication year (2002 comes from a scanned USC newsletter fragment)."
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "end": null,
+    "event": "Subculture: REBLOG",
+    "artists": [],
+    "venue": {
+      "name": "Catch One",
+      "address": "4067 W Pico Blvd, Los Angeles, CA 90019",
+      "neighborhood": "Arlington Heights / Mid-City",
+      "city": "Los Angeles",
+      "capacity": null,
+      "type": "club (multi-room)",
+      "opened": "1973 as Jewel's Catch One",
+      "facts": [
+        "Opened in 1973 by Jewel Thais-Williams as Jewel's Catch One, one of the first Black discos in the US and long LA's main Black gay bar; it hosted Sylvester, Whitney Houston and Madonna and is the subject of the 2016 documentary 'Jewel's Catch One'.",
+        "Housed in a 1925 Mediterranean Revival building with multiple dance floors and bars; sold to Steve and Mitch Edelson in late 2015, renamed Union, then rebranded back to Catch One in October 2018. Designated an LA Historic-Cultural Monument in 2024.",
+        "Subculture's nights use its separate rooms, which the party names (e.g. The Netherworld, The Sanctum, The Void)."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "Catch One",
+    "headliner": "Subculture (party series; no single headliner billed)",
+    "tour": {
+      "name": "Subculture - REBLOG",
+      "description": "Subculture is a queer-centric, hyperpop/electro rave series founded in 2018-19 by Gannon Baxter and Tyler Shepherd (started at a Santa Ana taqueria, went to Zoom during the pandemic, then took up residence at Catch One in LA with monthly themed nights in LA and NYC). REBLOG, on Friday Aug 21, 2026, was a three-stage 'mini festival dedicated to the Tumblr era', presented with ILLUMITATI, playing bloghouse, electro, dubstep, indie sleaze and internet-era club classics. Note: the brief's attribution of the series to Elijah Daniel is not supported; he has DJed Subculture events (e.g. b2b Venessa Michaels at Pride 2025) but is not its founder.",
+      "album_or_release": null
+    },
+    "lineup": [
+      {
+        "name": "Anna Luna",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Contact Sports",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "cr1tter",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Miguel Angeles",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Reysha",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Rami",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Slush Puppy",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Miles",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Jai Ali",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "RQ",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Memphy",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Julia Cooper",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Melissa Brooks",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Brownskinhazel",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Sorana",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Ducki",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": "Subculture regular (also played Pride 2025)."
+      },
+      {
+        "name": "MoodKiller",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Dannytron3000",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Gageyayaya",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "R3CKLESS D4NCING",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Conwon",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Goblin Cox",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      }
+    ],
+    "schedule": {
+      "doors": "9:00 PM",
+      "show_start": "9:00 PM",
+      "end_or_curfew": null,
+      "age_restriction": "18+"
+    },
+    "setlist": null,
+    "production": [
+      "Three stages inside Catch One themed to Tumblr-era internet nostalgia ('Log back in'), with throwback visuals.",
+      "Dress code encouraged a 2012 'dashboard-core' look: American Apparel, smeared eyeliner, neon shutter shades, scene hair, flash photography, indie sleaze."
+    ],
+    "tickets": {
+      "price_range": "From $19 (DICE promoter page; $21.06 with fees on the venue page)",
+      "on_sale_date": null,
+      "seller": "DICE",
+      "sold_out": null,
+      "notes": null
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Los Angeles Review of Books",
+        "title": "A Question for the (Sub)Culture",
+        "url": "https://lareviewofbooks.org/short-takes/menjivar-parties-subculture-rave/",
+        "date": "2024-10-19",
+        "summary": "Brittany Menjivar's review of Subculture's six-year anniversary at Catch One calls it the nation's foremost hyperpop rave series, describing its Zoom origins, costumed crowd and heavy use of remixed 2000s/2010s pop (background on the series, not this date)."
+      },
+      {
+        "outlet": "PAPER",
+        "title": "Subculture Party rave feature",
+        "url": "https://www.papermag.com/subculture-party-rave",
+        "date": "2022-08-05",
+        "summary": "Payton Dunn traces the series from a Santa Ana taqueria through pandemic Zoom raves to themed monthly nights in LA and NYC (background on the series)."
+      }
+    ],
+    "facts": [
+      "Billed as 'Subculture returns to Catch One for REBLOG, a mini festival dedicated to the Tumblr era', presented in collaboration with ILLUMITATI; music: bloghouse, electro, dance, dubstep, indie sleaze, internet-era club classics.",
+      "It fell on the same Friday night as USC's Welcome Back concert on McCarthy Quad.",
+      "Subculture's 2026 Catch One calendar also included '1-800-Heart-Destroyers' (Feb 21), 'spring26' (Mar 22) and 'SPRING BREAKER$' (Apr 18); its 777 anniversary party followed on Oct 11, 2026."
+    ],
+    "sources": [
+      "https://app.discotech.me/events/38245094-subculture-reblog-at-catch-one",
+      "https://dice.fm/promoters/subculture-party-52al?lng=en-US",
+      "https://dice.fm/venue/catch-one-e582?lng=en-US",
+      "https://events.musicofourdesire.com/venue/catch-one/events/past",
+      "https://www.subcultureparty.com/",
+      "https://www.subcultureparty.com/post/subculture-pride-2025-recap",
+      "https://lareviewofbooks.org/short-takes/menjivar-parties-subculture-rave/",
+      "https://www.papermag.com/subculture-party-rave",
+      "https://www.ringtonemag.com/articles/the-party-dont-start-till-subculture-walks-in",
+      "https://en.wikipedia.org/wiki/Jewel%27s_Catch_One",
+      "https://www.laconservancy.org/learn/historic-places/jewels-catch-one/",
+      "https://buzzbands.la/?p=219263",
+      "https://dice.fm/event/ry6dpw-subculture-777-anniversary-la-11th-oct-catch-one-los-angeles-tickets"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "Stage-by-stage assignments and set times (Discotech lists the artists in one block; DICE event page could not be fetched).",
+      "Full ticket tier pricing and sell-out status.",
+      "Who/what ILLUMITATI is (no profile found beyond the co-presenter credit).",
+      "Catch One capacity figure.",
+      "Any recap, photos or press for this specific night; organizer's full event copy beyond the Discotech excerpt."
+    ]
+  },
+  {
+    "date": "2026-08-22",
+    "end": null,
+    "event": "Ilaiyaraaja",
+    "artists": [
+      "Ilaiyaraaja"
+    ],
+    "venue": {
+      "name": "Dolby Theatre",
+      "address": "6801 Hollywood Blvd, Hollywood, CA 90028",
+      "neighborhood": "Hollywood (Hollywood Blvd & Highland, inside the Ovation Hollywood complex)",
+      "city": "Los Angeles",
+      "capacity": "~3,400 (3,332 seats)",
+      "type": "theatre",
+      "opened": "2001 (as the Kodak Theatre; renamed Dolby Theatre in 2012)",
+      "facts": [
+        "Designed by David Rockwell specifically to host the Academy Awards, which it has held since 2002 (the Academy announced in 2026 that the Oscars move to the Peacock Theater from 2029).",
+        "Its stage is about 113 ft wide by 60 ft deep, one of the largest in the US; the entrance columns list every Best Picture winner.",
+        "Dolby Laboratories took a 20-year naming deal in 2012 and made it the first theatre fitted with Dolby Atmos."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "Dolby Theatre",
+    "headliner": "Ilaiyaraaja",
+    "tour": {
+      "name": "Raja 50 - Ilaiyaraaja Live In Concert (North America 2026)",
+      "description": "A roughly 11-city North American arena/theatre run in August 2026 marking Ilaiyaraaja's 50th year in film music, themed 'Music for Healing', presented by Mercuri in association with Saregama Live and Catch The Rhythms. The Los Angeles date at the Dolby Theatre fell near the end of the run: after Seattle-area (Everett) on Aug 21 and the day before Oakland Arena on Aug 23, with Phoenix (Aug 28) closing the tour.",
+      "album_or_release": null
+    },
+    "lineup": [
+      {
+        "name": "Ilaiyaraaja",
+        "role": "headliner",
+        "set_time": "7:00 PM (advertised start)",
+        "stage": null,
+        "notes": "Composer-conductor, 83 at the time of the tour; leads a live orchestra and touring vocalists performing his film songs."
+      },
+      {
+        "name": "Touring orchestra and vocalists (names not published)",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "No official singer or orchestra roster was published for the US tour. Fan reviews on Ticketmaster from the Trenton, NJ stop (Aug 1-2) complained the vocals leaned on chorus/junior singers rather than veteran leads such as Mano or K.S. Chithra; an Everett, WA reviewer praised 'professional singers on stage'. Treat as fan reports."
+      }
+    ],
+    "schedule": {
+      "doors": null,
+      "show_start": "7:00 PM",
+      "end_or_curfew": null,
+      "age_restriction": null
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/ilaiyaraaja/2026/jawaharlal-nehru-outdoor-stadium-madras-india-1371f1d5.html",
+      "is_exact_date": false,
+      "note": "No setlist exists for the Dolby Theatre show (or any Raja 50 US date; the Oakland Aug 23 setlist.fm page is empty). This is the nearest 2026 Ilaiyaraaja setlist on setlist.fm, from his May 31, 2026 Chennai stadium concert, a different concert series, and setlist.fm shows it only partially (truncated after 12 songs). Use only as an indication of the repertoire, not as what was played in LA.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Janani Janani",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "Amuthe Thamizhe",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Raja Rajadhi Rajan",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "Annakkili Unnai Thedudhe",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "Madai Thirandhu",
+          "notes": null
+        },
+        {
+          "n": 6,
+          "title": "Megham Kottattum",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "Rakkamma Kaiyya Thattu",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "Pazhamudhircholai",
+          "notes": null
+        },
+        {
+          "n": 9,
+          "title": "Oho Megham Vandhadho",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "Ananda Ragam",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "Asai Nooru Vagai",
+          "notes": null
+        },
+        {
+          "n": 12,
+          "title": "Indha Maan",
+          "notes": "List truncated on setlist.fm after this song"
+        }
+      ],
+      "encore": [],
+      "duration_min": null
+    },
+    "production": [
+      "Format is a seated orchestral film-music concert: Ilaiyaraaja conducts a live orchestra with a rotating cast of playback singers performing his Tamil (and some Telugu) film songs. Fan reviews from other US stops note the between-song talk was in Tamil and the set was overwhelmingly Tamil with only 2-3 Telugu songs."
+    ],
+    "tickets": {
+      "price_range": "Not published for LA. The Oakland Arena date (Aug 23) was tiered $39 / $59 / $79 / $99 / $129 / $199 / $299 / VVIP $499 / ELITE $999 (Bay Area Telugu Times); LA resale listings started around $165.",
+      "on_sale_date": null,
+      "seller": "Ticketmaster (Dolby Theatre box office)",
+      "sold_out": null,
+      "notes": "A Mood (musicofourdesire) listing marked general admission sold out, but resale aggregators showed hundreds of seats listed before the show; no reliable sell-out confirmation. One aggregator (Mood/Sulekha) misdated the LA show as Aug 23."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Global Net News",
+        "title": "Mercuri & Saregama Bring Maestro Ilaiyaraaja's 'Raja 50' to the U.S.",
+        "url": "https://globalnet.news/mercuri-saregama-bring-maestro-ilaiyaraajas-raja-50-to-the-u-s-ultra-entertainments-bharat-bhavan-bring-the-celebration-to-dallas/",
+        "date": "2026-08-18",
+        "summary": "Names Mercuri and Saregama as national promoters of the Raja 50 US series honoring five decades of Ilaiyaraaja's music; focuses on the Dallas (Garland, TX) stop."
+      },
+      {
+        "outlet": "Bay Area Telugu Times",
+        "title": "Legendary Maestro Ilaiyaraaja Set to Perform Live in San Jose/Oakland on August 23",
+        "url": "https://bayarea.telugutimes.net/community/legendary-maestro-ilaiyaraaja-set-to-perform-live-in-san-jose-oakland-on-august-23/",
+        "date": null,
+        "summary": "Preview of the Oakland Arena date the day after LA; gives the 'Music for Healing' theme, the presenter credits and the full ticket tier list."
+      },
+      {
+        "outlet": "Sulekha Events (blog)",
+        "title": "Raja 50 USA Tour 2026: A Grand Musical Celebration for Fans Across America",
+        "url": "https://events.sulekha.com/buzz/blog/raja-50-usa-tour-2026-a-grand-musical-celebration-for-fans-across-america",
+        "date": null,
+        "summary": "Lists the tour poster's 11 cities: Boston Jul 31, New Jersey Aug 1, Washington DC Aug 2, Chicago Aug 8, Atlanta Aug 9, Dallas Aug 15, Houston Aug 16, Seattle Aug 21, Los Angeles Aug 22, San Jose Aug 23, Phoenix Aug 28."
+      }
+    ],
+    "facts": [
+      "The LA show was the only Southern California date; the tour's West Coast swing ran Everett/Seattle (Aug 21), Los Angeles (Aug 22), Oakland (Aug 23) on consecutive nights.",
+      "Raja 50 marks 50 years since Ilaiyaraaja's 1976 film debut (Annakili); he holds the Padma Bhushan (2010) and Padma Vibhushan (2018).",
+      "Ticketmaster aggregate rating for the tour's US shows was about 3.5/5 across 100+ reviews, with recurring complaints about song selection, sound and the absence of veteran lead singers (fan reports).",
+      "Other tour venues included CURE Insurance Arena (Trenton), EagleBank Arena (Fairfax), Cobb Energy Centre (Atlanta), Curtis Culwell Center (Garland/Dallas), Smart Financial Centre (Sugar Land/Houston), Oakland Arena, and Arizona Financial Theatre (Phoenix, tied to Sankara Nethralaya USA)."
+    ],
+    "sources": [
+      "https://events.extrachill.com/events/raja-50-ilaiyaraaja-live-in-concert-7",
+      "https://discover.events.com/us/california/hollywood-heights/e/music/raja-50-ilaiyaraaja-live-concert-dolby-theatre-457788635",
+      "https://www.concertarchives.org/concerts/ilaiyaraaja-f65f8b3a-b030-475d-9272-45b0637e3539",
+      "https://events.musicofourdesire.com/event/m3o4-raja-50-ilaiyaraaja-live-in-concert-concert-los-angeles-united-states",
+      "https://events.sulekha.com/buzz/blog/raja-50-usa-tour-2026-a-grand-musical-celebration-for-fans-across-america",
+      "https://globalnet.news/mercuri-saregama-bring-maestro-ilaiyaraajas-raja-50-to-the-u-s-ultra-entertainments-bharat-bhavan-bring-the-celebration-to-dallas/",
+      "https://bayarea.telugutimes.net/community/legendary-maestro-ilaiyaraaja-set-to-perform-live-in-san-jose-oakland-on-august-23/",
+      "https://x.com/saregamasouth/status/2078694857586171991",
+      "https://www.ticketmaster.com/ilaiyaraja-tickets/artist/1786580?page=1",
+      "https://www.setlist.fm/setlists/ilaiyaraaja-5bd7ab88.html",
+      "https://www.setlist.fm/setlist/ilaiyaraaja/2026/oakland-arena-oakland-ca-5372a76d.html",
+      "https://www.eventticketscenter.com/ilaiyaraaja-los-angeles-08-22-2026/8110115/t",
+      "https://en.wikipedia.org/wiki/Dolby_Theatre"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No setlist for the Dolby Theatre show (none on setlist.fm for any Raja 50 US date).",
+      "Names of the singers and orchestra for the US tour were never published in any source found.",
+      "No press review or recap specific to the Los Angeles night; no attendance or sell-out figure.",
+      "LA-specific ticket price tiers and on-sale date not found (Ticketmaster page blocked); doors time and run time unknown.",
+      "Web-search budget ran out before Tamil-language press could be checked for an LA recap."
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "end": null,
+    "event": "Ian Asher",
+    "artists": [
+      "Ian Asher"
+    ],
+    "venue": {
+      "name": "Hollywood Palladium",
+      "address": "6215 Sunset Blvd, Los Angeles, CA 90028",
+      "neighborhood": "Hollywood (Sunset Blvd at Argyle)",
+      "city": "Los Angeles",
+      "capacity": "~3,500-4,000 standing",
+      "type": "ballroom / club",
+      "opened": "October 31, 1940",
+      "facts": [
+        "Streamline Moderne dance hall by Gordon Kaufmann, funded by LA Times publisher Norman Chandler; opening night was Tommy Dorsey's orchestra with a young Frank Sinatra on vocals.",
+        "Home of The Lawrence Welk Show from 1961; reopened in 2008 with a Jay-Z show after Live Nation's renovation, and listed on the National Register of Historic Places in 2016."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "Hollywood Palladium",
+    "headliner": "Ian Asher",
+    "tour": {
+      "name": null,
+      "description": "A one-off 18+ headline club night at the Hollywood Palladium listed by Insomniac, not part of a named tour. It sat in a heavy summer/fall run of US club and festival dates: Songkick notes Asher had played LA a month earlier (July 2026), and he played his Zouk Las Vegas residency the next night (Aug 29), then Discovery Meadow San Jose (Sep 6) and Echostage DC (Sep 19).",
+      "album_or_release": null
+    },
+    "lineup": [
+      {
+        "name": "Ian Asher",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "Only artist listed on the Insomniac event page; no support act was published anywhere found."
+      }
+    ],
+    "schedule": {
+      "doors": "8:00 PM",
+      "show_start": "8:00 PM (event listed 8:00 PM - 1:30 AM)",
+      "end_or_curfew": "1:30 AM",
+      "age_restriction": "18+"
+    },
+    "setlist": null,
+    "production": [
+      "Insomniac-listed house night with 'Ground Control' and 'Headliner Experience' offerings; no production details or guest appearances were reported."
+    ],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": null,
+      "seller": "Ticketmaster (also listed on SeatGeek)",
+      "sold_out": null,
+      "notes": "A Mood (musicofourdesire) aggregator showed general admission as sold out, but this could not be confirmed; the same aggregator misdated the show as Aug 29 (UTC conversion)."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "The Scenestar",
+        "title": "Shows of the Night: Concerts in Los Angeles on Friday, August 28, 2026",
+        "url": "https://thescenestar.com/2026/08/28/shows-of-the-night-friday-august-28th-concerts-in-los-angeles-el-viernes-28-de-agosto-conciertos-boletos-buy-tickets/",
+        "date": "2026-08-28",
+        "summary": "Lists Ian Asher at the Palladium (8:00 PM) among the night's LA shows; the same night had David Byrne at the Hollywood Bowl, The Temper Trap at the Bellwether and Crankdat at the Shrine Expo Hall."
+      },
+      {
+        "outlet": "DSCENE",
+        "title": "Ian Asher on Remixing, Instinct and What Comes Next",
+        "url": "https://www.designscene.net/2026/03/ian-asher-interview.html",
+        "date": "2026-03",
+        "summary": "Interview: California-born house producer whose 2023 remix of Jain's 'Makeba' went viral (EDMA Remix of the Year); describes his shows as 'energetic and euphoric' and says he tours almost every weekend."
+      },
+      {
+        "outlet": "FOX5 Vegas",
+        "title": "DJ Ian Asher new Strip residency",
+        "url": "https://www.fox5vegas.com/2026/02/27/dj-ian-asher-new-strip-residency/",
+        "date": "2026-02-27",
+        "summary": "Reports his 2026 Zouk Nightclub (Resorts World) residency with dates including Aug 29, the night after the Palladium show."
+      }
+    ],
+    "facts": [
+      "Ian Asher is a Southern California DJ/producer (born 2001) who broke out of TikTok mashups; his 'Makeba' remix became the most-used sound on Instagram/TikTok in summer 2023 with 3 billion+ plays. He runs the label Just A Feeling Records and has collaborated with Oliver Heldens, Riton and SB19.",
+      "The Palladium is a Live Nation venue, but this date was listed on Insomniac's calendar under the 'House' genre.",
+      "setlist.fm has no entry for this show; the nearest logged dates are Das Energi (Aug 8) and Discovery Meadow, San Jose (Sep 6), both without songs."
+    ],
+    "sources": [
+      "https://www.insomniac.com/events/ian-asher-2026-08-28-los-angeles-ca/",
+      "https://www.songkick.com/concerts/43241746-ian-asher-at-hollywood-palladium",
+      "https://www.ticketmaster.com/event/090064B4D6CF7477",
+      "https://www.bandsintown.com/e/108439625-ian-asher-at-hollywood-palladium",
+      "https://thescenestar.com/2026/08/28/shows-of-the-night-friday-august-28th-concerts-in-los-angeles-el-viernes-28-de-agosto-conciertos-boletos-buy-tickets/",
+      "https://www.setlist.fm/setlists/ian-asher-3e64d9b.html",
+      "https://www.designscene.net/2026/03/ian-asher-interview.html",
+      "https://www.fox5vegas.com/2026/02/27/dj-ian-asher-new-strip-residency/",
+      "https://ra.co/dj/ianasher/biography",
+      "https://en.wikipedia.org/wiki/Hollywood_Palladium"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No setlist/tracklist (nothing on setlist.fm or 1001tracklists) and no review or recap of the night.",
+      "Support/opening DJs not published; ticket prices and on-sale date not found (Ticketmaster and Bandsintown pages blocked).",
+      "No attendance or confirmed sell-out."
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "end": null,
+    "event": "Jigitz",
+    "artists": [
+      "Jigitz"
+    ],
+    "venue": {
+      "name": "The Fonda Theatre",
+      "address": "6126 Hollywood Blvd, Los Angeles, CA 90028",
+      "neighborhood": "Hollywood (Hollywood Blvd near Gower)",
+      "city": "Los Angeles",
+      "capacity": "~1,200",
+      "type": "theatre",
+      "opened": "October 20, 1926 (as the Carter DeHaven Music Box)",
+      "facts": [
+        "Spanish Colonial Revival theatre by Morgan, Walls & Clements whose early investors included John Barrymore and King Vidor; it staged the West Coast premiere of 'Chicago' in 1927.",
+        "Renamed for Henry Fonda by the Nederlanders in 1985; Goldenvoice took over in 2012 and restored the Fonda name. LA Weekly called it the best venue in LA in 2015."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "The Fonda Theatre",
+    "headliner": "jigitz",
+    "tour": {
+      "name": "50 Ballerinas Tour",
+      "description": "North American headline tour behind jigitz's debut album '50 Ballerinas' (released Aug 21, 2026 on R&R), with Killen as support. This Saturday show was the originally announced Los Angeles date, the second stop after Portland's Wonder Ballroom (Sep 17); a second Fonda night (Sep 25) was added afterwards, so this was not a residency but a two-date LA stand on the tour.",
+      "album_or_release": "50 Ballerinas (debut album, R&R, Aug 21, 2026)"
+    },
+    "lineup": [
+      {
+        "name": "jigitz",
+        "role": "headliner",
+        "set_time": "9:00 PM (advertised show time)",
+        "stage": null,
+        "notes": "Brooklyn-based, Albuquerque-born producer/DJ (UK garage, speed garage, breaks, bass) who grew on TikTok with his 'Day _ of Learning to DJ' series."
+      },
+      {
+        "name": "Killen",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Listed as support on AXS/Goldenvoice and as 'special guest' across the tour."
+      }
+    ],
+    "schedule": {
+      "doors": "8:00 PM",
+      "show_start": "9:00 PM",
+      "end_or_curfew": null,
+      "age_restriction": "18+"
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/jigitz/2026/pier-80-ship-tent-san-francisco-ca-5b739794.html",
+      "is_exact_date": false,
+      "note": "No setlist exists for either Fonda night. This is jigitz's Portola Music Festival set (Ship Tent, Pier 80, San Francisco) on Sep 26, 2026, one week after this show and the day after the second Fonda date; setlist.fm flags it as 'incomplete and out of order'. A festival set, so shorter than a headline show.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Chanel x She's Gone Dance On (jigitz remix)",
+          "notes": "Frank Ocean cover/edit"
+        },
+        {
+          "n": 2,
+          "title": "50 ballerinas",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Gosh",
+          "notes": "Jamie xx cover/edit"
+        },
+        {
+          "n": 4,
+          "title": "makeup sex",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "car crash",
+          "notes": "with Charlotte Plank on record"
+        },
+        {
+          "n": 6,
+          "title": "seeing stars",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "Hot N Cold",
+          "notes": "Katy Perry cover/edit"
+        },
+        {
+          "n": 8,
+          "title": "pressure",
+          "notes": "from the 2025 EP 'all my exes live in brooklyn.'"
+        },
+        {
+          "n": 9,
+          "title": "thumbs",
+          "notes": null
+        }
+      ],
+      "encore": [],
+      "duration_min": null
+    },
+    "production": [],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": null,
+      "seller": "AXS (Goldenvoice) and Ticketmaster",
+      "sold_out": null,
+      "notes": "A tour drop page (drop.cobrand.com) marked Los Angeles as sold out, and a second Fonda date was subsequently added, which is consistent with this night selling out; not independently confirmed."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Noise11",
+        "title": "jigitz Announces Debut Album 50 Ballerinas And Spilt Milk 2026 Dates",
+        "url": "https://www.noise11.com/news/jigitz-50-ballerinas-album-spilt-milk-2026-20260803",
+        "date": "2026-08-03",
+        "summary": "Album announcement with bio: Albuquerque-born, Brooklyn-based, ex-UMG/Interscope staffer who broke through via a TikTok learn-to-DJ series; album exec-produced by Aire Atlantica, lead single 'can't be nothing but what i am' feat. glaive."
+      },
+      {
+        "outlet": "Soundstock",
+        "title": "Brooklyn Producer jigitz Announces Debut Album 50 Ballerinas",
+        "url": "https://www.soundstock.com/news/2026-08-03-brooklyn-producer-jigitz-announces-debut-album-50-ballerinas-drops-new-single-with-glaive-and-heads-to-spilt-milk-2026",
+        "date": "2026-08-03",
+        "summary": "Notes the album was written at a camp with VADAKIN, Lily Kaplan and Couros and recorded in an Upstate New York cabin, LA and Mexico City; follows a sold-out European headline tour."
+      }
+    ],
+    "facts": [
+      "Tour routing found: Portland Wonder Ballroom (Sep 17), LA Fonda (Sep 19 and Sep 25), Portola Festival SF (Sep 26, plus a Monarch SF club set), Brooklyn Paramount (Oct 2), Boston Big Night Live (Oct 3), Seattle Showbox (Oct 8), Phoenix Walter Where?House (Oct 9), Denver Ogden Theatre (Oct 10).",
+      "The album title motif: jigitz describes the ballerina as a symbol of discipline and the invisible labor behind effortless-looking art.",
+      "Promoted by Goldenvoice, which also operates the Fonda."
+    ],
+    "sources": [
+      "https://www.axs.com/events/1471594/jigitz-tickets",
+      "https://www.ticketmaster.com/event/Z7r9jZ1A7P7Gw",
+      "https://www.bandsintown.com/e/108469624-jigitz-at-the-fonda-theatre",
+      "https://music.apple.com/ng/concerts/ce.3d659e60-a2c9-4c07-930f-31df6e8abb8b",
+      "https://www.axs.com/events/1479040/jigitz-2nd-show-added-tickets?skin=fonda100",
+      "https://drop.cobrand.com/d/jigitz/50ballerinastour",
+      "https://www.setlist.fm/setlists/jigitz-be58d72.html",
+      "https://www.setlist.fm/setlist/jigitz/2026/pier-80-ship-tent-san-francisco-ca-5b739794.html",
+      "https://www.noise11.com/news/jigitz-50-ballerinas-album-spilt-milk-2026-20260803",
+      "https://www.soundstock.com/news/2026-08-03-brooklyn-producer-jigitz-announces-debut-album-50-ballerinas-drops-new-single-with-glaive-and-heads-to-spilt-milk-2026",
+      "https://wonderballroom.com/events/jigitz-50-ballerinas-tour/",
+      "https://www.livenation.com/event/vvG17Z_5m3Tjyw/jigitz-50-ballerinas-tour-21",
+      "https://en.wikipedia.org/wiki/The_Fonda_Theatre"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No setlist for this night (setlist.fm has no Fonda entry); nearest is the Sep 26 Portola festival set.",
+      "Ticket prices, on-sale date and confirmed sell-out not found (AXS/Ticketmaster/Bandsintown pages blocked).",
+      "No review, recap or photos of the show; no info on Killen beyond the billing.",
+      "Web-search budget ran out before Killen's background and any fan recaps could be checked."
+    ]
+  },
+  {
+    "date": "2026-09-25",
+    "end": null,
+    "event": "Jigitz",
+    "artists": [
+      "Jigitz"
+    ],
+    "venue": {
+      "name": "The Fonda Theatre",
+      "address": "6126 Hollywood Blvd, Los Angeles, CA 90028",
+      "neighborhood": "Hollywood (Hollywood Blvd near Gower)",
+      "city": "Los Angeles",
+      "capacity": "~1,200",
+      "type": "theatre",
+      "opened": "October 20, 1926 (as the Carter DeHaven Music Box)",
+      "facts": [
+        "Spanish Colonial Revival theatre by Morgan, Walls & Clements; in 1945 Fox West Coast hid the facade behind Streamline Moderne sheet metal, and it ran as a cinema until 1977.",
+        "Renamed for Henry Fonda by the Nederlanders in 1985; Goldenvoice took over in 2012 and restored the 1920s look and the Fonda name."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "The Fonda Theatre",
+    "headliner": "jigitz",
+    "tour": {
+      "name": "50 Ballerinas Tour",
+      "description": "Second Los Angeles night of the 50 Ballerinas Tour, added by Goldenvoice after the Sep 19 date (AXS lists it as 'jigitz - 2nd Show Added!'), with Killen supporting again. Not a residency: two separate tour dates six nights apart, with this Friday show followed the next day by his Portola Music Festival set in San Francisco.",
+      "album_or_release": "50 Ballerinas (debut album, R&R, Aug 21, 2026)"
+    },
+    "lineup": [
+      {
+        "name": "jigitz",
+        "role": "headliner",
+        "set_time": "9:00 PM (advertised show time)",
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Killen",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Listed as support on the AXS '2nd Show Added' page."
+      }
+    ],
+    "schedule": {
+      "doors": "8:00 PM (assumed to match the Sep 19 listing; AXS page for this date showed only the 9:00 PM show time)",
+      "show_start": "9:00 PM",
+      "end_or_curfew": null,
+      "age_restriction": "18+"
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/jigitz/2026/pier-80-ship-tent-san-francisco-ca-5b739794.html",
+      "is_exact_date": false,
+      "note": "No setlist exists for this night. This is jigitz's Portola Music Festival set (Ship Tent, Pier 80, San Francisco) on Sep 26, 2026, the following day; setlist.fm flags it as 'incomplete and out of order'. A festival set, so shorter than a headline show.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Chanel x She's Gone Dance On (jigitz remix)",
+          "notes": "Frank Ocean cover/edit"
+        },
+        {
+          "n": 2,
+          "title": "50 ballerinas",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Gosh",
+          "notes": "Jamie xx cover/edit"
+        },
+        {
+          "n": 4,
+          "title": "makeup sex",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "car crash",
+          "notes": "with Charlotte Plank on record"
+        },
+        {
+          "n": 6,
+          "title": "seeing stars",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "Hot N Cold",
+          "notes": "Katy Perry cover/edit"
+        },
+        {
+          "n": 8,
+          "title": "pressure",
+          "notes": "from the 2025 EP 'all my exes live in brooklyn.'"
+        },
+        {
+          "n": 9,
+          "title": "thumbs",
+          "notes": null
+        }
+      ],
+      "encore": [],
+      "duration_min": null
+    },
+    "production": [],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": null,
+      "seller": "AXS (Goldenvoice); also listed on Bandsintown/Vivid Seats resale",
+      "sold_out": null,
+      "notes": "Added after the first LA date; Vivid Seats still showed resale inventory before the show."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Noise11",
+        "title": "jigitz Announces Debut Album 50 Ballerinas And Spilt Milk 2026 Dates",
+        "url": "https://www.noise11.com/news/jigitz-50-ballerinas-album-spilt-milk-2026-20260803",
+        "date": "2026-08-03",
+        "summary": "Album announcement and bio; notes a sold-out European headline tour earlier in 2026 and Australian Spilt Milk festival dates in December."
+      }
+    ],
+    "facts": [
+      "Both Fonda nights were billed 'jigitz with Killen'; AXS's '2nd Show Added!' tag identifies Sep 25 as the added date.",
+      "The next day's Portola set in San Francisco was scheduled for 7:50 PM in the Ship Tent, and Tove Lo (who the user saw two days later at the Greek) was also on the Portola Sep 26 bill.",
+      "Physical editions of '50 Ballerinas' (Rough Trade/Resident) were dated Oct 23, 2026, two months after the digital release."
+    ],
+    "sources": [
+      "https://www.axs.com/events/1479040/jigitz-2nd-show-added-tickets?skin=fonda100",
+      "https://www.bandsintown.com/e/108488798-jigitz-at-the-fonda-theatre",
+      "https://www.shazam.com/event/51d2b199-7648-4539-a1a4-3e01130997a0",
+      "https://www.vividseats.com/jigitz-tickets-los-angeles-fonda-theatre-9-25-2026/production/7121184",
+      "https://www.setlist.fm/setlists/jigitz-be58d72.html",
+      "https://www.setlist.fm/setlist/jigitz/2026/pier-80-ship-tent-san-francisco-ca-5b739794.html",
+      "https://www.noise11.com/news/jigitz-50-ballerinas-album-spilt-milk-2026-20260803",
+      "https://music.apple.com/us/album/50-ballerinas/6791575966",
+      "https://en.wikipedia.org/wiki/The_Fonda_Theatre"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No setlist for this night; no review, recap or photos.",
+      "Doors time for this specific date not confirmed (assumed 8 PM like Sep 19); ticket prices, on-sale date and sell-out status not found.",
+      "No announcement explaining when the second date was added."
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "end": null,
+    "event": "Tove Lo",
+    "artists": [
+      "Tove Lo"
+    ],
+    "venue": {
+      "name": "Greek Theatre",
+      "address": "2700 N Vermont Ave, Los Angeles, CA 90027",
+      "neighborhood": "Griffith Park / Los Feliz",
+      "city": "Los Angeles",
+      "capacity": "~5,900",
+      "type": "amphitheatre",
+      "opened": "1930 (dedicated Sep 25, 1930; first performance June 1931)",
+      "facts": [
+        "Built with money Griffith J. Griffith left in his will; the canyon site was picked for its acoustics, and the building served as army barracks during World War II.",
+        "City-owned and run by ASM Global; Neil Diamond's 1972 live album 'Hot August Night' was recorded here, and 'Get Him to the Greek' and 'A Star Is Born' (2018) shot scenes here."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "Greek Theatre",
+    "headliner": "Tove Lo",
+    "tour": {
+      "name": "ESTRUS Tour",
+      "description": "World tour behind Tove Lo's sixth album 'ESTRUS' (Pretty Swede Records/Virgin, Sep 18, 2026). The Greek was the fifth of six North American dates (after Nashville, Chicago, Brooklyn, Toronto) and the final US show before Mexico City on Oct 1; a UK/Europe leg with Rose Gray followed in November. She played Portola Festival in San Francisco the day before, and the Greek date was billed as part of the 'Road to Portola' series.",
+      "album_or_release": "ESTRUS (Sep 18, 2026)"
+    },
+    "lineup": [
+      {
+        "name": "Tove Lo",
+        "role": "headliner",
+        "set_time": "9:10 PM - 10:45 PM (setlist.fm)",
+        "stage": null,
+        "notes": "32-entry set (29 main + 3 encore entries including tape interludes); 'HEAT' and 'I'm your girl right?' closed the encore."
+      },
+      {
+        "name": "Mallrat",
+        "role": "support",
+        "set_time": "Around sunset, before 9 PM (Flaunt: closed as the sun went down)",
+        "stage": null,
+        "notes": "Australian artist Grace Shaw; set per Flaunt: 'My Darling, My Angel', 'Pavement', 'The Light Streams In And Hits My Face / Hocus Pocus', a cover of Lana Del Rey's 'Radio', closer 'Hideaway'. Supported all North American dates."
+      }
+    ],
+    "schedule": {
+      "doors": null,
+      "show_start": "Listed 8:00 PM (AXS); Tove Lo on stage 9:10 PM",
+      "end_or_curfew": "10:45 PM",
+      "age_restriction": "All ages"
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/tove-lo/2026/greek-theatre-los-angeles-ca-6374e6d7.html",
+      "is_exact_date": true,
+      "note": "Entries marked 'tape' are interlude recordings, not live songs; song order and notes copied from setlist.fm (last edited Oct 8, 2026). The R'Time in a Flash review corroborates the order and the encore.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Tape 1",
+          "notes": "from tape"
+        },
+        {
+          "n": 2,
+          "title": "a lot of feelings, no solutions",
+          "notes": "from tape"
+        },
+        {
+          "n": 3,
+          "title": "roomie",
+          "notes": "snippet, from tape"
+        },
+        {
+          "n": 4,
+          "title": "I'm the cake",
+          "notes": "first live song"
+        },
+        {
+          "n": 5,
+          "title": "Cool Girl",
+          "notes": null
+        },
+        {
+          "n": 6,
+          "title": "My Gun",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "Are U gonna tell her?",
+          "notes": "extended intro"
+        },
+        {
+          "n": 8,
+          "title": "Tape 2",
+          "notes": "from tape"
+        },
+        {
+          "n": 9,
+          "title": "des fleurs x stromae",
+          "notes": "extended intro; Stromae collaboration from ESTRUS"
+        },
+        {
+          "n": 10,
+          "title": "Moments",
+          "notes": "shortened"
+        },
+        {
+          "n": 11,
+          "title": "if I could I would",
+          "notes": null
+        },
+        {
+          "n": 12,
+          "title": "die for my art with a lonely heart",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "Grapefruit",
+          "notes": null
+        },
+        {
+          "n": 14,
+          "title": "idiot",
+          "notes": null
+        },
+        {
+          "n": 15,
+          "title": "DNH",
+          "notes": null
+        },
+        {
+          "n": 16,
+          "title": "Talking Body",
+          "notes": null
+        },
+        {
+          "n": 17,
+          "title": "Drum ritual",
+          "notes": "from tape"
+        },
+        {
+          "n": 18,
+          "title": "Tape 3",
+          "notes": "from tape"
+        },
+        {
+          "n": 19,
+          "title": "disco tits",
+          "notes": null
+        },
+        {
+          "n": 20,
+          "title": "bitches",
+          "notes": "shortened"
+        },
+        {
+          "n": 21,
+          "title": "Lady Wood",
+          "notes": "shortened"
+        },
+        {
+          "n": 22,
+          "title": "2 Die 4",
+          "notes": "shortened"
+        },
+        {
+          "n": 23,
+          "title": "source of life",
+          "notes": null
+        },
+        {
+          "n": 24,
+          "title": "Tape 4",
+          "notes": "from tape"
+        },
+        {
+          "n": 25,
+          "title": "No One Dies From Love",
+          "notes": "extended"
+        },
+        {
+          "n": 26,
+          "title": "are we on a break",
+          "notes": null
+        },
+        {
+          "n": 27,
+          "title": "F.A.M.T",
+          "notes": null
+        },
+        {
+          "n": 28,
+          "title": "Habits (Stay High)",
+          "notes": null
+        },
+        {
+          "n": 29,
+          "title": "the bad one",
+          "notes": "extended intro; main-set closer"
+        }
+      ],
+      "encore": [
+        {
+          "n": 1,
+          "title": "Tape 5",
+          "notes": "from tape"
+        },
+        {
+          "n": 2,
+          "title": "HEAT",
+          "notes": "SG Lewis collaboration"
+        },
+        {
+          "n": 3,
+          "title": "I'm your girl right?",
+          "notes": "ESTRUS lead single; show closer"
+        }
+      ],
+      "duration_min": 95
+    },
+    "production": [
+      "Staging alternated between elevated, installation-like positions and the lip of the stage at the edge of the crowd (R'Time in a Flash).",
+      "Lasers through dense blue haze, with video and lighting schemes changing per section; layered costumes that moved between theatrical and deliberately unfinished.",
+      "Set structured in chapters separated by recorded 'tape' interludes and a 'drum ritual' passage; the main set ended on 'the bad one' rather than 'Habits (Stay High)'."
+    ],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": "General on sale May 20, 2026 at 10 AM local; Amex presale May 18 (9 AM) to May 19 (10 PM)",
+      "seller": "AXS (Goldenvoice Presents)",
+      "sold_out": null,
+      "notes": "Tour announced May 13-14, 2026 alongside the album; LA date promoted by Goldenvoice."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "R'Time in a Flash",
+        "title": "Tove Lo Brings ESTRUS and Old Habits to the Greek Theatre",
+        "url": "https://rtimeinaflash.com/stories/tove-lo-estrus-tour-greek-theatre-2026",
+        "date": "2026-09-30",
+        "summary": "Review by Andrew Wong: a sweaty, theatrical set nine days after the album's release, playing essentially all of ESTRUS alongside the hits; praises how old and new material blended and reads the 'the bad one' ending as a choice to sit in the mess rather than resolve it."
+      },
+      {
+        "outlet": "Flaunt",
+        "title": "Mallrat Hit The Greek Like A Straight Right",
+        "url": "https://www.flaunt.com/post/mallrat-the-greek-theatre",
+        "date": "2026-09/10",
+        "summary": "Melanie Perez on Mallrat's opening set: 'misty and otherworldly' Auto-Tuned vocals, a Lana Del Rey 'Radio' cover, and 'Hideaway' closing as the sun set behind the Greek."
+      },
+      {
+        "outlet": "Consequence",
+        "title": "Tove Lo Announces New Album ESTRUS, 2026 Tour Dates",
+        "url": "https://consequence.net/2026/05/tove-lo-new-album-estrus-tour-dates/",
+        "date": "2026-05",
+        "summary": "Tour announcement with the full date list and supports (Mallrat North America, Cobrah Brooklyn only, Rose Gray Europe)."
+      },
+      {
+        "outlet": "NME",
+        "title": "Tove Lo announces new album 'Estrus' with sultry single 'I'm Your Girl Right?' and 2026 world tour",
+        "url": "https://www.nme.com/news/music/tove-lo-announces-new-album-estrus-with-sultry-single-im-your-girl-right-and-2026-world-tour-3945391",
+        "date": "2026-05-14",
+        "summary": "Album context: written with Ludvig Soderberg, Elvira Anderfjard and Luka Kloser, recorded in LA, Stockholm and a Swedish fishing village; Tove Lo calls it 'an animal in heat' with 'a lot of feelings, no solutions'."
+      }
+    ],
+    "facts": [
+      "The show came nine days after ESTRUS was released; the album debuted at No. 5 on the US Top Dance Albums chart and No. 184 on the Billboard 200 (Metacritic 74/100).",
+      "'Grapefruit', about her past eating disorder, was placed mid-set between new songs; 'des fleurs' is the Stromae duet (single, June 12, 2026).",
+      "Other LA shows that weekend: she played Portola Festival's Pier Stage in San Francisco on Sep 26, the night before the Greek.",
+      "Setlist.fm lists six users as having attended; the review notes the set ran roughly 9:10 to 10:45 PM."
+    ],
+    "sources": [
+      "https://www.setlist.fm/setlist/tove-lo/2026/greek-theatre-los-angeles-ca-6374e6d7.html",
+      "https://www.setlist.fm/setlists/tove-lo-43df3793.html",
+      "https://rtimeinaflash.com/stories/tove-lo-estrus-tour-greek-theatre-2026",
+      "https://www.flaunt.com/post/mallrat-the-greek-theatre",
+      "https://www.axs.com/events/1385227/tove-lo-tickets",
+      "https://amex.aegpresents.com/tovelo/",
+      "https://www.stereoboard.com/content/view/251520/9",
+      "https://consequence.net/2026/05/tove-lo-new-album-estrus-tour-dates/",
+      "https://www.nme.com/news/music/tove-lo-announces-new-album-estrus-with-sultry-single-im-your-girl-right-and-2026-world-tour-3945391",
+      "https://www.ticketnews.com/2026/05/tove-lo-reveals-2026-tour-dates-estrus/",
+      "https://ma.to/event/tove-lo-28-sep-2026",
+      "https://en.wikipedia.org/wiki/Estrus_(album)",
+      "https://en.wikipedia.org/wiki/Greek_Theatre_(Los_Angeles)"
+    ],
+    "confidence": "high",
+    "gaps": [
+      "Ticket price tiers and doors time not found (AXS, Bandsintown and Greek Theatre pages blocked or 404).",
+      "No attendance/Boxscore figure and no confirmed sell-out.",
+      "No major-outlet (LA Times, Variety, etc.) review found; only R'Time in a Flash and Flaunt covered the night.",
+      "Whether SG Lewis or Stromae appeared live is not stated anywhere (likely not)."
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "end": null,
+    "event": "Bruno Mars: The Romantic Tour",
+    "artists": [
+      "Bruno Mars",
+      "Anderson .Paak / DJ Pee .Wee"
+    ],
+    "venue": {
+      "name": "SoFi Stadium",
+      "address": "1001 S Stadium Dr, Inglewood, CA 90301",
+      "neighborhood": "Hollywood Park, Inglewood",
+      "city": "Inglewood",
+      "capacity": "70,240 (expandable to about 100,240)",
+      "type": "stadium",
+      "opened": "September 8, 2020",
+      "facts": [
+        "Cost roughly $5.5 billion, making it the most expensive stadium ever built at the time; designed by HKS; home of the Rams and Chargers.",
+        "Translucent ETFE canopy with open sides (technically open-air) and a 2.2-million-pound double-sided 4K 'Infinity Screen' suspended over the field.",
+        "Hosted Super Bowl LVI (2022), will host Super Bowl LXI (Feb 2027) and the 2028 Olympic opening/closing ceremonies and swimming.",
+        "BTS's four-night 2021 run here grossed $33.3M, reported by Billboard as the highest-grossing concert engagement in California history."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "SoFi Stadium",
+    "headliner": "Bruno Mars",
+    "tour": {
+      "name": "The Romantic Tour",
+      "description": "Bruno Mars's first full headline tour in nearly a decade and his first global stadium tour, produced by Live Nation, running April 10, 2026 (Paradise, NV) to May 30, 2027 (Goyang, South Korea) across 127 shows. September 30 was the opening night of a five-night SoFi Stadium stand (Sept 30, Oct 2, 3, 6, 7); it was the fifth and final date added, in March 2026, after the original four nights sold out.",
+      "album_or_release": "The Romantic (Atlantic Records, released February 27, 2026)"
+    },
+    "lineup": [
+      {
+        "name": "Bruno Mars",
+        "role": "headliner",
+        "set_time": "8:50 PM scheduled start (setlist.fm)",
+        "stage": null,
+        "notes": "Backed by a large band with a prominent horn section; band in mariachi-style outfits per Hit Parader."
+      },
+      {
+        "name": "DJ Pee .Wee (Anderson .Paak)",
+        "role": "support",
+        "set_time": "Not logged for Sept 30; on Oct 2, 3 and 6 his set ran 7:10-7:40 PM (setlist.fm)",
+        "stage": null,
+        "notes": "Anderson .Paak's DJ alter ego; a genre-hopping party-DJ set of covers (ABBA, Whitney Houston, Usher, Michael Jackson, Soulja Boy, etc. per the Oct 6 setlist.fm log). setlist.fm has a Sept 30 entry for him with no songs logged."
+      },
+      {
+        "name": "RAYE",
+        "role": "support",
+        "set_time": "On Oct 2, 3 and 6 her set ran roughly 7:45/7:50-8:15/8:20 PM (setlist.fm)",
+        "stage": null,
+        "notes": "UNCONFIRMED for Sept 30. Wikipedia and TickPick list her for this date, but setlist.fm has RAYE entries only for Oct 2, 3, 6 and 7, Velvet Hollywood says she was announced for the original four nights only, and the LA Times review of Sept 30 does not mention her."
+      },
+      {
+        "name": "Anderson .Paak",
+        "role": "guest",
+        "set_time": null,
+        "stage": null,
+        "notes": "Joined Mars mid-show for a Silk Sonic mini-set: 777, Fly as Me, Smokin Out the Window, Leave the Door Open. The two traded jokes about height, singing ability and LA geography (La Cienega vs La Brea) per the LA Times."
+      }
+    ],
+    "schedule": {
+      "doors": "7:00 PM (setlist.fm; most listings give 7:00 PM as event time)",
+      "show_start": "8:50 PM scheduled headline start (setlist.fm); openers from about 7:10 PM on other nights of the run",
+      "end_or_curfew": null,
+      "age_restriction": "All ages"
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/bruno-mars/2026/sofi-stadium-inglewood-ca-7b48761c.html",
+      "is_exact_date": true,
+      "note": "setlist.fm log for Sept 30, 2026 (last edited Oct 1, 2026; 14 users marked attended). Duration not logged for this night; setlist.fm's tour average show length is about 2h 02m, Hit Parader timed the Oct 3 show at nearly two hours, KTLA described the run's sets as nearly two and a half hours.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Nothin' on You",
+          "notes": "B.o.B song, played from tape as intro"
+        },
+        {
+          "n": 2,
+          "title": "Risk It All",
+          "notes": "Opener; reworked, 'beefed-up' bolero version per LA Times"
+        },
+        {
+          "n": 3,
+          "title": "Cha Cha Cha",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "On My Soul",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "24K Magic",
+          "notes": null
+        },
+        {
+          "n": 6,
+          "title": "Treasure",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "God Was Showing Off",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "I Just Might",
+          "notes": null
+        },
+        {
+          "n": 9,
+          "title": "Perm",
+          "notes": "Cape reading 'The Romantic' appears during this song on the tour (Hit Parader)"
+        },
+        {
+          "n": 10,
+          "title": "Why You Wanna Fight?",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "Oh Girl / Let's Get It On / Please Me",
+          "notes": "Medley of Chi-Lites, Marvin Gaye and Cardi B/Bruno Mars songs"
+        },
+        {
+          "n": 12,
+          "title": "That's What I Like",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "Something Serious",
+          "notes": null
+        },
+        {
+          "n": 14,
+          "title": "777",
+          "notes": "Silk Sonic song, with Anderson .Paak"
+        },
+        {
+          "n": 15,
+          "title": "Fly as Me",
+          "notes": "Silk Sonic song, with Anderson .Paak"
+        },
+        {
+          "n": 16,
+          "title": "Smokin Out the Window",
+          "notes": "Silk Sonic song, with Anderson .Paak"
+        },
+        {
+          "n": 17,
+          "title": "Leave the Door Open",
+          "notes": "Silk Sonic song, with Anderson .Paak"
+        },
+        {
+          "n": 18,
+          "title": "Marry You",
+          "notes": null
+        },
+        {
+          "n": 19,
+          "title": "Die With a Smile",
+          "notes": "Lady Gaga & Bruno Mars song, performed solo"
+        },
+        {
+          "n": 20,
+          "title": "It Will Rain / Talking to the Moon / Grenade / When I Was Your Man",
+          "notes": "Ballad medley; stripped-down 'When I Was Your Man' per LA Times"
+        },
+        {
+          "n": 21,
+          "title": "Versace on the Floor",
+          "notes": "Instrumental"
+        },
+        {
+          "n": 22,
+          "title": "Locked Out of Heaven",
+          "notes": null
+        },
+        {
+          "n": 23,
+          "title": "Just the Way You Are",
+          "notes": null
+        },
+        {
+          "n": 24,
+          "title": "Dance With Me",
+          "notes": "From the LA shows onward played before the encore (Wikipedia)"
+        }
+      ],
+      "encore": [
+        {
+          "n": 1,
+          "title": "Uptown Funk",
+          "notes": "Mark Ronson feat. Bruno Mars"
+        }
+      ],
+      "duration_min": null
+    },
+    "production": [
+      "Pyrotechnics, large video screens and a succession of floral-pattern tailored suits (LA Times, Sept 30 review).",
+      "Large live band with prominent horn section; the album's Latin-pop arrangements sounded 'brassier and more muscular' live (LA Times).",
+      "Silk Sonic reunion segment with Anderson .Paak, who had opened the night as DJ Pee .Wee.",
+      "On other nights of the run: Mars rotated between bongos, piano and guitar; a neon city-skyline facade lit up the stage for the finale; crowd dressed in the album's black-and-red palette (Hit Parader, Oct 3).",
+      "Mid-show line quoted by the LA Times: 'This ain't sweat, it's tears.'"
+    ],
+    "tickets": {
+      "price_range": "Face value not found. Resale at time of run: upper levels from about $120-$210, floor from about $500 (Rolling Stone/StubHub/SeatGeek/Vivid Seats).",
+      "on_sale_date": null,
+      "seller": "Ticketmaster (Live Nation); BrunoMars.com",
+      "sold_out": true,
+      "notes": "All five SoFi nights reported sold out (Hit Parader, KTLA). The Sept 30 date was added in March 2026 as the '5th and final' show after the original four sold out. The tour reportedly had the largest single-day ticket sales in Live Nation North American tour history."
+    },
+    "attendance": "Not published for this night; venue is roughly 70,000 and the show was reported sold out (Hit Parader, KTLA). No Billboard Boxscore figure found for the SoFi run.",
+    "press": [
+      {
+        "outlet": "Los Angeles Times (via Yahoo)",
+        "title": "Bruno Mars is an anti-slop machine at SoFi Stadium",
+        "url": "https://www.yahoo.com/entertainment/music/articles/bruno-mars-anti-slop-machine-190324616.html",
+        "date": "2026-10-01",
+        "summary": "Mikael Wood reviews the Sept 30 opening night as 'a breezy master class by a veteran entertainer', praising the live craft and sincerity; his one quibble is that a stadium is too big for this music."
+      },
+      {
+        "outlet": "Velvet Hollywood",
+        "title": "The Romantic in Inglewood, Bruno Mars Settles Into SoFi Stadium for a Five-Night Run",
+        "url": "https://velvethollywood.com/stories/bruno-mars-sofi-stadium-romantic-tour/",
+        "date": "2026-10-02",
+        "summary": "Recap of opening night: reworked 'Risk It All' opener, Latin-pop album cuts, Silk Sonic mini-set with .Paak, and context on the five-date stand and ticket demand."
+      },
+      {
+        "outlet": "Hit Parader",
+        "title": "Bruno Mars Shoots For The Moon With The Romantic Tour, And Lands Among The Stars",
+        "url": "https://hitparader.com/hit-parader-approved/bruno-mars-shoots-for-the-moon-with-the-romantic-tour-and-lands-among-the-stars/",
+        "date": null,
+        "summary": "Review of the Saturday (Oct 3) SoFi show: band in mariachi-style outfits, neon city finale, DJ Pee .Wee and Raye opening, nearly two-hour set, sold out all five nights."
+      },
+      {
+        "outlet": "KTLA",
+        "title": "Bruno Mars wraps up 5 nights of 24K Magic at SoFi Stadium",
+        "url": "https://ktla.com/entertainment/bruno-mars-wraps-up-5-nights-of-24k-magic-at-sofi-stadium/",
+        "date": null,
+        "summary": "Wrap-up of the five sold-out nights; DJ Pee .Wee then Raye warmed up the crowd and the sets ran nearly two and a half hours."
+      },
+      {
+        "outlet": "Backspin Canada",
+        "title": "Concert Report: Bruno Mars Brings The Romantic Tour Back to SoFi Stadium",
+        "url": "https://www.backspincanada.com/post/concert-report-bruno-mars-brings-the-romantic-tour-back-to-sofi-stadium-in-los-angeles-2026",
+        "date": null,
+        "summary": "Report on the Oct 7 closer that notes reviews of Sept 30 mentioned extensive video screens, pyro, tailored stagewear and a prominent horn section."
+      },
+      {
+        "outlet": "Dodger Blue",
+        "title": "DJ Pee .Wee Celebrates Dodgers' NLDS Win During 'The Romantic Tour' Performance",
+        "url": "https://dodgerblue.com/dj-pee-wee-celebrates-dodgers-nlds-win-during-the-romantic-tour-performance/2026/10/08/amp/",
+        "date": "2026-10-08",
+        "summary": "Describes DJ Pee .Wee's genre-hopping opening-set format on this run (Oct 7 night)."
+      }
+    ],
+    "facts": [
+      "First of five SoFi Stadium nights (Sept 30, Oct 2, 3, 6, 7), a Wednesday; SoFi announced it in March 2026 as the '5th and final date added'.",
+      "Opener DJ Pee .Wee is Anderson .Paak, who returned mid-show as himself for the Silk Sonic segment.",
+      "The Romantic is Mars's fourth solo album; its Latin-pop/bolero arrangements draw on his Puerto Rican heritage.",
+      "Tour sponsors in North America include MGM Resorts International and The Pinky Ring at Bellagio.",
+      "Velvet Hollywood reports the tour set a Ticketmaster record of 2.1 million tickets sold in a single day.",
+      "The night before (Sept 29) DJ Pee .Wee played the Hollywood Bowl, per setlist.fm."
+    ],
+    "sources": [
+      "https://www.setlist.fm/setlist/bruno-mars/2026/sofi-stadium-inglewood-ca-7b48761c.html",
+      "https://www.setlist.fm/setlist/dj-pee-wee/2026/sofi-stadium-inglewood-ca-b77a98e.html",
+      "https://www.setlist.fm/setlist/dj-pee-wee/2026/sofi-stadium-inglewood-ca-7b4aeecc.html",
+      "https://www.setlist.fm/search?query=raye+sofi+stadium+2026",
+      "https://www.jambase.com/show/bruno-mars-sofi-stadium-20260930",
+      "https://en.wikipedia.org/wiki/The_Romantic_Tour",
+      "https://en.wikipedia.org/wiki/SoFi_Stadium",
+      "https://www.sofistadium.com/news/detail/bruno-mars-announces-the-romantic-tour-first-global-headline-tour-in-nearly-a-decade-and-first-global-stadium-outing",
+      "https://www.sofistadium.com/news/detail/5th-and-final-date-added-bruno-mars-brings-the-romantic-tour-to-sofi-stadium-on-september-30",
+      "https://www.yahoo.com/entertainment/music/articles/bruno-mars-anti-slop-machine-190324616.html",
+      "https://velvethollywood.com/stories/bruno-mars-sofi-stadium-romantic-tour/",
+      "https://hitparader.com/hit-parader-approved/bruno-mars-shoots-for-the-moon-with-the-romantic-tour-and-lands-among-the-stars/",
+      "https://ktla.com/entertainment/bruno-mars-wraps-up-5-nights-of-24k-magic-at-sofi-stadium/",
+      "https://www.backspincanada.com/post/concert-report-bruno-mars-brings-the-romantic-tour-back-to-sofi-stadium-in-los-angeles-2026",
+      "https://dodgerblue.com/dj-pee-wee-celebrates-dodgers-nlds-win-during-the-romantic-tour-performance/2026/10/08/amp/",
+      "https://www.rollingstone.com/product-recommendations/tickets/bruno-mars-the-romantic-tour-tickets-2026-buy-online-1235500960/",
+      "https://www.tickpick.com/buy-bruno-mars-raye-dj-pee-wee-tickets-sofi-stadium-9-30-26-7pm/7783960/"
+    ],
+    "confidence": "high",
+    "gaps": [
+      "Billboard Boxscore gross/attendance for the SoFi run not yet published or not found.",
+      "Face-value ticket prices and on-sale/presale dates for SoFi not found (only resale figures).",
+      "Whether RAYE performed on Sept 30 specifically is unconfirmed (sources conflict).",
+      "DJ Pee .Wee's Sept 30 set times and songs not logged; exact show length for Sept 30 not recorded.",
+      "SoFi's '5th and final date added' news page returned 404 when fetched; its content is known only from search snippets."
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "end": null,
+    "event": "Subculture: Freakshow!",
+    "artists": [
+      "Flabbergast"
+    ],
+    "venue": {
+      "name": "Catch One",
+      "address": "4067 W Pico Blvd, Los Angeles, CA 90019",
+      "neighborhood": "Arlington Heights / Mid-City",
+      "city": "Los Angeles",
+      "capacity": null,
+      "type": "club (multi-room)",
+      "opened": "1973 (as Jewel's Catch One)",
+      "facts": [
+        "Founded by Jewel Thais-Williams as one of the first Black discos in the US and the longest-running Black gay dance bar in Los Angeles, nicknamed 'the unofficial Studio 54 of the West Coast'.",
+        "Bought in November 2015 by Steve and Mitch Edelson, briefly renamed Union, then returned to the Catch One name; subject of the 2016 Netflix documentary 'Jewel's Catch One'.",
+        "Subculture's early in-person parties were held in the club's Jewel's Room; its 7-year anniversary (Oct 2025) used 5 stages and 7 rooms across the building."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "Catch One",
+    "headliner": "Flabbergast",
+    "tour": {
+      "name": "Subculture Party: Freakshow!",
+      "description": "A Halloween-season edition of Subculture Party, the LA queer underground/hyperpop rave series founded in 2018 that calls Catch One home and runs monthly events in Los Angeles and New York. 'Freakshow!' was a one-night multi-room party on Saturday Oct 10, 2026, two weeks after Subculture had also hosted its anniversary season at the same club in prior years.",
+      "album_or_release": null
+    },
+    "lineup": [
+      {
+        "name": "Flabbergast",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": "Top-billed on the RA and venue listings."
+      },
+      {
+        "name": "elijah daniel",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": "Comedian/musician (Lil Phag, adam&steve); a regular Subculture performer."
+      },
+      {
+        "name": "Morgana Ignis",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Miles Jai",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": "Also played Subculture's Feb 21, 2026 '1-800-Heart-Destroyers' edition."
+      },
+      {
+        "name": "Party Wizard",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Ka5sh",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Mel 4Ever",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Ducki",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "TRU",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Dannytron3000",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Venus Velour",
+        "role": "dj",
+        "set_time": null,
+        "stage": null,
+        "notes": "Roles for the full lineup (DJ vs drag/host) were not specified in listings."
+      }
+    ],
+    "schedule": {
+      "doors": "9:00 PM (listed start)",
+      "show_start": "9:00 PM",
+      "end_or_curfew": null,
+      "age_restriction": null
+    },
+    "setlist": null,
+    "production": [],
+    "tickets": {
+      "price_range": "From about US$17 (Dice listing)",
+      "on_sale_date": null,
+      "seller": "Dice",
+      "sold_out": null,
+      "notes": "Listed under past events on RA, Dice and the venue calendar."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Ringtone Mag",
+        "title": "The Party Don't Start Till Subculture Walks In",
+        "url": "https://www.ringtonemag.com/articles/the-party-dont-start-till-subculture-walks-in",
+        "date": null,
+        "summary": "Profile of Subculture Party: co-founded in 2018 by Tyler S. and Gannon B. as a queer party space, went online during 2020, grew through TikTok recaps; attendees dress in eccentric makeup, outfits and cosplay."
+      },
+      {
+        "outlet": "Rolling Stone",
+        "title": "The Future of Club Life is a Hyperpop Rave Called Subculture",
+        "url": "https://www.rollingstone.com/music/music-features/subculture-hyperpop-rave-club-party-1234683416/",
+        "date": null,
+        "summary": "Feature on Subculture as LA's hyperpop rave (paywalled; title only verified)."
+      }
+    ],
+    "facts": [
+      "The brief describes Subculture as Elijah Daniel's series; the only founding account found (Ringtone Mag) credits co-founders Tyler S. and Gannon B., with Elijah Daniel appearing as a recurring performer (e.g. b2b Venessa Michaels at Subculture Pride 2025).",
+      "Subculture's own site describes it as monthly raves in LA and NYC 'playing electro, techno, dance, pop, drag, and anything you can dance to'.",
+      "Catch One hosted other events the same night (a Blueface/DDG show listed at 7 PM), reflecting the venue's multi-room format.",
+      "Other 2026 Subculture editions at Catch One: '1-800-Heart-Destroyers' (Feb 21), 'spring26' (Mar 22), 'Dungeons & Dragons: the medieval rave' (May 23)."
+    ],
+    "sources": [
+      "https://ra.co/dj/flabbergast/past-events",
+      "https://ra.co/clubs/57175",
+      "https://events.musicofourdesire.com/venue/catch-one/events/past",
+      "https://dice.fm/venue/catch-one-e582",
+      "https://dice.fm/promoters/subculture-party-52al",
+      "https://dolosangeles.com/halloween",
+      "https://www.subcultureparty.com/",
+      "https://www.subcultureparty.com/post/subculture-pride-2025-recap",
+      "https://www.ringtonemag.com/articles/the-party-dont-start-till-subculture-walks-in",
+      "https://www.rollingstone.com/music/music-features/subculture-hyperpop-rave-club-party-1234683416/",
+      "https://en.wikipedia.org/wiki/Jewel%27s_Catch_One",
+      "https://en.wikipedia.org/wiki/Elijah_Daniel",
+      "https://dolosangeles.com/events/2026/2/21/subculture-1-800-heart-destroyers-tickets"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No dedicated event page could be fetched (RA, Dice and DoLA event pages returned 403); lineup, 9 PM time and $17 price come from search-engine snippets of those listings.",
+      "Official theme/description text, room-by-room stage assignments, set times, age limit and end time not found.",
+      "No recap, photos or press for this specific night.",
+      "Catch One capacity not found in a reliable source."
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "end": null,
+    "event": "Prospa: Prophecy",
+    "artists": [
+      "Prospa",
+      "Marco Carola",
+      "Matt Martinez",
+      "Sapian"
+    ],
+    "venue": {
+      "name": "Shrine Expo Hall (Shrine Auditorium and Expo Hall)",
+      "address": "700 W 32nd St, Los Angeles, CA 90007 (Expo Hall entrance; complex address 665 W Jefferson Blvd)",
+      "neighborhood": "University Park / Exposition Park, next to USC",
+      "city": "Los Angeles",
+      "capacity": "about 5,000 (Expo Hall); about 6,300 (Auditorium)",
+      "type": "ballroom/expo hall",
+      "opened": "January 23, 1926",
+      "facts": [
+        "Moorish Revival landmark by G. Albert Lansburgh with John C. Austin and Abram M. Edelman, built after the original Al Malaikah Temple burned in 1920; owned by the Al Malaikah Shriners, booked and operated by Goldenvoice (AEG) since 2012.",
+        "The Expo Hall is a 54,000 sq ft flat-floor space; the adjoining Auditorium hosted the Oscars, Grammys and American Music Awards, Elvis's first concert there in 1956, and Michael Jackson's 1984 Pepsi-commercial pyro accident.",
+        "USC's basketball team played home games at the Shrine for 33 years."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": false,
+    "venue_name": "Shrine Auditorium and Expo Hall",
+    "headliner": "Prospa",
+    "tour": {
+      "name": "Prospa present Prophecy (Los Angeles, three-night run)",
+      "description": "Prophecy is Prospa's own touring party/production concept (also staged in Leeds, London, Miami, Amsterdam/ADE and Chicago in 2025-26), part of the Leeds duo's 2026 North American tour behind their debut album. The LA stop grew to three nights at Shrine Expo Hall (Oct 14-16) with a different support bill each night; Oct 15 and 16 sold out first, and Oct 14 (a Wednesday) was the third show added, headlined with Marco Carola.",
+      "album_or_release": "Free Your Mind (CircoLoco Records, June 5, 2026; UK No. 24)"
+    },
+    "lineup": [
+      {
+        "name": "Prospa",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "Harvey Blumler and Guiorgi 'Gosha' Smith, Leeds. Ranked No. 94 in DJ Mag Top 100 DJs 2026."
+      },
+      {
+        "name": "Marco Carola",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Italian techno/tech-house DJ; the Wednesday night's marquee special guest."
+      },
+      {
+        "name": "Matt Martinez",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Listed on AXS, Time To House and the venue calendar for Oct 14."
+      },
+      {
+        "name": "Sapian",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Listed for Oct 14; also on the Oct 16 bill. His track 'Reason Why' launched Prospa's Prophecy imprint per one source."
+      }
+    ],
+    "schedule": {
+      "doors": "7:00 PM per AXS; the Shrine site, Framework and resale listings give 8:00 PM",
+      "show_start": null,
+      "end_or_curfew": null,
+      "age_restriction": "18+ with valid government ID"
+    },
+    "setlist": null,
+    "production": [
+      "Prophecy productions elsewhere have used dramatic lighting, bold visual design and architectural stage elements built around Prospa's live/DJ hybrid show (Ravebrief); no description of the LA staging was found."
+    ],
+    "tickets": {
+      "price_range": "Face value not found; resale roughly $50-$95 (TicketSmarter)",
+      "on_sale_date": null,
+      "seller": "AXS (Goldenvoice)",
+      "sold_out": null,
+      "notes": "Oct 15 and 16 were marked SOLD OUT on Framework's page; Oct 14 was the 'third show added'. A local listings account later reported every night sold out (unverified)."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Ravebrief",
+        "title": "Prospa Take Over Los Angeles With Three Nights of Their 'Prophecy' Show at Shrine Expo Hall",
+        "url": "https://ravebrief.com/prospa-take-over-los-angeles-with-three-nights-of-their-prophecy-show-at-shrine-expo-hall/",
+        "date": "2026-10-11",
+        "summary": "Preview of the three-night run: Oct 15 and 16 sold out, Oct 14 added; Goldenvoice and Framework presenting; describes Prophecy as an audiovisual production concept rather than an album."
+      }
+    ],
+    "facts": [
+      "Presented by Goldenvoice and Framework (LA's house/techno promoter).",
+      "Per-night supports across the run: Wed Oct 14 Marco Carola (+ Matt Martinez, Sapian); Thu Oct 15 L.P. Rhythm; Fri Oct 16 Murda Beatz house set with ISAbella and Sapian (AXS/Threads listings; Songkick alone lists Isabella for Oct 14).",
+      "Prospa's 'Free Your Mind' with Cloonee reached the UK top 20 and is BPI Gold; the album was CircoLoco Records' first full-length.",
+      "The duo (born 1997-98) have produced together since 2013; breakthrough tracks were 'Prayer' (2018) and 'Ecstasy (Over & Over)' (2020).",
+      "A Bandsintown attendee review of the run reads simply 'Great set.' (5 stars) - fan report.",
+      "Prophecy continued to Awakenings ADE (Oct 25-26, Amsterdam), Radius Chicago (Nov 20) and Space Miami (Dec 1)."
+    ],
+    "sources": [
+      "https://www.axs.com/events/1447132/prospa-present-prophecy-tickets",
+      "https://www.axs.com/events/1303213/prospa-present-prophecy-tickets",
+      "https://thisisframework.com/event/prospa-3rd-show-added/",
+      "https://timetohouse.com/en/events/prospa-present-prophecy-2026-10-14",
+      "https://www.songkick.com/concerts/43256945-prospa-at-shrine-expo-hall",
+      "https://events.musicofourdesire.com/event/opw0-prospa-present-prophecy-event-los-angeles-united-states",
+      "https://www.threads.com/@today_la/post/DeMk_bRG5vi/prospa-is-turning-prophecy-into-a-three-night-run-at-shrine-expo-hall-after-the/",
+      "https://ravebrief.com/prospa-take-over-los-angeles-with-three-nights-of-their-prophecy-show-at-shrine-expo-hall/",
+      "https://events.extrachill.com/events/prospa-present-prophecy-18-event",
+      "https://en.wikipedia.org/wiki/Prospa",
+      "https://en.wikipedia.org/wiki/Shrine_Auditorium_and_Expo_Hall",
+      "https://www.mneemo.com/blog/prospa-free-your-mind-circoloco-first-album/",
+      "https://djmag.com/top100djs/2026/94/prospa",
+      "https://www.ticketsmarter.com/e/prospa-tickets-los-angeles-10-14-2026-shrine-auditorium-and-expo-hall/3402635",
+      "https://www.bandsintown.com/e/108489244-prospa-at-shrine-expo-hall"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No set times published; doors time conflicts between 7 PM (AXS) and 8 PM (Shrine/Framework).",
+      "No recap, review, setlist/tracklist, photos or live stream/recording of the Oct 14 night found.",
+      "Face-value ticket tiers and on-sale date not found (AXS and Framework pages blocked or 404 on fetch).",
+      "Sources disagree on whether Isabella or Matt Martinez played Oct 14; Marco Carola and Sapian are consistent."
+    ]
+  },
+  {
+    "date": "2026-10-17",
+    "end": null,
+    "event": "It's Murph",
+    "artists": [
+      "It's Murph"
+    ],
+    "venue": {
+      "name": "Shrine Expo Hall (Shrine Auditorium and Expo Hall)",
+      "address": "700 W 32nd St, Los Angeles, CA 90007 (Expo Hall entrance; complex address 665 W Jefferson Blvd)",
+      "neighborhood": "University Park / Exposition Park, next to USC",
+      "city": "Los Angeles",
+      "capacity": "about 5,000 (Expo Hall); about 6,300 (Auditorium)",
+      "type": "ballroom/expo hall",
+      "opened": "January 23, 1926",
+      "facts": [
+        "Moorish Revival landmark by G. Albert Lansburgh with John C. Austin and Abram M. Edelman, built after the original Al Malaikah Temple burned in 1920; owned by the Al Malaikah Shriners, booked and operated by Goldenvoice (AEG) since 2012.",
+        "The Expo Hall is a 54,000 sq ft flat-floor space; the adjoining Auditorium hosted the Oscars, Grammys and American Music Awards, Elvis's first concert there in 1956, and Michael Jackson's 1984 Pepsi-commercial pyro accident.",
+        "USC's basketball team played home games at the Shrine for 33 years."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": true,
+    "venue_name": "Shrine Auditorium and Expo Hall",
+    "headliner": "it's murph",
+    "tour": {
+      "name": "Close Friends Only (2026 tour; also the name of the opening DJ collective)",
+      "description": "Nashville producer it's murph's fall 2026 North American run with Tobiahs and the Close Friends Only collective, billed as 'his biggest LA headline show yet'. Oct 17 at Shrine Expo Hall was the original LA date; a second night (Oct 18) was added due to demand, and the tour continued to Salt Lake, Columbus, Seattle, Toronto, Detroit, Montreal, San Francisco (Bill Graham Civic, Dec 5) and Denver.",
+      "album_or_release": "Weightless (debut album, 2025)"
+    },
+    "lineup": [
+      {
+        "name": "it's murph",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "Garrett Murphy, Nashville-born producer who developed his sound while studying at USC, a few blocks from the Shrine. Known for 'Lost' (2022, with RSCL & Twin Diplomacy), 'Food for the Soul' (2023), and 2025 album Weightless."
+      },
+      {
+        "name": "Tobiahs",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Melbourne-based producer/DJ; also on the Oct 18 and Dec 5 San Francisco bills."
+      },
+      {
+        "name": "Close Friends Only",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "DJ collective; name shared with the tour branding."
+      }
+    ],
+    "schedule": {
+      "doors": "8:00 PM",
+      "show_start": "9:00 PM",
+      "end_or_curfew": null,
+      "age_restriction": "18+ with valid government ID"
+    },
+    "setlist": null,
+    "production": [],
+    "tickets": {
+      "price_range": "Aggregator listed $23.15-$620.55 via Ticketmaster/AXS (likely spanning GA to premium/resale); resale from about $73-$83",
+      "on_sale_date": null,
+      "seller": "AXS (Goldenvoice Presents)",
+      "sold_out": null,
+      "notes": "A second night (Sun Oct 18, 8:30 PM listed start) was added 'due to high demand'; no source states Oct 17 sold out."
+    },
+    "attendance": null,
+    "press": [],
+    "facts": [
+      "Promoted by Goldenvoice (AXS 'Goldenvoice Presents'; ticket links carry the goldenvoice skin).",
+      "Billed by the venue listing as 'its murph takes over the Shrine Expo Hall for his biggest LA headline show yet'.",
+      "Murphy started producing in high school after seeing Porter Robinson, then kept developing while at USC; he has played Coachella and Bonnaroo.",
+      "Weightless singles include 'Stone Cold Eyes' (with Emi Grace), 'Chemicals' (with Nat Slater) and 'Feel It in My' (with Arlo and fknblnde).",
+      "Attendance by the portfolio owner is not fully confirmed per the brief."
+    ],
+    "sources": [
+      "https://www.songkick.com/concerts/43310894-its-murph-at-shrine-expo-hall",
+      "https://www.jambase.com/show/its-murph-tobiahs-close-friends-only-shrine-auditorium-expo-hall-20261017",
+      "https://www.jambase.com/band/its-murph",
+      "https://www.axs.com/events/1496233/its-murph-tickets",
+      "https://www.axs.com/events/1511170/its-murph-2nd-night-added-tickets",
+      "https://www.hostelworld.com/events/e/6a6427e641b32749f8a8be57/its-murph/",
+      "https://ma.to/event/its-murph-shrine-expo-hall-17-oct-2026",
+      "https://events.extrachill.com/events/its-murph-ages-18",
+      "https://www.curationsla.com/dd0dd917-7848-4788-9acb-b9f31ad2c9bd-it-s-murph-w-tobiahs-close-friends-only-20261018",
+      "https://www.superfan.social/events/it-s-murph-tobiahs-close-friends-only-los-angeles-2026-10-17",
+      "https://events.musicofourdesire.com/event/gc9j-its-murph-event-los-angeles-united-states",
+      "https://www.vividseats.com/its-murph-tickets-los-angeles-shrine-auditorium-and-expo-hall-los-angeles-10-17-2026/production/7260052",
+      "https://www.tickpick.com/buy-its-murph-tickets-shrine-expo-hall-10-17-26-9pm/8117208/",
+      "https://concerts50.com/show/it-s-murph-in-san-francisco-tickets-dec-05-2026",
+      "https://www.qobuz.com/ca-en/interpreter/its-murph/16033939",
+      "https://en.wikipedia.org/wiki/Shrine_Auditorium_and_Expo_Hall"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No setlist/tracklist, recap, review or photos of the Oct 17 night found.",
+      "Set times for Tobiahs and Close Friends Only not published; face-value ticket tiers and on-sale date not found (AXS pages blocked on fetch).",
+      "No confirmation whether Oct 17 sold out; no official tour announcement page found.",
+      "Whether the portfolio owner attended is unconfirmed (per brief)."
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "end": null,
+    "event": "Logic & G-Eazy: The Endless Summer Tour Part II",
+    "artists": [
+      "Logic",
+      "G-Eazy"
+    ],
+    "venue": {
+      "name": "YouTube Theater",
+      "address": "1011 Stadium Dr, Inglewood, CA 90301",
+      "neighborhood": "Hollywood Park, Inglewood",
+      "city": "Inglewood",
+      "capacity": "6,000 (configurable 3,400-6,000)",
+      "type": "theatre",
+      "opened": "2021 (ribbon-cutting Aug 9, 2021; first concert Caifanes, Sept 4, 2021)",
+      "facts": [
+        "Sits under the same roof canopy as SoFi Stadium, within the Hollywood Park complex built on the former Hollywood Park Racetrack; designed by HKS and owned by Kroenke Sports & Entertainment.",
+        "The farthest seat is 164 feet from the stage; the sound system was designed by L-Acoustics. YouTube bought naming rights for 10 years in June 2021."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": true,
+    "venue_name": "YouTube Theater",
+    "headliner": "Logic & G-Eazy (co-headline; G-Eazy closed the night on this tour)",
+    "tour": {
+      "name": "The Endless Summer Tour Part II",
+      "description": "A 23-date co-headlining North American amphitheater run (Sept 15, 2026, Morton Amphitheater, Riverside/Kansas City MO, to Oct 28, 2026, Shoreline Amphitheatre, Mountain View CA), announced April 27, 2026 as a sequel to Logic and G-Eazy's sold-out 2016 Endless Summer Tour ten years earlier. Juicy J was the special guest on most dates, including Inglewood. The YouTube Theater show was the third-to-last date, following Las Vegas (Oct 18) and preceding Portland (Oct 25).",
+      "album_or_release": "G-Eazy: Helium (May 23, 2025). Logic: Ultra 85 (Aug 9, 2024), the 2025 Sidequest singles, the Juicy J collaborative album Live and in Color (2025) and his film Paradise Records (Tribeca premiere June 2025)."
+    },
+    "lineup": [
+      {
+        "name": "Logic",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "Played first of the two co-headliners on this tour (approx. 8:05 PM start at other dates per setlist.fm), roughly 75-90 minutes. Inglewood set time not published."
+      },
+      {
+        "name": "G-Eazy",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "Closed the show on this tour (approx. 9:45 PM start at other dates per setlist.fm), about 70-75 minutes, ending with Me, Myself & I."
+      },
+      {
+        "name": "Juicy J",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Special guest on 20 of 23 dates including Inglewood (Consequence date list, Ticketmaster lineup). Roughly 30-minute set of Three 6 Mafia-era and solo hits at other stops."
+      }
+    ],
+    "schedule": {
+      "doors": null,
+      "show_start": "7:00 PM (listed showtime on Ticketmaster/Live Nation; Songkick lists 7:00 PM as doors)",
+      "end_or_curfew": null,
+      "age_restriction": null
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/logic/2026/ithink-financial-amphitheatre-west-palm-beach-fl-137cb531.html",
+      "is_exact_date": false,
+      "note": "No setlist.fm entry existed for the Oct 21 Inglewood show as of Oct 24, 2026 (the venue page and both artists' tour pages show no Oct 21 entry). Songs 1-23 are Logic's set from Oct 7, 2026 (iTHINK Financial Amphitheatre, West Palm Beach FL), which matches the opening sequence logged at Boston (Sept 29) and Holmdel (Oct 3). Songs 24-48 are G-Eazy's set from Sept 18, 2026 (Mystic Lake Amphitheater, Shakopee MN), source https://www.setlist.fm/setlist/geazy/2026/mystic-lake-amphitheater-shakopee-mn-6b773216.html. A fan post on X claims the merch-printed official Logic setlist matches this order.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Contact",
+          "notes": "Logic set"
+        },
+        {
+          "n": 2,
+          "title": "Soul Food / Soul Food II",
+          "notes": "Logic set"
+        },
+        {
+          "n": 3,
+          "title": "Everybody",
+          "notes": "Logic set"
+        },
+        {
+          "n": 4,
+          "title": "Upgrade",
+          "notes": "Logic set"
+        },
+        {
+          "n": 5,
+          "title": "Freestyle w/ Scott Powers",
+          "notes": "Logic set"
+        },
+        {
+          "n": 6,
+          "title": "Self Medication",
+          "notes": "Logic set"
+        },
+        {
+          "n": 7,
+          "title": "Perfect",
+          "notes": "Logic set"
+        },
+        {
+          "n": 8,
+          "title": "Like Woah",
+          "notes": "Logic set"
+        },
+        {
+          "n": 9,
+          "title": "DadBod",
+          "notes": "Logic set"
+        },
+        {
+          "n": 10,
+          "title": "44ever / 44 More",
+          "notes": "Logic set"
+        },
+        {
+          "n": 11,
+          "title": "man i is",
+          "notes": "Logic set"
+        },
+        {
+          "n": 12,
+          "title": "Indica Badu",
+          "notes": "Logic set; t-shirts thrown to the crowd"
+        },
+        {
+          "n": 13,
+          "title": "Homicide",
+          "notes": "Logic set"
+        },
+        {
+          "n": 14,
+          "title": "I'm Gone",
+          "notes": "Logic set"
+        },
+        {
+          "n": 15,
+          "title": "Heard Em Say",
+          "notes": "Logic set"
+        },
+        {
+          "n": 16,
+          "title": "1-800-273-8255",
+          "notes": "Logic set; mental-health message"
+        },
+        {
+          "n": 17,
+          "title": "5AM",
+          "notes": "Logic set"
+        },
+        {
+          "n": 18,
+          "title": "Flexicution",
+          "notes": "Logic set"
+        },
+        {
+          "n": 19,
+          "title": "Everyday",
+          "notes": "Logic set"
+        },
+        {
+          "n": 20,
+          "title": "Under Pressure",
+          "notes": "Logic set"
+        },
+        {
+          "n": 21,
+          "title": "City of Stars",
+          "notes": "Logic set"
+        },
+        {
+          "n": 22,
+          "title": "Fade Away",
+          "notes": "Logic set"
+        },
+        {
+          "n": 23,
+          "title": "Gang Related",
+          "notes": "Logic set closer"
+        },
+        {
+          "n": 24,
+          "title": "Far Alone",
+          "notes": "G-Eazy set opener"
+        },
+        {
+          "n": 25,
+          "title": "Endless Summer",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 26,
+          "title": "Tumblr Girls",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 27,
+          "title": "I Mean It",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 28,
+          "title": "Downtown Love",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 29,
+          "title": "Let's Get Lost",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 30,
+          "title": "Almost Famous",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 31,
+          "title": "Marilyn",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 32,
+          "title": "Opportunity Cost",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 33,
+          "title": "Random",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 34,
+          "title": "One of Them",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 35,
+          "title": "WTFDIK",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 36,
+          "title": "Calm Down",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 37,
+          "title": "Sober",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 38,
+          "title": "You Don't Own Me",
+          "notes": "G-Eazy set; SAYGRACE & G-Eazy"
+        },
+        {
+          "n": 39,
+          "title": "Pray for Me",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 40,
+          "title": "No Limit",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 41,
+          "title": "Still Be Friends",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 42,
+          "title": "Nada",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 43,
+          "title": "JFK",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 44,
+          "title": "Lady Killers II / Lady Killers III",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 45,
+          "title": "Kiss the Sky",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 46,
+          "title": "Eazy",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 47,
+          "title": "Him & I",
+          "notes": "G-Eazy set"
+        },
+        {
+          "n": 48,
+          "title": "Me, Myself & I",
+          "notes": "G-Eazy set closer / end of show"
+        }
+      ],
+      "encore": [],
+      "duration_min": null
+    },
+    "production": [
+      "Format on this tour (per a Toronto fan review, Sept 27): Juicy J ~30 min, then Logic ~75-90 min, a ~15-minute changeover, then G-Eazy ~75 min closing; no on-stage collaborations between the acts.",
+      "Logic's screens showed album art changing per song; his crew threw and cannon-fired t-shirts into the crowd; he performed Homicide including Eminem's verse and picked a fan via rock-paper-scissors to perform Gang Related with him (Toronto).",
+      "G-Eazy performed on and around a vintage black Mustang parked center stage against driving-scene backdrops, and changed into the jacket from the When It's Dark Out cover for Random (Toronto)."
+    ],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": "2026-05-01 (general on-sale via Ticketmaster, per Ticketmaster blog)",
+      "seller": "Ticketmaster / Live Nation",
+      "sold_out": null,
+      "notes": "Logic and G-Eazy VIP packages offered (front-five-row or GA pit ticket, meet and greet, photo op, merch, signed laminate). Mobile entry only."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Consequence",
+        "title": "G-Eazy and Logic Reunite for \"The Endless Summer Part II\"",
+        "url": "https://consequence.net/2026/04/logic-g-eazy-the-endless-summer-part-ii/",
+        "date": "2026-04-27",
+        "summary": "Tour announcement with the full 23-date routing and the dates with Juicy J (Los Angeles marked). Notes the tour supports G-Eazy's Helium and follows Logic's Ultra 85 and Paradise Records."
+      },
+      {
+        "outlet": "SYpherSights (fan blog)",
+        "title": "Concert Review: Logic & G-Eazy at RBC Amphitheatre in Toronto (2026.09.27)",
+        "url": "https://syphersights.com/2026/09/28/concert-review-logic-g-eazy-at-rbc-amphitheatre-in-toronto-2026-09-27/",
+        "date": "2026-09-28",
+        "summary": "Fan review of the Toronto stop describing the running order (Juicy J, Logic, G-Eazy closing at the 11 PM curfew), Logic's t-shirt cannon and fan cameo, and G-Eazy's Mustang stage prop. Not a review of the Inglewood date."
+      },
+      {
+        "outlet": "Ticketmaster Blog",
+        "title": "What to Expect from G-Eazy: The Endless Summer Tour Part II Setlist",
+        "url": "https://blog.ticketmaster.com/g-eazy-setlist/",
+        "date": null,
+        "summary": "Pre-tour preview: on sale May 1, VIP package contents, and a projected (not confirmed) setlist."
+      },
+      {
+        "outlet": "Exclaim!",
+        "title": "Logic and G-Eazy Plot Co-Headlining Tour with Juicy J",
+        "url": "https://exclaim.ca/music/article/logic-and-g-eazy-plot-co-headlining-tour-with-juicy-j",
+        "date": null,
+        "summary": "Announcement coverage of the co-headline run with Juicy J as special guest."
+      }
+    ],
+    "facts": [
+      "The original Endless Summer Tour ran June-August 2016 with YG and Yo Gotti supporting; a planned G-Eazy mixtape Endless Summer II was scrapped over sample clearances.",
+      "Logic and Juicy J released a collaborative album, Live and in Color, in 2025, so the support act is also Logic's recent studio partner.",
+      "A fan post on X (FittsBryce) circulated what it described as Logic's official tour setlist printed on merch sold at the shows: Contact, Soul Food 1 & 2, Everybody, Upgrade, Self-Medication, Perfect, Like Woah, DadBod, 44ever/44 More, man i is/Indica Badu, Homicide, I'm Gone/Metropolis, Heard Em Say, 1-800... (fan report, unverified).",
+      "As of Oct 24, 2026, setlist.fm had no entry for the Oct 21 Inglewood show for Logic, G-Eazy or Juicy J.",
+      "Logic last played YouTube Theater on June 28, 2023 (College Park Tour)."
+    ],
+    "sources": [
+      "https://consequence.net/2026/04/logic-g-eazy-the-endless-summer-part-ii/",
+      "https://www.livenation.com/event/vvG1IZ_aQlI5Ky/logic-g-eazy-the-endless-summer-tour-part-ii",
+      "https://help.ticketmaster.com/hc/en-us/articles/46129459147153-Logic-G-Eazy-The-Endless-Summer-Tour-Part-II",
+      "https://blog.ticketmaster.com/g-eazy-setlist/",
+      "https://www.songkick.com/concerts/43181495-geazy-at-youtube-theater",
+      "https://lahiphopevents.com/event/logic-g-eazy-endless-summer-tour-part-ii/",
+      "https://www.setlist.fm/stats/logic-63df7277.html?tour=43daefe7",
+      "https://www.setlist.fm/search?artist=63df7277&tour=43daefe7",
+      "https://www.setlist.fm/search?artist=4bd0535a&tour=5bdaefe0",
+      "https://www.setlist.fm/venue/youtube-theater-inglewood-ca-usa-23d0f42f.html",
+      "https://www.setlist.fm/setlist/logic/2026/ithink-financial-amphitheatre-west-palm-beach-fl-137cb531.html",
+      "https://www.setlist.fm/setlist/geazy/2026/mystic-lake-amphitheater-shakopee-mn-6b773216.html",
+      "https://www.setlist.fm/setlist/logic/2026/north-island-credit-union-amphitheatre-chula-vista-ca-2b7cec2e.html",
+      "https://syphersights.com/2026/09/28/concert-review-logic-g-eazy-at-rbc-amphitheatre-in-toronto-2026-09-27/",
+      "https://x.com/FittsBryce/status/2100300924434473038",
+      "https://en.wikipedia.org/wiki/YouTube_Theater",
+      "https://en.wikipedia.org/wiki/Logic_(rapper)",
+      "https://en.wikipedia.org/wiki/G-Eazy",
+      "https://www.los-angeles-theatre.com/shows/youtube-theater/logic"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No setlist, set times, review or attendance figure for the Oct 21 Inglewood date itself; setlist.fm had no entry as of Oct 24.",
+      "Ticket face-value price range for YouTube Theater not found (AXS/Ticketmaster pages blocked).",
+      "Doors time and age policy for this venue date not confirmed (only a 7:00 PM listed showtime).",
+      "Whether the local openers seen in Toronto (Hermit, T Man the Wizard) also played Inglewood is unknown."
+    ]
+  },
+  {
+    "date": "2026-10-23",
+    "end": null,
+    "event": "GRYFFIN with B2B Alesso set",
+    "artists": [
+      "GRYFFIN",
+      "Alesso"
+    ],
+    "venue": {
+      "name": "Exposition Park South Lawn",
+      "address": "700 Exposition Park Dr, Los Angeles, CA 90037",
+      "neighborhood": "Exposition Park, South Los Angeles (directly south of USC, beside the LA Memorial Coliseum)",
+      "city": "Los Angeles",
+      "capacity": "Not fixed; the park's permit listing for Gryffin Night 2 shows 12,000 attendees",
+      "type": "park (outdoor lawn)",
+      "opened": "Park established 1872 as Agricultural Park (160 acres); South Lawn used for Goldenvoice concerts since 2025",
+      "facts": [
+        "Exposition Park holds the Coliseum, BMO Stadium, the Natural History Museum, California Science Center (Space Shuttle Endeavour), California African American Museum, the Rose Garden and the Lucas Museum of Narrative Art (opening 2026); it hosted the 1932 and 1984 Olympics and will host again in 2028.",
+        "Recent South Lawn concerts: Dabin (Aug 23, 2025) and Turnstile with Amyl and The Sniffers (Oct 4, 2025); an Insomniac show is listed for Dec 5, 2026. Served by the Metro E Line Expo Park/USC station."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "went",
+    "unconfirmed": true,
+    "venue_name": "Exposition Park",
+    "headliner": "Gryffin",
+    "tour": {
+      "name": "Ten Years of Music. One Night. (Gryffin - Live at Exposition Park, Night 1)",
+      "description": "Standalone Goldenvoice-promoted outdoor headline show on the Exposition Park South Lawn, not a festival. Gryffin's 2026 'Ten Years of Music. One Night.' series is a four-city career retrospective marking a decade since his debut single (Cow Palace, Daly City, June 12-13; Under the K Bridge Park, Brooklyn, Oct 17; Exposition Park, LA, Oct 23-24; Red Rocks, Nov 13). LA was announced March 25, 2026 as a single Oct 24 show; a second night (Friday Oct 23, 'Night 1') was added and billed around the second and final back-to-back set with Alesso, following their b2b debut at Brooklyn Army Terminal on Aug 22, 2026.",
+      "album_or_release": "No 2026 album; latest album Pulse (Aug 2, 2024). The series marks ten years since the debut single Heading Home (Jan 22, 2016). Recent single: Save My Love with Kygo & Khalid."
+    },
+    "lineup": [
+      {
+        "name": "Gryffin",
+        "role": "headliner",
+        "set_time": null,
+        "stage": "South Lawn",
+        "notes": "Dan Griffith; hybrid DJ/live format with guitar and keys."
+      },
+      {
+        "name": "Alesso",
+        "role": "guest",
+        "set_time": null,
+        "stage": "South Lawn",
+        "notes": "Back-to-back set with Gryffin; per Gryffin's X post this was one of only two b2b sets (Brooklyn Army Terminal Aug 22 and Exposition Park Oct 23). 1001Tracklists logs the b2b at about 56 minutes."
+      },
+      {
+        "name": "Lost Frequencies",
+        "role": "support",
+        "set_time": null,
+        "stage": "South Lawn",
+        "notes": "Billed on both LA nights. Bandsintown lists 7:00 PM for his listing, likely the event start rather than a set time."
+      },
+      {
+        "name": "AR/CO",
+        "role": "support",
+        "set_time": null,
+        "stage": "South Lawn",
+        "notes": "Also supports the Red Rocks finale."
+      },
+      {
+        "name": "Leondis",
+        "role": "support",
+        "set_time": null,
+        "stage": "South Lawn",
+        "notes": "Listed only on the Friday (b2b) bill."
+      }
+    ],
+    "schedule": {
+      "doors": "6:00 PM (AXS)",
+      "show_start": "7:00 PM listed (Ticketmaster/Shazam/Songkick); some listings show 6:30 PM",
+      "end_or_curfew": "Not published for Night 1; the park's permit listing for Night 2 shows a 5-11 PM event window",
+      "age_restriction": "18+ (VIP area 21+); valid government ID required"
+    },
+    "setlist": {
+      "source_url": "https://www.1001tracklists.com/tracklist/m8byfs9/alesso-gryffin-exposition-park-los-angeles-united-states-2026-10-23.html",
+      "is_exact_date": true,
+      "note": "User-submitted 1001Tracklists entry for the Alesso & Gryffin b2b portion only (55:47, 32 of 38 IDs identified). Gryffin's own solo set and the support sets from this night were not documented anywhere found. Mashup/acappella layers are summarized in notes.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Intro Mashup (Alesso & Gryffin)",
+          "notes": "w/ Alesso - Get Your Groove On"
+        },
+        {
+          "n": 2,
+          "title": "Stupidisco vs. Let Me Go (Alesso Mashup)",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Gryffin ft. Maia Wright - Body Back (ID Remix)",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "Calvin Harris & Alesso ft. Hurts - Under Control",
+          "notes": "w/ Tarrow Flip, Gryffin & Olivia O'Brien - Caught Up acappella, and an ID"
+        },
+        {
+          "n": 5,
+          "title": "DJ Sammy & Yanou ft. Do - Heaven (ID Remix)",
+          "notes": null
+        },
+        {
+          "n": 6,
+          "title": "ID - ID",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "Alesso - Smoke Machine",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "Alesso - The Rhythm Of The Night",
+          "notes": "w/ ALOK & Gryffin & Julia Church - Never Letting Go (ALOK Club Mix)"
+        },
+        {
+          "n": 9,
+          "title": "Alesso & John Newman - Call Your Name",
+          "notes": "w/ Martin Garrix & Third Party - Carry You"
+        },
+        {
+          "n": 10,
+          "title": "Alesso ft. Matthew Koma - Years (Vocal Mix)",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "Sebastian Ingrosso & Alesso ft. Ryan Tedder - Calling (Lose My Mind)",
+          "notes": "w/ Gryffin ft. Kyle Reynolds - Best Is Yet To Come acappella"
+        },
+        {
+          "n": 12,
+          "title": "Freedom vs. When I'm Gone (Alesso Mashup)",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "Kygo & Gryffin & Khalid - Save My Love (MEDUZA Remix)",
+          "notes": null
+        },
+        {
+          "n": 14,
+          "title": "Alesso - Without You",
+          "notes": "w/ Gryffin ft. Elley Duhe - Forever acappella"
+        },
+        {
+          "n": 15,
+          "title": "Only You vs. Without You (JAYBEE Mashup)",
+          "notes": "w/ Gryffin ft. Katie Pearlman - Nobody Compares To You acappella"
+        },
+        {
+          "n": 16,
+          "title": "M83 - Midnight City (ID Remix)",
+          "notes": null
+        },
+        {
+          "n": 17,
+          "title": "Alesso ft. Nate Smith - I Like It (Alesso & Sentinel VIP)",
+          "notes": "w/ Alesso & Zara Larsson - Words acappella"
+        },
+        {
+          "n": 18,
+          "title": "Nadia Ali, Starkillers & Alex Kenji - Pressure (Alesso Remix)",
+          "notes": "w/ Years & Years - Desire acappella"
+        },
+        {
+          "n": 19,
+          "title": "Pressure (Alesso Remix / RemK Flip)",
+          "notes": null
+        },
+        {
+          "n": 20,
+          "title": "Alesso & SACHA - Destiny (AVELLO Remix)",
+          "notes": "w/ Gryffin ft. Zohara - Where Are You Tonight acappella"
+        },
+        {
+          "n": 21,
+          "title": "Gryffin & SLANDER ft. Calle Lehmann - All You Need To Know (ID Remix)",
+          "notes": "w/ Swedish House Mafia - Save The World acappella"
+        },
+        {
+          "n": 22,
+          "title": "Never Going Home Tonight vs. Heroes (We Could Be) (Alesso Mashup)",
+          "notes": null
+        },
+        {
+          "n": 23,
+          "title": "Alesso & OneRepublic - If I Lose Myself",
+          "notes": "w/ Gryffin & ILLENIUM ft. Daya - Feel Good (ILLENIUM edit)"
+        },
+        {
+          "n": 24,
+          "title": "Alesso & Gryffin - Magical",
+          "notes": "Closer; listed as an Alesso & Gryffin track, no commercial release found"
+        }
+      ],
+      "encore": [],
+      "duration_min": 56
+    },
+    "production": [
+      "The 'Ten Years of Music' shows are billed as an extended hybrid format blending DJ performance with live instrumentation and unnamed special vocal guests, drawing on his full catalog from early melodic releases to crossover hits (announcement coverage; specifics for Oct 23 not reported).",
+      "VIP ticket holders had a dedicated viewing area, bar and entrance; a separate 'Gryffin Soundcheck Experience' upgrade was sold on AXS."
+    ],
+    "tickets": {
+      "price_range": "$89.50-$600 (GA tiers to VIP, per a FindMuse listing summary)",
+      "on_sale_date": "Oct 24 show: artist presale April 1, 2026, general on-sale April 3, 2026 (via Laylo/AXS); on-sale date for the added Oct 23 night not found",
+      "seller": "AXS (Goldenvoice)",
+      "sold_out": null,
+      "notes": "GA tiers differed only by price; VIP 21+. The Saturday Oct 24 night was marked sold out on Gryffin's Laylo page; status of Friday not confirmed."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "EDMTunes",
+        "title": "GRYFFIN Announces Headline Show at Exposition Park in LA",
+        "url": "https://www.edmtunes.com/2026/03/gryffin-announces-headline-show-at-exposition-park-in-la/",
+        "date": "2026-03-25",
+        "summary": "Announcement of the LA installment of 'Ten Years of Music. One Night.' with presale/on-sale dates, the hybrid live format, and Gryffin's LA history (Shrine 2019, LA State Historic Park 2022)."
+      },
+      {
+        "outlet": "LATF USA",
+        "title": "GRYFFIN Announces Los Angeles Stop for \"Ten Years of Music. One Night.\"",
+        "url": "https://www.latfusa.com/article/2026/03/gryffin-announces-los-angeles-stop-for-ten-years-of-music-one-night",
+        "date": "2026-03",
+        "summary": "Describes the show as a career-spanning retrospective with vocal collaborators; notes the Cow Palace opener sold out and added a second night."
+      },
+      {
+        "outlet": "EDM Identity",
+        "title": "Alesso at Brooklyn Army Terminal recap",
+        "url": "https://edmidentity.com/2026/08/28/alesso-brooklyn-army-terminal-recap/",
+        "date": "2026-08-28",
+        "summary": "Recap of Alesso's Aug 22 Brooklyn show, which featured the b2b debut with Gryffin; the LA date was the second and last b2b (page could not be fully read)."
+      },
+      {
+        "outlet": "Fresh Music Freaks",
+        "title": "GRYFFIN Announces Final 'Ten Years Of Music. One Night.' Show At Red Rocks Amphitheatre",
+        "url": "https://freshmusicfreaks.com/gryffin-announces-final-ten-years-of-music-one-night-show-at-red-rocks-amphitheatre/",
+        "date": "2026-04",
+        "summary": "The series finale at Red Rocks on Nov 13, 2026 with Oliver Heldens and AR/CO."
+      }
+    ],
+    "facts": [
+      "Gryffin's X post: 'the debut and only b2b sets with @Alesso are happening Sat Aug 22 - Brooklyn Army Terminal, Fri Oct 23 - Exposition Park', making this LA night the last scheduled Gryffin b2b Alesso set.",
+      "Night 2 (Sat Oct 24) was billed as 'Ten Years of Music. One Night.' proper, with Lost Frequencies, Daniel Allan and AR/CO, and was marked sold out on Gryffin's Laylo page.",
+      "Gryffin's previous major LA headline shows: a sold-out 2019 Shrine Auditorium show filmed as Gravity Live From The Shrine, and the 2022 Alive tour stop at LA State Historic Park.",
+      "The park's own event listing shows production load-in on the South Lawn starting Oct 20 and load-out through Oct 25 for the two-night run."
+    ],
+    "sources": [
+      "https://www.axs.com/events/1386119/gryffin-with-b2b-alesso-set-tickets",
+      "https://www.axs.com/series/32259/gryffin-y-live-at-exposition-park-los-angeles-tickets",
+      "https://detour.songkick.com/concerts/43138174-gryffin-at-exposition-park-south-lawn",
+      "https://www.songkick.com/venues/4605410-exposition-park-south-lawn",
+      "https://www.1001tracklists.com/tracklist/m8byfs9/alesso-gryffin-exposition-park-los-angeles-united-states-2026-10-23.html",
+      "https://x.com/gryffinofficial/status/2081780763968630790",
+      "https://www.edmtunes.com/2026/03/gryffin-announces-headline-show-at-exposition-park-in-la/",
+      "https://www.latfusa.com/article/2026/03/gryffin-announces-los-angeles-stop-for-ten-years-of-music-one-night",
+      "https://iwantedm.com/gryffin-announces-chapter-3-ten-years-of-music/",
+      "https://freshmusicfreaks.com/gryffin-announces-final-ten-years-of-music-one-night-show-at-red-rocks-amphitheatre/",
+      "https://edmidentity.com/2026/08/28/alesso-brooklyn-army-terminal-recap/",
+      "https://findmuse.app/concerts/los-angeles/gryffin-with-b2b-alesso-set-live-at-exposition-park-exposition-park-south-lawn-2026-10-24",
+      "https://otbla.com/events/edm/gryffin-exposition-park-friday-2026/",
+      "https://expositionpark.ca.gov/venue/south-lawn-2/?hide_subsequent_recurrences=1",
+      "https://laylo.com/gryffin/m/NckLhh",
+      "https://www.shazam.com/event/b5063b01-4ec6-46bb-96f8-8c5a866315a5",
+      "https://en.wikipedia.org/wiki/Exposition_Park_(Los_Angeles)",
+      "https://en.wikipedia.org/wiki/Gryffin"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No published set times for the support acts or for the b2b vs. Gryffin solo portions; no review or recap of the Oct 23 night found as of Oct 24.",
+      "Attendance for Night 1 not found (only a 12,000-attendee permit figure for Night 2).",
+      "Face-value price tiers and on-sale date for the added Friday night not confirmed (AXS pages blocked; price range comes from a third-party listing).",
+      "Whether Gryffin also played a full solo set before/after the b2b is undocumented."
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "end": null,
+    "event": "Madeon presents Victory Live",
+    "artists": [
+      "Madeon",
+      "MGNA Crrrta",
+      "Contact Sports"
+    ],
+    "venue": {
+      "name": "Shrine Expo Hall (Shrine Auditorium & Expo Hall)",
+      "address": "665 W Jefferson Blvd, Los Angeles, CA 90007 (Expo Hall entrance also listed as 700 W 32nd St)",
+      "neighborhood": "University Park, adjacent to USC",
+      "city": "Los Angeles",
+      "capacity": "5,000 (Expo Hall); the adjoining Auditorium seats about 6,300",
+      "type": "hall (standing-room exhibition hall attached to a historic theatre)",
+      "opened": "January 23, 1926",
+      "facts": [
+        "Designed by G. Albert Lansburgh with John C. Austin and Abram M. Edelman as headquarters of the Al Malaikah Shriners, replacing a 1906 temple destroyed by fire in 1920; LA Historic-Cultural Monument No. 139 (1975) and on the National Register (1987).",
+        "The Auditorium hosted the Academy Awards in 1947-48, 1988-89, 1991, 1995, 1997-98 and 2000-01 and multiple Grammy ceremonies between 1978 and 1999; the 54,000 sq ft Expo Hall has been booked by Goldenvoice since 2012 and hosts electronic shows. Madeon previously played the Shrine Expo Hall on Nov 17, 2023."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "upcoming",
+    "unconfirmed": false,
+    "venue_name": "Shrine Auditorium and Expo Hall",
+    "headliner": "Madeon",
+    "tour": {
+      "name": "Victory Live (Victory Live Tour)",
+      "description": "A 31-date North American headline tour announced May 7, 2026 (fan presale May 13, general on-sale May 15), running Sept 24 (Roseland Theater, Portland) to Nov 21 (Radius, Chicago) in support of Madeon's third album Victory. The Los Angeles show, in the city where the Nantes-born producer is based, falls on the West Coast leg right after San Luis Obispo (Oct 22) and San Diego's Rady Shell (Oct 23) and before Oklahoma City (Oct 28). The production scales up the Good Faith Forever show and was previewed at a sold-out Red Rocks in October 2025.",
+      "album_or_release": "Victory (June 26, 2026, Mom+Pop Music) - his first album since Good Faith (2019); 10 tracks incl. Hi!, Car Crash Baby, Super Platinum (feat. Erick the Architect), Dancing On Your Grave, Somebody Else, Fire Away (feat. Slayyyter), Chaos Magic, Enjoy, Red Jacket (feat. Sam Gellaitry), Lonely Space Age."
+    },
+    "lineup": [
+      {
+        "name": "Madeon",
+        "role": "headliner",
+        "set_time": "9:00 PM listed on ticket/AXS (AXS artist page shows 9:45 PM; Portland and Mystic-type tour starts have been ~9:30 PM)",
+        "stage": null,
+        "notes": "Hugo Pierre Leclercq. Roughly 80-minute set with encore at recent dates."
+      },
+      {
+        "name": "MGNA Crrrta",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "New York electro-pop duo Ginger Scott and Farheen Khan (2022 LP New Jersey; 2026 mixtape Beautiful Disaster; Ninajirachi collaborators). Listed for the LA date only among the Victory Live stops found."
+      },
+      {
+        "name": "Contact Sports",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Project of Newport Beach visual artist/model Tati Bruening (Illumitati); self-titled debut album out Oct 2, 2026 on Queens Road Music/Atlantic. Support on the West Coast Victory Live dates (SF, Sacramento, SLC, Las Vegas, Tucson, San Diego, LA)."
+      }
+    ],
+    "schedule": {
+      "doors": "8:00 PM (AXS; Songkick lists 9:00 PM)",
+      "show_start": "9:00 PM (ticket email/AXS); Resident Advisor lists the event as 9:00 PM-1:00 AM",
+      "end_or_curfew": "1:00 AM listed end on Resident Advisor",
+      "age_restriction": "18+ with valid government ID"
+    },
+    "setlist": {
+      "source_url": "https://www.1001tracklists.com/tracklist/25kp9mbk/madeon-victory-live-tour-the-rady-shell-at-jacobs-park-san-diego-united-states-2026-10-23.html",
+      "is_exact_date": false,
+      "note": "Tonight's setlist.fm page for Shrine Exposition Hall (Oct 24) exists but was empty as of the evening of Oct 24. This is the previous night's set, Oct 23, 2026 at The Rady Shell at Jacobs Park, San Diego (1001Tracklists, 1h20m47s). It is near-identical to the Oct 2 San Francisco set and the Sept 24 Portland opener on setlist.fm (https://www.setlist.fm/setlist/madeon/2026/roseland-theater-portland-or-6b74ae7a.html), so expect the same structure in LA. 'Victory Live Edit' versions are reworked for the show; 'w/' items are layered/mashed with the numbered track.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Hi! (Victory Live Edit)",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "Car Crash Baby",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Icarus (Victory Live Edit)",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "Super Platinum",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "Pay No Mind (Victory Live Edit)",
+          "notes": "feat. Passion Pit"
+        },
+        {
+          "n": 6,
+          "title": "Love You Back",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "Dream Dream Dream",
+          "notes": "w/ Keshi - Kiss Me Right"
+        },
+        {
+          "n": 8,
+          "title": "Dancing On Your Grave",
+          "notes": "w/ Zephyr"
+        },
+        {
+          "n": 9,
+          "title": "iPod Touch (Madeon Remix)",
+          "notes": "Ninajirachi"
+        },
+        {
+          "n": 10,
+          "title": "Chaos Magic",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "Gonna Be Good (Victory Live Edit)",
+          "notes": null
+        },
+        {
+          "n": 12,
+          "title": "Miracle (Victory Live Edit)",
+          "notes": "w/ No Fear No More and Hold Me Just Because"
+        },
+        {
+          "n": 13,
+          "title": "You're On (Victory Live Edit)",
+          "notes": "feat. Kyan"
+        },
+        {
+          "n": 14,
+          "title": "Beings (Victory Live Edit)",
+          "notes": "w/ Red Jacket (feat. Sam Gellaitry)"
+        },
+        {
+          "n": 15,
+          "title": "Revolution",
+          "notes": "w/ Mania and The Prince"
+        },
+        {
+          "n": 16,
+          "title": "Imperium (Victory Live Edit)",
+          "notes": null
+        },
+        {
+          "n": 17,
+          "title": "Technicolor (Victory Live Edit)",
+          "notes": "w/ Louis The Child & Madeon - Believe It"
+        },
+        {
+          "n": 18,
+          "title": "La Lune (Victory Live Edit)",
+          "notes": "feat. Dan Smith; w/ Out At Sea and Pop Culture"
+        },
+        {
+          "n": 19,
+          "title": "Somebody Else",
+          "notes": null
+        },
+        {
+          "n": 20,
+          "title": "All Ur Luv (Madeon Victory Live Remix)",
+          "notes": "WAVEDASH & Madeon feat. Toro y Moi"
+        },
+        {
+          "n": 21,
+          "title": "Hugo 2",
+          "notes": null
+        },
+        {
+          "n": 22,
+          "title": "The Prince (Victory Live Edit)",
+          "notes": "w/ Finale (feat. Nicholas Petricca)"
+        },
+        {
+          "n": 23,
+          "title": "Heavy With Hoping (Victory Live Edit)",
+          "notes": "w/ Dream Dream Dream"
+        },
+        {
+          "n": 24,
+          "title": "Lonely Space Age",
+          "notes": null
+        },
+        {
+          "n": 25,
+          "title": "Shelter (Madeon Victory Live Edit)",
+          "notes": "Porter Robinson & Madeon"
+        }
+      ],
+      "encore": [
+        {
+          "n": 1,
+          "title": "Fire Away",
+          "notes": "feat. Slayyyter"
+        },
+        {
+          "n": 2,
+          "title": "All My Friends (Victory Live Edit)",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "MOLLY TALK",
+          "notes": "ISOxo & Madeon; walk-off song"
+        }
+      ],
+      "duration_min": 81
+    },
+    "production": [
+      "Madeon performs alone on stage but is joined by 'fictional' band members in geometric masks - real musicians and actors filmed and composited into the video-wall visuals, with lighting, shadows and animation making them appear to play alongside him (Dancing Astronaut interview).",
+      "The visual team from Good Faith Forever returned; the show was prototyped on a miniature stage with a tiny video wall and figurine built at Madeon's Los Angeles home, and the tour announcement promised returning Madeon illusions and at least one showstopper moment.",
+      "Reviewers describe a storyline running through the set that gives the night structure beyond song-to-song transitions (The Luna Collective, San Francisco).",
+      "Portland opening night included live debuts of Red Jacket and Somebody Else; the San Francisco show was filmed in 4K by fans (YouTube)."
+    ],
+    "tickets": {
+      "price_range": "Resale/secondary GA roughly $62-$173 incl. fees on Oct 24 (Vivid Seats GA ~$67, SeatGeek low $69); face value not confirmed",
+      "on_sale_date": "Fan presale May 13, 2026; general on-sale May 15, 2026",
+      "seller": "AXS (Goldenvoice Presents)",
+      "sold_out": false,
+      "notes": "Tickets still listed on sale on AXS/SeatGeek/Songkick on show day. Official VIP packages sold through 100x Hospitality (madeon.100xhospitality.com)."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "EDM Identity",
+        "title": "Madeon Announces Tour In Support Of New Album, 'Victory'",
+        "url": "https://edmidentity.com/2026/05/07/madeon-victory-live-tour-dates/",
+        "date": "2026-05-07",
+        "summary": "Tour announcement with routing and on-sale details for the 31-date Victory Live run."
+      },
+      {
+        "outlet": "EDM.com",
+        "title": "Madeon's New Album 'Victory' Marks His Boldest Era Yet: Listen",
+        "url": "https://edm.com/music-releases/madeon-new-album-victory/",
+        "date": "2026-06-26",
+        "summary": "Album review: Victory is the angrier, faster counterpart to Good Faith, written after a period of heartbreak; tracklist and collaborators."
+      },
+      {
+        "outlet": "Dancing Astronaut",
+        "title": "Madeon Embraces Creative Risk on Victory: \"The One Sin of an Artist Is to Be Boring\"",
+        "url": "https://dancingastronaut.com/2026/07/madeon-embraces-creative-risk-on-victory-the-one-sin-of-an-artist-is-to-be-boring/",
+        "date": "2026-07",
+        "summary": "Interview covering the album's departure from his signature sound and the live show's composited masked band members and miniature-stage prototyping."
+      },
+      {
+        "outlet": "The Luna Collective",
+        "title": "Review & Gallery: Madeon Brings 'Victory Live' to San Francisco",
+        "url": "https://www.thelunacollective.co/journal/review-madeon-san-francisco-2026",
+        "date": "2026-10-09",
+        "summary": "Positive review of the Oct 2 Bill Graham Civic show praising the show design and the storyline running through the set."
+      },
+      {
+        "outlet": "Hoodline",
+        "title": "Madeon Victory Live Tour Plays San Diego's Rady Shell",
+        "url": "https://hoodline.com/2026/10/madeon-brings-victory-live-tour-to-san-diego-s-rady-shell-tonight/",
+        "date": "2026-10-23",
+        "summary": "Preview of the night-before show: Contact Sports as guest, updated stage and lighting elements, reworked Adventure and Good Faith tracks, Red Rocks 2025 preview."
+      },
+      {
+        "outlet": "We Rave You",
+        "title": "Madeon announces 31-date Victory Live North American tour",
+        "url": "https://weraveyou.com/2026/05/madeon-victory-live-tour-2026-north-america",
+        "date": "2026-05",
+        "summary": "Announcement coverage: presale/on-sale dates, returning Good Faith Forever visual team, promised illusions and a showstopper moment."
+      }
+    ],
+    "facts": [
+      "Madeon is based in Los Angeles, so this is effectively a hometown show; the album and the show were developed together so the production reflects the record's sound.",
+      "The set blends material from Adventure (2015), Good Faith (2019) and Victory (2026), with most older songs reworked as 'Victory Live Edits'; the encore closes with Fire Away and All My Friends, and ISOxo & Madeon's MOLLY TALK has been the walk-off song.",
+      "Madeon played Coachella 2026 (April 18, Quasar stage) and Ultra Miami earlier in the year, before the Victory Live run.",
+      "setlist.fm's Shrine Exposition Hall page for tonight showed 746 attendances marked by 570 users as of Oct 24, 22:03 UTC, with no songs entered yet.",
+      "The show is Goldenvoice-presented; Resident Advisor lists the event window as 21:00-01:00."
+    ],
+    "sources": [
+      "https://www.axs.com/events/1432437/madeon-presents-victory-live-tickets",
+      "https://www.songkick.com/concerts/43203332-madeon-at-shrine-expo-hall",
+      "https://ra.co/events/2507532",
+      "https://dolosangeles.com/events/2026/10/24/madeon-tickets",
+      "https://edmidentity.com/2026/05/07/madeon-victory-live-tour-dates/",
+      "https://weraveyou.com/2026/05/madeon-victory-live-tour-2026-north-america",
+      "https://edm.com/music-releases/madeon-new-album-victory/",
+      "https://dancingastronaut.com/2026/07/madeon-embraces-creative-risk-on-victory-the-one-sin-of-an-artist-is-to-be-boring/",
+      "https://www.thelunacollective.co/journal/review-madeon-san-francisco-2026",
+      "https://hoodline.com/2026/10/madeon-brings-victory-live-tour-to-san-diego-s-rady-shell-tonight/",
+      "https://www.1001tracklists.com/tracklist/25kp9mbk/madeon-victory-live-tour-the-rady-shell-at-jacobs-park-san-diego-united-states-2026-10-23.html",
+      "https://www.1001tracklists.com/tracklist/1g8hkv99/madeon-victory-live-tour-bill-graham-civic-auditorium-san-francisco-united-states-2026-10-02.html",
+      "https://www.setlist.fm/setlist/madeon/2026/roseland-theater-portland-or-6b74ae7a.html",
+      "https://www.setlist.fm/setlist/madeon/2026/shrine-exposition-hall-los-angeles-ca-6374ae5b.html",
+      "https://www.setlist.fm/setlists/madeon-43d39377.html",
+      "https://www.papermag.com/mgna-crrrta-interview",
+      "https://www.broadwayworld.com/bwwmusic/article/Contact-Sports-Releases-Self-Titled-Debut-Album-With-Tour-Dates-20261002",
+      "https://www.vividseats.com/madeon-tickets-los-angeles-shrine-auditorium-and-expo-hall-los-angeles-10-24-2026--concerts-dance-electronica/production/7007413",
+      "https://seatgeek.com/madeon-tickets/los-angeles-california-shrine-expo-hall-2026-10-24-9-pm/concert/18231014",
+      "https://madeon.100xhospitality.com/",
+      "https://www.vividseats.com/madeon-tickets-los-angeles-shrine-auditorium-and-expo-hall-los-angeles-11-17-2023--concerts-dance-electronica/production/4586966",
+      "https://en.wikipedia.org/wiki/Shrine_Auditorium_and_Expo_Hall"
+    ],
+    "confidence": "high",
+    "gaps": [
+      "No published per-artist set times for the Shrine show (only doors 8 PM / show 9 PM); Madeon's actual start time typically runs 9:30-9:45 PM on this tour.",
+      "Face-value ticket prices not confirmed (AXS blocked); only secondary-market figures found.",
+      "Setlist is from the previous night (San Diego); tonight's setlist.fm page was still empty.",
+      "No LA-specific press preview or review found yet."
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "end": null,
+    "event": "Zulan",
+    "artists": [
+      "Zulan"
+    ],
+    "venue": {
+      "name": "Shrine Expo Hall (Shrine Auditorium & Expo Hall)",
+      "address": "665 W Jefferson Blvd, Los Angeles, CA 90007 (Expo Hall entrance also listed as 700 W 32nd St)",
+      "neighborhood": "University Park, adjacent to USC",
+      "city": "Los Angeles",
+      "capacity": "5,000 (Expo Hall); the adjoining Auditorium seats about 6,300",
+      "type": "hall (standing-room exhibition hall attached to a historic theatre)",
+      "opened": "January 23, 1926",
+      "facts": [
+        "Designed by G. Albert Lansburgh with John C. Austin and Abram M. Edelman for the Al Malaikah Shriners; LA Historic-Cultural Monument No. 139 and on the National Register since 1987. Rock audiences in the late 1960s knew the hall as 'The Pinnacle'.",
+        "The Auditorium hosted the Oscars nine times between 1947 and 2001 and the Grammys repeatedly from 1978 to 1999; Goldenvoice has booked the 54,000 sq ft Expo Hall since 2012 and it is a regular stop for electronic headliners."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "upcoming",
+    "unconfirmed": true,
+    "venue_name": "Shrine Auditorium and Expo Hall",
+    "headliner": "ZULAN",
+    "tour": {
+      "name": null,
+      "description": "Opening date of ZULAN's untitled fall/winter 2026 North American headline run (Shrine Expo Hall Nov 6; History, Toronto Nov 27; Brooklyn Paramount Dec 4; The Van Buren, Phoenix Dec 11; Ogden Theatre, Denver Dec 12; Commodore Ballroom, Vancouver Dec 17; Showbox SoDo, Seattle Dec 19), followed by Lollapalooza India on Jan 23, 2027. It follows her Coachella 2026 debut on the Sahara stage and is her biggest LA room to date after sold-out self-produced nights at The Virgil in 2023.",
+      "album_or_release": "No album; 2026 rollout led by the single Ricota (Puerto Rican-inspired), following the 2025 singles Forever and Campeon."
+    },
+    "lineup": [
+      {
+        "name": "ZULAN",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "Amanda Szulansky, Argentinian-American DJ/producer/multi-instrumentalist raised between New York and Argentina; house blended with Latin and hip-hop; known for playing in local football jerseys."
+      }
+    ],
+    "schedule": {
+      "doors": "8:00 PM (AXS; Songkick lists 9:00 PM)",
+      "show_start": "9:00 PM (AXS, Shrine calendar, CurationsLA; Bandsintown lists 7:00 PM)",
+      "end_or_curfew": null,
+      "age_restriction": "18+ with valid government ID"
+    },
+    "setlist": null,
+    "production": [],
+    "tickets": {
+      "price_range": "Secondary GA listings about $62-$68 incl. fees (Vivid Seats, Oct 24); face value not found",
+      "on_sale_date": null,
+      "seller": "AXS (Goldenvoice Presents); also listed on Ticketmaster and SeatGeek",
+      "sold_out": null,
+      "notes": "StubHub's Spanish-language page labeled the LA show 'casi agotadas' (nearly sold out) as of late October; AXS says ticket transfer opens about Nov 4, 2026."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Latination",
+        "title": "Zulan, the Latina DJ who conquered Coachella with the iconic \"Muchachos\"",
+        "url": "https://latination.com/zulan-the-latina-dj-who-conquered-coachella-with-muchachos/",
+        "date": "2026-04-14",
+        "summary": "Her Coachella 2026 Sahara set, played in a Boca Juniors jersey, closed with a remix of the Argentine national anthem and 'Muchachos', drawing a stadium-style sing-along."
+      },
+      {
+        "outlet": "Fame Magazine",
+        "title": "ZULAN Launches 2026 Rollout With 'Ricota' Ahead Of Coachella Set",
+        "url": "https://www.famemagazine.co.uk/zulan-launches-2026-rollout-with-ricota-ahead-of-coachella-set/",
+        "date": "2026-04-11",
+        "summary": "Ricota opens a 'louder, tighter, more immersive' 2026 expansion; notes her self-funded New York debut and sold-out runs in LA and Argentina."
+      },
+      {
+        "outlet": "Rising Ballers (Substack)",
+        "title": "The ZULAN Effect",
+        "url": "https://risingballers.substack.com/p/the-zulan-effect",
+        "date": null,
+        "summary": "Profile of her football-jersey tradition (wearing the local club's kit in each city, custom prints with her star logo) and her 2023 sold-out self-produced nights at The Virgil in LA and Nublu in New York."
+      }
+    ],
+    "facts": [
+      "Her Ticketmaster bio credits a 'wild performance at a sold-out church in L.A.' as the show that pushed her career to the next level; she has worn Lionel Messi and LAFC jerseys at LA shows.",
+      "Coachella 2026 was her festival debut; her set included Ricota and the anthem/'Muchachos' closer that went viral.",
+      "Songkick notes her previous Los Angeles show was about 10 months before this date; her last Buenos Aires show was Niceto Club on May 7, 2026.",
+      "Her tracks Campeon and Forever have been picked up in 2026 DJ mixes including Two Friends' Big Bootie Mix Vol. 27."
+    ],
+    "sources": [
+      "https://www.axs.com/events/1413525/zulan-tickets",
+      "https://www.songkick.com/concerts/43213605-zulan-at-shrine-expo-hall",
+      "https://www.bandsintown.com/e/108373751-zulan-at-shrine-expo-hall",
+      "https://www.curationsla.com/77e7e41d-7c7a-482f-8c9d-5c9c40897593-zulan-ages-18-20261107",
+      "https://www.shrineauditorium.com/calendar/",
+      "https://www.jambase.com/band/zulan",
+      "https://www.vividseats.com/zulan-tickets-los-angeles-shrine-auditorium-and-expo-hall-los-angeles-11-6-2026--concerts-dance-electronica/production/7024288",
+      "https://www.stubhub.com/zulan-tickets/performer/150254629",
+      "https://www.ticketmaster.ca/zulan-tickets/artist/3499578",
+      "https://www.axs.com/artists/1119409/zulan-tickets",
+      "https://latination.com/zulan-the-latina-dj-who-conquered-coachella-with-muchachos/",
+      "https://www.famemagazine.co.uk/zulan-launches-2026-rollout-with-ricota-ahead-of-coachella-set/",
+      "https://risingballers.substack.com/p/the-zulan-effect",
+      "https://www.1001tracklists.com/tracklist/1v8xnw61/two-friends-big-bootie-mix-vol.-27-2026-05-22.html",
+      "https://en.wikipedia.org/wiki/Shrine_Auditorium_and_Expo_Hall"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No support acts announced on any listing yet.",
+      "No setlist or tracklist from any 2026 ZULAN headline show found (1001Tracklists has no ZULAN set pages); only descriptions of her Coachella closer.",
+      "Face-value ticket prices and on-sale date not found; sold-out status unconfirmed.",
+      "No official tour name or press announcement for the fall run; dates assembled from AXS/JamBase/Bandsintown listings.",
+      "Venue and date of her previous LA shows (the 'church' show, the ~Jan 2026 show) not identified."
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "end": null,
+    "event": "Ninajirachi",
+    "artists": [
+      "Ninajirachi"
+    ],
+    "venue": {
+      "name": "The Fonda Theatre",
+      "address": "6126 Hollywood Blvd, Los Angeles, CA 90028",
+      "neighborhood": "Hollywood",
+      "city": "Los Angeles",
+      "capacity": "1,200",
+      "type": "theatre",
+      "opened": "1926 (20 Oct 1926, as Carter DeHaven's Music Box)",
+      "facts": [
+        "Designed by Morgan, Walls & Clements in Spanish Colonial Revival style; later known as the Guild, Fox and Pix before the Nederlander Organization reopened it in 1985 named after Henry Fonda. Goldenvoice has run it since 2012.",
+        "2026 is the Fonda's centennial: a 'Fonda 100' series ran through October 2026 (Suicidal Tendencies, Father John Misty, Remi Wolf, Peaches, Cuco, Flying Lotus, Animal Collective). A listing for the Nov 12 Ninajirachi date bills it as a 'three-show run for Fonda 100'.",
+        "The Rolling Stones played Sticky Fingers in full here on 20 May 2015; LA Weekly named it the city's best venue in 2015."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "upcoming",
+    "unconfirmed": true,
+    "venue_name": "The Fonda Theatre",
+    "headliner": "Ninajirachi",
+    "tour": {
+      "name": "I Love My Computer and It Loves Me Tour (North America)",
+      "description": "Ninajirachi's first North American headline tour behind her debut album I Love My Computer. The fall leg ran Vancouver (Sept 16) through Brooklyn Steel (Oct 3-4), paused while she opened arena shows for Tame Impala in Australia (Oct 9-25), then resumes with four nights at the Fonda (Nov 11-14) followed by San Francisco (Nov 19) and a 12-date extension in January 2027. Nov 13 is the third of the four Fonda nights and was the '2nd Show Added' on AXS.",
+      "album_or_release": "I Love My Computer (NLV Records, 8 Aug 2025)"
+    },
+    "lineup": [
+      {
+        "name": "Ninajirachi",
+        "role": "headliner",
+        "set_time": "Billed 9:00 PM; on this tour the headline set has started roughly 2h20m after doors (Brooklyn Steel: doors 7:30, on 9:50)",
+        "stage": null,
+        "notes": "Nina Wilson, Central Coast NSW producer/DJ; performs behind decks on a semicircular pedestal with screen visuals"
+      },
+      {
+        "name": "MGNA Crrrta",
+        "role": "support",
+        "set_time": "Not published (played 8:30 PM at Brooklyn Steel)",
+        "stage": null,
+        "notes": "New York electro-pop duo Ginger Scott and Farheen Khan; touring their LP Beautiful Disaster; opening all four Fonda nights and have joined Ninajirachi onstage for 'Angel Music' on this tour"
+      }
+    ],
+    "schedule": {
+      "doors": null,
+      "show_start": "9:00 PM",
+      "end_or_curfew": null,
+      "age_restriction": "18+"
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/ninajirachi/2026/brooklyn-steel-brooklyn-ny-1372aded.html",
+      "is_exact_date": false,
+      "note": "Show has not happened yet. This is the most recent North American headline setlist on the same tour: Brooklyn Steel, Brooklyn NY, 4 Oct 2026 (setlist.fm flags it as possibly incomplete/out of order). Continuous DJ-style set with no gaps between tracks.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "girl EDM",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "London Song",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Angel Music",
+          "notes": "with MGNA Crrrta"
+        },
+        {
+          "n": 4,
+          "title": "It's You",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "Berghain",
+          "notes": "ROSALÍA cover/sample"
+        },
+        {
+          "n": 6,
+          "title": "Ninacamina",
+          "notes": "with Izzy Camina"
+        },
+        {
+          "n": 7,
+          "title": "CSIRAC",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "CSIRAC",
+          "notes": "Dylan Brady remix"
+        },
+        {
+          "n": 9,
+          "title": "Infohazard",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "Battery Death",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "All I Am",
+          "notes": null
+        },
+        {
+          "n": 12,
+          "title": "Delete",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "WannaCry",
+          "notes": "with Porter Robinson (recorded collaboration)"
+        },
+        {
+          "n": 14,
+          "title": "iPod Touch",
+          "notes": null
+        },
+        {
+          "n": 15,
+          "title": "All At Once",
+          "notes": null
+        },
+        {
+          "n": 16,
+          "title": "Fuck My Computer",
+          "notes": null
+        }
+      ],
+      "encore": [
+        {
+          "n": 1,
+          "title": "iPod Touch",
+          "notes": "Madeon remix"
+        },
+        {
+          "n": 2,
+          "title": "WannaCry",
+          "notes": "G Jones remix"
+        }
+      ],
+      "duration_min": 88
+    },
+    "production": [
+      "Tour staging (per Exclaim!'s review of the Vancouver opener): Ninajirachi plays behind decks on a semicircular pedestal with glowing tubes arcing from the gear to the floor; a large screen runs scrolling code that fractures into vortexes on the beat, Windows XP-style pop-ups built from Wikipedia text, and PS2-era 3D cats in headphones, tying into the album's girl-and-her-machines theme and its companion ARG website.",
+      "Set runs with no breaks between songs; she repeatedly returns to the choruses of 'Fuck My Computer' and 'iPod Touch', with calmer interludes sampling Rosalía/Björk's 'Berghain' and nodding to underscores and LMFAO. Encore plays like a greatest-hits medley of remixes.",
+      "MGNA Crrrta have joined her onstage for one song on this tour."
+    ],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": "General on-sale Thu 7 May 2026, 10 AM PT (presales Wed 6 May: artist code ILMC, Goldenvoice code FLOWERS, plus a Discord presale)",
+      "seller": "AXS (Goldenvoice)",
+      "sold_out": null,
+      "notes": "Face value not found. Secondary-market listings in Oct 2026 started around $86-$129 depending on night (Eventworld, TickPick, TicketSmarter). The Nov 13 date is labeled '2nd Show Added!' on AXS; LA was announced as three nights (Nov 12-14) by 4 May 2026, i.e., the second and third shows were added during the presale window before general on-sale. A fourth show (Nov 11, 8 PM) was added in June 2026."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Exclaim!",
+        "title": "Ninajirachi Loves Her Computer, and Vancouver Loved Them Both",
+        "url": "https://exclaim.ca/music/article/ninajirachi-i-love-my-computer-vancouver-concert-review",
+        "date": "2026-09-17",
+        "summary": "Very positive review of the tour's opening night at the Commodore Ballroom: describes the pedestal-and-screen staging, the non-stop pacing, MGNA Crrrta's opening set and a long droning intro that had the crowd suspecting technical problems."
+      },
+      {
+        "outlet": "The Scenestar",
+        "title": "Ninajirachi will be back this Fall with a tour date at the Fonda Theatre in Los Angeles",
+        "url": "https://thescenestar.com/2026/05/04/ninajirachi-headlining-show-at-the-fonda-theatre-in-los-angeles-buy-tickets/",
+        "date": "2026-05-04",
+        "summary": "Local announcement (updated) listing three 18+ Fonda shows on Nov 12, 13 and 14 with MGNA Crrrta, presale codes and the 7 May general on-sale."
+      },
+      {
+        "outlet": "Consequence",
+        "title": "Ninajirachi Announces 'I Love My Computer and It Loves Me' Tour Dates",
+        "url": "https://consequence.net/2026/05/ninajirachi-north-american-tour-dates/",
+        "date": "2026-05",
+        "summary": "Tour announcement with the seven-date fall itinerary, the Australian Tame Impala support run and the Fonda date."
+      },
+      {
+        "outlet": "TicketNews",
+        "title": "Ninajirachi Extends North American Tour With 12 New Dates",
+        "url": "https://www.ticketnews.com/2026/09/ninajirachi-extends-north-american-tour-with-12-new-dates/",
+        "date": "2026-09",
+        "summary": "Reports the January 2027 extension and notes the run now includes four nights at the Fonda, two at Royale and two at Brooklyn Steel."
+      },
+      {
+        "outlet": "Billboard",
+        "title": "Ninajirachi Announces 2026 North American Tour",
+        "url": "https://www.billboard.com/music/pop/ninajirachi-north-american-tour-2026-1236237611/",
+        "date": "2026-05",
+        "summary": "Trade announcement of the tour (page could not be fetched; cited for existence only)."
+      }
+    ],
+    "facts": [
+      "Four consecutive Fonda nights (Nov 11, 12, 13, 14) is the largest multi-night stand on the tour; the other repeat cities are Boston's Royale (2) and Brooklyn Steel (2).",
+      "I Love My Computer won the 2025 Australian Music Prize, Best Independent Release at the 2025 ARIAs, J Award Album of the Year and six 2026 AIR Awards; The Guardian gave it five stars.",
+      "Immediately before the LA stand Ninajirachi was opening arena dates for Tame Impala in Brisbane, Melbourne, Sydney and Perth (45-minute sets, Oct 9-25, 2026).",
+      "Nov 13 is a Friday; Nov 14 is a Saturday. Both are billed at 9:00 PM and 18+, with the same support; the Wednesday Nov 11 add is billed at 8:00 PM."
+    ],
+    "sources": [
+      "https://www.axs.com/events/1428069/ninajirachi-2nd-show-added-tickets/promos/1135827",
+      "https://dolosangeles.com/events/2026/11/13/ninajirachi-2nd-show-added-tickets",
+      "https://thescenestar.com/2026/05/04/ninajirachi-headlining-show-at-the-fonda-theatre-in-los-angeles-buy-tickets/",
+      "https://x.com/TheScenestar/status/2061528495290011818",
+      "https://www.ticketnews.com/2026/09/ninajirachi-extends-north-american-tour-with-12-new-dates/",
+      "https://consequence.net/2026/05/ninajirachi-north-american-tour-dates/",
+      "https://exclaim.ca/music/article/ninajirachi-i-love-my-computer-vancouver-concert-review",
+      "https://www.setlist.fm/setlist/ninajirachi/2026/brooklyn-steel-brooklyn-ny-1372aded.html",
+      "https://www.setlist.fm/setlists/ninajirachi-63cd0af7.html",
+      "https://www.setlist.fm/setlist/ninajirachi/2026/rod-laver-arena-melbourne-australia-33488485.html",
+      "https://en.wikipedia.org/wiki/I_Love_My_Computer",
+      "https://en.wikipedia.org/wiki/Fonda_Theatre",
+      "https://www.ticketnews.com/2026/09/fonda-theatre-marks-100th-anniversary-with-special-concert-series/",
+      "https://ma.to/event/ninajirachi-12-nov-2026",
+      "https://concertfix.com/tours/ninajirachi+the-fonda-theatre+los-angeles-ca",
+      "https://www.tickpick.com/buy-ninajirachi-tickets-the-fonda-theatre-11-13-26-9pm/7942657/",
+      "https://www.axs.com/jp/events/1468560/ninajirachi-4th-show-added-tickets"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "Face-value ticket price and doors time (AXS, Fonda and DoLA pages returned 403).",
+      "No official statement that the extra nights were added 'due to demand'; only the AXS '2nd/3rd/4th Show Added' labels and the timeline are documented.",
+      "Sold-out status unknown.",
+      "No LA-specific press yet (show is in the future)."
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "end": null,
+    "event": "Ninajirachi",
+    "artists": [
+      "Ninajirachi"
+    ],
+    "venue": {
+      "name": "The Fonda Theatre",
+      "address": "6126 Hollywood Blvd, Los Angeles, CA 90028",
+      "neighborhood": "Hollywood",
+      "city": "Los Angeles",
+      "capacity": "1,200",
+      "type": "theatre",
+      "opened": "1926 (20 Oct 1926, as Carter DeHaven's Music Box)",
+      "facts": [
+        "Spanish Colonial Revival theatre by Morgan, Walls & Clements; hosted the West Coast premiere of 'Chicago' in 1927 and Lux Radio Theater broadcasts in 1936; remodeled as a Streamline Moderne cinema in 1945 and ran as a movie house until 1977.",
+        "Renamed for Henry Fonda by the Nederlander Organization in 1985; Goldenvoice took over in 2012. The venue marked its 100th birthday with a 'Fonda 100' concert series in October 2026.",
+        "Capacity about 1,200 in a general-admission floor plus balcony; a rooftop deck/bar is part of the venue."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "upcoming",
+    "unconfirmed": false,
+    "venue_name": "The Fonda Theatre",
+    "headliner": "Ninajirachi",
+    "tour": {
+      "name": "I Love My Computer and It Loves Me Tour (North America)",
+      "description": "Closing night of Ninajirachi's four-night Fonda stand (Nov 11-14) on her first North American headline tour for debut album I Love My Computer. It follows the fall leg (Vancouver to Brooklyn, Sept 16-Oct 4) and an October run opening for Tame Impala in Australian arenas; after LA the tour plays San Francisco (Nov 19) and resumes in January 2027. Nov 14 was the '3rd Show Added' on AXS.",
+      "album_or_release": "I Love My Computer (NLV Records, 8 Aug 2025)"
+    },
+    "lineup": [
+      {
+        "name": "Ninajirachi",
+        "role": "headliner",
+        "set_time": "Billed 9:00 PM; on this tour the headline set has started roughly 2h20m after doors",
+        "stage": null,
+        "notes": "Nina Wilson, Australian producer/DJ"
+      },
+      {
+        "name": "MGNA Crrrta",
+        "role": "support",
+        "set_time": "Not published",
+        "stage": null,
+        "notes": "New York electro-pop duo (Ginger Scott, Farheen Khan); direct support on every date of the tour including all four Fonda nights"
+      }
+    ],
+    "schedule": {
+      "doors": null,
+      "show_start": "9:00 PM",
+      "end_or_curfew": null,
+      "age_restriction": "18+"
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/ninajirachi/2026/brooklyn-steel-brooklyn-ny-1372aded.html",
+      "is_exact_date": false,
+      "note": "Show has not happened yet. Representative setlist from the same tour: Brooklyn Steel, Brooklyn NY, 4 Oct 2026 (setlist.fm marks it possibly incomplete/out of order). Same list applies as the Nov 13 entry.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "girl EDM",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "London Song",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Angel Music",
+          "notes": "with MGNA Crrrta"
+        },
+        {
+          "n": 4,
+          "title": "It's You",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "Berghain",
+          "notes": "ROSALÍA cover/sample"
+        },
+        {
+          "n": 6,
+          "title": "Ninacamina",
+          "notes": "with Izzy Camina"
+        },
+        {
+          "n": 7,
+          "title": "CSIRAC",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "CSIRAC",
+          "notes": "Dylan Brady remix"
+        },
+        {
+          "n": 9,
+          "title": "Infohazard",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "Battery Death",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "All I Am",
+          "notes": null
+        },
+        {
+          "n": 12,
+          "title": "Delete",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "WannaCry",
+          "notes": "with Porter Robinson (recorded collaboration)"
+        },
+        {
+          "n": 14,
+          "title": "iPod Touch",
+          "notes": null
+        },
+        {
+          "n": 15,
+          "title": "All At Once",
+          "notes": null
+        },
+        {
+          "n": 16,
+          "title": "Fuck My Computer",
+          "notes": null
+        }
+      ],
+      "encore": [
+        {
+          "n": 1,
+          "title": "iPod Touch",
+          "notes": "Madeon remix"
+        },
+        {
+          "n": 2,
+          "title": "WannaCry",
+          "notes": "G Jones remix"
+        }
+      ],
+      "duration_min": 88
+    },
+    "production": [
+      "Same tour production as the other Fonda nights: decks on a semicircular pedestal with glowing floor tubes and a large screen of code, Windows XP pop-ups and 3D cats (Exclaim! review of the Vancouver opener).",
+      "Continuous mix with no song breaks and a remix-heavy encore; openers MGNA Crrrta typically rejoin for 'Angel Music'."
+    ],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": "General on-sale Thu 7 May 2026, 10 AM PT (presales 6 May; Discord presale earlier)",
+      "seller": "AXS (Goldenvoice)",
+      "sold_out": null,
+      "notes": "Face value not found. Resale listings in Oct 2026 for Nov 14 started about $86 (Eventworld) to $114 (TickPick). Labeled '3rd Show Added!' on AXS; it was already on sale by the 4 May 2026 announcement update alongside Nov 12 and 13."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Exclaim!",
+        "title": "Ninajirachi Loves Her Computer, and Vancouver Loved Them Both",
+        "url": "https://exclaim.ca/music/article/ninajirachi-i-love-my-computer-vancouver-concert-review",
+        "date": "2026-09-17",
+        "summary": "Review of the tour opener describing staging, visuals, pacing and the MGNA Crrrta opening set."
+      },
+      {
+        "outlet": "The Scenestar",
+        "title": "Ninajirachi will be back this Fall with a tour date at the Fonda Theatre in Los Angeles",
+        "url": "https://thescenestar.com/2026/05/04/ninajirachi-headlining-show-at-the-fonda-theatre-in-los-angeles-buy-tickets/",
+        "date": "2026-05-04",
+        "summary": "Lists Nov 12-14 as 18+ shows with MGNA Crrrta and gives presale/on-sale details."
+      },
+      {
+        "outlet": "EDM Identity",
+        "title": "Ninajirachi Announces North American Tour Dates For Fall 2026",
+        "url": "https://edmidentity.com/2026/05/06/ninajirachi-i-love-computer-tour/",
+        "date": "2026-05-06",
+        "summary": "Dance-press announcement of the tour (page could not be fetched; cited for existence)."
+      },
+      {
+        "outlet": "TicketNews",
+        "title": "Ninajirachi Extends North American Tour With 12 New Dates",
+        "url": "https://www.ticketnews.com/2026/09/ninajirachi-extends-north-american-tour-with-12-new-dates/",
+        "date": "2026-09",
+        "summary": "Covers the January 2027 extension with MGNA CRRRTA and iKeda supporting the new dates, and mentions the four Fonda nights."
+      }
+    ],
+    "facts": [
+      "Saturday closer of the four-night stand; billed 9:00 PM like Nov 12 and 13 (the added Wednesday Nov 11 show is 8:00 PM). No published differences in lineup or format between Nov 13 and Nov 14.",
+      "Ninajirachi also played Coachella 2026 and festival sets at Lollapalooza, Portola (Sept 27) and All Things Go DC (Sept 25) during this album cycle.",
+      "iKeda is listed as additional support only on the January 2027 extension dates, not the Fonda shows."
+    ],
+    "sources": [
+      "https://www.bandsintown.com/pt/e/1038932864-ninajirachi-at-the-fonda-theatre",
+      "https://www.tickpick.com/buy-ninajirachi-tickets-the-fonda-theatre-11-14-26-9pm/7945666/",
+      "https://www.eventworld.com/ninajirachi-los-angeles-tickets-11-14-2026/event/484478",
+      "https://thescenestar.com/2026/05/04/ninajirachi-headlining-show-at-the-fonda-theatre-in-los-angeles-buy-tickets/",
+      "https://x.com/TheScenestar/status/2061528495290011818",
+      "https://www.ticketnews.com/2026/09/ninajirachi-extends-north-american-tour-with-12-new-dates/",
+      "https://consequence.net/2026/05/ninajirachi-north-american-tour-dates/",
+      "https://exclaim.ca/music/article/ninajirachi-i-love-my-computer-vancouver-concert-review",
+      "https://www.setlist.fm/setlist/ninajirachi/2026/brooklyn-steel-brooklyn-ny-1372aded.html",
+      "https://www.setlist.fm/setlists/ninajirachi-63cd0af7.html?page=2",
+      "https://en.wikipedia.org/wiki/I_Love_My_Computer",
+      "https://en.wikipedia.org/wiki/Fonda_Theatre",
+      "https://www.ticketnews.com/2026/09/fonda-theatre-marks-100th-anniversary-with-special-concert-series/",
+      "https://concertfix.com/tours/ninajirachi+the-fonda-theatre+los-angeles-ca"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "Face-value price, doors time and sold-out status (ticketing pages blocked).",
+      "No documented differences between the Nov 13 and Nov 14 nights beyond the day of week and AXS 'show added' numbering.",
+      "No LA-specific press or attendance yet (future show)."
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "end": null,
+    "event": "Memphis LK — Minty Boi Presents",
+    "artists": [
+      "Memphis LK",
+      "Clover Cashelle"
+    ],
+    "venue": {
+      "name": "El Cid",
+      "address": "4212 W Sunset Blvd, Los Angeles, CA 90029",
+      "neighborhood": "Silver Lake (Sunset Blvd at Myra Ave)",
+      "city": "Los Angeles",
+      "capacity": "~125 (Time Out); the room seated about 100 as the Cabaret Concert Theatre",
+      "type": "club / flamenco dinner theatre and restaurant with outdoor patio",
+      "opened": "1962 as El Cid (7 Dec 1962); building dates to c.1900-1905",
+      "facts": [
+        "The building was used for years as a D.W. Griffith studio; 'The Birth of a Nation' was screened there in 1915.",
+        "In 1925 it became the Jail Cafe, a prison-themed restaurant with waiters dressed as guards and inmates; the stone wall and watchtower along Sunset were built to look like prison walls. It was the Gateway Theatre from 1932 and the Cabaret Concert Theatre (1950-61), where the Billy Barnes Revue started.",
+        "Flamenco dancers Juan Talavera and Margarita Cordova with Clark Allen remodeled it as a 16th-century Spanish tavern and opened El Cid on 7 Dec 1962; it still runs a Saturday flamenco show alongside indie and electronic bookings."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "upcoming",
+    "unconfirmed": false,
+    "venue_name": "El Cid",
+    "headliner": "Memphis LK",
+    "tour": {
+      "name": "Memphis LK North America Tour (Nov 2026)",
+      "description": "A short four-city North American club run by Melbourne producer/singer/DJ Memphis LK: Baby's All Right, Brooklyn (Nov 12), Drake Underground, Toronto (Nov 15), El Cid, Los Angeles (Nov 19) and Cafe du Nord, San Francisco (Nov 20). It sits between her Australian festival dates and an Australian 'Are You Holding On?' tour starting Nov 26 at Howler, Melbourne.",
+      "album_or_release": "2026 singles 'Some Kinda Heaven' and 'Out My Body' (no album confirmed)"
+    },
+    "lineup": [
+      {
+        "name": "Memphis LK",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "Live set combining DJing with live vocals and saxophone; billed as stutter house / electronic pop"
+      },
+      {
+        "name": "Clover Cashelle",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Listed on the Discotech/DICE event page; no further information found online"
+      }
+    ],
+    "schedule": {
+      "doors": null,
+      "show_start": "10:00 PM (Discotech/DICE listing; one aggregator says 9:00 PM)",
+      "end_or_curfew": null,
+      "age_restriction": "18+"
+    },
+    "setlist": null,
+    "production": [
+      "Memphis LK performs a hybrid live/DJ set with live vocals and saxophone over her own club productions."
+    ],
+    "tickets": {
+      "price_range": "About $27 GA (a DICE-sourced aggregator listing showed $26.96; unverified)",
+      "on_sale_date": null,
+      "seller": "DICE (GA); VIP tables via Discotech; StubHub resale once sold out",
+      "sold_out": null,
+      "notes": "DICE event: https://dice.fm/event/wwk35p-minty-boi-presents-memphis-lk-in-los-angeles-19th-nov-el-cid-los-angeles-tickets"
+    },
+    "attendance": null,
+    "press": [],
+    "facts": [
+      "Minty Boi is a Los Angeles independent promoter that regularly books El Cid as well as The Echo and The Vermont Hollywood; past 'Minty Boi Presents' bills include Sylvan Esso (DJ set), Actress and Brothertiger.",
+      "Memphis LK (Memphis Lillian Fairfax Kelly, b. 1993, Melbourne) has released the EPs 1 (2021), Too Much Fun (2023), True Love and Its Consequences (2023) and Say (2024); earlier in 2026 she played AO Live at John Cain Arena supporting Sofi Tukker and The Veronicas, and she played Overtone Festival (Gold Coast) on 2 Oct 2026.",
+      "The event page credits a sold-out Australian warehouse tour and a sold-out debut 'True Love Rave' tour.",
+      "The San Francisco date the next night has CSTR as support; the LA support is Clover Cashelle."
+    ],
+    "sources": [
+      "https://app.discotech.me/events/38264938-minty-boi-presents-memphis-lk-in-los-angeles-at-el-cid",
+      "https://dice.fm/event/wwk35p-minty-boi-presents-memphis-lk-in-los-angeles-19th-nov-el-cid-los-angeles-tickets",
+      "https://events.musicofourdesire.com/event/clxy-minty-boi-presents-memphis-lk-concert-los-angeles-united-states",
+      "https://www.songkick.com/artists/9955754-memphis-lk/calendar",
+      "https://www.livenation.com/event/rZ7HnEZ1Afa_q7/memphis-lk",
+      "https://www.ticketmaster.ca/the-drake-hotel-underground-tickets-toronto/venue/131611",
+      "https://en.wikipedia.org/wiki/Memphis_LK",
+      "https://www.setlist.fm/search?query=memphis+lk",
+      "https://www.elcidsunset.com/more",
+      "https://en.wikipedia.org/wiki/Cabaret_Concert_Theatre",
+      "https://www.timeout.com/los-angeles/restaurants/el-cid",
+      "https://de.ra.co/events/2511894",
+      "https://de.ra.co/events/1376119"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No setlist found: Memphis LK's 2026 entries on setlist.fm (AO Live, Sydney, Overtone) are empty.",
+      "Clover Cashelle: no bio, genre or link found.",
+      "Ticket price only from an aggregator snippet; DICE page itself returned 403. Doors time and on-sale date not found.",
+      "No press coverage of this tour or show; no official tour announcement article located."
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "end": null,
+    "event": "Afrojack Presents: CONTROL",
+    "artists": [
+      "Afrojack",
+      "Murphy's Law",
+      "Joezi"
+    ],
+    "venue": {
+      "name": "Shrine Auditorium and Expo Hall (Shrine Expo Hall)",
+      "address": "665 W Jefferson Blvd, Los Angeles, CA 90007 (Expo Hall entrance listed by AXS as 700 W 32nd St)",
+      "neighborhood": "University Park, across Jefferson Blvd from USC",
+      "city": "Los Angeles",
+      "capacity": "Expo Hall ~5,000 standing; Auditorium ~6,300 seated",
+      "type": "exposition hall (club/warehouse-style floor) attached to a historic auditorium",
+      "opened": "1926 (23 Jan 1926)",
+      "facts": [
+        "Moorish Revival landmark designed by G. Albert Lansburgh with John C. Austin and Abram M. Edelman, built after the original 1906 Al Malaikah Temple burned down in 1920.",
+        "Hosted the Academy Awards (1947-48 and several later years) and many Grammy ceremonies; Michael Jackson's hair caught fire here filming a Pepsi commercial in 1984; it was the USC Trojans' home basketball court for 33 years.",
+        "The Expo Hall is a long-running LA dance-music room (Goldenvoice/Framework and Insomniac shows); Afrojack previously played it on 4 Oct 2013."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "upcoming",
+    "unconfirmed": false,
+    "venue_name": "Shrine Auditorium and Expo Hall",
+    "headliner": "Afrojack",
+    "tour": {
+      "name": "CONTROL North American Tour 2026",
+      "description": "Afrojack's biggest headline run of 2026: a nine-date club/warehouse tour (Montreal Oct 3 through Seattle Nov 28, plus a Brooklyn Storehouse date) built around the two sides of his career, pairing his mainstage anthems with heavier house, techno and underground club records. CONTROL is a new show concept for this tour rather than an album; LA at the Shrine Expo Hall is the penultimate stop, the night before the Seattle closer.",
+      "album_or_release": "No album; recent singles include 'To The Front' (2026)"
+    },
+    "lineup": [
+      {
+        "name": "Afrojack",
+        "role": "headliner",
+        "set_time": null,
+        "stage": null,
+        "notes": "Nick van de Wall; set billed as drawing on his full catalog plus darker club material"
+      },
+      {
+        "name": "Murphy's Law",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Leicester, UK house duo of brothers Sonny and Finn Murphy; UK-garage-leaning sound ('Need to Know' on Ministry of Sound, 2023); run the Lawless label"
+      },
+      {
+        "name": "Joezi",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "Paris-born, Tel Aviv-based melodic Afro-house producer known for '7 Seconds' and a 2025 Afro-house rework of Sisqo's 'Thong Song'"
+      }
+    ],
+    "schedule": {
+      "doors": null,
+      "show_start": "8:00 PM (AXS/Discotech); an aggregator lists 9:00 PM to 4:00 AM",
+      "end_or_curfew": null,
+      "age_restriction": "18+ with valid government ID"
+    },
+    "setlist": null,
+    "production": [
+      "CONTROL is described by EDMTunes as a dark, industrial, warehouse-feel concept; the Denver stop was praised for suiting Mission Ballroom's low ceiling and sound system.",
+      "EDM Identity's review of the New York stop (Brooklyn Storehouse) says the set moved between Afrojack's mainstage hits and harder underground club cuts, surprising some fans expecting a standard Afrojack show.",
+      "Tour-wide guest DJs announced in August 2026 include Green Velvet, Loco Dice, Tiga, Murda Beatz and HILLS (Tiga, GLZ and RC3 played Denver; Torren Foot played Brooklyn); the LA bill is Murphy's Law and Joezi."
+    ],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": "Tour on-sale Thu 25 June 2026, 10 AM (presales from 24 June) via drop.cobrand.com/d/AFROJACK/controltour; the LA AXS page later showed an 'on sale soon' countdown in one snapshot",
+      "seller": "AXS (presented by Goldenvoice and Framework)",
+      "sold_out": null,
+      "notes": "Face value not found. Resale listings in Oct 2026 started around $48-$67 (Eventworld, SeatGeek, RateYourSeats, TickPick). AXS event page: https://www.axs.com/events/1468576/afrojack-presents-control-tickets"
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "EDM Identity",
+        "title": "AFROJACK Announces Dates For Control North American Tour",
+        "url": "https://edmidentity.com/2026/06/18/afrojack-control-north-american-tour/",
+        "date": "2026-06-18",
+        "summary": "Tour announcement describing CONTROL as a showcase of both sides of Afrojack's career, with the Shrine Expo Hall date on Nov 27."
+      },
+      {
+        "outlet": "EDMTunes",
+        "title": "Afrojack Announces 'Control' North American Tour This Fall",
+        "url": "https://www.edmtunes.com/2026/06/afrojack-announces-control-north-american-tour-this-fall/",
+        "date": "2026-06",
+        "summary": "Full date list (Montreal Oct 3 to Seattle Nov 28), 25 June on-sale, and the framing of the tour name as a nod to the duality of his career."
+      },
+      {
+        "outlet": "EDMTunes",
+        "title": "Afrojack Adds Green Velvet, Loco Dice, Tiga to CONTROL Tour",
+        "url": "https://www.edmtunes.com/2026/08/afrojack-adds-green-velvet-loco-dice-tiga-to-control-tour/",
+        "date": "2026-08",
+        "summary": "Reports a deeper, club-focused support roster (Green Velvet, Loco Dice, Tiga, Murda Beatz, HILLS) across the tour."
+      },
+      {
+        "outlet": "EDM Identity",
+        "title": "Afrojack Took CONTROL Of New York City With Classics And Underground Club Cuts",
+        "url": "https://edmidentity.com/2026/10/09/afrojack-control-tour-new-york-city/",
+        "date": "2026-10-09",
+        "summary": "Review of the Brooklyn Storehouse show: a set that swung between his classics and harder underground tracks."
+      },
+      {
+        "outlet": "EDMTunes",
+        "title": "AFROJACK Brings the CONTROL Tour to Denver's Mission Ballroom",
+        "url": "https://www.edmtunes.com/2026/10/12/afrojack-brings-the-control-tour-to-denvers-mission-ballroom/",
+        "date": "2026-10-12",
+        "summary": "Preview of the Oct 16 Denver stop (Tiga, GLZ, RC3 supporting) calling the concept dark and industrial with a warehouse feel."
+      },
+      {
+        "outlet": "amNY",
+        "title": "AFROJACK brings CONTROL North American Tour to Brooklyn Storehouse",
+        "url": "https://www.amny.com/entertainment/afrojack-control-tour-brooklyn-storehouse/",
+        "date": "2026-09",
+        "summary": "Preview of the Oct 2 Brooklyn Storehouse show with Torren Foot, framing CONTROL as a blend of his hits with house and techno."
+      }
+    ],
+    "facts": [
+      "Full CONTROL routing: Oct 2 Brooklyn Storehouse (NYC), Oct 3 New City Gas (Montreal), Oct 9 Radius (Chicago), Oct 10 Echostage (DC), Oct 16 Mission Ballroom (Denver), Oct 17 Warehouse 215 (Phoenix), Nov 20 Houston (TBA), Nov 21 Silo (Dallas), Nov 27 Shrine Expo Hall (LA), Nov 28 Level 1 (Seattle).",
+      "The show falls on the Friday after Thanksgiving (Black Friday).",
+      "Between the two halves of the tour Afrojack played EDC Colombia (Oct 11), Ushuaia Ibiza (Oct 5) and two ADE shows in Amsterdam on Oct 24 (Johan Cruijff ArenA and AFAS Live).",
+      "Promoted by Goldenvoice with Framework, the LA house/techno promoter behind many Shrine Expo Hall club shows."
+    ],
+    "sources": [
+      "https://www.axs.com/events/1468576/afrojack-presents-control-tickets?skin=shrineauditorium",
+      "https://thisisframework.com/event/afrojack-presents-control/",
+      "https://ma.to/event/afrojack-control-shrine-27-nov-2026",
+      "https://app.discotech.me/events/38225316-afrojack-presents-control-at-shrine",
+      "https://www.traveltodayla.com/events-in-la/re-7c46cc8e64",
+      "https://edmtrain.com/tours/afrojack-66/los-angeles-513737",
+      "https://edmidentity.com/2026/06/18/afrojack-control-north-american-tour/",
+      "https://www.edmtunes.com/2026/06/afrojack-announces-control-north-american-tour-this-fall/",
+      "https://www.edmtunes.com/2026/08/afrojack-adds-green-velvet-loco-dice-tiga-to-control-tour/",
+      "https://www.edmsauce.com/2026/08/27/afrojacks-control-tour-stacks-legendary-lineups-with-green-velvet-loco-dice-and-tiga/",
+      "https://edmidentity.com/2026/10/09/afrojack-control-tour-new-york-city/",
+      "https://www.edmtunes.com/2026/10/12/afrojack-brings-the-control-tour-to-denvers-mission-ballroom/",
+      "https://www.amny.com/entertainment/afrojack-control-tour-brooklyn-storehouse/",
+      "https://www.setlist.fm/search?query=afrojack&year=2026",
+      "https://www.setlist.fm/setlist/afrojack/2026/mission-ballroom-denver-co-4b72f7b2.html",
+      "https://en.wikipedia.org/wiki/Shrine_Auditorium",
+      "https://www.jambase.com/show/afrojack-at-shrine-auditorium-expo-hall-20131004",
+      "https://mixmagnl.com/read/uk-duo-murphys-law-return-to-ministry-of-sound-with-anthemic-new-single-need-to-know-music",
+      "https://www.dmcworld.net/dmc-world/joezi",
+      "https://www.tickpick.com/buy-afrojack-tickets-shrine-expo-hall-11-27-26-8pm/8081284/"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "No setlist: setlist.fm pages for the Montreal, DC and Denver CONTROL shows exist but contain no songs, and no 1001tracklists entry was found.",
+      "Set times for Murphy's Law and Joezi, doors time and face-value price not published (AXS pages returned 403).",
+      "No direct Afrojack quote explaining the CONTROL concept was found; descriptions are from press paraphrase.",
+      "Sources conflict on the Brooklyn Storehouse date (Oct 2 vs 'tour opener' on/after Oct 3)."
+    ]
+  },
+  {
+    "date": "2026-12-04",
+    "end": null,
+    "event": "ZHU (Opening Party)",
+    "artists": [
+      "ZHU"
+    ],
+    "venue": {
+      "name": "Reframe Studios",
+      "address": "4594 Electronics Pl, Los Angeles, CA 90039 (Framework event listings); Discotech lists 4561 W Colorado Blvd, Los Angeles, CA 90039",
+      "neighborhood": "Atwater Village",
+      "city": "Los Angeles",
+      "capacity": null,
+      "type": "converted film/TV soundstage used as a warehouse-style club (indoor stage) with an outdoor area used for daytime events",
+      "opened": "January 16, 2026 as a nightlife venue (Framework's re:frame launched with MK); the campus was originally a film and television production facility",
+      "facts": [
+        "A former film and television production campus with two 20,000-square-foot soundstages and 33 feet of unobstructed ceiling height; Framework builds custom 360-degree audio/visual production, with air conditioning and on-site parking.",
+        "re:frame Season 1 (Jan-Feb 2026) drew more than 30,000 attendees over six weeks and sold out eight shows, including a John Summit open-to-close set that sold out in five minutes.",
+        "Framework (founded 2013, CEO/co-founder Kobi Danan) is the LA promoter behind Sound Nightclub, Coachella's Yuma Tent programming with Goldenvoice, and events at the Historic Sears Building and Hollywood Blvd.",
+        "Framework-presented events at the venue are listed as 21+ on DICE."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "upcoming",
+    "unconfirmed": false,
+    "venue_name": "Reframe Studios Outdoors",
+    "headliner": "ZHU",
+    "tour": {
+      "name": "ON THE MOVE (ZHU) / re:frame Season 2 Grand Opening Weekend (Framework)",
+      "description": "Opening night of Framework's re:frame Season 2, a winter club series of 25+ nights at Reframe Studios in Atwater Village running Dec 4, 2026 to Feb 27, 2027. ZHU headlines the two-night 'Grand Opening Weekend' (Dec 4 with Broken Hill, Dec 5 with Alex Wann). For ZHU it falls at the tail end of his ON THE MOVE world tour behind the April 2026 album BLACK MIDAS, which asks fans to wear all black (his BLACKLIZT concept).",
+      "album_or_release": "BLACK MIDAS (April 24, 2026, BROKE / Blacklizt Sound Syndicate)"
+    },
+    "lineup": [
+      {
+        "name": "ZHU",
+        "role": "headliner",
+        "set_time": null,
+        "stage": "Reframe Studios Indoors",
+        "notes": "Framework presents; Night 1 of 2 (ZHU also plays Dec 5 'Second Date')."
+      },
+      {
+        "name": "Broken Hill",
+        "role": "support",
+        "set_time": null,
+        "stage": "Reframe Studios Indoors",
+        "notes": "Listed as support on Framework's events list for Dec 4."
+      }
+    ],
+    "schedule": {
+      "doors": "10:00 PM (Discotech listing)",
+      "show_start": null,
+      "end_or_curfew": null,
+      "age_restriction": "21+ (not confirmed on the ZHU page itself; other Framework events at Reframe Studios on DICE are 21+)"
+    },
+    "setlist": {
+      "source_url": "https://readdork.com/setlists/zhu-2026-04-05",
+      "is_exact_date": false,
+      "note": "Show has not happened yet. Representative set from ZHU at 170 Russell, Melbourne, April 5, 2026 (17 songs, mirrors the setlist.fm 2026 average setlist). setlist.fm pages for ZHU's recent ON THE MOVE stops (Mesa Oct 16, Toronto Oct 4, 2026) exist but have no songs logged. ZHU plays DJ/live hybrid sets so track order varies.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Faded",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "Risky Business",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "Zoning",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "My Life",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "Working for It",
+          "notes": null
+        },
+        {
+          "n": 6,
+          "title": "Cocaine Model",
+          "notes": null
+        },
+        {
+          "n": 7,
+          "title": "In the Morning",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "Good Life",
+          "notes": null
+        },
+        {
+          "n": 9,
+          "title": "LEVELZZZ",
+          "notes": "BLACK MIDAS track"
+        },
+        {
+          "n": 10,
+          "title": "Hometown Girl",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "BURN",
+          "notes": "BLACK MIDAS track"
+        },
+        {
+          "n": 12,
+          "title": "Came for the Low",
+          "notes": null
+        },
+        {
+          "n": 13,
+          "title": "Lost It",
+          "notes": null
+        },
+        {
+          "n": 14,
+          "title": "Stormy",
+          "notes": null
+        },
+        {
+          "n": 15,
+          "title": "BLACK MIDAS",
+          "notes": "Title track"
+        },
+        {
+          "n": 16,
+          "title": "Desert Woman",
+          "notes": null
+        },
+        {
+          "n": 17,
+          "title": "Guilty Love",
+          "notes": null
+        }
+      ],
+      "encore": [],
+      "duration_min": null
+    },
+    "production": [
+      "Framework says Season 2 brings redesigned audio, lighting, video, staging and spatial elements built specifically for the soundstage.",
+      "ZHU's 2026 shows build on his BLACKLIZT concept: fans are asked to wear all black. At Ultra 2026 he performed in the round surrounded by mannequins with flames built into the stage (EDM Identity)."
+    ],
+    "tickets": {
+      "price_range": "From about $73.65 (DICE browse snapshot, Oct 2026)",
+      "on_sale_date": null,
+      "seller": "DICE (link.dice.fm/r5ea6c7d88c3); guest list and VIP tables via Discotech; re:frame Season/December passes also sold on DICE",
+      "sold_out": null,
+      "notes": "Season 2 was announced Sep 22, 2026 with tickets 'available now' via thisisframework.com/reframe. DoLA shows the re:frame December Pass as sold out; single-night status for Dec 4 not confirmed."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "DJ LIFE Magazine",
+        "title": "Framework Unveils Re:Frame Season 2 With More Than 25 Nights in LA",
+        "url": "https://djlifemag.com/2026/09/framework-unveils-reframe-season-2-with-more-than-25-nights-in-la/",
+        "date": "2026-09-28",
+        "summary": "Full Season 2 schedule (ZHU Dec 4-5 'Grand Opening Weekend' through Feb 26-27 closing party) and venue description; notes Season 1 drew 30,000+ over six weeks with eight sellouts."
+      },
+      {
+        "outlet": "EDMTunes",
+        "title": "Framework Announces re:frame Season 2 With ZHU, deadmau5, More",
+        "url": "https://www.edmtunes.com/2026/09/framework-reframe-season-2/",
+        "date": "2026-09-22",
+        "summary": "Season 2 announcement with Kobi Danan quote; recaps Season 1 highlights including John Summit's open-to-close set with Feid, Subtronics and Sidepiece."
+      },
+      {
+        "outlet": "Electronic Groove",
+        "title": "Framework unveils re:frame Season 2 in Los Angeles",
+        "url": "https://electronicgroove.com/framework-unveils-reframe-season-2-in-los-angeles/",
+        "date": "2026-09-23",
+        "summary": "Describes the two 20,000-sq-ft soundstages and quotes Danan on the venue sitting 'between the intimacy of a nightclub and the scale of a major concert venue'."
+      },
+      {
+        "outlet": "EDMTunes",
+        "title": "LA Crowd Wowed by Framework's New re:frame Venue",
+        "url": "https://www.edmtunes.com/2026/01/la-crowd-wowed-by-frameworks-new-reframe-venue/",
+        "date": "2026-01-19",
+        "summary": "Report on the Jan 16, 2026 grand opening with MK; compares the room to a smaller Yuma Tent and notes strong social-media reaction."
+      },
+      {
+        "outlet": "EDM Identity",
+        "title": "ZHU To Visit Three Continents During ON THE MOVE Tour",
+        "url": "https://edmidentity.com/2026/04/28/zhu-on-the-move-tour-dates/",
+        "date": "2026-04-28",
+        "summary": "ON THE MOVE tour announcement behind BLACK MIDAS; all-black dress code and Ultra 2026 in-the-round production."
+      }
+    ],
+    "facts": [
+      "This is the first night of re:frame Season 2 and billed by Framework as the 'Grand Opening Weekend'; the DICE/Discotech listing calls it 'ZHU (Opening Party)', with Dec 5 billed as 'ZHU (Second Date)' supported by Alex Wann.",
+      "Listings place the show on the indoor soundstage ('Reframe Studios Indoors'); the 'Outdoors' label on some aggregators is used for the venue's daytime outdoor events (e.g., HUGEL Oct 24, Adriatique Nov 7).",
+      "ZHU (Steven Zhu) is a USC Thornton School of Music graduate (2011) and a Grammy nominee for 'Faded' (2015); his home and studio were damaged in the January 2025 Palisades fire, which Wikipedia says shaped BLACK MIDAS.",
+      "ZHU last headlined LA proper with three sold-out nights at the Hollywood Palladium on his 2023 tour."
+    ],
+    "sources": [
+      "https://djlifemag.com/2026/09/framework-unveils-reframe-season-2-with-more-than-25-nights-in-la/",
+      "https://www.edmtunes.com/2026/09/framework-reframe-season-2/",
+      "https://electronicgroove.com/framework-unveils-reframe-season-2-in-los-angeles/",
+      "https://thisisframework.com/eventslist/",
+      "https://app.discotech.me/los-angeles/reframe-studios",
+      "https://dice.fm/browse/losangeles-5982e13c613de866017c3e3a",
+      "https://link.dice.fm/r5ea6c7d88c3",
+      "https://www.edmtunes.com/2026/01/la-crowd-wowed-by-frameworks-new-reframe-venue/",
+      "https://www.thelunacollective.co/journal/preview-reframe-opening-atwater-village",
+      "https://edmidentity.com/2026/04/28/zhu-on-the-move-tour-dates/",
+      "https://www.edmtunes.com/2026/04/zhu-black-midas-on-the-move-tour-dates/",
+      "https://en.wikipedia.org/wiki/Zhu_(musician)",
+      "https://www.setlist.fm/setlists/zhu-2bdb14be.html",
+      "https://readdork.com/setlists/zhu-2026-04-05",
+      "https://dolosangeles.com/venues/re-frame"
+    ],
+    "confidence": "medium",
+    "gaps": [
+      "Venue capacity not published anywhere found.",
+      "Exact doors/set times, age restriction and ticket tiers for Dec 4 (DICE event page returned 403).",
+      "No logged setlist from a recent ON THE MOVE date; used April 2026 Melbourne set.",
+      "Street address conflicts between sources (4594 Electronics Pl vs 4561 W Colorado Blvd); both are the same Atwater Village campus zip 90039.",
+      "Who Broken Hill is (no bio found)."
+    ]
+  },
+  {
+    "date": "2026-12-12",
+    "end": null,
+    "event": "John Summit",
+    "artists": [
+      "John Summit"
+    ],
+    "venue": {
+      "name": "Los Angeles Memorial Coliseum",
+      "address": "3911 S Figueroa St, Los Angeles, CA 90037",
+      "neighborhood": "Exposition Park (adjacent to USC)",
+      "city": "Los Angeles",
+      "capacity": "77,500 (post-2019 renovation; 93,607 before)",
+      "type": "stadium (open-air)",
+      "opened": "1923 (May 1, 1923)",
+      "facts": [
+        "Commissioned in 1921 as a memorial to LA's World War I veterans; National Historic Landmark since July 27, 1984; owned by the State, County and City and operated by USC under a 98-year master lease since 2013.",
+        "Hosted the 1932 and 1984 Summer Olympics and will host athletics and the closing ceremony in 2028, making it the first stadium to host three Olympics.",
+        "Concert history includes the Rolling Stones' 1981 'Tattoo You' shows (Prince opened and was booed off the first night), Bruce Springsteen, U2, Pink Floyd, Metallica, The Who and Bad Bunny.",
+        "The 2018-19 renovation added a seven-story tower with 42 suites, 1,100 club seats, 24 loge boxes and a 500-person rooftop terrace, and cut capacity from 93,607 to 77,500."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "upcoming",
+    "unconfirmed": false,
+    "venue_name": "LA Memorial Coliseum",
+    "headliner": "John Summit",
+    "tour": {
+      "name": "CTRL ESCAPE Tour (North American arena tour)",
+      "description": "Closing date of John Summit's CTRL ESCAPE arena tour, a 20+ date North American run that opened Oct 1, 2026 at State Farm Center in Champaign, IL and plays arenas such as TD Garden, United Center, Kaseya Center and Barclays Center before ending at the 77,500-capacity Coliseum. Announced Aug 13, 2026 as his biggest headline show to date; Summit said 'we knew we had to end the album tour on the highest note in los angeles.'",
+      "album_or_release": "CTRL ESCAPE (album, April 15, 2026)"
+    },
+    "lineup": [
+      {
+        "name": "John Summit",
+        "role": "headliner",
+        "set_time": "Show 7:30 PM, curfew 11:30 PM (Insomniac)",
+        "stage": null,
+        "notes": "Only billed artist as of Oct 24, 2026. Arena dates have carried special guests (e.g., ALOK and DANSYN in Hamilton; Devault and Westend played before him in Champaign), so support may be added."
+      }
+    ],
+    "schedule": {
+      "doors": "6:00 PM (lots open 5:00 PM)",
+      "show_start": "7:30 PM",
+      "end_or_curfew": "11:30 PM curfew",
+      "age_restriction": "All ages (Insomniac); '18+ recommended but all ages welcome' (Concert Addicts/Live Nation)"
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/john-summit/2026/state-farm-center-champaign-il-2b7478e6.html",
+      "is_exact_date": false,
+      "note": "Show has not happened yet. Representative set from the CTRL ESCAPE tour opener, State Farm Center, Champaign, IL, Oct 1, 2026 (marked 'setlist incomplete' on setlist.fm; 9:10-11:00 PM, 1h50m). Later arena dates (Montreal Oct 23) have no songs logged yet. Capitalized titles are CTRL ESCAPE album tracks.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Lights Go Out / Shadows Intro",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "I Can Dance",
+          "notes": "BYOR cover"
+        },
+        {
+          "n": 3,
+          "title": "Smack My Bitch Up",
+          "notes": "The Prodigy cover"
+        },
+        {
+          "n": 4,
+          "title": "Satisfaction",
+          "notes": "Benny Benassi cover"
+        },
+        {
+          "n": 5,
+          "title": "Utopia",
+          "notes": "Walker & Royce cover"
+        },
+        {
+          "n": 6,
+          "title": "palm of my hands",
+          "notes": "Odd Mob remix"
+        },
+        {
+          "n": 7,
+          "title": "Talk To You",
+          "notes": "ANOTR cover"
+        },
+        {
+          "n": 8,
+          "title": "DON'T BELIEVE IT",
+          "notes": null
+        },
+        {
+          "n": 9,
+          "title": "Is Everybody Having Fun?",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "Smells Like Teen Spirit",
+          "notes": "John Summit remix"
+        },
+        {
+          "n": 11,
+          "title": "Crystallized",
+          "notes": null
+        },
+        {
+          "n": 12,
+          "title": "Hey Baby (Drop It To The Floor)",
+          "notes": "Pitbull & T-Pain cover"
+        },
+        {
+          "n": 13,
+          "title": "ALL THE TIME",
+          "notes": null
+        },
+        {
+          "n": 14,
+          "title": "Paparazzi",
+          "notes": "Lady Gaga cover"
+        },
+        {
+          "n": 15,
+          "title": "LIGHTS GO OUT",
+          "notes": null
+        },
+        {
+          "n": 16,
+          "title": "Unknown",
+          "notes": "setlist.fm: possibly 'what the girls...'"
+        },
+        {
+          "n": 17,
+          "title": "Lift Me Up",
+          "notes": "HILLS cover"
+        },
+        {
+          "n": 18,
+          "title": "Sweet Disposition",
+          "notes": "The Temper Trap cover"
+        },
+        {
+          "n": 19,
+          "title": "Where Have You Been",
+          "notes": "Rihanna cover"
+        },
+        {
+          "n": 20,
+          "title": "My Humps / Black Ice",
+          "notes": "Black Eyed Peas and Subtronics/Rezz remixes"
+        },
+        {
+          "n": 21,
+          "title": "What a Life",
+          "notes": null
+        },
+        {
+          "n": 22,
+          "title": "Unknown",
+          "notes": null
+        },
+        {
+          "n": 23,
+          "title": "Another Brick in the Wall, Part 2",
+          "notes": "Pink Floyd cover"
+        },
+        {
+          "n": 24,
+          "title": "Unknown",
+          "notes": null
+        },
+        {
+          "n": 25,
+          "title": "Shiver",
+          "notes": null
+        },
+        {
+          "n": 26,
+          "title": "Shake & Pop",
+          "notes": "Green Velvet cover, John Summit remix"
+        },
+        {
+          "n": 27,
+          "title": "SHADES OF BLUE",
+          "notes": null
+        },
+        {
+          "n": 28,
+          "title": "Gas Pedal",
+          "notes": "Sage the Gemini cover"
+        },
+        {
+          "n": 29,
+          "title": "Tokyo Drift / Hollaback Girl",
+          "notes": null
+        },
+        {
+          "n": 30,
+          "title": "SHADOWS",
+          "notes": null
+        },
+        {
+          "n": 31,
+          "title": "I Wanna Go",
+          "notes": "Britney Spears cover"
+        },
+        {
+          "n": 32,
+          "title": "Silence",
+          "notes": "Delerium & Sarah McLachlan cover; John Summit remix / Dimension VIP edit"
+        },
+        {
+          "n": 33,
+          "title": "Can't Get You Out of My Head",
+          "notes": "John Summit remix"
+        },
+        {
+          "n": 34,
+          "title": "light years",
+          "notes": null
+        },
+        {
+          "n": 35,
+          "title": "SATA",
+          "notes": null
+        },
+        {
+          "n": 36,
+          "title": "Hypnotized",
+          "notes": "John Summit remix"
+        },
+        {
+          "n": 37,
+          "title": "Where You Are",
+          "notes": null
+        },
+        {
+          "n": 38,
+          "title": "Go Back",
+          "notes": null
+        },
+        {
+          "n": 39,
+          "title": "DON'T BELIEVE IT",
+          "notes": "GRiZ remix (closer)"
+        }
+      ],
+      "encore": [],
+      "duration_min": 110
+    },
+    "production": [
+      "The CTRL ESCAPE tour debuts a new production built around a 'larger-than-life' stage design with immersive visuals and high-impact effects; Summit described it as a new show rather than an arena version of his usual set, with full production, special guests and surprises (EDMTunes, Hollywood Reporter via search).",
+      "Event is rain or shine; Coliseum clear-bag policy, cashless, no re-entry, no tailgating."
+    ],
+    "tickets": {
+      "price_range": null,
+      "on_sale_date": "General on-sale Thursday Aug 20, 2026, 10 AM PT; Cash App Visa presale Aug 17-18; artist presale Aug 19, 10 AM PT; Spotify Premium presale",
+      "seller": "Ticketmaster / Live Nation (AXS and Insomniac also list the event); 8-ticket limit",
+      "sold_out": false,
+      "notes": "Still on sale as of Oct 24, 2026 (resale available on StubHub/SeatGeek). Boston, Fort Worth and Brooklyn arena dates on the tour had sold out by mid-August."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Billboard",
+        "title": "John Summit Adds L.A. Memorial Coliseum Show to His Arena Tour",
+        "url": "https://www.billboard.com/music/music-news/john-summit-la-memorial-coliseum-concert-ctrl-escape-tour-1236316172/",
+        "date": "2026-08-13",
+        "summary": "Announcement piece: the 77,500-capacity Coliseum show closes the CTRL ESCAPE arena run; notes Cash App presale and sold-out stops in Boston, Fort Worth and Brooklyn. (Paywalled; details via search snippet.)"
+      },
+      {
+        "outlet": "EDMTunes",
+        "title": "John Summit to Headline LA Memorial Coliseum on CTRL Escape Tour",
+        "url": "https://www.edmtunes.com/2026/08/john-summit-to-headline-la-memorial-coliseum-on-ctrl-escape-tour/",
+        "date": "2026-08-14",
+        "summary": "Calls it his biggest headline show to date and the marquee closing stop; describes the new stage production and recaps his 2026 (Lollapalooza headline, UNVRS Ibiza residency, Experts Only at Tomorrowland)."
+      },
+      {
+        "outlet": "EDM.com",
+        "title": "John Summit Books Los Angeles Stadium for 'CTRL ESCAPE' Tour Finale",
+        "url": "https://edm.com/events/john-summit-los-angeles-ctrl-escape-tour/",
+        "date": "2026-08",
+        "summary": "Coverage of the stadium booking as the tour finale. (Page returned 403; not read in full.)"
+      },
+      {
+        "outlet": "KTLA",
+        "title": "EDM DJ John Summit to headline biggest show in L.A.",
+        "url": "https://ktla.com/entertainment/john-summit-to-headline-biggest-show-in-l-a/",
+        "date": "2026-08",
+        "summary": "Local TV coverage of the announcement. (Page returned 403; not read in full.)"
+      },
+      {
+        "outlet": "TicketNews",
+        "title": "John Summit Announces Los Angeles Memorial Coliseum Headline Show",
+        "url": "https://www.ticketnews.com/2026/08/john-summit-announces-los-angeles-memorial-coliseum-headline-show/",
+        "date": "2026-08",
+        "summary": "Presale breakdown (Cash App Aug 17, Spotify, general Aug 20) and full tour routing with LA as the final date."
+      },
+      {
+        "outlet": "Orange County EDM",
+        "title": "John Summit - December 12 (LA Coliseum)",
+        "url": "https://orangecountyedm.com/2026/08/15/john-summit-december-12-la-coliseum/",
+        "date": "2026-08-15",
+        "summary": "Local listing with Summit's quote about ending the album tour 'on the highest note in los angeles' and the Aug 19 artist presale."
+      }
+    ],
+    "facts": [
+      "All primary listings (Live Nation, Insomniac, lacoliseum.com, AXS, StubHub) show Saturday Dec 12, 2026, 7:30 PM; a few aggregators (Apple Music, SeatGeek, TicketNews) list 7:00 PM.",
+      "Promoted by Live Nation and listed by Insomniac; it is the only stadium date on an otherwise arena tour and the biggest headline show of Summit's career.",
+      "Summit's previous LA-area milestone in 2026 was a sold-out open-to-close set at Framework's re:frame series in January with guests Feid, Subtronics and Sidepiece.",
+      "The tour continues to Australia (Beyond the Valley, Wildlands) for NYE 2026 and a European arena leg in Feb 2027 ending at The O2, London."
+    ],
+    "sources": [
+      "https://www.insomniac.com/events/john-summit-2026-12-12-los-angeles-ca/",
+      "https://www.lacoliseum.com/events/john-summit-ctrl-escape-tour/",
+      "https://www.livenation.com/event/vvG1IZ_2TeSLQM/john-summit-ctrl-escape-tour",
+      "https://www.axs.com/events/1572889/john-summit-tickets",
+      "https://www.stubhub.com/john-summit-los-angeles-tickets-12-12-2026/event/161842206",
+      "https://www.billboard.com/music/music-news/john-summit-la-memorial-coliseum-concert-ctrl-escape-tour-1236316172/",
+      "https://www.edmtunes.com/2026/08/john-summit-to-headline-la-memorial-coliseum-on-ctrl-escape-tour/",
+      "https://www.ticketnews.com/2026/08/john-summit-announces-los-angeles-memorial-coliseum-headline-show/",
+      "https://www.ticketnews.com/2026/08/john-summit-los-angeles-tickets-on-sale-at-memorial-coliseum/",
+      "https://orangecountyedm.com/2026/08/15/john-summit-december-12-la-coliseum/",
+      "https://www.concertaddicts.com/new/concert-event-listings/usa/los-angeles-area/john-summit--los-angeles-memorial-coliseum--2026-12-12--vvG1IZ_2TeSLQM/",
+      "https://www.johnsummitmusic.com/ctrl-escape-arena-tour",
+      "https://www.setlist.fm/setlists/john-summit-53f2275d.html",
+      "https://www.setlist.fm/setlist/john-summit/2026/state-farm-center-champaign-il-2b7478e6.html",
+      "https://www.setlist.fm/setlist/john-summit/2026/grant-park-bud-light-stage-chicago-il-b493dc2.html",
+      "https://www.tdcoliseum.com/events/detail/summit26",
+      "https://en.wikipedia.org/wiki/Los_Angeles_Memorial_Coliseum",
+      "https://blog.ticketmaster.com/step-inside-memorial-coliseum-los-angeles-ca/",
+      "https://www.edmtunes.com/2026/09/framework-reframe-season-2/"
+    ],
+    "confidence": "high",
+    "gaps": [
+      "Support acts/special guests for the Coliseum date not announced as of Oct 24, 2026.",
+      "Face-value ticket price tiers not found (Ticketmaster not fetchable).",
+      "Stadium seating configuration (floor GA vs. end-stage, how much of the bowl is sold) not published.",
+      "Billboard, EDM.com, KTLA and Hollywood Reporter articles were paywalled/blocked; summarized from search snippets only."
+    ]
+  },
+  {
+    "date": "2026-12-18",
+    "end": null,
+    "event": "Gracie Abrams",
+    "artists": [
+      "Gracie Abrams"
+    ],
+    "venue": {
+      "name": "Kia Forum",
+      "address": "3900 W Manchester Blvd, Inglewood, CA 90305",
+      "neighborhood": "Inglewood (Hollywood Park area, next to SoFi Stadium and Intuit Dome)",
+      "city": "Inglewood",
+      "capacity": "Up to ~17,500-18,000 for concerts",
+      "type": "arena",
+      "opened": "December 30, 1967",
+      "facts": [
+        "Designed by Charles Luckman Associates; home of the Showtime-era Lakers (1967-1999) and the Kings; listed on the National Register of Historic Places in 2014.",
+        "Reopened in January 2014 after a $76.5M renovation by MSG that turned it into a concert-first arena; bought by Steve Ballmer in 2020 for $400M to clear the way for the Intuit Dome; Kia naming rights since April 2022.",
+        "Abrams played a three-night Secret of Us Deluxe residency here in August 2025 (Griff opening), with Audrey Hobert as a surprise guest."
+      ]
+    },
+    "city": "Los Angeles",
+    "status": "upcoming",
+    "unconfirmed": true,
+    "venue_name": "Kia Forum",
+    "headliner": "Gracie Abrams",
+    "tour": {
+      "name": "The Look at My Life Tour (presented by Capital One)",
+      "description": "Abrams' fifth headline tour, 64 arena dates across North America (Dec 2, 2026 - Mar 20, 2027) and Europe/UK (Apr 8 - May 28, 2027), supporting her third album Daughter from Hell. Dec 18 is the second of a four-night hometown run at the Kia Forum (Dec 14, 18, 19, 20), the tour's fourth city after Denver, Oakland and Glendale.",
+      "album_or_release": "Daughter from Hell (July 17, 2026, Interscope)"
+    },
+    "lineup": [
+      {
+        "name": "Gracie Abrams",
+        "role": "headliner",
+        "set_time": "8:00 PM listed show time",
+        "stage": null,
+        "notes": null
+      },
+      {
+        "name": "Holly Humberstone",
+        "role": "support",
+        "set_time": null,
+        "stage": null,
+        "notes": "British singer-songwriter; opens Dec 18, 19 and 20 at the Forum (Grimy Goods, Live Nation, Ticketmaster). Rachel Chinouriri opens the Dec 14 night instead."
+      }
+    ],
+    "schedule": {
+      "doors": null,
+      "show_start": "8:00 PM",
+      "end_or_curfew": null,
+      "age_restriction": null
+    },
+    "setlist": {
+      "source_url": "https://www.setlist.fm/setlist/gracie-abrams/2025/kia-forum-inglewood-ca-7b5ccad0.html",
+      "is_exact_date": false,
+      "note": "The Look at My Life Tour does not open until Dec 2, 2026, so no tour setlist exists yet. This is Abrams' most recent Kia Forum set: Aug 7, 2025, The Secret of Us Deluxe Tour (doors 6:30, Griff 7:40, Abrams 8:50-10:40 PM). Expect the 2026 show to be rebuilt around Daughter from Hell (Hit the Wall, Death Wish, Look at My Life, Good Reason, etc.). Position 22 was missing on the setlist.fm page.",
+      "songs": [
+        {
+          "n": 1,
+          "title": "Risk",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "Blowing Smoke",
+          "notes": null
+        },
+        {
+          "n": 3,
+          "title": "21",
+          "notes": null
+        },
+        {
+          "n": 4,
+          "title": "I Love You, I'm Sorry",
+          "notes": null
+        },
+        {
+          "n": 5,
+          "title": "Where do we go now?",
+          "notes": null
+        },
+        {
+          "n": 6,
+          "title": "Death Wish",
+          "notes": "Then unreleased; on piano; later track 2 of Daughter from Hell"
+        },
+        {
+          "n": 7,
+          "title": "Normal Thing",
+          "notes": null
+        },
+        {
+          "n": 8,
+          "title": "Mess It Up",
+          "notes": null
+        },
+        {
+          "n": 9,
+          "title": "Packing It Up",
+          "notes": null
+        },
+        {
+          "n": 10,
+          "title": "Full machine",
+          "notes": null
+        },
+        {
+          "n": 11,
+          "title": "I Told You Things",
+          "notes": "with drums of 'Sign of the Times'"
+        },
+        {
+          "n": 12,
+          "title": "Out of Nowhere",
+          "notes": "Then unreleased; later a Daughter from Hell iTunes bonus track"
+        },
+        {
+          "n": 13,
+          "title": "Let It Happen",
+          "notes": null
+        },
+        {
+          "n": 14,
+          "title": "Tough Love",
+          "notes": null
+        },
+        {
+          "n": 15,
+          "title": "All Too Well (10 Minute Version)",
+          "notes": "Taylor Swift cover; surprise song; B-stage, on piano"
+        },
+        {
+          "n": 16,
+          "title": "Cool",
+          "notes": "B-stage, on piano, with a fan project"
+        },
+        {
+          "n": 17,
+          "title": "I miss you, I'm sorry",
+          "notes": "B-stage, on piano, extended outro"
+        },
+        {
+          "n": 18,
+          "title": "Right now",
+          "notes": "C-stage"
+        },
+        {
+          "n": 19,
+          "title": "Free Now",
+          "notes": "C-stage, extended outro"
+        },
+        {
+          "n": 20,
+          "title": "us.",
+          "notes": "C-stage, extended intro"
+        }
+      ],
+      "encore": [
+        {
+          "n": 1,
+          "title": "That's So True",
+          "notes": null
+        },
+        {
+          "n": 2,
+          "title": "Close to You",
+          "notes": null
+        }
+      ],
+      "duration_min": 110
+    },
+    "production": [
+      "Her 2025 Forum shows used a main stage plus B-stage (piano) and C-stage segments with a rotating surprise song; production for the 2026 tour has not been revealed yet."
+    ],
+    "tickets": {
+      "price_range": "Resale from roughly $55-$107 on TickPick/SeatGeek (Oct 2026); face-value tiers not found",
+      "on_sale_date": "Artist presale June 2, 2026 (9 AM local); Capital One cardholder presale June 3; general on-sale Friday June 5, 2026, 9 AM local",
+      "seller": "Ticketmaster / Live Nation (tour presented by Capital One; 4-ticket limit in Capital One presale)",
+      "sold_out": null,
+      "notes": "Tickets still listed on Live Nation and resale sites as of Oct 24, 2026."
+    },
+    "attendance": null,
+    "press": [
+      {
+        "outlet": "Los Angeles Times (via Yahoo)",
+        "title": "Gracie Abrams sets four-night Kia Forum homecoming for Look at My Life tour",
+        "url": "https://www.yahoo.com/entertainment/music/articles/gracie-abrams-sets-four-night-234608381.html",
+        "date": "2026-05-28",
+        "summary": "Eloise Rollins-Fife reports the 64-date tour and the four Forum nights (Dec 14, 18, 19, 20) with Chinouriri and Humberstone opening; recalls the Aug 2025 Forum residency and her 2024 Greek Theatre sellouts."
+      },
+      {
+        "outlet": "Grimy Goods",
+        "title": "Gracie Abrams To Perform Four Concerts in Los Angeles: How To Get Presale Code Tickets",
+        "url": "https://www.grimygoods.com/2026/05/31/gracie-abrams-to-perform-four-concerts-in-los-angeles-how-to-get-presale-code-tickets/",
+        "date": "2026-05-31",
+        "summary": "Night-by-night openers (Chinouriri Dec 14; Humberstone Dec 18-20) and presale mechanics."
+      },
+      {
+        "outlet": "Nylon",
+        "title": "Gracie Abrams Look At My Life Tour: Dates, Opening Acts, Tickets",
+        "url": "https://www.nylon.com/entertainment/gracie-abrams-look-at-my-life-tour-dates-opening-acts-tickets",
+        "date": "2026-05",
+        "summary": "Tour overview with the full opener roster (Chinouriri, Humberstone, Del Water Gap, Charlotte Lawrence, Grace Ives, Bella Kay, Jensen McRae, The Japanese House, Samia, Jake Minch)."
+      }
+    ],
+    "facts": [
+      "Abrams, an LA native, announced the tour on Instagram on May 28, 2026 with the caption 'we're baaaaaack'.",
+      "Daughter from Hell debuted at No. 1 on the Billboard 200 (124,000 units) and the UK chart; singles: 'Hit the Wall' (May 14), 'Look at My Life' (Jun 25), 'Good Reason' (Jul 24, 2026); Metacritic 63.",
+      "The four Forum nights follow her three-night Forum residency in Aug 2025 and four sold-out Greek Theatre nights in Sep 2024.",
+      "Abrams is scheduled as SNL musical guest Oct 31, 2026 and played small NYC album-era shows (Bowery Ballroom Jul 14, Cherry Lane Theatre Oct 21, Irving Plaza Oct 24, 2026) before the arena tour.",
+      "Kia Forum official event page: https://thekiaforum.com/event/gracie-abrams-6/"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Look_at_My_Life_Tour",
+      "https://www.yahoo.com/entertainment/music/articles/gracie-abrams-sets-four-night-234608381.html",
+      "https://www.grimygoods.com/2026/05/31/gracie-abrams-to-perform-four-concerts-in-los-angeles-how-to-get-presale-code-tickets/",
+      "https://www.livenation.com/event/vvG10Z_5R0-Czu/gracie-abrams-the-look-at-my-life-tour-presented-by-capital-one",
+      "https://thekiaforum.com/events/",
+      "https://thekiaforum.com/event/gracie-abrams-6/",
+      "https://www.ticketmaster.com/gracie-abrams-tickets/artist/2763148",
+      "https://www.bandsintown.com/e/1039167419-gracie-abrams-at-kia-forum",
+      "https://seatgeek.com/gracie-abrams-tickets/inglewood-california-kia-forum-2026-12-18-8-pm/concert/18270524",
+      "https://www.tickpick.com/buy-gracie-abrams-tickets-the-kia-forum-12-18-26-8pm/8002242/",
+      "https://en.wikipedia.org/wiki/Daughter_from_Hell",
+      "https://en.wikipedia.org/wiki/Kia_Forum",
+      "https://www.setlist.fm/setlists/gracie-abrams-33f4a46d.html",
+      "https://www.setlist.fm/setlist/gracie-abrams/2025/kia-forum-inglewood-ca-7b5ccad0.html",
+      "https://www.nylon.com/entertainment/gracie-abrams-look-at-my-life-tour-dates-opening-acts-tickets"
+    ],
+    "confidence": "high",
+    "gaps": [
+      "No Look at My Life Tour setlist exists yet (tour opens Dec 2, 2026); used Aug 7, 2025 Kia Forum set from the prior tour.",
+      "Doors time, age policy and face-value price tiers for Dec 18 (Ticketmaster and the Kia Forum event page were not fetchable in detail).",
+      "Stage/production design for the new tour not yet revealed.",
+      "Sold-out status per night not confirmed."
+    ]
+  }
+];

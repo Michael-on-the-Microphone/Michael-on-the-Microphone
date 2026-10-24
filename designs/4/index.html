@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" data-nav="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Timeline</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+:root{--ink:#15173f;--rule:rgba(21,23,63,.22);--red:#ff3b1f;--g:150px}
+body{margin:0;background:#fff;color:var(--ink);font-family:Fraunces,Georgia,serif;font-optical-sizing:auto}
+.wrap{max-width:900px;margin:0 auto;padding:80px 24px 160px}
+h1{font-size:clamp(48px,9vw,112px);font-weight:300;line-height:.95;margin:0 0 12px;letter-spacing:-.02em}
+h1 i{font-weight:600}
+.lede{font-size:18px;font-style:italic;font-weight:300;margin:0 0 64px;max-width:40ch}
+.tl{position:relative}
+.tl::before{content:'';position:absolute;left:var(--g);top:0;bottom:0;width:1px;background:var(--rule)}
+.mo{display:grid;grid-template-columns:var(--g) 1fr;margin-top:44px}
+.mo h2{margin:0;font-size:13px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;padding-right:28px;text-align:right;color:rgba(21,23,63,.6)}
+.e{display:grid;grid-template-columns:var(--g) 1fr;position:relative;padding:10px 0 14px}
+.e::before{content:'';position:absolute;left:var(--g);top:22px;width:11px;height:11px;border-radius:50%;background:var(--ink);transform:translateX(-50%)}
+.e.f::before{background:#fff;border:1.5px solid var(--ink)}
+.e.f .n{color:rgba(21,23,63,.5)}
+.e.t::before{background:var(--red);border-color:var(--red)}
+.d{text-align:right;padding-right:28px;font-size:15px;font-weight:300;padding-top:3px;font-variant-numeric:tabular-nums}
+.b{padding-left:30px;min-width:0}
+.n{font-size:clamp(26px,4vw,38px);font-weight:500;line-height:1.05;letter-spacing:-.01em;margin:0}
+.n em{font-weight:300;font-size:.6em;letter-spacing:0;margin-left:.3em}
+.v{font-size:15px;font-style:italic;font-weight:300;margin-top:4px;color:rgba(21,23,63,.75)}
+.bl{font-size:15px;font-weight:300;line-height:1.45;max-width:58ch;margin-top:6px}
+.sl{margin-top:8px;font-size:14px;max-width:58ch}
+.sl summary{cursor:pointer;font-style:italic;font-weight:300;color:rgba(21,23,63,.6);list-style:none;width:max-content}
+.sl summary::-webkit-details-marker{display:none}
+.sl summary::before{content:'+ '}
+.sl[open] summary::before{content:'− '}
+.sl summary:hover{color:var(--ink)}
+.sl ol{columns:2;column-gap:32px;margin:10px 0 0;padding-left:22px;font-weight:300;line-height:1.45}
+.sl ol li{break-inside:avoid}
+.sl .en{font-style:italic;color:rgba(21,23,63,.7);margin-top:4px;font-size:13px}
+.sl .en a{color:inherit}
+@media (max-width:560px){.sl ol{columns:1}}
+.today{display:grid;grid-template-columns:var(--g) 1fr;align-items:center;margin:26px 0;position:relative}
+.today .d{color:var(--red);font-weight:500;font-style:italic}
+.today .l{height:1px;background:var(--red);position:relative}
+.today .l span{position:absolute;right:0;top:-24px;font-size:13px;font-style:italic;color:var(--red)}
+@media (max-width:560px){:root{--g:88px}.d{font-size:13px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Nights out,<br><i>in order.</i></h1>
+  <p class="lede" id="lede"></p>
+  <div class="tl" id="tl"></div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,isPast,isToday,venue,past,future,TODAY} = LE;
+document.getElementById('lede').textContent=`${past.length} shows down, ${future.length} to go. The line is where I'm standing.`;
+const tl=document.getElementById('tl');
+let mo='', marked=false;
+SHOWS.forEach(s=>{
+  if(!marked && s.date>=TODAY){marked=true;tl.append(el('div',{class:'today'},el('div',{class:'d'},'today'),el('div',{class:'l'},el('span',{},fmt(TODAY,'long')))));}
+  const m=fmt(s.date,'month');
+  if(m!==mo){mo=m;tl.append(el('div',{class:'mo'},el('h2',{},m),el('div')));}
+  const {name,sub}=split(s);
+  tl.append(el('div',{class:'e'+(isPast(s)?'':' f')+(isToday(s)?' t':'')},
+    el('div',{class:'d'},fmt(s.date,'short')+(s.end?'–'+LE.day(s.end):'')),
+    el('div',{class:'b'},el('h3',{class:'n'},name,sub?el('em',{},sub):null),
+      el('div',{class:'v'},venue(s)+(s.city!=='Los Angeles'?', '+s.city:'')+(()=>{const sup=LE.support(s,0);if(sup.length)return '. With '+sup.slice(0,3).join(', ')+(sup.length>3?' and '+(sup.length-3)+' more':'');return s.artists.length>1?'. With '+s.artists.slice(1,4).join(', ')+(s.artists.length>4?' and '+(s.artists.length-4)+' more':''):'';})()),
+      LE.tourBlurb(s)?el('div',{class:'bl'},LE.tourBlurb(s)):null,
+      (()=>{const sl=LE.setlist(s);if(!sl)return null;const all=[...sl.songs.map(t=>el('li',{},t)),...sl.encore.map(t=>el('li',{},el('i',{},t)))];
+        return el('details',{class:'sl'},el('summary',{},`${sl.total} songs`+(sl.exact?'':', from another night on the tour')+(isPast(s)?'':', if it goes like the last one')),el('ol',{},all),
+          el('div',{class:'en'},(sl.encore.length?'Italics are the encore. ':'')+(sl.note?sl.note+' ':''),sl.url?el('a',{href:sl.url,target:'_blank',rel:'noopener'},'Source'):null));})())));
+});
+LE.nav();
+</script>
+</body></html>

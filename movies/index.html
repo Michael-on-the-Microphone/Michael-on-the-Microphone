@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Movies</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css">
+<style>
+.pile{gap:40px 22px;align-items:flex-start}
+.tk{position:relative;width:176px;height:264px;background:var(--stock);transform:rotate(var(--rot));box-shadow:0 1px 1px rgba(0,0,0,.15),0 10px 20px -10px rgba(0,0,0,.35);transition:transform .18s;display:grid;grid-template-rows:1fr 58px}
+.tk:hover{transform:rotate(0) translateY(-5px);z-index:3}
+.tk.torn{clip-path:polygon(0 3%,8% 0,16% 2.5%,25% .5%,34% 3%,43% 1%,52% 2.5%,61% 0,70% 3%,79% 1%,88% 2.5%,96% 0,100% 2%,100% 100%,0 100%)}
+.tk.home{background:#f7f5ef;background-image:repeating-linear-gradient(0deg,transparent 0 22px,rgba(0,0,0,.06) 22px 23px)}
+.tk.want{opacity:.9}
+.body{padding:14px 14px 10px;display:flex;flex-direction:column;justify-content:space-between;min-height:0}
+.title{font-family:Oswald,sans-serif;font-weight:700;font-size:26px;line-height:.95;text-transform:uppercase;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.title small{display:block;font-family:'IBM Plex Mono',monospace;font-weight:400;font-size:10px;letter-spacing:.08em;margin-top:6px;text-transform:none}
+.tear{position:relative;border-top:2px dashed rgba(0,0,0,.32);display:flex;align-items:center;justify-content:space-between;padding:0 14px;font-size:10px;letter-spacing:.1em;text-transform:uppercase}
+.tear::before,.tear::after{content:'';position:absolute;top:-8px;width:14px;height:14px;border-radius:50%;background:var(--desk)}
+.tear::before{left:-7px}.tear::after{right:-7px}
+.tear b{font-family:Oswald,sans-serif;font-size:18px;font-weight:700;letter-spacing:.02em}
+.seat{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;opacity:.7;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top"><a class="brand" href="../">Life, enjoyed.</a>
+    <nav class="menu"><a href="../shows/">Shows</a><a href="../movies/" aria-current="page">Movies</a><a href="../places/">Places</a><a href="../games/">Games</a></nav></header>
+  <h1>Screen<br>time</h1>
+  <p class="lede" id="lede"></p>
+  <div class="pile" id="pile"></div>
+  <p class="empty" id="empty" hidden>These are samples. Add your own in <code>data/movies.js</code> and they'll show up here, torn once the date has passed.</p>
+</div>
+<script src="../shows.js"></script><script src="../data/movies.js"></script><script src="../common.js"></script>
+<script>
+const {el,fmt,hash,TODAY} = LE;
+const list=[...window.MOVIES].sort((a,b)=>a.date.localeCompare(b.date));
+const real=list.filter(m=>!m.example);
+const seen=real.filter(m=>m.date<TODAY&&m.status!=='want');
+document.getElementById('lede').textContent=real.length?`${seen.length} screenings since moving here, theater and couch alike. ${real.length-seen.length} still on the list.`:'Every movie worth a stub: the ones in a dark room on Hollywood Blvd, the ones on the couch, and the ones still on the list.';
+document.getElementById('empty').hidden=real.length>0;
+const stocks=['#f6c8bf','#c6dcf4','#f3e39a','#ead3f2','#ffdcae','#cfe9e4','#d7ebc0'];
+const pile=document.getElementById('pile');
+list.forEach(m=>{
+  const h=hash(m.where||'home'), r=hash(m.date+m.title);
+  const home=/^at home/i.test(m.where||''), want=m.status==='want'||m.date>=TODAY;
+  pile.append(el('article',{class:'tk'+(want?' want':' torn')+(home?' home':''),style:`--stock:${stocks[h%stocks.length]};--rot:${((r%7)-3)*1.1}deg`},
+    m.example?el('span',{class:'stamp grey'},'Sample'):null,
+    el('div',{class:'body'},
+      el('div',{class:'row'},el('span',{},home?'Home screening':(m.where||'Theater')),el('span',{},m.format||(want?'Soon':'Seen'))),
+      el('div',{class:'title'},m.title,m.year?el('small',{},String(m.year)):null),
+      el('div',{class:'seat'},home?'Couch, best seat':`Screen ${1+r%12}  Row ${String.fromCharCode(65+r%14)}  Seat ${1+(r>>>4)%24}`)),
+    el('div',{class:'tear'},el('b',{},want?'Hold':'Admit one'),el('span',{},fmt(m.date,'num')))));
+});
+</script>
+</body></html>

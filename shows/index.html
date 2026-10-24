@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shows</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css">
+<style>
+.stub{position:relative;width:312px;height:124px;perspective:900px;transform:rotate(var(--rot));transition:transform .18s ease;cursor:pointer}
+.stub:hover{transform:rotate(0deg) translateY(-5px);z-index:3}
+.stub:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+.card{position:absolute;inset:0;transition:transform .5s;transform-style:preserve-3d}
+.stub.open .card{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;background:var(--stock);backface-visibility:hidden;display:grid;grid-template-columns:1fr 82px;box-shadow:0 1px 1px rgba(0,0,0,.15),0 10px 20px -10px rgba(0,0,0,.35)}
+.face.back{transform:rotateY(180deg);grid-template-columns:1fr;padding:10px 14px;font-size:10.5px;line-height:1.4;overflow:hidden;background:color-mix(in srgb,var(--stock) 70%,#fff)}
+.torn .face{clip-path:polygon(2% 0,100% 0,100% 100%,1% 100%,3% 92%,0 84%,2.5% 75%,.5% 66%,3% 57%,1% 48%,2.5% 40%,0 31%,3% 22%,1% 13%,2.5% 6%)}
+.face.front::before,.face.front::after{content:'';position:absolute;right:82px;width:14px;height:14px;border-radius:50%;background:var(--desk);transform:translateX(50%);z-index:1}
+.face.front::before{top:-7px}.face.front::after{bottom:-7px}
+.main{padding:11px 14px 10px;display:flex;flex-direction:column;justify-content:space-between;min-width:0;border-right:2px dashed rgba(0,0,0,.32)}
+.name{font-family:Oswald,sans-serif;font-weight:700;font-size:27px;line-height:1;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:6px 0 2px}
+.side{display:flex;align-items:center;justify-content:space-evenly;padding:8px 4px}
+.side span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.side .no{font-size:9px;opacity:.6}
+.back h4{margin:0 0 4px;font:inherit;font-weight:500;letter-spacing:.08em;text-transform:uppercase;font-size:9.5px;opacity:.7}
+.back ol{margin:0;padding-left:16px;columns:2;column-gap:14px}
+.back li{break-inside:avoid;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.back p{margin:0}
+.sec{font-family:Oswald,sans-serif;font-weight:500;text-transform:uppercase;font-size:15px;letter-spacing:.08em;margin:64px 0 28px;display:flex;align-items:baseline;gap:12px}
+.sec span{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;opacity:.6;text-transform:none}
+.sec:first-of-type{margin-top:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top"><a class="brand" href="../">Life, enjoyed.</a>
+    <nav class="menu"><a href="../shows/" aria-current="page">Shows</a><a href="../movies/">Movies</a><a href="../places/">Places</a><a href="../games/">Games</a></nav></header>
+  <h1>Ticket<br>stubs</h1>
+  <p class="lede" id="lede"></p>
+  <h2 class="sec" id="fridge-h">On the fridge <span></span></h2>
+  <div class="pile" id="fridge"></div>
+  <h2 class="sec" id="box-h">In the shoebox <span></span></h2>
+  <div class="pile" id="pile"></div>
+</div>
+<script src="../shows.js"></script><script src="../shows-enriched.js"></script><script src="../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,hash,isPast,isToday,venueShort,past,future} = LE;
+document.getElementById('lede').textContent = `Every show since moving to Los Angeles, kept like the stubs in a shoebox. ${past.length} torn means I went. ${future.length} are still whole, waiting on the fridge. Flip a torn one over.`;
+const fridge=document.getElementById('fridge');
+document.querySelector('#fridge-h span').textContent=`${future.length} whole, newest at the bottom`;
+document.querySelector('#box-h span').textContent=`${past.length} torn, newest on top`;
+const supLine=(s,sub)=>{let t=LE.supportText(s,2);if(t&&t.length>30)t=LE.supportText(s,1);return t||sub||LE.tourName(s)||(s.city!=='Los Angeles'?s.city:'Headline show');};
+const stocks=['#f3e39a','#f6c8bf','#c6dcf4','#d7ebc0','#ead3f2','#ffdcae','#cfe9e4'];
+const pile=document.getElementById('pile');
+[...future,...[...past].reverse()].forEach(s=>{
+  const {name,sub}=split(s);
+  const h=hash(s.venue||s.event), r=hash(s.date+s.event);
+  const rot=((r%9)-4)*0.8, serial=String(100000+(r%900000));
+  const set=LE.setlist(s)||[], fact=LE.blurb(s,150)||"", sup=LE.support(s,6)||[];
+  let back;
+  if(set.length) back=[el('h4',{},`Setlist, ${set.length>10?'first 10 of '+set.length:set.length} songs`),el('ol',{},set.slice(0,10).map(t=>el('li',{},t)))];
+  else if(sup.length) back=[el('h4',{},'On the bill'),el('p',{},sup.join(', '))];
+  else if(fact) back=[el('h4',{},'From that night'),el('p',{},fact)];
+  else back=[el('h4',{},'Back of the stub'),el('p',{},'Nothing written here yet.')];
+  const stub=el('article',{class:'stub'+(isPast(s)?' torn':''),style:`--stock:${stocks[h%stocks.length]};--rot:${rot}deg`,tabindex:'0',role:'button','aria-label':name},
+    isToday(s)?el('span',{class:'stamp'},'Tonight'):null,
+    el('div',{class:'card'},
+      el('div',{class:'face front'},
+        el('div',{class:'main'},
+          el('div',{class:'row'},el('span',{},venueShort(s)),el('span',{},isPast(s)?'Admit one':'Valid')),
+          el('div',{class:'name',title:LE.tourName(s)||s.event},name),
+          el('div',{class:'row'},el('span',{},supLine(s,sub)),el('span',{},fmt(s.date,'short')+(s.end?'–'+LE.day(s.end):'')))),
+        el('div',{class:'side'},el('span',{},fmt(s.date,'num')),el('span',{class:'no'},LE.doors(s)?'Doors '+LE.doors(s):'No. '+serial))),
+      el('div',{class:'face back'},...back)));
+  const flip=()=>{if(isPast(s))stub.classList.toggle('open');};
+  stub.addEventListener('click',flip);
+  stub.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flip();}});
+  (isPast(s)?pile:fridge).append(stub);
+});
+// Shrink names that would otherwise be cut off.
+const fit=()=>document.querySelectorAll('.name').forEach(n=>{let fs=27;n.style.fontSize='';while(n.scrollWidth>n.clientWidth&&fs>16){fs-=1;n.style.fontSize=fs+'px';}});
+document.fonts.ready.then(fit);
+</script>
+</body></html>

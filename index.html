@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Life, enjoyed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+<style>
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:end;margin:32px 0 72px}
+.hero h1{font-size:clamp(56px,10vw,132px)}
+.hero p{font-size:14px;line-height:1.7;max-width:46ch;margin:0}
+.hero p+p{margin-top:14px}
+.now{margin:0 0 72px;padding:22px 0;border-top:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink);display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;font-size:12px;line-height:1.6}
+.now b{display:block;font-family:Oswald,sans-serif;font-weight:700;font-size:22px;line-height:1.1;text-transform:uppercase;margin-top:4px}
+.now small{display:block;opacity:.65}
+.lately{margin-bottom:84px}
+.lately h2,.doors h2{font-family:Oswald,sans-serif;font-weight:500;text-transform:uppercase;font-size:15px;letter-spacing:.08em;margin:0 0 22px}
+.strip{display:flex;gap:16px;overflow-x:auto;padding:14px 4px 18px;scrollbar-width:none}
+.mini{flex:none;width:236px;height:92px;background:var(--stock);transform:rotate(var(--rot));display:grid;grid-template-columns:1fr 54px;box-shadow:0 1px 1px rgba(0,0,0,.15),0 8px 16px -8px rgba(0,0,0,.35);text-decoration:none;color:inherit;
+  clip-path:polygon(2% 0,100% 0,100% 100%,1% 100%,3% 92%,0 84%,2.5% 75%,.5% 66%,3% 57%,1% 48%,2.5% 40%,0 31%,3% 22%,1% 13%,2.5% 6%)}
+.mini .m{padding:9px 10px;display:flex;flex-direction:column;justify-content:space-between;min-width:0;border-right:2px dashed rgba(0,0,0,.32)}
+.mini .n{font-family:Oswald,sans-serif;font-weight:700;font-size:19px;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini .row{font-size:9px}
+.mini .s{display:flex;align-items:center;justify-content:center}
+.mini .s span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:9.5px;letter-spacing:.12em}
+.doors{display:grid;gap:18px}
+.door{position:relative;display:grid;grid-template-columns:1fr auto;align-items:center;gap:24px;text-decoration:none;color:inherit;background:var(--stock);padding:26px 30px;min-height:150px;transform:rotate(var(--rot));box-shadow:0 1px 1px rgba(0,0,0,.15),0 12px 24px -12px rgba(0,0,0,.4);transition:transform .2s;overflow:hidden}
+.door:hover{transform:rotate(0) translateX(10px)}
+.door:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+.door.torn{clip-path:polygon(0 0,99% 0,100% 6%,99% 13%,100% 22%,99.2% 31%,100% 40%,99% 48%,100% 57%,99.2% 66%,100% 75%,99% 84%,100% 92%,99.3% 100%,0 100%)}
+.door::before{content:'';position:absolute;top:-8px;bottom:-8px;right:120px;border-left:2px dashed rgba(0,0,0,.3)}
+.door .t{font-family:Oswald,sans-serif;font-weight:700;font-size:clamp(34px,5vw,56px);line-height:.95;text-transform:uppercase}
+.door .d{font-size:12.5px;line-height:1.6;max-width:46ch;margin-top:10px}
+.door .k{width:90px;text-align:right;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;line-height:1.7;padding-left:30px}
+.door .k b{display:block;font-family:Oswald,sans-serif;font-weight:700;font-size:34px;letter-spacing:0;line-height:1}
+.foot{margin-top:84px;font-size:11px;line-height:1.7;opacity:.6;max-width:52ch}
+@media (max-width:720px){.hero{grid-template-columns:1fr;gap:20px}.door{grid-template-columns:1fr}.door .k{text-align:left;padding:0;width:auto}.door::before{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top"><a class="brand" href="./">Life, enjoyed.</a>
+    <nav class="menu"><a href="shows/">Shows</a><a href="movies/">Movies</a><a href="places/">Places</a><a href="games/">Games</a></nav></header>
+
+  <section class="hero">
+    <h1>Praveen,<br>in Los<br>Angeles.</h1>
+    <div>
+      <p>I got to Los Angeles at the start of 2025 for a master's in computer science at USC. In a way I'd been here for years already: I grew up driving around Los Santos in Grand Theft Auto V, and this is the city it was drawn from. The real one is better. It is, and always will be, the city of my dreams.</p>
+      <p>This is the part of that time that doesn't fit on a résumé. I kept the stubs. Each one below is a door. Go through them.</p>
+    </div>
+  </section>
+
+  <div class="now" id="now"></div>
+
+  <section class="lately">
+    <h2>Lately</h2>
+    <div class="strip" id="strip"></div>
+  </section>
+
+  <section class="doors" id="doors"></section>
+
+  <p class="foot">Torn means it happened. Whole means there's a ticket on the fridge. The shoebox gets fuller every month.</p>
+</div>
+<script src="shows.js"></script><script src="data/movies.js"></script><script src="data/places.js"></script><script src="data/games.js"></script><script src="common.js"></script>
+<script>
+const {el,SHOWS,TODAY,split,fmt,hash,isPast,isToday,venueShort,past,future,byVenue} = LE;
+const real=a=>(a||[]).filter(x=>!x.example);
+const stocks=['#f3e39a','#f6c8bf','#c6dcf4','#d7ebc0','#ead3f2','#ffdcae','#cfe9e4'];
+const stock=s=>stocks[hash(s.venue||s.event)%stocks.length];
+
+// Right now
+const tonight=SHOWS.find(isToday), next=SHOWS.find(s=>s.date>TODAY), last=past[past.length-1];
+const nights=past.reduce((n,s)=>n+(s.end?2:1),0), rooms=byVenue().length, topRoom=byVenue()[0];
+const cell=(label,big,small)=>el('div',{},label,el('b',{},big),small?el('small',{},small):null);
+document.getElementById('now').append(
+  cell(tonight?'Tonight':'Last night out',split(tonight||last).name,venueShort(tonight||last)+', '+fmt((tonight||last).date,'short')),
+  cell('Next on the fridge',split(next).name,venueShort(next)+', '+fmt(next.date,'short')),
+  cell('Nights out so far',String(nights),`${rooms} different rooms`),
+  cell('Keeps pulling me back',topRoom[0],`${topRoom[1].length} times and counting`));
+
+// Lately: the last few torn stubs
+const strip=document.getElementById('strip');
+[...past].slice(-6).reverse().forEach(s=>{
+  const r=hash(s.date+s.event);
+  strip.append(el('a',{class:'mini',href:'shows/',style:`--stock:${stock(s)};--rot:${((r%5)-2)*.9}deg`,title:s.event},
+    el('div',{class:'m'},el('div',{class:'row'},el('span',{},venueShort(s))),el('div',{class:'n'},split(s).name),el('div',{class:'row'},el('span',{},fmt(s.date,'med')))),
+    el('div',{class:'s'},el('span',{},fmt(s.date,'num')))));
+});
+
+// Doors
+const doors=[
+  ['Shows','shows/','#f3e39a',SHOWS,'nights','Go through the shoebox',`Every show since I got here, ${past.length} torn stubs and ${future.length} still whole. Flip one over for the setlist.`],
+  ['Movies','movies/','#c6dcf4',real(window.MOVIES),'screenings','Check the screenings','Cinema tickets from the Vista, the New Beverly, the big IMAX rooms, and the couch.'],
+  ['Places','places/','#d7ebc0',real(window.PLACES),'days out','Follow the tags','Admission tags from trails, beaches, museums and the odd road trip out of the city.'],
+  ['Games','games/','#f6c8bf',real(window.GAMES),'games','Read the scoreboard','Anything with a scoreboard. The red circle says who won.'],
+];
+const root=document.getElementById('doors');
+doors.forEach(([n,h,c,list,unit,verb,desc],i)=>{
+  const done=list.filter(x=>x.date<TODAY).length;
+  root.append(el('a',{class:'door'+(done?' torn':''),href:h,style:`--stock:${c};--rot:${[-.5,.4,-.3,.5][i]}deg`},
+    el('div',{},el('div',{class:'t'},verb),el('div',{class:'d'},desc)),
+    el('div',{class:'k'},el('b',{},list.length?String(list.length):'00'),list.length?unit:'coming soon')));
+});
+</script>
+</body></html>

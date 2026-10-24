@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" data-nav="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Setlist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#141414;background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.02) 0 1px,transparent 1px 120px),radial-gradient(ellipse at 50% -10%,rgba(255,220,160,.18),transparent 60%);color:#fff;font-family:'Patrick Hand',cursive}
+.wrap{max-width:1240px;margin:0 auto;padding:56px 24px 170px}
+h1{font-family:'Permanent Marker',cursive;font-size:clamp(40px,6vw,72px);margin:0;line-height:1;color:#f5f1e6}
+.lede{font-size:21px;color:#b9b4a6;max-width:44ch;margin:12px 0 48px;line-height:1.3}
+.stage{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:40px;align-items:start}
+.sheet{position:relative;background:#f7f3e6;color:#1a1a1a;padding:38px 28px 34px;transform:rotate(var(--rot));box-shadow:0 20px 40px -18px rgba(0,0,0,.9);min-height:400px}
+.sheet::before,.sheet::after{content:'';position:absolute;top:-10px;width:70px;height:24px;background:#222;transform:rotate(-3deg);box-shadow:0 1px 2px rgba(0,0,0,.6);opacity:.95}
+.sheet::before{left:22px}.sheet::after{right:22px;transform:rotate(4deg)}
+.sheet h2{font-family:'Permanent Marker',cursive;font-size:30px;margin:0 0 14px;letter-spacing:.02em;text-transform:uppercase;border-bottom:3px solid #1a1a1a;padding-bottom:6px;display:flex;justify-content:space-between;align-items:baseline}
+.sheet h2 small{font-family:'Patrick Hand',cursive;font-size:18px;text-transform:none;color:#555}
+.song{font-family:'Permanent Marker',cursive;font-size:clamp(22px,2.2vw,27px);line-height:1.15;text-transform:uppercase;display:flex;align-items:baseline;gap:10px;padding:6px 0;position:relative}
+.song .k{font-size:22px;color:#2f6f3e;width:24px;flex:none;transform:rotate(-8deg)}
+.song .t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.song .v{font-family:'Patrick Hand',cursive;font-size:16px;color:#6a6a6a;text-transform:none;margin-left:auto;white-space:nowrap;flex:none}
+.song.f{color:#3a3a3a}
+.song.now::after{content:'← tonight!!';position:absolute;right:-6px;top:-14px;font-family:'Permanent Marker',cursive;color:#d7261e;font-size:18px;transform:rotate(-6deg);text-transform:none}
+.song.now .t{color:#d7261e}
+.note{font-size:18px;color:#555;margin-top:18px;transform:rotate(-1deg)}
+.song{flex-wrap:wrap}
+.song.has{cursor:pointer}
+.song .t{flex:1 1 auto;min-width:0}
+.song .ct{font-family:'Patrick Hand',cursive;font-size:14px;color:#2f6f3e;text-transform:none;border:1.5px solid #2f6f3e;border-radius:999px;padding:0 7px;line-height:1.3;flex:none;transform:rotate(-3deg)}
+.song.f .ct{color:#777;border-color:#999}
+.real{flex-basis:100%;display:none;font-family:'Patrick Hand',cursive;font-size:17px;text-transform:none;columns:2;column-gap:20px;padding:6px 0 10px 34px;color:#333;line-height:1.25;font-weight:400}
+.song.open .real{display:block}
+.real div{break-inside:avoid;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.real .e{font-style:italic;color:#555}
+.real .src{column-span:all;font-size:14px;color:#777;margin-top:4px;white-space:normal}
+.real .src a{color:inherit}
+@media (max-width:560px){.real{columns:1}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Setlist, taped to the floor.</h1>
+  <p class="lede" id="lede"></p>
+  <div class="stage" id="stage"></div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,isPast,isToday,venueShort,past,future} = LE;
+document.getElementById('lede').textContent=`Checked means played. The encore is the part of the year that hasn't happened yet. Tap a line with a number for what they actually played.`;
+const stage=document.getElementById('stage');
+const sheet=(title,sub,items,rot,note)=>stage.append(el('section',{class:'sheet',style:`--rot:${rot}deg`},
+  el('h2',{},title,el('small',{},sub)),
+  ...items.map(s=>{const {name}=split(s);const sl=LE.setlist(s);
+    const real=sl?el('div',{class:'real'},...sl.songs.map((t,i)=>el('div',{title:t},`${i+1}. ${t}`)),...sl.encore.map(t=>el('div',{class:'e',title:t},'encore: '+t)),
+      el('div',{class:'src'},(sl.exact?'':(isPast(s)?'from another night on the tour. ':'what they played last time. ')),sl.url?el('a',{href:sl.url,target:'_blank',rel:'noopener'},'source'):null)):null;
+    const d=el('div',{class:'song'+(isPast(s)?'':' f')+(isToday(s)?' now':'')+(sl?' has':''),onclick:e=>{if(!sl||e.target.closest('a'))return;d.classList.toggle('open');}},
+    el('span',{class:'k'},isPast(s)?'✓':''),el('span',{class:'t'},name),sl?el('span',{class:'ct'},sl.total+(sl.exact?'':'?')):null,el('span',{class:'v'},`${venueShort(s)}, ${fmt(s.date,'short')}`),real);return d;}),
+  note?el('div',{class:'note'},note):null));
+const half=Math.ceil(past.length/2);
+sheet('Set 1',`${fmt(past[0].date,'short')} to ${fmt(past[half-1].date,'short')}`,past.slice(0,half),-1.2,'(SoFi was loud)');
+sheet('Set 2',`${fmt(past[half].date,'short')} to ${fmt(past[past.length-1].date,'short')}`,past.slice(half),.8,'water break here');
+sheet('Encore',`${fmt(future[0].date,'short')} onward`,future,-.6,`${future.length} more. don't skip.`);
+LE.nav();
+</script>
+</body></html>

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" data-nav="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Numbers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+:root{--ink:#121212;--mute:#6b6b6b;--line:#e4e4e4;--past:#2f46d6;--fut:#b9c2f0}
+body{margin:0;background:#fafafa;color:var(--ink);font-family:'Instrument Sans',sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:64px 24px 160px}
+h1{font-size:clamp(36px,5vw,56px);font-weight:600;letter-spacing:-.03em;line-height:1;margin:0}
+.lede{color:var(--mute);max-width:52ch;line-height:1.5;margin:14px 0 44px}
+.chart{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px 22px 14px}
+.chart h2{margin:0 0 4px;font-size:15px;font-weight:600}
+.legend{display:flex;gap:16px;font-size:12.5px;color:var(--mute);margin-bottom:18px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:10px;height:10px;border-radius:2px;display:inline-block}
+.bars{display:grid;grid-template-columns:repeat(20,1fr);gap:4px;height:220px;align-items:end;border-bottom:1px solid var(--line);position:relative}
+.b{position:relative;display:flex;flex-direction:column;justify-content:flex-end;height:100%;cursor:default}
+.b i{display:block;width:100%;border-radius:4px 4px 0 0;background:var(--past);min-height:0}
+.b.f i{background:repeating-linear-gradient(45deg,var(--past) 0 2px,#fff 2px 6px);box-shadow:inset 0 0 0 1.5px var(--past)}
+.b.z i{height:2px;background:var(--line)}
+.b b{position:absolute;top:-18px;left:0;right:0;text-align:center;font-size:11px;font-weight:600;color:var(--mute);opacity:0}
+.b:hover b{opacity:1}
+.b.peak b{opacity:1;color:var(--ink)}
+.b:hover i{filter:brightness(.85)}
+.tip{position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;font-size:12px;line-height:1.4;padding:8px 10px;border-radius:6px;white-space:nowrap;display:none;z-index:5}
+.b:hover .tip{display:block}
+.b:first-child .tip,.b:nth-child(2) .tip{left:0;transform:none}
+.b:last-child .tip,.b:nth-last-child(2) .tip{left:auto;right:0;transform:none}
+.x{display:grid;grid-template-columns:repeat(20,1fr);gap:4px;font-size:10.5px;color:var(--mute);margin-top:6px;text-align:center}
+.x span:nth-child(odd){visibility:hidden}
+.x span.y{visibility:visible;font-weight:600;color:var(--ink)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-top:28px}
+.fact{background:#fff;padding:20px 18px}
+.fact .n{font-size:38px;font-weight:600;letter-spacing:-.03em;line-height:1}
+.fact .l{color:var(--mute);font-size:13px;margin-top:6px;line-height:1.35}
+.fact .n small{font-size:18px;font-weight:500;letter-spacing:0;color:var(--mute)}
+@media (max-width:640px){.x span{visibility:hidden}.x span.y{visibility:visible}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>A year and a half, counted.</h1>
+  <p class="lede" id="lede"></p>
+  <section class="chart">
+    <h2>Shows per month</h2>
+    <div class="legend"><span><i style="background:var(--past)"></i>attended</span><span><i style="background:repeating-linear-gradient(45deg,var(--past) 0 2px,#fff 2px 4px);box-shadow:inset 0 0 0 1px var(--past)"></i>ticket in hand</span></div>
+    <div class="bars" id="bars"></div><div class="x" id="x"></div>
+  </section>
+  <div class="facts" id="facts"></div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,isPast,isToday,venueShort,past,future,byVenue,artists,MON,TODAY} = LE;
+document.getElementById('lede').textContent=`Everything on the list, tallied. The point was never the count, but the count is nice.`;
+const months=[];let y=2025,m=4;while(y<2027){months.push({key:`${y}-${String(m+1).padStart(2,'0')}`,y,m,shows:[]});m++;if(m===12){m=0;y++;}}
+SHOWS.forEach(s=>{const mo=months.find(x=>x.key===s.date.slice(0,7));if(mo)mo.shows.push(s);});
+const max=Math.max(...months.map(x=>x.shows.length));
+const bars=document.getElementById('bars'),x=document.getElementById('x');
+months.forEach(mo=>{
+  const n=mo.shows.length, fut=mo.key>TODAY.slice(0,7);
+  bars.append(el('div',{class:'b'+(fut?' f':'')+(n?'':' z')+(n===max?' peak':''),style:n?'':''},
+    el('b',{},n||''),el('i',{style:n?`height:${n/max*100}%`:''}),
+    n?el('div',{class:'tip'},el('div',{html:`<strong>${MON[mo.m]} ${mo.y}</strong>`}),...mo.shows.map(s=>el('div',{},`${split(s).name}, ${venueShort(s)}`))):null));
+  x.append(el('span',{class:mo.m===0||mo.key===months[0].key?'y':''},mo.m===0||mo.key===months[0].key?`${MON[mo.m]} ${mo.y}`:MON[mo.m]));
+});
+const venues=byVenue(); const topV=venues[0];
+const nights=past.reduce((n,s)=>n+(s.end?2:1),0);
+const exact=past.filter(s=>{const sl=LE.setlist(s);return sl&&sl.exact;});
+const songs=exact.reduce((n,s)=>n+LE.setlist(s).total,0);
+const longest=exact.map(s=>({s,sl:LE.setlist(s)})).sort((a,b)=>b.sl.total-a.sl.total)[0];
+const caps=SHOWS.map(s=>({s,cap:LE.capacityNum(s)})).filter(x=>x.cap);
+const biggest=caps.slice().sort((a,b)=>b.cap-a.cap)[0], smallest=caps.slice().sort((a,b)=>a.cap-b.cap)[0];
+const fac=(n,l)=>el('div',{class:'fact'},el('div',{class:'n',html:n}),el('div',{class:'l'},l));
+document.getElementById('facts').append(
+  fac(past.length,'shows attended since May 2025'),
+  fac(future.length,`with tickets in hand, next up ${split(SHOWS.find(s=>s.date>=TODAY)).name}`),
+  fac(nights,'nights out, counting both days of CORE'),
+  fac(venues.length,'different rooms, from The Echo to SoFi'),
+  fac(artists().length,'artists seen, 39 of them at CORE alone'),
+  fac(`${topV[1].length}<small>×</small>`,`${topV[0]}, the most visited room`),
+  fac(songs.toLocaleString(),`songs heard, counting only the ${exact.length} nights with an exact setlist on record`),
+  longest?fac(longest.sl.total,`songs in the longest set: ${split(longest.s).name} at ${venueShort(longest.s)}`):null,
+  biggest?fac(biggest.cap.toLocaleString(),`capacity of the biggest room, ${LE.venueInfo(biggest.s).name}`):null,
+  smallest?fac(smallest.cap.toLocaleString(),`capacity of the smallest, ${LE.venueInfo(smallest.s).name}`):null);
+LE.nav();
+</script>
+</body></html>

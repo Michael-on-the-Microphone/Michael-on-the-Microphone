@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" data-nav="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Marquee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#000;color:#fff;font-family:'Bebas Neue',Impact,sans-serif;padding:40px 16px 140px}
+.sign{max-width:900px;margin:0 auto}
+.frame{position:relative;padding:30px;background:#2b2420;border-radius:8px;margin-bottom:34px;box-shadow:0 30px 60px -30px rgba(255,200,120,.25)}
+.frame::before,.frame::after{content:'';position:absolute;inset:6px;padding:18px;border-radius:6px;pointer-events:none;
+  background:radial-gradient(circle,#fff3cc 0 3.5px,#d9a441 4px,#5a3d12 4.6px,transparent 5.2px) 6px 6px/24px 24px;
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask-composite:exclude;
+  animation:chase 1.2s steps(1) infinite}
+.frame::after{background-position:18px 18px;animation-delay:.6s}
+@keyframes chase{0%{opacity:1}50%{opacity:.18}100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.frame::before,.frame::after{animation:none}}
+.board{background:#0b0b0b;border-radius:3px;padding:18px 22px;box-shadow:inset 0 0 0 2px #3a2f28,inset 0 10px 30px rgba(0,0,0,.8)}
+.title{text-align:center;font-size:clamp(52px,10vw,120px);line-height:.9;letter-spacing:.04em;color:#ffd7a0;text-shadow:0 0 18px rgba(255,180,80,.55)}
+.title small{display:block;font-size:.35em;letter-spacing:.3em;color:#fff;text-shadow:none;margin-top:10px}
+.head{font-size:22px;letter-spacing:.3em;color:#ffb347;border-bottom:2px solid #262626;padding-bottom:8px;margin-bottom:6px}
+.ln{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:8px 0;border-bottom:2px solid #1c1c1c;font-size:clamp(24px,4vw,38px);letter-spacing:.05em;line-height:1}
+.ln .a{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ln .v{font-size:.55em;color:#bdbdbd;white-space:nowrap;letter-spacing:.08em}
+.ln.now .a{color:#ff5a3c}
+.ln.soon .a{color:#e6e6e6}
+.ln.soon .v{color:#8d8d8d}
+.ln .a{min-width:0}
+.ln .w{display:block;font-size:.48em;letter-spacing:.14em;color:#8d8d8d;margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ln.now .w{color:#ffb347}
+</style>
+</head>
+<body>
+<div class="sign">
+  <div class="frame"><div class="board title">LIFE ENJOYED<small>LOS ANGELES &nbsp; EST. 2025</small></div></div>
+  <div class="frame"><div class="board" id="now"></div></div>
+  <div class="frame"><div class="board" id="soon"></div></div>
+  <div class="frame"><div class="board" id="past"></div></div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,isPast,isToday,venueShort,past,future} = LE;
+const line=(s,cls)=>{const {name}=split(s);const w=LE.supportText(s,2);return el('div',{class:'ln '+cls},el('span',{class:'a'},name,w?el('span',{class:'w'},w.toUpperCase()):null),el('span',{class:'v'},`${venueShort(s)}  ${fmt(s.date,'short')}${s.end?'–'+LE.day(s.end):''}`.toUpperCase()));};
+const today=SHOWS.filter(isToday);
+const now=document.getElementById('now');
+now.append(el('div',{class:'head'},today.length?'TONIGHT':'DARK TONIGHT'));
+today.forEach(s=>now.append(line(s,'now')));
+if(!today.length) now.remove();
+const soon=document.getElementById('soon');
+soon.append(el('div',{class:'head'},'COMING SOON'));
+future.filter(s=>!isToday(s)).forEach(s=>soon.append(line(s,'soon')));
+const p=document.getElementById('past');
+p.append(el('div',{class:'head'},'PREVIOUSLY'));
+[...past].reverse().forEach(s=>p.append(line(s,'')));
+LE.nav();
+</script>
+</body></html>

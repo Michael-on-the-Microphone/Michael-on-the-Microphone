@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" data-nav="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+:root{--pink:#ff2d78;--ink:#161616}
+body{margin:0;background:#fff;color:var(--ink);font-family:Figtree,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:64px 24px 160px}
+h1{font-size:clamp(40px,6vw,72px);font-weight:900;letter-spacing:-.04em;margin:0;line-height:1}
+.lede{font-size:16px;margin:14px 0 44px;color:#555;max-width:50ch}
+.lede b{color:var(--pink)}
+.months{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:34px 28px}
+.mo h2{font-size:15px;font-weight:700;margin:0 0 8px;display:flex;justify-content:space-between}
+.mo h2 span{color:#999;font-weight:500}
+.days{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;font-size:12px;text-align:center}
+.days .h{color:#aaa;font-size:10px;font-weight:500;padding-bottom:4px}
+.days div{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:50%;font-variant-numeric:tabular-nums}
+.days .e{color:#ccc}
+.days .p{background:var(--pink);color:#fff;font-weight:700}
+.days .f{box-shadow:inset 0 0 0 2px var(--pink);color:var(--pink);font-weight:700}
+.days .t{background:var(--ink);color:#fff;font-weight:700}
+.ls{margin:10px 0 0;padding:0;list-style:none;font-size:12.5px;line-height:1.5}
+.ls li{display:flex;gap:8px}
+.ls b{width:18px;text-align:right;font-variant-numeric:tabular-nums;color:var(--pink);flex:none}
+.ls .f b{color:#999}
+.ls .f{color:#777}
+.mo.empty{opacity:.4}
+.legend{display:flex;gap:18px;font-size:12.5px;color:#555;margin-bottom:28px;flex-wrap:wrap}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:12px;height:12px;border-radius:50%;display:inline-block}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Marked in pink.</h1>
+  <p class="lede" id="lede"></p>
+  <div class="legend"><span><i style="background:var(--pink)"></i>went</span><span><i style="box-shadow:inset 0 0 0 2px var(--pink)"></i>ticket in hand</span><span><i style="background:var(--ink)"></i>today</span></div>
+  <div class="months" id="months"></div>
+</div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,isPast,isToday,MONTHS,TODAY,past,future} = LE;
+document.getElementById('lede').innerHTML=`A wall calendar of the last year and a half. <b>${past.length}</b> days went better than usual, and <b>${future.length}</b> more are circled.`;
+const byDay={};
+SHOWS.forEach(s=>{(byDay[s.date]=byDay[s.date]||[]).push(s); if(s.end)(byDay[s.end]=byDay[s.end]||[]).push({...s,cont:true});});
+const first=SHOWS[0].date, last=SHOWS[SHOWS.length-1].date;
+let y=+first.slice(0,4), m=+first.slice(5,7)-1;
+const root=document.getElementById('months');
+while(`${y}-${String(m+1).padStart(2,'0')}`<=last.slice(0,7)){
+  const key=`${y}-${String(m+1).padStart(2,'0')}`;
+  const ndays=new Date(y,m+1,0).getDate(), start=new Date(y,m,1).getDay();
+  const grid=el('div',{class:'days'},['S','M','T','W','T','F','S'].map(d=>el('div',{class:'h'},d)));
+  for(let i=0;i<start;i++)grid.append(el('div'));
+  const inMonth=[];
+  for(let d=1;d<=ndays;d++){
+    const iso=`${key}-${String(d).padStart(2,'0')}`;
+    const shows=byDay[iso];
+    let cls='e';
+    if(shows){cls=iso===TODAY?'t':iso<TODAY?'p':'f';shows.forEach(s=>{if(!s.cont)inMonth.push([d,s]);});}
+    else if(iso===TODAY)cls='t';
+    grid.append(el('div',{class:cls,title:shows?shows.map(s=>split(s).name+(LE.supportText(s,1)?' '+LE.supportText(s,1):'')+(LE.doors(s)?', doors '+LE.doors(s):'')).join(' / '):''},d));
+  }
+  root.append(el('section',{class:'mo'+(inMonth.length?'':' empty')},
+    el('h2',{},MONTHS[m],el('span',{},y)),grid,
+    el('ul',{class:'ls'},inMonth.map(([d,s])=>el('li',{class:isPast(s)?'':'f'},el('b',{},d),el('span',{},split(s).name+(isToday(s)?' (tonight)':'')))))));
+  m++; if(m===12){m=0;y++;}
+}
+LE.nav();
+</script>
+</body></html>

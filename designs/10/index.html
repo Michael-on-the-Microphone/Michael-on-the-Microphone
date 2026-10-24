@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" data-nav="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Log</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#000;color:#ffb000;font-family:'JetBrains Mono',monospace;font-size:14px;line-height:1.6;padding:32px 16px 150px;text-shadow:0 0 6px rgba(255,176,0,.35)}
+.scr{max-width:900px;margin:0 auto;white-space:pre;overflow-x:auto}
+.dim{color:#9a6c00}
+.ok{color:#ffd56a}
+.now{color:#fff;text-shadow:0 0 8px #fff}
+.soon{color:#ff8c3a}
+.cur::after{content:'▮';animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.cur::after{animation:none}}
+</style>
+</head>
+<body>
+<div class="scr" id="scr"></div>
+<script src="../../shows.js"></script><script src="../../shows-enriched.js"></script><script src="../../common.js"></script>
+<script>
+const {el,SHOWS,split,fmt,isPast,isToday,venueShort,past,future} = LE;
+const pad=(s,n)=>s.length>n?s.slice(0,n-1)+'…':s.padEnd(n);
+const lines=[];
+lines.push(['<span class="dim">praveen@losangeles</span> ~ % cat shows.log','']);
+lines.push(['<span class="dim"># date        status   artist                        venue</span>','']);
+SHOWS.forEach(s=>{
+  const {name}=split(s);
+  const st=isToday(s)?'<span class="now">tonight</span>':isPast(s)?'<span class="ok">ok     </span>':'<span class="soon">soon   </span>';
+  lines.push([`${s.date}  ${st}  ${pad(name,28)}  ${venueShort(s)}${s.end?'  (2 nights)':''}`,'']);
+  if(isToday(s)){const d=[LE.doors(s)&&'doors '+LE.doors(s),LE.showStart(s)&&'show '+LE.showStart(s),LE.supportText(s,3)].filter(Boolean).join(' · ');if(d)lines.push([`                     <span class="dim">└ ${d}</span>`,'']);}
+});
+lines.push(['','']);
+lines.push([`<span class="dim">${SHOWS.length} entries. ${past.length} attended, ${SHOWS.filter(isToday).length} tonight, ${future.length-SHOWS.filter(isToday).length} upcoming. 0 regrets.</span>`,'']);
+const exact=past.filter(s=>{const sl=LE.setlist(s);return sl&&sl.exact;});
+if(exact.length){
+  lines.push(['<span class="dim">praveen@losangeles</span> ~ % wc -l setlists/*.txt','']);
+  let tot=0;exact.forEach(s=>{const sl=LE.setlist(s);tot+=sl.total;lines.push([`${String(sl.total).padStart(8)} setlists/${s.date}-${split(s).name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}.txt`,'']);});
+  lines.push([`${String(tot).padStart(8)} total`,'']);
+  lines.push([`<span class="dim"># exact setlists only. the DJ nights don't keep receipts.</span>`,'']);
+}
+lines.push(['<span class="dim">praveen@losangeles</span> ~ % <span class="cur"></span>','']);
+const scr=document.getElementById('scr');
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let i=0;
+const tick=()=>{if(i>=lines.length)return;const d=el('div',{html:lines[i][0]||'&nbsp;'});scr.append(d);i++;if(reduce)tick();else setTimeout(tick,i<2?400:45);};
+tick();
+LE.nav();
+</script>
+</body></html>

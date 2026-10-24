@@ -20,6 +20,8 @@
 .tear::before,.tear::after{content:'';position:absolute;top:-8px;width:14px;height:14px;border-radius:50%;background:var(--desk)}
 .tear::before{left:-7px}.tear::after{right:-7px}
 .tear b{font-family:Oswald,sans-serif;font-size:18px;font-weight:700;letter-spacing:.02em}
+.sec{font-family:Oswald,sans-serif;font-weight:500;font-size:15px;letter-spacing:.08em;margin:56px 0 26px}
+.sec:first-child{margin-top:0}
 .seat{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;opacity:.7;line-height:1.5}
 </style>
 </head>
@@ -29,7 +31,8 @@
     <nav class="menu"><a href="../shows/">Shows</a><a href="../movies/" aria-current="page">Movies</a><a href="../places/">Places</a><a href="../games/">Games</a></nav></header>
   <h1>Screen<br>time</h1>
   <p class="lede" id="lede"></p>
-  <div class="pile" id="pile"></div>
+  <div id="years"></div>
+  <div class="pile" id="pile" hidden></div>
   <p class="empty" id="empty" hidden>These are samples. Add your own in <code>data/movies.js</code> and they'll show up here, torn once the date has passed.</p>
 </div>
 <script src="../shows.js"></script><script src="../data/movies.js"></script><script src="../common.js"></script>
@@ -38,14 +41,17 @@ const {el,fmt,hash,TODAY} = LE;
 const list=[...window.MOVIES].sort((a,b)=>a.date.localeCompare(b.date));
 const real=list.filter(m=>!m.example);
 const seen=real.filter(m=>m.date<TODAY&&m.status!=='want');
-document.getElementById('lede').textContent=real.length?`${seen.length} screenings since moving here, theater and couch alike. ${real.length-seen.length} still on the list.`:'Every movie worth a stub: the ones in a dark room on Hollywood Blvd, the ones on the couch, and the ones still on the list.';
+const big=seen.filter(m=>/IMAX|4DX|70mm|PLF|RPX|ICE/.test(m.format||'')).length, mystery=seen.filter(m=>/Mystery/.test(m.title)).length;
+document.getElementById('lede').textContent=real.length?`${seen.length} screenings since March 2025, nearly all of them at Regal. ${big} on the big formats, ${mystery} Monday mystery movies walked into blind. ${real.length-seen.length?`${real.length-seen.length} still on the list.`:'Dates are the day the ticket was booked.'}`:'Every movie worth a stub: the ones in a dark room on Hollywood Blvd, the ones on the couch, and the ones still on the list.';
 document.getElementById('empty').hidden=real.length>0;
-const stocks=['#f6c8bf','#c6dcf4','#f3e39a','#ead3f2','#ffdcae','#cfe9e4','#d7ebc0'];
-const pile=document.getElementById('pile');
+const fmtStock={IMAX:'#c6dcf4','4DX':'#f6c8bf',PLF:'#d7ebc0',RPX:'#d7ebc0',ICE:'#cfe9e4','3D':'#ead3f2'};
+const years=document.getElementById('years');
+const pileFor=(()=>{const map={};return y=>{if(!map[y]){const h=el('h2',{class:'sec'},y);const p=el('div',{class:'pile'});years.append(h,p);map[y]=p;}return map[y];};})();
 list.forEach(m=>{
+  const pile=pileFor(m.date.slice(0,4));
   const h=hash(m.where||'home'), r=hash(m.date+m.title);
   const home=/^at home/i.test(m.where||''), want=m.status==='want'||m.date>=TODAY;
-  pile.append(el('article',{class:'tk'+(want?' want':' torn')+(home?' home':''),style:`--stock:${stocks[h%stocks.length]};--rot:${((r%7)-3)*1.1}deg`},
+  pile.append(el('article',{class:'tk'+(want?' want':' torn')+(home?' home':''),style:`--stock:${fmtStock[(m.format||'').split(' ')[0]]||'#f3e39a'};--rot:${((r%7)-3)*1.1}deg`},
     m.example?el('span',{class:'stamp grey'},'Sample'):null,
     el('div',{class:'body'},
       el('div',{class:'row'},el('span',{},home?'Home screening':(m.where||'Theater')),el('span',{},m.format||(want?'Soon':'Seen'))),

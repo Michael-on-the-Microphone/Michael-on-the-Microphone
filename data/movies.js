@@ -10,6 +10,13 @@ window.MOVIES = [
     "note": "date approximate, somewhere Jan 4 to 11"
   },
   {
+    "date": "2025-02-05",
+    "title": "Vidaamuyarchi",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "Tamil, first day in LA"
+  },
+  {
     "date": "2025-03-16",
     "title": "Black Bag",
     "where": "Regal LA Live",
@@ -64,6 +71,13 @@ window.MOVIES = [
     "where": "Regal LA Live",
     "format": null,
     "note": null
+  },
+  {
+    "date": "2025-04-30",
+    "title": "Retro",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "Tamil, first day in LA"
   },
   {
     "date": "2025-05-04",
@@ -134,6 +148,13 @@ window.MOVIES = [
     "where": "Regal LA Live",
     "format": null,
     "note": null
+  },
+  {
+    "date": "2025-06-04",
+    "title": "Thug Life",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "Tamil, first day in LA"
   },
   {
     "date": "2025-06-12",
@@ -311,6 +332,13 @@ window.MOVIES = [
     "note": null
   },
   {
+    "date": "2025-08-13",
+    "title": "Coolie",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "Tamil, first day in LA"
+  },
+  {
     "date": "2025-08-17",
     "title": "Nobody 2",
     "where": "Regal LA Live",
@@ -379,6 +407,13 @@ window.MOVIES = [
     "where": "Regal LA Live",
     "format": null,
     "note": null
+  },
+  {
+    "date": "2025-10-16",
+    "title": "Dude",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "Tamil, first day in LA"
   },
   {
     "date": "2025-10-20",
@@ -535,6 +570,13 @@ window.MOVIES = [
     "note": null
   },
   {
+    "date": "2026-04-09",
+    "title": "Love Insurance Kompany",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "Tamil, first day in LA"
+  },
+  {
     "date": "2026-04-13",
     "title": "You, Me & Tuscany",
     "where": "Regal LA Live",
@@ -682,18 +724,18 @@ window.MOVIES = [
     "note": "Subtitled, 10th anniversary screening"
   },
   {
+    "date": "2026-08-06",
+    "title": "DC",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "Tamil, first day in LA"
+  },
+  {
     "date": "2026-08-07",
     "title": "One Night Only",
     "where": "Regal LA Live",
     "format": null,
     "note": null
-  },
-  {
-    "date": "2026-08-08",
-    "title": "DC",
-    "where": "Regal LA Live",
-    "format": null,
-    "note": "Tamil"
   },
   {
     "date": "2026-08-10",
@@ -808,11 +850,25 @@ window.MOVIES = [
     "note": null
   },
   {
+    "date": "2026-10-10",
+    "title": "Dorothy",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "Tamil"
+  },
+  {
     "date": "2026-10-15",
     "title": "Street Fighter",
     "where": "Regal LA Live",
     "format": "IMAX",
     "note": null
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Jailer 2",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "Tamil, first Friday"
   },
   {
     "date": "2026-10-22",

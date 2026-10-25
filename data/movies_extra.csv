@@ -1,11 +1,20 @@
-date,title,where,format,note
-2025-01-05,Nosferatu,Regal LA Live,,"date approximate, somewhere Jan 4 to 11"
-2026-06-28,The Invite,AMC The Grove,,"opening week, date approximate"
-2026-08-17,The End of Oak Street,,,
-2026-09-05,By Any Means,,,
-2026-09-09,Practical Magic 2,,,
-2026-10-03,Digger,,IMAX,
-2026-10-08,The Social Reckoning,,,
-2026-10-09,Forgotten Island,,,
-2026-10-15,Street Fighter,,IMAX,
-2026-10-22,Clayface,,4DX,
+date,title,where,format,note,replaces
+2025-01-05,Nosferatu,Regal LA Live,,"date approximate, somewhere Jan 4 to 11",
+2025-02-05,Vidaamuyarchi,Regal LA Live,,"Tamil, first day in LA",
+2025-04-30,Retro,Regal LA Live,,"Tamil, first day in LA",
+2025-06-04,Thug Life,Regal LA Live,,"Tamil, first day in LA",
+2025-08-13,Coolie,Regal LA Live,,"Tamil, first day in LA",
+2025-10-16,Dude,Regal LA Live,,"Tamil, first day in LA",
+2026-04-09,Love Insurance Kompany,Regal LA Live,,"Tamil, first day in LA",
+2026-06-28,The Invite,AMC The Grove,,"opening week, date approximate",
+2026-08-06,DC,Regal LA Live,,"Tamil, first day in LA",2026-08-08
+2026-08-17,The End of Oak Street,,,,
+2026-09-05,By Any Means,,,,
+2026-09-09,Practical Magic 2,,,,
+2026-10-03,Digger,,IMAX,,
+2026-10-08,The Social Reckoning,,,,
+2026-10-09,Forgotten Island,,,,
+2026-10-10,Dorothy,Regal LA Live,,Tamil,
+2026-10-15,Street Fighter,,IMAX,,
+2026-10-16,Jailer 2,Regal LA Live,,"Tamil, first Friday",
+2026-10-22,Clayface,,4DX,,

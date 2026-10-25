@@ -1,7 +1,7 @@
 """Build data/movies.js from a Regal bookings export (.xlsx).
 
 Usage: python3 -I tools/movies_from_regal.py ~/Downloads/regal_movie_bookings_2025_2026.xlsx data/movies.js
-Extra screenings not in the export go in data/movies_extra.csv (date,title,where,format,note; where defaults to Regal LA Live); same date+title is skipped.
+Extra screenings not in the export go in data/movies_extra.csv (date,title,where,format,note,replaces; where defaults to Regal LA Live; replaces = booking date of an export row to drop); same date+title is skipped.
 Keep the export out of the repo: it holds booking codes and mailbox links.
 Refunded bookings are skipped. Dates are the booking confirmation dates (the export has no
 show dates), except Monday Mystery Movies, whose titles carry the real show date.
@@ -55,6 +55,8 @@ if os.path.exists(extra):
     seen = {(m['date'], m['title'].lower()) for m in out}
     with open(extra, newline='', encoding='utf-8') as f:
         for r in csv.DictReader(f):
+            if r.get('replaces'):  # drop the export's own entry (booking date) for this title
+                out = [m for m in out if not (m['date'] == r['replaces'] and m['title'].lower() == r['title'].lower())]
             if (r['date'], r['title'].lower()) in seen:
                 continue
             out.append({'date': r['date'], 'title': r['title'], 'where': r.get('where') or 'Regal LA Live',

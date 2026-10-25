@@ -503,7 +503,7 @@ _No setlist exists for the Fonda night (setlist.fm lists nothing between Treefor
 ## Sarah de Warren
 **2026-07-11** · Globe Theatre · confidence low
 
-**Check:** Confirmed by Praveen from the ticket: July 11, 2026 at the Globe Theatre. No public listing was found.
+**Check:** Confirmed by Praveen: a Code Red night, July 11, 2026 at the Globe Theatre. Code Red bills its lineups as TBA, which is why no public listing names her.
 
 **Lineup**
 - Sarah de Warren (headliner) — LA-based (per Bandsintown) singer-songwriter/DJ-producer signed to Black Hole Recordings, plays trance/techno-leaning club sets. Appearance on this date unverified.

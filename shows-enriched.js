@@ -2889,7 +2889,7 @@ window.SHOWS_ENRICHED = [
         "role": "headliner",
         "set_time": null,
         "stage": null,
-        "notes": "LA-based (per Bandsintown) singer-songwriter/DJ-producer signed to Black Hole Recordings, plays trance/techno-leaning club sets. Appearance on this date unverified."
+        "notes": "Code Red headliner; the night was billed with the lineup as TBA."
       }
     ],
     "setlist": {
@@ -2900,7 +2900,9 @@ window.SHOWS_ENRICHED = [
       "encore": []
     },
     "schedule": {},
-    "facts": [],
+    "facts": [
+      "Code Red parties are billed with the lineup as TBA. This one turned out to be Sarah de Warren."
+    ],
     "sources": [
       "https://www.songkick.com/artists/4864243-sarah-de-warren/gigography",
       "https://www.songkick.com/venues/2048404-globe-theatre/gigography",
@@ -2909,19 +2911,21 @@ window.SHOWS_ENRICHED = [
       "https://www.bandsintown.com/a/3896582-sarah-de-warren",
       "https://www.jambase.com/band/sarah-de-warren",
       "https://www.setlist.fm/search?query=sarah+de+warren",
-      "https://www.blackholerecordings.com/artists/sarah-de-warren"
+      "https://www.blackholerecordings.com/artists/sarah-de-warren",
+      "https://1720.la/event/code-red-tba-2/1720/los-angeles-california/"
     ],
     "gaps": [
-      "Could not confirm the show happened on 2026-07-11 or at the Globe Theatre; no listing of any kind found.",
-      "Support acts, set times, doors, age limit, price all unknown.",
-      "No setlist/tracklist.",
-      "No facts for the stub because the night itself could not be verified."
+      "No setlist or support acts found; Code Red lineups are not published."
     ],
     "confidence": "medium",
     "verification": {
       "date_ok": true,
       "venue_ok": true,
-      "notes": "Confirmed by Praveen from the ticket: July 11, 2026 at the Globe Theatre. No public listing was found."
+      "notes": "Confirmed by Praveen from the ticket: a Code Red night, July 11, 2026 at the Globe Theatre. Code Red bills its lineups as TBA, which is why no public listing names her."
+    },
+    "tour": {
+      "name": "Code Red",
+      "description": "Code Red is a Los Angeles party series that bills its nights with the lineup as TBA. Sarah de Warren headlined this one."
     }
   },
   {

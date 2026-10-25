@@ -5,757 +5,813 @@ window.MOVIES = [
   {
     "date": "2025-03-16",
     "title": "Black Bag",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-03-17",
     "title": "Mickey 17",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "PLF",
     "note": null
   },
   {
     "date": "2025-04-05",
     "title": "A Minecraft Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-04-07",
     "title": "Death of a Unicorn",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-04-11",
     "title": "Drop",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-04-15",
     "title": "The Amateur",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "ICE",
     "note": null
   },
   {
     "date": "2025-04-16",
     "title": "Warfare",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "4DX",
     "note": null
   },
   {
     "date": "2025-04-21",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-05-04",
     "title": "Thunderbolts*",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "ICE",
     "note": null
   },
   {
     "date": "2025-05-05",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-05-14",
     "title": "The Accountant 2",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-05-15",
     "title": "Final Destination: Bloodlines",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "4DX",
     "note": null
   },
   {
     "date": "2025-05-22",
     "title": "Mission: Impossible - The Final Reckoning",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "4DX",
     "note": null
   },
   {
     "date": "2025-05-23",
     "title": "Ballerina",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "4DX",
     "note": null
   },
   {
     "date": "2025-05-24",
     "title": "Lilo & Stitch",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-05-25",
     "title": "Lilo & Stitch",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-05-27",
     "title": "Karate Kid: Legends",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-06-02",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-06-12",
     "title": "Materialists",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-06-13",
     "title": "How to Train Your Dragon",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "PLF",
     "note": null
   },
   {
     "date": "2025-06-15",
     "title": "Materialists",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-06-17",
     "title": "F1 The Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "PLF",
     "note": "Early Access"
   },
   {
     "date": "2025-06-18",
     "title": "Elio",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "3D",
     "note": "Early Access"
   },
   {
     "date": "2025-06-20",
     "title": "28 Years Later",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-06-22",
     "title": "Spider-Man: Across the Spider-Verse",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-06-22",
     "title": "Spider-Man: Into the Spider-Verse",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-06-23",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-07-07",
     "title": "Superman",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "PLF",
     "note": null
   },
   {
     "date": "2025-07-07",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-07-10",
     "title": "Superman",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "PLF",
     "note": null
   },
   {
     "date": "2025-07-13",
     "title": "Superman",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "PLF",
     "note": null
   },
   {
     "date": "2025-07-13",
     "title": "The Smurfs Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-07-18",
     "title": "Eddington",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-07-19",
     "title": "I Know What You Did Last Summer",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-07-22",
     "title": "Together",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "Early Access"
   },
   {
     "date": "2025-07-24",
     "title": "The Fantastic Four: First Steps",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "ICE",
     "note": null
   },
   {
     "date": "2025-07-25",
     "title": "The Fantastic Four: First Steps",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "PLF",
     "note": null
   },
   {
     "date": "2025-07-26",
     "title": "The Smurfs Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-07-28",
     "title": "The Naked Gun",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-07-28",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-08-05",
     "title": "Weapons",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-08-08",
     "title": "Freakier Friday",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "PLF",
     "note": null
   },
   {
     "date": "2025-08-11",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-08-17",
     "title": "Nobody 2",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-08-18",
     "title": "Nobody 2",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "PLF",
     "note": null
   },
   {
     "date": "2025-08-20",
     "title": "Harry Potter and the Order of the Phoenix",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "4DX",
     "note": null
   },
   {
     "date": "2025-08-25",
     "title": "Highest 2 Lowest",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-08-25",
     "title": "Harry Potter and the Half-Blood Prince",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "4DX",
     "note": null
   },
   {
     "date": "2025-08-29",
     "title": "The Roses",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-09-01",
     "title": "A Big Bold Beautiful Journey",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-09-01",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-09-22",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-10-06",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-10-20",
     "title": "One Battle After Another",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "with a friend"
   },
   {
     "date": "2025-10-25",
     "title": "Tron: Ares",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-11-04",
     "title": "Now You See Me: Now You Don't",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-11-06",
     "title": "Good Fortune",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-11-10",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-11-18",
     "title": "Now You See Me: Now You Don't",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-11-21",
     "title": "Wicked: For Good",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2025-11-25",
     "title": "Zootopia 2",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "with a friend"
   },
   {
     "date": "2025-12-07",
     "title": "Five Nights at Freddy's 2",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "with a friend"
   },
   {
     "date": "2025-12-20",
     "title": "Avatar: Fire and Ash",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX 3D",
     "note": "with a friend"
   },
   {
     "date": "2025-12-22",
     "title": "David",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-01-17",
     "title": "28 Years Later: The Bone Temple",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-02-01",
     "title": "Send Help",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-02-12",
     "title": "Solo Mio",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-02-12",
     "title": "Crime 101",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX",
     "note": null
   },
   {
     "date": "2026-03-01",
     "title": "Wuthering Heights",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-03-14",
     "title": "Undertone",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-03-17",
     "title": "Kiki's Delivery Service",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX 4K",
     "note": "Subtitled"
   },
   {
     "date": "2026-03-20",
     "title": "Dhurandhar The Revenge",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "Hindi"
   },
   {
     "date": "2026-03-21",
     "title": "Project Hail Mary",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-04-02",
     "title": "The Super Mario Galaxy Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-04-04",
     "title": "The Drama",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-04-13",
     "title": "You, Me & Tuscany",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-05-09",
     "title": "Mortal Kombat II",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-05-12",
     "title": "The Devil Wears Prada 2",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-05-28",
     "title": "Backrooms",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-06-06",
     "title": "Masters of the Universe",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX",
     "note": null
   },
   {
     "date": "2026-06-08",
     "title": "Scary Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-06-11",
     "title": "Power Ballad",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-06-13",
     "title": "Disclosure Day",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX",
     "note": null
   },
   {
     "date": "2026-06-17",
     "title": "Toy Story 5",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX",
     "note": null
   },
   {
     "date": "2026-06-26",
     "title": "Supergirl",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX",
     "note": null
   },
   {
     "date": "2026-07-02",
     "title": "Minions & Monsters",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "RPX",
     "note": null
   },
   {
     "date": "2026-07-10",
     "title": "Moana",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX",
     "note": null
   },
   {
     "date": "2026-07-13",
     "title": "The Odyssey",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX 70mm",
     "note": null
   },
   {
     "date": "2026-07-18",
     "title": "Spider-Man: Brand New Day",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-07-20",
     "title": "Evil Dead Burn",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-07-21",
     "title": "Avengers: Doomsday",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "4DX 3D",
     "note": null
   },
   {
     "date": "2026-07-28",
     "title": "Spider-Man: Brand New Day",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-07-30",
     "title": "Spider-Man: Brand New Day",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "3D",
     "note": null
   },
   {
     "date": "2026-08-03",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "Horror Edition"
   },
   {
     "date": "2026-08-04",
     "title": "Your Name.",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "Subtitled, 10th anniversary screening"
   },
   {
     "date": "2026-08-07",
     "title": "One Night Only",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-08-08",
     "title": "DC",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "Tamil"
   },
   {
     "date": "2026-08-10",
     "title": "Monday Mystery Movie",
-    "where": "Regal",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": null
+  },
+  {
+    "date": "2026-08-17",
+    "title": "The End of Oak Street",
+    "where": "Regal LA Live",
     "format": null,
     "note": null
   },
   {
     "date": "2026-08-18",
     "title": "Dune: Part Three",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX 70mm",
     "note": null
   },
   {
     "date": "2026-08-21",
     "title": "Tony",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "with a friend"
   },
   {
     "date": "2026-08-29",
     "title": "Bethlehem Kudumba Unit",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "Malayalam"
   },
   {
     "date": "2026-08-30",
     "title": "Coyote vs. ACME",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "with a friend"
   },
   {
     "date": "2026-09-02",
     "title": "Cars",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "20th anniversary screening, with a friend"
   },
   {
+    "date": "2026-09-05",
+    "title": "By Any Means",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": null
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Practical Magic 2",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": null
+  },
+  {
     "date": "2026-09-16",
     "title": "Primetime",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "with a friend"
   },
   {
     "date": "2026-09-23",
     "title": "Resident Evil",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX",
     "note": null
   },
   {
     "date": "2026-09-29",
     "title": "Heart of the Beast",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "with a friend"
   },
   {
+    "date": "2026-10-01",
+    "title": "Forgotten Island",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": null
+  },
+  {
     "date": "2026-10-03",
     "title": "Digger",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": "IMAX",
     "note": null
   },
   {
     "date": "2026-10-08",
     "title": "Verity",
-    "where": "Regal",
+    "where": "Regal LA Live",
     "format": null,
     "note": "with a friend"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "The Social Reckoning",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": null
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Forgotten Island",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": null
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Street Fighter",
+    "where": "Regal LA Live",
+    "format": "IMAX",
+    "note": null
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Clayface",
+    "where": "Regal LA Live",
+    "format": "4DX",
+    "note": null
   }
 ];

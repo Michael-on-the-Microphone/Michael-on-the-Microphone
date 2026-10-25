@@ -42,7 +42,7 @@ const list=[...window.MOVIES].sort((a,b)=>a.date.localeCompare(b.date));
 const real=list.filter(m=>!m.example);
 const seen=real.filter(m=>m.date<TODAY&&m.status!=='want');
 const big=seen.filter(m=>/IMAX|4DX|70mm|PLF|RPX|ICE/.test(m.format||'')).length, mystery=seen.filter(m=>/Mystery/.test(m.title)).length;
-document.getElementById('lede').textContent=real.length?`${seen.length} screenings since March 2025, nearly all of them at Regal. ${big} on the big formats, ${mystery} Monday mystery movies walked into blind. ${real.length-seen.length?`${real.length-seen.length} still on the list.`:'Dates are the day the ticket was booked.'}`:'Every movie worth a stub: the ones in a dark room on Hollywood Blvd, the ones on the couch, and the ones still on the list.';
+document.getElementById('lede').textContent=real.length?`${seen.length} screenings at Regal LA Live since March 2025. ${big} on the big formats, ${mystery} Monday mystery movies walked into blind. ${real.length-seen.length?`${real.length-seen.length} still on the list.`:'Dates are the day the ticket was booked.'}`:'Every movie worth a stub: the ones in a dark room on Hollywood Blvd, the ones on the couch, and the ones still on the list.';
 document.getElementById('empty').hidden=real.length>0;
 const fmtStock={IMAX:'#c6dcf4','4DX':'#f6c8bf',PLF:'#d7ebc0',RPX:'#d7ebc0',ICE:'#cfe9e4','3D':'#ead3f2'};
 const years=document.getElementById('years');

@@ -1,11 +1,12 @@
 """Build data/movies.js from a Regal bookings export (.xlsx).
 
 Usage: python3 -I tools/movies_from_regal.py ~/Downloads/regal_movie_bookings_2025_2026.xlsx data/movies.js
+Extra screenings not in the export go in data/movies_extra.csv (date,title,format,note); same date+title is skipped.
 Keep the export out of the repo: it holds booking codes and mailbox links.
 Refunded bookings are skipped. Dates are the booking confirmation dates (the export has no
 show dates), except Monday Mystery Movies, whose titles carry the real show date.
 """
-import json, re, sys, datetime
+import json, re, sys, datetime, csv, os
 import openpyxl
 
 src, dst = sys.argv[1], sys.argv[2]
@@ -46,9 +47,18 @@ for conf, title, tickets, code, refund, total, *_ in rows:
     if tickets and tickets > 1:
         notes.append('with a friend' if tickets == 2 else f'with {tickets - 1} friends')
     out.append({
-        'date': date.isoformat(), 'title': t.strip(), 'where': 'Regal',
+        'date': date.isoformat(), 'title': t.strip(), 'where': 'Regal LA Live',
         'format': ' '.join(fmt) if fmt else None, 'note': ', '.join(notes) if notes else None,
     })
+extra = os.path.join(os.path.dirname(dst), 'movies_extra.csv')
+if os.path.exists(extra):
+    seen = {(m['date'], m['title'].lower()) for m in out}
+    with open(extra, newline='', encoding='utf-8') as f:
+        for r in csv.DictReader(f):
+            if (r['date'], r['title'].lower()) in seen:
+                continue
+            out.append({'date': r['date'], 'title': r['title'], 'where': 'Regal LA Live',
+                        'format': r.get('format') or None, 'note': r.get('note') or None})
 out.sort(key=lambda m: m['date'])
 hdr = ("// Movies. Generated from the Regal bookings export by tools/movies_from_regal.py.\n"
        "// Dates are booking dates (the export has no show dates), except Monday Mystery Movies.\n"

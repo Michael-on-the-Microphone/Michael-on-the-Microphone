@@ -766,13 +766,6 @@ window.MOVIES = [
     "note": "with a friend"
   },
   {
-    "date": "2026-10-01",
-    "title": "Forgotten Island",
-    "where": "Regal LA Live",
-    "format": null,
-    "note": null
-  },
-  {
     "date": "2026-10-03",
     "title": "Digger",
     "where": "Regal LA Live",

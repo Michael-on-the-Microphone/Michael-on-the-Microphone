@@ -2916,11 +2916,11 @@
       "No setlist/tracklist.",
       "No facts for the stub because the night itself could not be verified."
     ],
-    "confidence": "low",
+    "confidence": "medium",
     "verification": {
-      "date_ok": false,
-      "venue_ok": false,
-      "notes": "NOT CONFIRMED. No source lists Sarah de Warren at the Globe Theatre (740 S. Broadway, DTLA) on July 11, 2026, or any Los Angeles date in 2026. Checked: Songkick artist gigography (18 past 2026 shows: Honolulu Feb 6, SF Halcyon Feb 14, Austin Feb 21, Singapore Mar 13, Charleston Apr 3, Detroit Apr 10, El Paso Apr 25, Albuquerque May 1, EDC Las Vegas May 15-17, Ministry of Sound London May 29, Denver Jun 5, Vancouver Jun 6, San Jose Jun 20-21, Seattle Q Nightclub Aug 14, Portland 45 East Aug 15, Jacksonville Sep 10, Miami Sep 11, Amsterdam Oct 24; nothing in July except a Bandsintown-listed SILO Brooklyn Jul 24); Songkick Globe Theatre gigography (no July 2026 event except Luciana/DJ Irene on Jul 24); Resident Advisor Globe Theatre past events (none between May 2 and later 2026); DoLA July 11, 2026 listings (no Globe Theatre event, no Sarah de Warren); setlist.fm (only 2016 and 2025 entries). The record's date, venue, or both may be wrong, or it may have been an unlisted/guest appearance. Praveen should check the ticket stub/email."
+      "date_ok": true,
+      "venue_ok": true,
+      "notes": "Confirmed by Praveen from the ticket: July 11, 2026 at the Globe Theatre. No public listing was found."
     }
   },
   {
@@ -5523,7 +5523,6 @@
     ],
     "confidence": "medium",
     "gaps": [
-      "Not resolved whether there was a second night on Oct 18 or the Oct 18 listings are timezone artifacts.",
       "No set times.",
       "No setlist or tracklist, recap, review or photos.",
       "Sell-out status unknown; face-value prices not confirmed.",
@@ -5532,7 +5531,7 @@
     "verification": {
       "date_ok": true,
       "venue_ok": true,
-      "notes": "JamBase, Shazam/Apple Music, AXS (event 1496233), Gametime and Superfan list it's murph with Tobiahs and Close Friends Only at Shrine Auditorium & Expo Hall (Expo Hall room) on Saturday Oct 17, 2026. Some listings carry Oct 18 dates: Songkick has a separate event ID 43316321 dated Sun Oct 18, plus Bandsintown, Music of Our Desire and CurationsLA (slugs ending 20261018). These are most likely UTC-date artifacts of a late Saturday show, but a second added night on Oct 18 cannot be ruled out; one aggregator summary called it an added second night. No primary source (artist or promoter post) was fetched to settle this. If the ticket was for Oct 18, update the record."
+      "notes": "Confirmed by Praveen: Saturday Oct 17, 2026. Listings showing Oct 18 are a timezone artifact."
     }
   },
   {

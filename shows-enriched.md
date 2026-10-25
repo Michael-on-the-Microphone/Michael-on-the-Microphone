@@ -503,7 +503,7 @@ _No setlist exists for the Fonda night (setlist.fm lists nothing between Treefor
 ## Sarah de Warren
 **2026-07-11** · Globe Theatre · confidence low
 
-**Check:** NOT CONFIRMED. No source lists Sarah de Warren at the Globe Theatre (740 S. Broadway, DTLA) on July 11, 2026, or any Los Angeles date in 2026. Checked: Songkick artist gigography (18 past 2026 shows: Honolulu Feb 6, SF Halcyon Feb 14, Austin Feb 21, Singapore Mar 13, Charleston Apr 3, Detroit Apr 10, El Paso Apr 25, Albuquerque May 1, EDC Las Vegas May 15-17, Ministry of Sound London May 29, Denver Jun 5, Vancouver Jun 6, San Jose Jun 20-21, Seattle Q Nightclub Aug 14, Portland 45 East Aug 15, Jacksonville Sep 10, Miami Sep 11, Amsterdam Oct 24; nothing in July except a Bandsintown-listed SILO Brooklyn Jul 24); Songkick Globe Theatre gigography (no July 2026 event except Luciana/DJ Irene on Jul 24); Resident Advisor Globe Theatre past events (none between May 2 and later 2026); DoLA July 11, 2026 listings (no Globe Theatre event, no Sarah de Warren); setlist.fm (only 2016 and 2025 entries). The record's date, venue, or both may be wrong, or it may have been an unlisted/guest appearance. Praveen should check the ticket stub/email.
+**Check:** Confirmed by Praveen from the ticket: July 11, 2026 at the Globe Theatre. No public listing was found.
 
 **Lineup**
 - Sarah de Warren (headliner) — LA-based (per Bandsintown) singer-songwriter/DJ-producer signed to Black Hole Recordings, plays trance/techno-leaning club sets. Appearance on this date unverified.

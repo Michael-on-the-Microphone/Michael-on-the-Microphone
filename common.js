@@ -1,7 +1,12 @@
 // Shared helpers + the little design switcher. Every design loads shows.js then this.
 window.LE = (() => {
   const SHOWS = window.SHOWS;
-  const TODAY = window.TODAY;
+  // Today in the viewer's local time, so "tonight" and the fridge/shoebox split keep moving.
+  // Override for testing with ?today=2026-10-24.
+  const localISO = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const param = new URLSearchParams(location.search).get('today');
+  const TODAY = (param && /^\d{4}-\d\d-\d\d$/.test(param)) ? param : localISO(new Date());
+  window.TODAY = TODAY;
   const DESIGN_COUNT = 14;
 
   const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -179,5 +184,5 @@ window.LE = (() => {
   const tourBlurb = s => { const d = rich(s) && rich(s).tour && rich(s).tour.description; return d ? d.split(/(?<=\.)\s/)[0] : null; };
   const press = s => (rich(s) && rich(s).press) || [];
 
-  return { SHOWS, TODAY, DESIGN_COUNT, MONTHS, MON, DAYS, d, year, month, day, weekday, fmt, split, venue, venueShort, isPast, isToday, past, future, byVenue, artists, hash, el, nav, rich, lineup, support, supportText, setlist, venueInfo, capacityNum, doors, showStart, ageLimit, facts, blurb, tourName, tourBlurb, press };
+  return { SHOWS, TODAY, DESIGN_COUNT, VENUE_SHORT, MONTHS, MON, DAYS, d, year, month, day, weekday, fmt, split, venue, venueShort, isPast, isToday, past, future, byVenue, artists, hash, el, nav, rich, lineup, support, supportText, setlist, venueInfo, capacityNum, doors, showStart, ageLimit, facts, blurb, tourName, tourBlurb, press };
 })();

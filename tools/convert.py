@@ -34,6 +34,5 @@ with open(src, newline='', encoding='utf-8-sig') as f:
 rows.sort(key=lambda x: x['date'])
 out = "// Shared show data — generated from concert_history_2025_2026.csv\n"
 out += "window.SHOWS = " + json.dumps(rows, indent=2, ensure_ascii=False) + ";\n"
-out += "window.TODAY = '2026-10-24';\n"
 open(dst, 'w', encoding='utf-8').write(out)
 print(len(rows), 'shows')

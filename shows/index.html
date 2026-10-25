@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Shows</title>
+<title>Shows | Live, love, laugh</title>
 <meta name="description" content="Every concert I've been to since moving to Los Angeles, kept as torn ticket stubs. Flip one over for the setlist.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Live, love, laugh">
@@ -19,7 +19,10 @@
 <meta name="twitter:image" content="https://michael-on-the-microphone.github.io/Michael-on-the-Microphone/og.png?v=6">
 <link rel="canonical" href="https://michael-on-the-microphone.github.io/Michael-on-the-Microphone/shows/">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="theme-color" content="#d8d2c6">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../site.css">
 <style>
@@ -42,21 +45,21 @@
 .back ol{margin:0;padding-left:16px;columns:2;column-gap:14px}
 .back li{break-inside:avoid;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .back p{margin:0}
-.sec{font-family:Oswald,sans-serif;font-weight:500;text-transform:uppercase;font-size:15px;letter-spacing:.08em;margin:64px 0 28px;display:flex;align-items:baseline;gap:12px}
-.sec span{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;opacity:.6;text-transform:none}
-.sec:first-of-type{margin-top:0}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="top"><a class="brand" href="../">Live, love, laugh.</a>
     <nav class="menu"><a href="../shows/" aria-current="page">Shows</a><a href="../movies/">Movies</a><a href="../places/">Places</a><a href="../games/">Games</a></nav></header>
+<main>
   <h1>Ticket<br>stubs</h1>
   <p class="lede" id="lede"></p>
   <h2 class="sec" id="fridge-h">On the fridge <span></span></h2>
   <div class="pile" id="fridge"></div>
   <h2 class="sec" id="box-h">In the shoebox <span></span></h2>
   <div class="pile" id="pile"></div>
+</main>
+<footer class="foot"><span>Live, love, laugh. Praveen, Los Angeles.</span><span><a href="../">Home</a> · <a href="https://github.com/Michael-on-the-Microphone/Michael-on-the-Microphone">Source</a></span></footer>
 </div>
 <script src="../shows.js"></script><script src="../shows-enriched.js"></script><script src="../common.js"></script>
 <script>
@@ -78,7 +81,7 @@ const pile=document.getElementById('pile');
   else if(sup.length) back=[el('h4',{},'On the bill'),el('p',{},sup.join(', '))];
   else if(fact) back=[el('h4',{},'From that night'),el('p',{},fact)];
   else back=[el('h4',{},'Back of the stub'),el('p',{},'Nothing written here yet.')];
-  const stub=el('article',{class:'stub'+(isPast(s)?' torn':''),style:`--stock:${stocks[h%stocks.length]};--rot:${rot}deg`,tabindex:'0',role:'button','aria-label':name},
+  const stub=el('article',{class:'stub'+(isPast(s)?' torn':''),style:`--stock:${stocks[h%stocks.length]};--rot:${rot}deg`,tabindex:'0',role:'button','aria-pressed':'false','aria-label':name+(isPast(s)?', flip for details':'')},
     isToday(s)?el('span',{class:'stamp'},'Tonight'):null,
     el('div',{class:'card'},
       el('div',{class:'face front'},
@@ -88,7 +91,7 @@ const pile=document.getElementById('pile');
           el('div',{class:'row'},el('span',{},supLine(s,sub)),el('span',{},fmt(s.date,'short')+(s.end?'–'+LE.day(s.end):'')))),
         el('div',{class:'side'},el('span',{},fmt(s.date,'num')),el('span',{class:'no'},LE.doors(s)?'Doors '+LE.doors(s):'No. '+serial))),
       el('div',{class:'face back'},...back)));
-  const flip=()=>{if(isPast(s))stub.classList.toggle('open');};
+  const flip=()=>{if(!isPast(s))return;stub.classList.toggle('open');stub.setAttribute('aria-pressed',stub.classList.contains('open'));};
   stub.addEventListener('click',flip);
   stub.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flip();}});
   (isPast(s)?pile:fridge).append(stub);

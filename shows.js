@@ -496,4 +496,3 @@ window.SHOWS = [
     "unconfirmed": true
   }
 ];
-window.TODAY = '2026-10-24';

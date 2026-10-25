@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /og.html
+Disallow: /designs/
+Sitemap: https://michael-on-the-microphone.github.io/Michael-on-the-Microphone/sitemap.xml

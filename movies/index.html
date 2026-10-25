@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Movies</title>
+<title>Movies | Live, love, laugh</title>
 <meta name="description" content="Over a hundred nights at the movies in Los Angeles, from Monday mystery screenings to 70mm IMAX, one cinema ticket each.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Live, love, laugh">
@@ -19,7 +19,10 @@
 <meta name="twitter:image" content="https://michael-on-the-microphone.github.io/Michael-on-the-Microphone/og.png?v=6">
 <link rel="canonical" href="https://michael-on-the-microphone.github.io/Michael-on-the-Microphone/movies/">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="theme-color" content="#d8d2c6">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../site.css">
 <style>
@@ -36,8 +39,6 @@
 .tear::before,.tear::after{content:'';position:absolute;top:-8px;width:14px;height:14px;border-radius:50%;background:var(--desk)}
 .tear::before{left:-7px}.tear::after{right:-7px}
 .tear b{font-family:Oswald,sans-serif;font-size:18px;font-weight:700;letter-spacing:.02em}
-.sec{font-family:Oswald,sans-serif;font-weight:500;font-size:15px;letter-spacing:.08em;margin:56px 0 26px}
-.sec:first-child{margin-top:0}
 .seat{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;opacity:.7;line-height:1.5}
 </style>
 </head>
@@ -45,11 +46,14 @@
 <div class="wrap">
   <header class="top"><a class="brand" href="../">Live, love, laugh.</a>
     <nav class="menu"><a href="../shows/">Shows</a><a href="../movies/" aria-current="page">Movies</a><a href="../places/">Places</a><a href="../games/">Games</a></nav></header>
+<main>
   <h1>Screen<br>time</h1>
   <p class="lede" id="lede"></p>
   <div id="years"></div>
   <div class="pile" id="pile" hidden></div>
   <p class="empty" id="empty" hidden>These are samples. Add your own in <code>data/movies.js</code> and they'll show up here, torn once the date has passed.</p>
+</main>
+<footer class="foot"><span>Live, love, laugh. Praveen, Los Angeles.</span><span><a href="../">Home</a> · <a href="https://github.com/Michael-on-the-Microphone/Michael-on-the-Microphone">Source</a></span></footer>
 </div>
 <script src="../shows.js"></script><script src="../data/movies.js"></script><script src="../common.js"></script>
 <script>
@@ -62,7 +66,8 @@ document.getElementById('lede').textContent=real.length?`${seen.length} screenin
 document.getElementById('empty').hidden=real.length>0;
 const fmtStock={IMAX:'#c6dcf4','4DX':'#f6c8bf',PLF:'#d7ebc0',RPX:'#d7ebc0',ICE:'#cfe9e4','3D':'#ead3f2'};
 const years=document.getElementById('years');
-const pileFor=(()=>{const map={};return y=>{if(!map[y]){const h=el('h2',{class:'sec'},y);const p=el('div',{class:'pile'});years.append(h,p);map[y]=p;}return map[y];};})();
+const perYear={};list.forEach(m=>{const y=m.date.slice(0,4);perYear[y]=(perYear[y]||0)+1;});
+const pileFor=(()=>{const map={};return y=>{if(!map[y]){const h=el('h2',{class:'sec'},y,el('span',{},`${perYear[y]} ticket${perYear[y]===1?'':'s'}`));const p=el('div',{class:'pile'});years.append(h,p);map[y]=p;}return map[y];};})();
 list.forEach(m=>{
   const pile=pileFor(m.date.slice(0,4));
   const h=hash(m.where||'home'), r=hash(m.date+m.title);

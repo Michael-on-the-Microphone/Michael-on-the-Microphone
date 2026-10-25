@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Games</title>
+<title>Games | Live, love, laugh</title>
 <meta name="description" content="Every USC home game at the Coliseum since the 2025 season, with the score stamped on the ticket.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Live, love, laugh">
@@ -19,7 +19,10 @@
 <meta name="twitter:image" content="https://michael-on-the-microphone.github.io/Michael-on-the-Microphone/og.png?v=6">
 <link rel="canonical" href="https://michael-on-the-microphone.github.io/Michael-on-the-Microphone/games/">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="theme-color" content="#d8d2c6">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../site.css">
 <style>
@@ -39,16 +42,20 @@
 .stubend span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
 .res{position:absolute;right:158px;top:50%;width:46px;height:46px;border-radius:50%;border:3px solid var(--red);color:var(--red);font-family:Oswald,sans-serif;font-weight:700;font-size:26px;display:flex;align-items:center;justify-content:center;transform:translateY(-50%) rotate(-14deg);opacity:.5;z-index:2;pointer-events:none;mix-blend-mode:multiply}
 .res.l{border-color:#555;color:#555}
+@media (max-width:480px){.tk{grid-template-columns:1fr 52px;height:112px}.seats{display:none}.tk::before,.tk::after{right:52px}.res{display:none}}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="top"><a class="brand" href="../">Live, love, laugh.</a>
     <nav class="menu"><a href="../shows/">Shows</a><a href="../movies/">Movies</a><a href="../places/">Places</a><a href="../games/" aria-current="page">Games</a></nav></header>
+<main>
   <h1>Scoreboard<br>nights</h1>
   <p class="lede" id="lede"></p>
   <div class="pile" id="pile"></div>
   <p class="empty" id="empty" hidden>These are samples. Add your own in <code>data/games.js</code>. The circle says who won.</p>
+</main>
+<footer class="foot"><span>Live, love, laugh. Praveen, Los Angeles.</span><span><a href="../">Home</a> · <a href="https://github.com/Michael-on-the-Microphone/Michael-on-the-Microphone">Source</a></span></footer>
 </div>
 <script src="../shows.js"></script><script src="../data/games.js"></script><script src="../common.js"></script>
 <script>
@@ -66,9 +73,9 @@ list.forEach(g=>{
     g.example?el('span',{class:'stamp grey'},'Sample'):null,
     past&&g.result?el('span',{class:'res '+g.result.toLowerCase()},g.result):null,
     el('div',{class:'main'},
-      el('div',{class:'row'},el('span',{},g.venue||'Venue TBA'),el('span',{},g.sport||'')),
+      el('div',{class:'row'},el('span',{},(LE.VENUE_SHORT&&LE.VENUE_SHORT[g.venue])||g.venue||'Venue TBA'),el('span',{},g.sport||'')),
       el('div',{class:'vs'},g.home,el('i',{},'vs'),g.away),
-      el('div',{class:'row'},el('span',{},fmt(g.date,'long')),el('span',{},g.score?'Final '+g.score:(past?'':'Upcoming')))),
+      el('div',{class:'row'},el('span',{},fmt(g.date,innerWidth<480?'med':'long')),el('span',{},g.score?((innerWidth<480&&g.result)?g.result+' ':'Final ')+g.score:(past?'':'Upcoming')))),
     el('div',{class:'seats'},el('div',{},'Sec',el('b',{},String(100+r%250))),el('div',{},'Row',el('b',{},String(1+(r>>>5)%30))),el('div',{},'Seat',el('b',{},String(1+(r>>>9)%20)))),
     el('div',{class:'stubend'},el('span',{},fmt(g.date,'num')))));
 });

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Life, enjoyed — share card</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:#d8d2c6;font-family:'IBM Plex Mono',monospace;color:#1c1a17}
+.stage{position:relative;width:1200px;height:630px}
+.stub{position:absolute;background:var(--stock);display:grid;grid-template-columns:1fr 150px;transform:rotate(var(--rot));box-shadow:0 2px 2px rgba(0,0,0,.15),0 24px 40px -20px rgba(0,0,0,.4);
+  clip-path:polygon(1.5% 0,100% 0,100% 100%,.8% 100%,2.2% 92%,0 84%,1.8% 75%,.4% 66%,2.2% 57%,.8% 48%,1.8% 40%,0 31%,2.2% 22%,.8% 13%,1.8% 6%)}
+.stub::before,.stub::after{content:'';position:absolute;right:150px;width:28px;height:28px;border-radius:50%;background:#d8d2c6;transform:translateX(50%)}
+.stub::before{top:-14px}.stub::after{bottom:-14px}
+.main{padding:26px 34px 24px;display:flex;flex-direction:column;justify-content:space-between;border-right:3px dashed rgba(0,0,0,.32)}
+.row{display:flex;justify-content:space-between;gap:24px;white-space:nowrap;font-size:20px;letter-spacing:.1em;text-transform:uppercase}
+.name{font-family:Oswald,sans-serif;font-weight:700;text-transform:uppercase;line-height:.92;letter-spacing:-.01em}
+.side{display:flex;align-items:center;justify-content:space-evenly}
+.side span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:22px;letter-spacing:.16em;text-transform:uppercase}
+.side .no{font-size:16px;opacity:.6}
+.big{--stock:#f3e39a;--rot:-2.2deg;left:90px;top:120px;width:860px;height:360px}
+.big .name{font-size:124px}
+.big .row{font-size:22px}
+.b{--stock:#c6dcf4;--rot:5deg;left:760px;top:60px;width:520px;height:200px;opacity:.95}
+.c{--stock:#f6c8bf;--rot:-7deg;left:-60px;top:430px;width:520px;height:200px}
+.b .name,.c .name{font-size:56px;white-space:nowrap}
+.b .row,.c .row{font-size:14px}
+.stamp{position:absolute;left:66px;top:96px;background:#e8322b;color:#fff;font-size:22px;letter-spacing:.14em;padding:10px 18px;transform:rotate(-8deg);font-weight:500;z-index:3;text-transform:uppercase}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="stub c"><div class="main"><div class="row"><span>Regal LA Live</span><span>Admit one</span></div><div class="name">Jailer 2</div><div class="row"><span>Tamil, first Friday</span><span>Oct 16</span></div></div><div class="side"><span>10.16.26</span></div></div>
+  <div class="stub b"><div class="main"><div class="row"><span>SoFi Stadium</span><span>Admit one</span></div><div class="name">The Weeknd</div><div class="row"><span>With Playboi Carti</span><span>Jun 28</span></div></div><div class="side"><span>06.28.25</span></div></div>
+  <div class="stamp">Torn means I went</div>
+  <div class="stub big"><div class="main">
+    <div class="row"><span>Praveen, Los Angeles</span><span>Admit one</span></div>
+    <div class="name">Life,<br>enjoyed.</div>
+    <div class="row"><span>The life I've enjoyed living in Los Angeles</span><span>Since 2025</span></div>
+  </div><div class="side"><span>Est. 2025</span><span class="no">No. 900007</span></div></div>
+</div>
+</body></html>

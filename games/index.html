@@ -14,14 +14,14 @@
 .tk::before,.tk::after{content:'';position:absolute;right:64px;width:14px;height:14px;border-radius:50%;background:var(--desk);transform:translateX(50%);z-index:1}
 .tk::before{top:-7px}.tk::after{bottom:-7px}
 .main{padding:11px 14px 10px;display:flex;flex-direction:column;justify-content:space-between;min-width:0}
-.vs{font-family:Oswald,sans-serif;font-weight:700;font-size:23px;line-height:1;text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin:6px 0 2px}
+.vs{font-family:Oswald,sans-serif;font-weight:700;font-size:23px;line-height:1;text-transform:uppercase;white-space:nowrap;overflow:hidden;margin:6px 0 2px}
 .vs i{font-style:normal;font-weight:500;font-size:.6em;margin:0 .25em;opacity:.6}
 .seats{border-left:1.5px solid rgba(0,0,0,.25);padding:10px 8px;display:grid;grid-template-rows:repeat(3,1fr);font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
 .seats div{display:flex;justify-content:space-between;align-items:center}
 .seats b{font-family:Oswald,sans-serif;font-size:15px;font-weight:700;letter-spacing:0}
 .stubend{border-left:2px dashed rgba(0,0,0,.32);display:flex;align-items:center;justify-content:center}
 .stubend span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
-.res{position:absolute;right:150px;top:-12px;width:40px;height:40px;border-radius:50%;border:3px solid var(--red);color:var(--red);font-family:Oswald,sans-serif;font-weight:700;font-size:22px;display:flex;align-items:center;justify-content:center;transform:rotate(12deg);opacity:.85;z-index:2}
+.res{position:absolute;left:-14px;top:-14px;width:40px;height:40px;border-radius:50%;border:3px solid var(--red);color:var(--red);font-family:Oswald,sans-serif;font-weight:700;font-size:22px;display:flex;align-items:center;justify-content:center;transform:rotate(12deg);opacity:.85;z-index:2}
 .res.l{border-color:#555;color:#555}
 </style>
 </head>
@@ -40,7 +40,7 @@ const {el,fmt,hash,TODAY} = LE;
 const list=[...window.GAMES].sort((a,b)=>a.date.localeCompare(b.date));
 const real=list.filter(g=>!g.example), been=real.filter(g=>g.date<TODAY);
 const wins=been.filter(g=>g.result==='W').length;
-document.getElementById('lede').textContent=real.length?`${been.length} games, ${wins} wins from my seat. ${real.length-been.length} tickets still whole.`:'Anything with a scoreboard: Dodger Stadium, the Coliseum, the Forum. The red circle says who won.';
+document.getElementById('lede').textContent=real.length?`${been.length} games, ${wins} wins from my seat. ${real.length-been.length} tickets still whole.`:'Every USC home game at the Coliseum since the 2025 season. The red circle says who won.';
 document.getElementById('empty').hidden=real.length>0;
 const sportStock={baseball:'#c6dcf4',football:'#f6c8bf',basketball:'#f3e39a',soccer:'#d7ebc0',hockey:'#cfe9e4'};
 const pile=document.getElementById('pile');
@@ -56,5 +56,7 @@ list.forEach(g=>{
     el('div',{class:'seats'},el('div',{},'Sec',el('b',{},String(100+r%250))),el('div',{},'Row',el('b',{},String(1+(r>>>5)%30))),el('div',{},'Seat',el('b',{},String(1+(r>>>9)%20)))),
     el('div',{class:'stubend'},el('span',{},fmt(g.date,'num')))));
 });
+const fit=()=>document.querySelectorAll('.vs').forEach(n=>{let fs=23;n.style.fontSize='';while(n.scrollWidth>n.clientWidth&&fs>14){fs-=1;n.style.fontSize=fs+'px';}});
+document.fonts.ready.then(fit);
 </script>
 </body></html>

@@ -3,6 +3,13 @@
 // Fields: date, title, year, where, format, note, status ('seen' by default, or 'want').
 window.MOVIES = [
   {
+    "date": "2025-01-05",
+    "title": "Nosferatu",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "date approximate, somewhere Jan 4 to 11"
+  },
+  {
     "date": "2025-03-16",
     "title": "Black Bag",
     "where": "Regal LA Live",
@@ -596,6 +603,13 @@ window.MOVIES = [
     "where": "Regal LA Live",
     "format": "IMAX",
     "note": null
+  },
+  {
+    "date": "2026-06-28",
+    "title": "The Invite",
+    "where": "AMC The Grove",
+    "format": null,
+    "note": "opening week, date approximate"
   },
   {
     "date": "2026-07-02",

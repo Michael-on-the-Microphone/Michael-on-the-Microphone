@@ -201,7 +201,7 @@ window.SHOWS = [
     "end": null,
     "event": "Electric Feels",
     "artists": [],
-    "venue": "Seattle",
+    "venue": "Neumos",
     "city": "Seattle",
     "status": "went",
     "unconfirmed": false
@@ -251,7 +251,7 @@ window.SHOWS = [
     "artists": [
       "Ilaiyaraaja"
     ],
-    "venue": null,
+    "venue": "Dolby Theatre",
     "city": "Los Angeles",
     "status": "went",
     "unconfirmed": false
@@ -466,7 +466,7 @@ window.SHOWS = [
     "artists": [
       "ZHU"
     ],
-    "venue": "Reframe Studios Outdoors",
+    "venue": "Reframe Studios",
     "city": "Los Angeles",
     "status": "upcoming",
     "unconfirmed": false

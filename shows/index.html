@@ -42,9 +42,11 @@
 .side span{writing-mode:vertical-rl;transform:rotate(180deg);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
 .side .no{font-size:9px;opacity:.6}
 .back h4{margin:0 0 4px;font:inherit;font-weight:500;letter-spacing:.08em;text-transform:uppercase;font-size:9.5px;opacity:.7}
-.back ol{margin:0;padding-left:16px;columns:2;column-gap:14px}
+.back ol{margin:0 0 10px;padding-left:16px;columns:2;column-gap:14px}
 .back li{break-inside:avoid;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .back p{margin:0}
+.back .src{position:absolute;right:12px;bottom:8px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:inherit;opacity:.65}
+.back .src:hover{opacity:1}
 </style>
 </head>
 <body>
@@ -75,9 +77,14 @@ const pile=document.getElementById('pile');
   const {name,sub}=split(s);
   const h=hash(s.venue||s.event), r=hash(s.date+s.event);
   const rot=((r%9)-4)*0.8, serial=String(100000+(r%900000));
-  const set=LE.setlist(s)||[], fact=LE.blurb(s,150)||"", sup=LE.support(s,6)||[];
+  const sl=LE.setlist(s), fact=LE.blurb(s,150)||"", sup=LE.support(s,6)||[];
+  const set=sl?[...sl.songs,...sl.encore].filter(t=>!/^(tape\b|intro$|outro$|\(tape\))/i.test(t.trim())):[];
   let back;
-  if(set.length) back=[el('h4',{},`Setlist, ${set.length>10?'first 10 of '+set.length:set.length} songs`),el('ol',{},set.slice(0,10).map(t=>el('li',{},t)))];
+  if(set.length){
+    const label=sl.exact?'Setlist':'Tour setlist';
+    back=[el('h4',{},`${label}, ${set.length>10?'first 10 of '+set.length:set.length} songs`),el('ol',{},set.slice(0,10).map(t=>el('li',{},t)))];
+    if(sl.url) back.push(el('a',{class:'src',href:sl.url,target:'_blank',rel:'noopener',onclick:e=>e.stopPropagation()},sl.exact?'Full setlist':'Nearest night logged'));
+  }
   else if(sup.length) back=[el('h4',{},'On the bill'),el('p',{},sup.join(', '))];
   else if(fact) back=[el('h4',{},'From that night'),el('p',{},fact)];
   else back=[el('h4',{},'Back of the stub'),el('p',{},'Nothing written here yet.')];

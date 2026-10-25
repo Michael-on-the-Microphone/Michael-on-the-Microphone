@@ -17,7 +17,7 @@ with open(src, newline='', encoding='utf-8-sig') as f:
         city = 'Los Angeles'
         if 'Seattle' in venue:
             city = 'Seattle'
-            venue = 'Seattle'
+            venue = venue.replace(', Seattle', '').split(' (')[0].replace('Seattle, Washington', '').strip(', ') or 'Seattle'
         venue = venue.replace(', Los Angeles', '')
         if venue == 'Shrine Expo Hall':
             venue = 'Shrine Auditorium and Expo Hall'

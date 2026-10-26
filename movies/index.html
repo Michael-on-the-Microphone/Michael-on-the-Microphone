@@ -33,7 +33,7 @@
 .tk.home{background:#f7f5ef;background-image:repeating-linear-gradient(0deg,transparent 0 22px,rgba(0,0,0,.06) 22px 23px)}
 .tk.want{opacity:.9}
 .body{padding:14px 14px 10px;display:flex;flex-direction:column;justify-content:space-between;min-height:0}
-.title{font-family:Oswald,sans-serif;font-weight:700;font-size:26px;line-height:.95;text-transform:uppercase;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.title{font-family:Oswald,sans-serif;font-weight:700;font-size:26px;line-height:.95;text-transform:uppercase;min-width:0;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .title small{display:block;font-family:'IBM Plex Mono',monospace;font-weight:400;font-size:10px;letter-spacing:.08em;margin-top:6px;text-transform:none}
 .tear{position:relative;border-top:2px dashed rgba(0,0,0,.32);display:flex;align-items:center;justify-content:space-between;padding:0 14px;font-size:10px;letter-spacing:.1em;text-transform:uppercase}
 .tear::before,.tear::after{content:'';position:absolute;top:-8px;width:14px;height:14px;border-radius:50%;background:var(--desk)}
@@ -61,8 +61,9 @@ const {el,fmt,hash,TODAY} = LE;
 const list=[...window.MOVIES].sort((a,b)=>a.date.localeCompare(b.date));
 const real=list.filter(m=>!m.example);
 const seen=real.filter(m=>m.date<TODAY&&m.status!=='want');
+const elsewhere=seen.filter(m=>!/Regal/i.test(m.where||'')).length;
 const big=seen.filter(m=>/IMAX|4DX|70mm|PLF|RPX|ICE/.test(m.format||'')).length, mystery=seen.filter(m=>/Mystery/.test(m.title)).length;
-document.getElementById('lede').textContent=real.length?`${seen.length} screenings since January 2025, all but one at Regal LA Live. ${big} on the big formats, ${mystery} Monday mystery movies walked into blind. ${real.length-seen.length?`${real.length-seen.length} still on the list.`:'Dates are the day the ticket was booked.'}`:'Every movie worth a stub: the ones in a dark room on Hollywood Blvd, the ones on the couch, and the ones still on the list.';
+document.getElementById('lede').textContent=real.length?`${seen.length} screenings since January 2025, ${elsewhere===0?'all':elsewhere===1?'all but one':'all but '+elsewhere} at Regal LA Live. ${big} on the big formats, ${mystery} Monday mystery movies walked into blind. ${real.length-seen.length?`${real.length-seen.length} still on the list.`:'Dates are the day the ticket was booked.'}`:'Every movie worth a stub: the ones in a dark room on Hollywood Blvd, the ones on the couch, and the ones still on the list.';
 document.getElementById('empty').hidden=real.length>0;
 const fmtStock={IMAX:'#c6dcf4','4DX':'#f6c8bf',PLF:'#d7ebc0',RPX:'#d7ebc0',ICE:'#cfe9e4','3D':'#ead3f2'};
 const years=document.getElementById('years');
@@ -80,5 +81,9 @@ list.forEach(m=>{
       el('div',{class:'seat'},m.note||(home?'Couch, best seat':`Screen ${1+r%12}  Row ${String.fromCharCode(65+r%14)}  Seat ${1+(r>>>4)%24}`))),
     el('div',{class:'tear'},el('b',{},want?'Hold':'Admit one'),el('span',{},fmt(m.date,'num')))));
 });
+// Shrink titles with a long single word so nothing runs off the ticket.
+const wordWidth=t=>{const r=document.createRange();const n=t.firstChild;let w=0;const words=n.textContent.split(/\s+/);let i=0;for(const word of words){const at=n.textContent.indexOf(word,i);i=at+word.length;r.setStart(n,at);r.setEnd(n,i);w=Math.max(w,r.getBoundingClientRect().width);}return w;};
+const fitTitles=()=>document.querySelectorAll('.tk .title').forEach(t=>{let fs=26;t.style.fontSize='';while(wordWidth(t)>t.clientWidth+1&&fs>15){fs-=1;t.style.fontSize=fs+'px';}});
+document.fonts.ready.then(fitTitles);
 </script>
 </body></html>

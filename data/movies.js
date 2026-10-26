@@ -876,5 +876,12 @@ window.MOVIES = [
     "where": "Regal LA Live",
     "format": "4DX",
     "note": null
+  },
+  {
+    "date": "2026-10-25",
+    "title": "The Devils",
+    "where": "Regal LA Live",
+    "format": "4K restoration",
+    "note": "Ken Russell, 1971. Director's cut, restored"
   }
 ];

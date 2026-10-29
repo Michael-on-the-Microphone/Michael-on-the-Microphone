@@ -883,5 +883,12 @@ window.MOVIES = [
     "where": "Regal LA Live",
     "format": "4K restoration",
     "note": "Ken Russell, 1971. Director's cut, restored"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "You Can See Everything",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": null
   }
 ];

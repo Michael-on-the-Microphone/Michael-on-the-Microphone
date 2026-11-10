@@ -890,5 +890,12 @@ window.MOVIES = [
     "where": "Regal LA Live",
     "format": null,
     "note": null
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Godzilla Minus One",
+    "where": "Regal LA Live",
+    "format": "IMAX",
+    "note": "Yamazaki, 2023. Back on the big screen"
   }
 ];

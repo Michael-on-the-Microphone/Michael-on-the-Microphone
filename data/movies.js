@@ -897,5 +897,12 @@ window.MOVIES = [
     "where": "Regal LA Live",
     "format": "IMAX",
     "note": "Yamazaki, 2023. Back on the big screen"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Ramayana",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "Nitesh Tiwari. Part one"
   }
 ];

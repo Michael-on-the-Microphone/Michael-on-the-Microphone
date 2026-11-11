@@ -900,9 +900,9 @@ window.MOVIES = [
   },
   {
     "date": "2026-11-10",
-    "title": "Ramayana",
+    "title": "Ramayana: Rise of a Legend",
     "where": "Regal LA Live",
     "format": null,
-    "note": "Nitesh Tiwari. Part one"
+    "note": "Nitesh Tiwari. Part one of two"
   }
 ];

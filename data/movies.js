@@ -904,5 +904,12 @@ window.MOVIES = [
     "where": "Regal LA Live",
     "format": null,
     "note": "Nitesh Tiwari. Part one of two"
+  },
+  {
+    "date": "2026-11-13",
+    "title": "How to Rob a Bank",
+    "where": "Regal LA Live",
+    "format": null,
+    "note": "David Leitch. Opening day"
   }
 ];
